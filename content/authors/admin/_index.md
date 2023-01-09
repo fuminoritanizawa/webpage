@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Liyuan Xu
+title: Fuminori Tanizawa
 
 # Username (this should match the folder name)
 authors:
@@ -10,15 +10,15 @@ authors:
 superuser: true
 
 # Role/position
-role: Ph.D. Student
+role: Undergraduate Student
 
 # Organizations/Affiliations
 organizations:
-- name: Gatsby Computational Neuroscience Unit
-  url: "https://www.gatsby.ucl.ac.uk/"
+- name: Harvey Mudd College
+  url: https://www.hmc.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Ph.D. Student in Machine Learning
+bio: B.S. Student in MathCompBiology
 
 #education:
 #  courses:
@@ -37,18 +37,24 @@ bio: Ph.D. Student in Machine Learning
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: 'mailto:liyuan9988@gmail.com'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/ly9988
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.jp/citations?user=-DLyhSoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/liyuan9988/
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:ftanizawa@hmc.edu'
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/fmt81
+    label: Follow me on Twitter
+    display:
+      header: true
+  - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: ai
+    link: https://scholar.google.com/citations?hl=en&user=x-2c0PIAAAAJ
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/fuminoritanizawa
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/fuminoritanizawa
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -65,13 +71,9 @@ user_groups:
 - Visitors
 ---
 
-Liyuan Xu is a Ph.D. student at Gatsby Computational Neuroscience Unit and supervised by Prof. Arthur Gretton. He is interested in machine learning problems related to decision-making, specifically, multi-armed bandit, causal inference, and reinforcement learning.
+Fuminori Tanizawa is a sophomore at Harvey Mudd College majoring in Mathematics and Computational Biology. He has a research background in molecular genetics, evolutionary development, and behavioral biology, and is interested in both molecular and evolutionary genetics. Born in Japan and raised in Tokyo, London, and Los Angeles, he loves coffee and scuba diving.
 
 <br>
 
 # What's new
-Nov. 29. 2022: Add recent [publications](./../../publication/), Update accepted preprints.
-
-Jun. 21. 2021 : Add recent [publications](./../../publication/)
-
-Sep. 17. 2020 : Add a slides for [Uncoupled Regression from Pairwise Comparison Data](./../../publication/uncoupled-regression/index.md)
+Jan. 09. 2023: Open this webpage.
