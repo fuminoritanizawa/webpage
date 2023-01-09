@@ -40,7 +40,7 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:ftanizawa@hmc.edu'
-  - icon: twitter
+  - icon: twitte
     icon_pack: fab
     link: https://twitter.com/fmt81
     label: Follow me on Twitter
@@ -54,7 +54,7 @@ social:
     link: https://github.com/fuminoritanizawa
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/fuminoritanizawa
+    link: https://www.linkedin.com/in/fuminoritanizawa/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -71,7 +71,11 @@ user_groups:
 - Visitors
 ---
 
-Fuminori Tanizawa is a sophomore at Harvey Mudd College majoring in Mathematics and Computational Biology. He has a research background in molecular genetics, evolutionary development, and behavioral biology, and is interested in both molecular and evolutionary genetics. Born in Japan and raised in Tokyo, London, and Los Angeles, he loves coffee and scuba diving.
+Fuminori/Fumi is an undergraduate student at Harvey Mudd College majoring in Mathematical and Computational Biology.
+
+He has worked on research molecular genetics, evolutionary development, and behavioral biology projects at the National University of Singapore (Singapore), Shizuoka University (Japan), and Harvey Mudd College (USA). Among many exciting fields, he is currently fascinated by both molecular and evolutionary genetics.
+
+Born in Japan and raised in Tokyo, London, and Los Angeles, he is culturally adaptable, speaking both Japanese and English. He describes himself as passionate, adaptable, and patient. Outside the lab, he is a gym rat, who loves coffee, scuba diving and traveling.
 
 <br>
 
