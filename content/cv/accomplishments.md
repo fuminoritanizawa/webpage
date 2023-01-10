@@ -19,6 +19,15 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "National High School Student Biology Summit Competition"
+  organization_url = "https://www.datacamp.com"
+  title = "1st, Minister of Health, Labor and Welfare Award"
+  url = "https://www.bio-summit.org/award2020/winner2020.html"
+  date_start = "2021-09-01"
+  date_end = ""
+  description = """Grand Prize my two-year research project conducted as a high school student at Shizuoka University."""
+
+[[item]]
   organization = "Kaggle"
   organization_url = "https://www.kaggle.com"
   title = "Home Depot Product Search Relevance Competition Silver Medal"
