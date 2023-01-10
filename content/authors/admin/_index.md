@@ -80,4 +80,4 @@ Born in Japan and raised in Tokyo, London, and Los Angeles, Fumi is culturally a
 <br>
 
 # What's new
-Jan. 09. 2023: Open this webpage, <a href="https://fuminoritanizawa.com/">fuminoritanizawa.com</a>.
+Jan. 09. 2023: Open this webpage, <a href="https://fuminoritanizawa.com/">fuminoritanizawa.com</a>!
