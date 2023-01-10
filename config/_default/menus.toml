@@ -20,10 +20,10 @@
 
 [[main]]
   name = "Honors"
-  url = "/honors/"
-  weight = 40
+  url = "#contact"
+  weight = 40 
 
-#[[main]]
+#[[main]] This is used for honors instead for convinience
 #  name = "Contact"
 #  url = "#contact"
 #  weight = 60
