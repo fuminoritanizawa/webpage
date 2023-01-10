@@ -8,35 +8,10 @@
   url = "#about"
   weight = 10
 
-#[[main]]
-#  name = "Posts"
-#  url = "#posts"
-#  weight = 20
-
-#[[main]]
-#  name = "Projects"
-#  url = "#projects"
-#  weight = 30
-
 [[main]]
   name = "Publications"
   url = "#featured"
   weight = 40
-
-[[main]]
-  name = "Education"  # Title of the link.
-  url = "#education"  # Widget Page folder name.
-  weight = 50
-
-[[main]]
-  name = "Experience"  # Title of the link.
-  url = "#experience"  # Widget Page folder name.
-  weight = 50
-
-[[main]]
-  name = "Accomplishments"  # Title of the link.
-  url = "#accomplishments"  # Widget Page folder name.
-  weight = 50
 
 #[[main]]
 #  name = "Contact"
