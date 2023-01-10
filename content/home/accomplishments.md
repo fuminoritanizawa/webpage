@@ -39,7 +39,7 @@ date_format = "Jan 2006"
 [[item]]
   organization = "John and Miyoko Davey Foundation"
   organization_url = "https://www.jmdavey.foundation/"
-  title = "Scholarship"
+  title = "Associate Member"
   url = ""
   date_start = "2021-05-01"
   date_end = "2023-04-30"
