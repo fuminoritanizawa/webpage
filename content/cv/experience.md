@@ -35,30 +35,26 @@ date_format = "Jan 2006"
   location = "Claremont, California"
   date_start = "2021-12-01"
   date_end = ""
-  description = """**My Current Work.** Developed a molecular genetic research project on the longevity of *Drosophila melanogaster* in collaboration with Professor Jae Hur's team since my freshman year.
-  """
-
-[[experience]]
-  title = "Machine Learning Research and Development Engineer"
-  company = "Studio Ousia"
-  company_url = "https://www.ousia.jp/en/"
-  location = "Tokyo"
-  date_start = "2014-05-01"
-  date_end = "2020-04-30"
-  description = """
-  Responsibilities include:
-  
-  * Research and Implement cutting-edge NLP algorithms based on deep learning
-  * Develop an internal NLP library for CJK languages based on [AllenNLP](https://github.com/allenai/allennlp)
+  description = """Developed a molecular genetic research project on the longevity of *Drosophila melanogaster* in collaboration with Professor <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/">Jae Hur</a>'s team since my freshman year.
   """
 
 [[experience]]
   title = "Research Assistant"
-  company = "RIKEN AIP"
-  company_url = "https://www.riken.jp/en/research/labs/aip/index.html"
-  location = "Tokyo"
-  date_start = "2017-10-01"
-  date_end = "2019-06-30"
+  company = "PoSM Lab, Harvey Mudd College"
+  company_url = "https://www.hmc.edu/"
+  location = "Claremont, California"
+  date_start = "2021-09-01"
+  date_end = "2022-02-01"
+  description = """Developed a biophysical research project on the modeling of the hardware and software aspects of *Conus marmoreus* injection latch in collaboration with Professor Mark Ilton's team at <a href="https://posmlab.org/">PoSM Lab</a>.
+  ***
+
+[[experience]]
+  title = "Research Scholar"
+  company = "Shizuoka University, Japan Science and Technology Agency"
+  company_url = "https://green.shizuoka.ac.jp/staff_en/166/"
+  location = "Shizuoka, Japan"
+  date_start = "2018-07-01"
+  date_end = "2021-03-31"
   description = """
   Research ML--related topics as a member of [Online Decision Making Unit](https://aip.riken.jp/labs/generic_tech/online_decision_making/?lang=en)
   
