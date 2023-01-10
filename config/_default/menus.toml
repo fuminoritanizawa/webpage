@@ -11,17 +11,17 @@
 [[main]]
   name = "Publications"
   url = "#featured"
-  weight = 10
+  weight = 30
 
 [[main]]
   name = "Experiences"
   url = "#experience"
-  weight = 10
+  weight = 20
 
 [[main]]
-  name = "Education"
-  url = "#blank"
-  weight = 10
+  name = "Accomplish­ments"
+  url = "#accomplish­ments"
+  weight = 40
 
 #[[main]]
 #  name = "Contact"
