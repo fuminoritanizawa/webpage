@@ -42,7 +42,7 @@ subtitle = ""
         <br>
         Laboratory: Prof. <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/"> Jae Hur  </a>. 
         <br>
-        Selected Coursework: *Molecular Genetics; Developmental Biology; Mathematical and Computational Biology; Data Structures/Program Development; Differential Equations; Environmental Analysis*</p>
+        Selected Coursework: * Molecular Genetics, Developmental Biology, Mathematical and Computational Biology, Data Structures/Program Development, Differential Equations, Environmental Analysis *</p>
     </div>
     </li>
     <!-- <li>
