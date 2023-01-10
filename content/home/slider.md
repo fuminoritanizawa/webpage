@@ -17,7 +17,7 @@ height = "calc(100vh - 70px)"
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
   title = "Scuba diving!!"
-  content = "I am certified as a PADI Advanced Diver:)"
+  content = "Fumi iss certified as a PADI Advanced Diver:)"
   align = "left"  # Choose `center`, `left`, or `right`.
 
   # Overlay a color or image (optional).
