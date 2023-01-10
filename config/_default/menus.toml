@@ -20,7 +20,7 @@
 
 [[main]]
   name = "Honors"
-  url = "#honors"
+  url = "/honors/"
   weight = 40
 
 #[[main]]
