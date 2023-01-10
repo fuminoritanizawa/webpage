@@ -37,7 +37,7 @@ subtitle = ""
     <i class="fa-li fas fa-graduation-cap"></i>
     <div class="description">
         <p class="course"> Bachelor of Science (Expected in 2025)</p>
-        <p class="institution"> <a href="https://www.hmc.edu/">Harvey Mudd College, Department of Biology </a> </p>
+        <p class="institution"> <a href="https://www.hmc.edu/">Harvey Mudd College </a> (Claremont, CA)</p>
         <p class="detail"> <b>Major:</b> Mathematical and Computational Biology. 
         <br>
         <b>Research Supervisor:</b> Prof. <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/"> Jae Hur  </a>. 
