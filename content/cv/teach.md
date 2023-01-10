@@ -29,8 +29,7 @@ subtitle = ""
     <i class="fa-li fas fa-chalkboard-teacher"></i>
     <div class="description">
         <p class="course">Lead Lecturer in the Machine Learning Workshop (2015)</p>
-        <p class="detail"> Developed and gave a 4-hour lecture on "the Introduction to Machine Learning and Deep Learning" to 90 students that included graduated students and software engineers. The lecture covered topics that ranged from the foundation of machine learning to the advanced data
-analyses and the hands-on Scikit-learn (Python) programming <a href="https://machinelearningstudy.doorkeeper.jp/events/24979">[Link (Japanese)]</a></p>
+        <p class="detail"> Developed and gave a 4-hour lecture on "the Introduction to Machine Learning and Deep Learning" to 90 students that included graduated students and software engineers. The lecture covered topics that ranged from the foundation of machine learning to the advanced data analyses and the hands-on Scikit-learn (Python) programming <a href="https://machinelearningstudy.doorkeeper.jp/events/24979">[Link (Japanese)]</a></p>
     </div>
     </li>
 </ul>

@@ -40,7 +40,7 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:ftanizawa@hmc.edu'
-  - icon: twitte
+  - icon: twitter
     icon_pack: fab
     link: https://twitter.com/fmt81
     label: Follow me on Twitter
