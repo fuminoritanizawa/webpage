@@ -19,17 +19,16 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Data Analysis Internship"
-  company = "M3, Inc."
-  company_url = "https://corporate.m3.com/en/"
-  location="Tokyo"
-  date_start = "2019-06-15"
-  date_end = "2019-08-15"
-  description = """
-  Responsibilities include:
-  
-  *  Improve the recommender system of a portal site for healthcare professionals
-  *  Contribute to open-source data pipeline library [gokart](https://github.com/m3dev/gokart)
+  title = "Summer Research Internship"
+  company = "National University of Singapore"
+  company_url = "https://www.nus.edu.sg/"
+  location="Singapore"
+  date_start = "2022-05-23"
+  date_end = "2022-08-07"
+  description = """ 
+  * Selected as the [Amgen Scholars Program](https://amgenscholars.com/university/national-university-of-singapore/) at the National Univeristy Singapore. Fully-funded by the Amgen Foundation for full-time biological research internship (4\% acceptance).
+  * Addressed evolutionary developmental analysis of food odor preference and its inheritance in <i>Bicyclus anynana</i>, under Prof. Antonia Monteiro’s team.
+  * Selected to co-hosted the Asia Amgen Scholars Symposium, organised keynote speakers and presentations from 4 universities among 3 countries, and gave my research presentation.
   """
 
 [[experience]]
