@@ -52,7 +52,7 @@ date_format = "Jan 2006"
   url = "https://masason-foundation.org/en/cpt_testimonial/%E8%B0%B7%E6%BE%A4%E6%96%87%E7%A4%BC/"
   date_start = "2018-07-01"
   date_end = "2025-05-30"
-  description = """Selected as one of the most talented 51 young scholars under 25 years old in Japan by the foundation supported by Masayoshi Son, the CEO of <a href="https://www.softbank.jp/en/Softbank/"> Softbank</a>."""
+  description = """Selected as one of the most talented 51 young scholars under 25 years old in Japan by the foundation supported by Masayoshi Son, the CEO of <a href="https://www.softbank.jp/en/"> Softbank</a>."""
 
 [[item]]
   organization = "Tadashi Yanai Foundation"
