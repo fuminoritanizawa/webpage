@@ -44,8 +44,8 @@ social:
     icon_pack: fab
     link: https://twitter.com/fmt81
     label: Follow me on Twitter
-    # display:
-    #   header: true
+    display:
+      header: true
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: ai
     link: https://scholar.google.com/citations?hl=en&user=x-2c0PIAAAAJ
