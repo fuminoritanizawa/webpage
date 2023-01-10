@@ -40,9 +40,9 @@ subtitle = ""
         <p class="institution"> <a href="https://www.hmc.edu/">Harvey Mudd College, Department of Biology </a> </p>
         <p class="detail"> <b>Major:</b> Mathematical and Computational Biology. 
         <br>
-        ***Research Supervisor:** Prof. <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/"> Jae Hur  </a>. 
+        <b>Research Supervisor:</b> Prof. <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/"> Jae Hur  </a>. 
         <br>
-        **Selected Coursework:** Molecular Genetics, Developmental Biology, Mathematical and Computational Biology, Data Structures/Program Development, Differential Equations, Environmental Analysis</p>
+        <b>Selected Coursework:</b> Molecular Genetics, Developmental Biology, Mathematical and Computational Biology, Data Structures/Program Development, Differential Equations, Environmental Analysis</p>
     </div>
     </li>
     <!-- <li>
