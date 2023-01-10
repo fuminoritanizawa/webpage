@@ -25,28 +25,28 @@ subtitle = ""
 
 
 <ul class="ul-edu fa-ul">
-    <li>
+    <!-- <li>
     <i class="fa-li fas fa-graduation-cap"></i>
     <div class="description">
         <p class="course">Doctor of Philosophy (Pursuing)</p>
         <p class="institution"> <a href="https://www.gatsby.ucl.ac.uk/"> University College London, Gatsby Computational Neuroscience Unit </a> </p>
         <p class="detail"> Supervised by Prof. <a href="http://www.gatsby.ucl.ac.uk/~gretton/"> Arthur Gretton </a> </p>
     </div>
-    </li>
+    </li> -->
     <li>
     <i class="fa-li fas fa-graduation-cap"></i>
     <div class="description">
-        <p class="course">Master of Science: Computer Science (2019)</p>
-        <p class="institution"> <a href="https://www.is.s.u-tokyo.ac.jp/english/">University of Tokyo, Department of Computer Science </a> </p>
-        <p class="detail"> Supervised by Prof. <a href="http://www.ms.k.u-tokyo.ac.jp/sugi/index.html"> Masashi Sugiyama</a> and Prof. <a href="http://www.ms.k.u-tokyo.ac.jp/honda/index_e.html">Junya Honda</a>. Belong to <a href="http://www.ms.k.u-tokyo.ac.jp/"> Sugiyama-Honda-Yokoya Lab  </a> (former Sugiyama-Sato-Honda Lab).</p>
+        <p class="course"> Bachelor of Science (Expected in 2025)</p>
+        <p class="institution"> <a href="https://www.hmc.edu/">Harvey Mudd College, Department of Biology </a> </p>
+        <p class="detail"> Majoring in Mathematical and Computational Biology. Belong to Prof. <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/"> Jae Hur  </a>'s Lab.</p>
     </div>
     </li>
-    <li>
+    <!-- <li>
     <i class="fa-li fas fa-graduation-cap"></i>
     <div class="description">
         <p class="course">Bachelor of Engineering (2017)</p>
         <p class="institution"> <a href="https://www.keisu.t.u-tokyo.ac.jp/en/index/"> University of Tokyo, Department of Mathematical Engineering and Information Physics</a> </p>
     </div>
-    </li>
+    </li> -->
 </ul>
 
