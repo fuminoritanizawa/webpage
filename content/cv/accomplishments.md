@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   url = "https://www.bio-summit.org/award2020/winner2020.html"
   date_start = "2021-09-01"
   date_end = ""
-  description = """Grand Prize my two-year research project conducted as a high school student at Shizuoka University."""
+  description = """"""
 
 [[item]]
   organization = "Japan Science and Technology Agency National High School Student Research Conference"
@@ -34,7 +34,7 @@ date_format = "Jan 2006"
   url = "https://www.jst.go.jp/cpse/gsc/about/happyou/r2_6.pdf"
   date_start = "2021-12-01"
   date_end = ""
-  description = """Grand Prize my two-year research project conducted as a high school student at Shizuoka University."""
+  description = """"""
   
 [[item]]
   organization = "John and Miyoko Davey Foundation"
@@ -52,7 +52,7 @@ date_format = "Jan 2006"
   url = "https://masason-foundation.org/en/cpt_testimonial/%E8%B0%B7%E6%BE%A4%E6%96%87%E7%A4%BC/"
   date_start = "2018-07-01"
   date_end = ""
-  description = """Selected as one of the most talented 51 young scholars under 25 years old in Japan by the foundation supported by Masayoshi Son, the CEO of Softbank"""
+  description = """Selected as one of the most talented 51 young scholars under 25 years old in Japan by the foundation supported by Masayoshi Son, the CEO of <a href="https://www.softbank.jp/en/Softbank"> Softbank</a>."""
 
 [[item]]
   organization = "Tadashi Yanai Foundation"
@@ -61,6 +61,6 @@ date_format = "Jan 2006"
   url = ""
   date_start = "2021-09-01"
   date_end = ""
-  description = """Selected as a full scholarship recipient for a foundation supported by Tadashi Yanai, the CEO of Uniqulo."""
+  description = """Selected as a full scholarship recipient for a foundation supported by Tadashi Yanai, the CEO of <a href="https://www.uniqlo.com/us/en/"> Uniqulo</a>."""
 
 +++
