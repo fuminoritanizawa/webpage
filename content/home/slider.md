@@ -36,7 +36,7 @@ height = "calc(100vh - 70px)"
 
 [[item]]
   title = "Scuba Diving!"
-  content = "The sea of Tioman Island, Malaysia!!"
+  content = "Tioman Island, Malaysia!!"
   align = "left"
 
   overlay_color = "#555"  # An HTML color value.
