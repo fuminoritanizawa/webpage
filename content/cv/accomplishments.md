@@ -51,7 +51,7 @@ date_format = "Jan 2006"
   title = "Research-Funding Scholarship"
   url = "https://masason-foundation.org/en/cpt_testimonial/%E8%B0%B7%E6%BE%A4%E6%96%87%E7%A4%BC/"
   date_start = "2018-07-01"
-  date_end = ""
+  date_end = "Present"
   description = """Selected as one of the most talented 51 young scholars under 25 years old in Japan by the foundation supported by Masayoshi Son, the CEO of <a href="https://www.softbank.jp/en/Softbank"> Softbank</a>."""
 
 [[item]]
@@ -60,7 +60,7 @@ date_format = "Jan 2006"
   title = "Full-Ride Scholarship"
   url = ""
   date_start = "2021-09-01"
-  date_end = ""
+  date_end = "Present"
   description = """Selected as a full scholarship recipient for a foundation supported by Tadashi Yanai, the CEO of <a href="https://www.uniqlo.com/us/en/"> Uniqulo</a>."""
 
 +++
