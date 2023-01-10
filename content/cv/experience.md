@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   date_start = "2022-05-23"
   date_end = "2022-08-07"
   description = """ 
-  Selected for the <a href="https://amgenscholars.com/university/national-university-of-singapore/" target="_blank">Amgen Scholars Program</a> to work with <a href="https://lepdata.org/monteiro/" target="_blank">Prof. Antonia Monteiro's team</a> on an evolutionary developmental analysis of food odor preference and its genetics in Bicyclus anynana.
+  Selected for the <a href="https://amgenscholars.com/university/national-university-of-singapore/" target="_blank">Amgen Scholars Program</a> to work with <a href="https://lepdata.org/monteiro/" target="_blank">Prof. Antonia Monteiro's team</a> on an evolutionary developmental analysis of food odor preference and its genetics in *Bicyclus anynana*.
   """
 
 [[experience]]
