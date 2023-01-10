@@ -56,12 +56,5 @@ date_format = "Jan 2006"
   date_start = "2018-07-01"
   date_end = "2021-03-31"
   description = """
-  Research ML--related topics as a member of [Online Decision Making Unit](https://aip.riken.jp/labs/generic_tech/online_decision_making/?lang=en)
-  
-  Main Achievements:
-  - [A Fully Adaptive Algorithm for Pure Exploration in Linear Bandits](/publication/lingape/)
-  - [Dueling Bandits with Qualitative Feedback](/publication/qdb/)
-  - [Uncoupled Regression from Pairwise Comparison Data](/publication/uncoupled-regression/)
-  """
 
 +++
