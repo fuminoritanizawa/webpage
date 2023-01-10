@@ -81,7 +81,7 @@ height = "calc(100vh - 70px)"
 
 [[item]]
   title = "Scuba Diving!"
-  content = "Float in the ocean"
+  content = "Okinawa, Japan"
   align = "left"
 
   overlay_color = "#333"  # An HTML color value.
@@ -117,7 +117,7 @@ height = "calc(100vh - 70px)"
 
 [[item]]
   title = "Scuba Diving!"
-  content = "Sunset at Tioman Island"
+  content = "Sunset at Tioman Island, Malaysia"
   align = "left"
 
   overlay_color = "#555"  # An HTML color value.
