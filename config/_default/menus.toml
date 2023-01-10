@@ -20,12 +20,22 @@
 
 [[main]]
   name = "Publications"
-  url = "/publication"
+  url = "#featured"
   weight = 40
 
 [[main]]
-  name = "CV"  # Title of the link.
-  url = "cv/"  # Widget Page folder name.
+  name = "Education"  # Title of the link.
+  url = "#education"  # Widget Page folder name.
+  weight = 50
+
+[[main]]
+  name = "Experience"  # Title of the link.
+  url = "#experience"  # Widget Page folder name.
+  weight = 50
+
+[[main]]
+  name = "Accomplishments"  # Title of the link.
+  url = "#accomplishments"  # Widget Page folder name.
   weight = 50
 
 #[[main]]
