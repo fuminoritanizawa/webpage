@@ -26,7 +26,7 @@ summary: ""
 
 tags: ["Ecophysiology", "Animal Behavior", "Drosophila melanogaster"]
 categories: ["Behavior"]
-featured: false
+featured: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
