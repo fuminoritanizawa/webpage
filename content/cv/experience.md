@@ -26,9 +26,7 @@ date_format = "Jan 2006"
   date_start = "2022-05-23"
   date_end = "2022-08-07"
   description = """ 
-  * Selected as the [Amgen Scholars Program](https://amgenscholars.com/university/national-university-of-singapore/) at the National Univeristy Singapore. Fully-funded by the Amgen Foundation for full-time biological research internship (4\% acceptance).
-  * Addressed evolutionary developmental analysis of food odor preference and its inheritance in Bicyclus anynana, under Prof. Antonia Monteiro’s team.
-  * Selected to co-hosted the Asia Amgen Scholars Symposium, organised keynote speakers and presentations from 4 universities among 3 countries, and gave my research presentation.
+  Selected as the Amgen Scholars Program. Addressed evolutionary developmental analysis of food odor preference and its inheritance in Bicyclus anynana, under Prof. Antonia Monteiro’s team.
   """
 
 [[experience]]
