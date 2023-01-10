@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Sleep contributes to preference for novel food odours in [*Drosophila melanogaster*]"
+title: "Sleep contributes to preference for novel food odours in _Drosophila melanogaster_"
 authors: [Fuminori Tanizawa, Hiroyuki Takemoto]
 date: 2021-04-30
 doi: ""
