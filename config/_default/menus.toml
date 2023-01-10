@@ -8,6 +8,21 @@
   url = "#about"
   weight = 10
 
+[[main]]
+  name = "Publications"
+  url = "#featured"
+  weight = 10
+
+[[main]]
+  name = "Experiences"
+  url = "#experience"
+  weight = 10
+
+[[main]]
+  name = "Education"
+  url = "#blank"
+  weight = 10
+
 #[[main]]
 #  name = "Contact"
 #  url = "#contact"
