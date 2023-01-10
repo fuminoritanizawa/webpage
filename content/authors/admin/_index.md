@@ -71,7 +71,7 @@ user_groups:
 - Visitors
 ---
 
-Fuminori/Fumi is an undergraduate student at Harvey Mudd College majoring in Mathematical and Computational Biology.
+Fuminori/Fumi is an undergraduate student at <a href="https://www.hmc.edu/"> Harvey Mudd College </a>. majoring in Mathematical and Computational Biology.
 
 He has worked on research molecular genetics, evolutionary development, and behavioral biology projects at the National University of Singapore (Singapore), Shizuoka University (Japan), and Harvey Mudd College (USA). Among many exciting fields, he is currently fascinated by both molecular and evolutionary genetics.
 
