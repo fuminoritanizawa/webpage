@@ -38,7 +38,9 @@ subtitle = ""
     <div class="description">
         <p class="course"> Bachelor of Science (Expected in 2025)</p>
         <p class="institution"> <a href="https://www.hmc.edu/">Harvey Mudd College, Department of Biology </a> </p>
-        <p class="detail"> Mathematical and Computational Biology major. Belong to Prof. <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/"> Jae Hur  </a>'s Lab. Selected Coursework: *Molecular Genetics; Developmental Biology; Mathematical and Computational Biology; Data Structures/Program Development; Differential Equations; Environmental Analysis*</p>
+        <p class="detail"> Major: Mathematical and Computational Biology. 
+        Laboratory: Prof. <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/"> Jae Hur  </a>. 
+        Selected Coursework: *Molecular Genetics; Developmental Biology; Mathematical and Computational Biology; Data Structures/Program Development; Differential Equations; Environmental Analysis*</p>
     </div>
     </li>
     <!-- <li>
