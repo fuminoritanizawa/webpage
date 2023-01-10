@@ -25,7 +25,7 @@
 
 [[main]]
   name = "Others"
-  url = "#slider"
+  url = "#tags"
   weight = 100 
 
 #[[main]] 
