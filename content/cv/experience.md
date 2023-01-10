@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   date_start = "2022-05-23"
   date_end = "2022-08-07"
   description = """ 
-  Selected as the Amgen Scholars Program. Addressed evolutionary developmental analysis of food odor preference and its inheritance in Bicyclus anynana, under Prof. Antonia Monteiro’s team.
+  Selected for <a href="URL" target="_blank">link</a> the Amgen Scholars Program to work with Prof. Antonia Monteiro's team on an evolutionary developmental analysis of food odor preference and its genetics in Bicyclus anynana.
   """
 
 [[experience]]
