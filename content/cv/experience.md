@@ -40,13 +40,13 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Research Assistant"
-  company = "PoSM Lab, Harvey Mudd College"
+  company = "Harvey Mudd College"
   company_url = "https://www.hmc.edu/"
   location = "Claremont, California"
   date_start = "2021-09-01"
   date_end = "2022-02-01"
   description = """Developed a biophysical research project on the modeling of the hardware and software aspects of *Conus marmoreus* injection latch in collaboration with Professor Mark Ilton's team at <a href="https://posmlab.org/">PoSM Lab</a>.
-  ***
+  """
 
 [[experience]]
   title = "Research Scholar"
@@ -56,5 +56,5 @@ date_format = "Jan 2006"
   date_start = "2018-07-01"
   date_end = "2021-03-31"
   description = """
-
+  """
 +++
