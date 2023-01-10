@@ -24,7 +24,7 @@ abstract: "The importance of sleep in maintaining cognitive functions such as le
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: ["Ecophysiology"]
+tags: ["Ecophysiology", "Animal Behavior", "Drosophila melanogaster"]
 categories: ["Behavior"]
 featured: false
 
