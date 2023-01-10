@@ -35,7 +35,7 @@ date_format = "Jan 2006"
   location = "Claremont, California"
   date_start = "2021-12-01"
   date_end = ""
-  description = """Developed a molecular genetic research project on the longevity of *Drosophila melanogaster* in collaboration with Professor <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/">Jae Hur</a>'s team since my freshman year.
+  description = """Developed a molecular genetic research project on the longevity of *Drosophila melanogaster* in collaboration with <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/">Prof. Jae Hur</a>'s team since my freshman year.
   """
 
 [[experience]]
@@ -50,11 +50,11 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Research Scholar"
-  company = "Shizuoka University, Japan Science and Technology Agency"
-  company_url = "https://green.shizuoka.ac.jp/staff_en/166/"
+  company = "Shizuoka University"
+  company_url = "https://www.shizuoka.ac.jp/english/"
   location = "Shizuoka, Japan"
   date_start = "2018-07-01"
   date_end = "2021-03-31"
-  description = """
+  description = """Selected for a high school student research <a href="https://www.jst.go.jp/cpse/gsc/about/index_english.html">grant</a> from the <a href="https://www.jst.go.jp/EN/">Japan Science and Technology Agency</a>, conducted individual research on *Drosophila  melanogaster* behavior in collaboration with <a href="https://green.shizuoka.ac.jp/staff_en/166/">Prof. Hiroyuki Takemoto</a> of Shizuoka University, published a <a href="https://www.nature.com/articles/s41598-021-88967-1">paper</a> in Scientific Reports as the first author, and gave an <a href="https://www.animalbehaviorsociety.org/2020-virtual/program-full.php">oral presentation</a> at the Animal Behavioral Society.
   """
 +++
