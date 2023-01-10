@@ -62,7 +62,7 @@ height = "calc(100vh - 70px)"
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 
 [[item]]
-  title = ""Scuba Diving!"
+  title = "Scuba Diving!"
   content = "Fire goby :fish:"
   align = "left"
 
