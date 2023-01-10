@@ -49,9 +49,9 @@ social:
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: ai
     link: https://scholar.google.com/citations?hl=en&user=x-2c0PIAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/fuminoritanizawa
+  # - icon: github
+  #   icon_pack: fab
+  #   link: https://github.com/fuminoritanizawa
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/fuminoritanizawa/
