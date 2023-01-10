@@ -28,6 +28,15 @@ date_format = "Jan 2006"
   description = """ 
   Selected for the <a href="https://amgenscholars.com/university/national-university-of-singapore/" target="_blank">Amgen Scholars Program</a> to work with <a href="https://lepdata.org/monteiro/" target="_blank">Prof. Antonia Monteiro's team</a> on an evolutionary developmental analysis of food odor preference and its genetics in *Bicyclus anynana*.
   """
+[[experience]]
+  title = "Research Assistant"
+  company = "Harvey Mudd College"
+  company_url = "https://www.hmc.edu/"
+  location = "Claremont, California"
+  date_start = "2021-12-01"
+  date_end = ""
+  description = """**My Current Work.** Developed a molecular genetic research project on the longevity of *Drosophila melanogaster* in collaboration with Professor Jae Hur's team since my freshman year.
+  """
 
 [[experience]]
   title = "Machine Learning Research and Development Engineer"
