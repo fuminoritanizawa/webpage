@@ -87,8 +87,9 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "ftanizawa [at] hmc.edu"
+email = "ftanizawa@hmc.edu"
 phone = ""
+linkedin = "fuminoritanizawa"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
