@@ -19,13 +19,20 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "International Society for Computational Biology"
+  organization = "As of"
   organization_url = ""
-  title = "&nbsp"
+  title = "Memberships"
   url = ""
-  date_start = "2021-09-01"
+  date_start = "2022-01-01"
   date_end = ""
-  description = """"""
+  description = """
+  Student Memberships
+  * International Society for Computational Biology (2021-Present)
+  * American Society for Biochemistry and Molecular Biology (2021-Present)
+  * Biophysics Society (2021-Present)
+  * The Biophysical Society of Japan (2018-2021)
+  * Animal Behavior Society Society (2018-2021)
+  """
 
 [[item]]
   organization = "American Society for Biochemistry and Molecular Biology"
