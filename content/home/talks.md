@@ -48,11 +48,12 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   <u>Conferences</u>
-  * **2020-07-28** Animal Behavior Society (Oral)
-  * **2020-09-16** The Biophysical Society of Japan (Poster)
+  * **2022-08-04** Amgen Scholars Asia Symposium (Singapore; Poster)
+  * **2020-07-28** Animal Behavior Society (USA; Oral)
+  * **2020-09-16** The Biophysical Society of Japan (Japan; Poster)
   
   <u>Competitions</u>
-  * **2021-11-15** Japan Science and Technology Agency National High School Student Research Conference (Oral)
-  * **2021-08-26** National High School Student Biology Summit Competition (Oral)
+  * **2021-11-15** Japan Science and Technology Agency National High School Student Research Conference (Japan; Oral)
+  * **2021-08-26** National High School Student Biology Summit Competition (Japan; Oral)
   """
 +++

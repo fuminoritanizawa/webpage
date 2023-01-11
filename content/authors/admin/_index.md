@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Fuminori Tanizawa 谷澤文礼
+title: Fuminori Tanizawa
 
 # Username (this should match the folder name)
 authors:
