@@ -30,7 +30,7 @@ height = "calc(100vh - 70px)"
   #   Activate the button by specifying a URL and button label below.
   #   Deactivate by commenting out parameters, prefixing lines with `#`.
    cta_label = "View My Gallery"
-   cta_url = "https://vsco.co/fumitani/gallery"
+   cta_url = "https://vsco.co/fuminori-tanizawa/gallery"
    cta_icon_pack = "fas"
    cta_icon = "camera"
 
@@ -56,7 +56,7 @@ height = "calc(100vh - 70px)"
   #   Activate the button by specifying a URL and button label below.
   #   Deactivate by commenting out parameters, prefixing lines with `#`.
    cta_label = "View My Gallery"
-   cta_url = "https://vsco.co/fumitani/gallery"
+   cta_url = "https://vsco.co/fuminori-tanizawa/gallery"
    cta_icon_pack = "fas"
    cta_icon = "camera"
 
@@ -91,7 +91,7 @@ height = "calc(100vh - 70px)"
   #   Activate the button by specifying a URL and button label below.
   #   Deactivate by commenting out parameters, prefixing lines with `#`.
    cta_label = "View My Gallery"
-   cta_url = "https://vsco.co/fumitani/gallery"
+   cta_url = "https://vsco.co/fuminori-tanizawa/gallery"
    cta_icon_pack = "fas"
    cta_icon = "camera"
 
@@ -135,7 +135,7 @@ height = "calc(100vh - 70px)"
   #   Activate the button by specifying a URL and button label below.
   #   Deactivate by commenting out parameters, prefixing lines with `#`.
    cta_label = "View My Gallery"
-   cta_url = "https://vsco.co/fumitani/gallery"
+   cta_url = "https://vsco.co/fuminori-tanizawa/gallery"
    cta_icon_pack = "fas"
    cta_icon = "camera"
 
@@ -152,7 +152,7 @@ height = "calc(100vh - 70px)"
   #   Activate the button by specifying a URL and button label below.
   #   Deactivate by commenting out parameters, prefixing lines with `#`.
    cta_label = "View My Gallery"
-   cta_url = "https://vsco.co/fumitani/gallery"
+   cta_url = "https://vsco.co/fuminori-tanizawa/gallery"
    cta_icon_pack = "fas"
    cta_icon = "camera"
 
@@ -196,7 +196,7 @@ height = "calc(100vh - 70px)"
   #   Activate the button by specifying a URL and button label below.
   #   Deactivate by commenting out parameters, prefixing lines with `#`.
    cta_label = "View My Gallery"
-   cta_url = "https://vsco.co/fumitani/gallery"
+   cta_url = "https://vsco.co/fuminori-tanizawa/gallery"
    cta_icon_pack = "fas"
    cta_icon = "camera"
 
