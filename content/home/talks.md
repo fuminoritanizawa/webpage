@@ -26,67 +26,19 @@ date_format = "Jan 2006"
   date_start = "2022-01-01"
   date_end = ""
   description = """
-  Student Memberships
+  Student Member
   * International Society for Computational Biology (2021-Present)
   * American Society for Biochemistry and Molecular Biology (2021-Present)
   * Biophysics Society (2021-Present)
   * The Biophysical Society of Japan (2018-2021)
   * Animal Behavior Society Society (2018-2021)
+  <br>
+  Associate Member
+  * Masason Foundation (2018-Present)
+  * Tadashi Yanai Foundation (2021-Present)
+  * John and Miyoko Davey Foundation (2021-2023)
   """
 
-[[item]]
-  organization = "American Society for Biochemistry and Molecular Biology"
-  organization_url = ""
-  title = "Student Member"
-  url = ""
-  date_start = "2021-09-01"
-  date_end = ""
-  description = """"""
-
-[[item]]
-  organization = "Biophysics Society"
-  organization_url = ""
-  title = "Student Member"
-  url = ""
-  date_start = "2018-09-01"
-  date_end = "2021-04-01"
-  description = """"""
-
-[[item]]
-  organization = "Animal Behavior Society Society"
-  organization_url = ""
-  title = "Student Member"
-  url = ""
-  date_start = "2018-09-01"
-  date_end = "2021-04-01"
-  description = """"""
-  
-[[item]]
-  organization = "John and Miyoko Davey Foundation"
-  organization_url = "https://www.jmdavey.foundation/"
-  title = "Associate Member"
-  url = ""
-  date_start = "2021-05-01"
-  date_end = "2023-04-30"
-  description = """"""
-
-[[item]]
-  organization = "Masason Foundation"
-  organization_url = "https://masason-foundation.org/en/cpt_testimonial/%E8%B0%B7%E6%BE%A4%E6%96%87%E7%A4%BC/"
-  title = "Associate Member"
-  url = ""
-  date_start = "2018-07-01"
-  date_end = ""
-  description = """"""
-
-[[item]]
-  organization = "Tadashi Yanai Foundation"
-  organization_url = "https://www.yanaitadashi-foundation.or.jp/en/"
-  title = "Associate Member"
-  url = ""
-  date_start = "2021-09-01"
-  date_end = ""
-  description = """"""
 
 [[item]]
   organization = "Animal Behavior Society"
