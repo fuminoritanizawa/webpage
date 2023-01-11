@@ -34,14 +34,14 @@ height = "calc(100vh - 70px)"
   # cta_icon_pack = "fas"
   # cta_icon = "graduation-cap"
 
-[[item]]
-  title = "Scuba Diving!"
-  content = "Tioman Island, Malaysia!!"
-  align = "left"
+# [[item]]
+#  title = "Scuba Diving!"
+#  content = "Tioman Island, Malaysia!!"
+#  align = "left"
 
-  overlay_color = "#555"  # An HTML color value.
-  overlay_img = "pic15.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0  # Darken the image. Value in range 0-1.
+#  overlay_color = "#555"  # An HTML color value.
+#  overlay_img = "pic15.jpg"  # Image path relative to your `static/img/` folder.
+#  overlay_filter = 0  # Darken the image. Value in range 0-1.
 
 [[item]]
   title = "Scuba Diving!"
@@ -52,23 +52,23 @@ height = "calc(100vh - 70px)"
   overlay_img = "pic2.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 
-[[item]]
-  title = "Scuba Diving!"
-  content = "My buddies"
-  align = "left"
+# [[item]]
+#  title = "Scuba Diving!"
+#  content = "My buddies"
+#  align = "left"
 
-  overlay_color = "#333"  # An HTML color value.
-  overlay_img = "pic10.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0  # Darken the image. Value in range 0-1.
+#  overlay_color = "#333"  # An HTML color value.
+#  overlay_img = "pic10.jpg"  # Image path relative to your `static/img/` folder.
+#  overlay_filter = 0  # Darken the image. Value in range 0-1.
 
-[[item]]
-  title = "Scuba Diving!"
-  content = "Fire goby :fish:"
-  align = "left"
+# [[item]]
+#  title = "Scuba Diving!"
+#  content = "Fire goby :fish:"
+#  align = "left"
 
-  overlay_color = "#555"  # An HTML color value.
-  overlay_img = "pic3.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0  # Darken the image. Value in range 0-1.
+#  overlay_color = "#555"  # An HTML color value.
+#  overlay_img = "pic3.jpg"  # Image path relative to your `static/img/` folder.
+#  overlay_filter = 0  # Darken the image. Value in range 0-1.
 
 [[item]]
   title = "Scuba Diving!"
@@ -79,14 +79,14 @@ height = "calc(100vh - 70px)"
   overlay_img = "pic4.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 
-[[item]]
-  title = "Scuba Diving!"
-  content = "Okinawa, Japan"
-  align = "left"
+# [[item]]
+#  title = "Scuba Diving!"
+#  content = "Okinawa, Japan"
+#  align = "left"
 
-  overlay_color = "#333"  # An HTML color value.
-  overlay_img = "pic5.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0  # Darken the image. Value in range 0-1.
+#  overlay_color = "#333"  # An HTML color value.
+#  overlay_img = "pic5.jpg"  # Image path relative to your `static/img/` folder.
+#  overlay_filter = 0  # Darken the image. Value in range 0-1.
 
 # [[item]]
 #  title = ""
@@ -108,7 +108,7 @@ height = "calc(100vh - 70px)"
 
 [[item]]
   title = "Scuba Diving!"
-  content = "Checking the diving watch :watch:"
+  content = "Okinawa, Japan"
   align = "left"
 
   overlay_color = "#333"  # An HTML color value.
@@ -117,7 +117,7 @@ height = "calc(100vh - 70px)"
 
 [[item]]
   title = "Scuba Diving!"
-  content = "Sunset at Tioman Island, Malaysia"
+  content = "Tioman Island, Malaysia"
   align = "left"
 
   overlay_color = "#555"  # An HTML color value.
@@ -133,23 +133,23 @@ height = "calc(100vh - 70px)"
 #  overlay_img = "pic12.jpg"  # Image path relative to your `static/img/` folder.
 #  overlay_filter = 0  # Darken the image. Value in range 0-1.
 
-[[item]]
-  title = "Scuba Diving!"
-  content = "Undersea Caves"
-  align = "left"
+# [[item]]
+#  title = "Scuba Diving!"
+#  content = "Undersea Caves"
+#  align = "left"
 
-  overlay_color = "#333"  # An HTML color value.
-  overlay_img = "pic11.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0  # Darken the image. Value in range 0-1.
+#  overlay_color = "#333"  # An HTML color value.
+#  overlay_img = "pic11.jpg"  # Image path relative to your `static/img/` folder.
+#  overlay_filter = 0  # Darken the image. Value in range 0-1.
 
-[[item]]
-  title = "Scuba Diving!"
-  content = "Starry puffer"
-  align = "left"
+# [[item]]
+#  title = "Scuba Diving!"
+#  content = "Starry puffer"
+#  align = "left"
 
-  overlay_color = "#555"  # An HTML color value.
-  overlay_img = "pic13.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0  # Darken the image. Value in range 0-1.
+#  overlay_color = "#555"  # An HTML color value.
+#  overlay_img = "pic13.jpg"  # Image path relative to your `static/img/` folder.
+#  overlay_filter = 0  # Darken the image. Value in range 0-1.
 
 [[item]]
   title = "Scuba Diving!"
