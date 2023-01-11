@@ -26,14 +26,14 @@ date_format = "Jan 2006"
   date_start = "2022-01-01"
   date_end = ""
   description = """
-  Student Member
+  **Student Member**
   * International Society for Computational Biology (2021-Present)
   * American Society for Biochemistry and Molecular Biology (2021-Present)
   * Biophysics Society (2021-Present)
   * The Biophysical Society of Japan (2018-2021)
   * Animal Behavior Society Society (2018-2021)
   
-  Associate Member
+  **Associate Member**
   * Masason Foundation (2018-Present)
   * Tadashi Yanai Foundation (2021-Present)
   * John and Miyoko Davey Foundation (2021-2023)
