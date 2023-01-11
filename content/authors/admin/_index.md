@@ -70,11 +70,12 @@ user_groups:
 - Researchers
 - Visitors
 ---
-Fumi is an ambitious undergraduate majoring in Computational Biology at Harvey Mudd College in California, and evinces a marked inclination for both molecular and evolutionary genetics. 
+Fumi is an ambitious and passionate undergraduate majoring in Computational Biology at Harvey Mudd College in California. He possesses a scholarly interest in both molecular and evolutionary genetics and actively engages in <a href="#experience">research</a> to enhance his understanding in this field.
 
-Through various <a href="#experience">research endeavors</a> at esteemed institutions such as the National University of Singapore with Professor <a href="https://lepdata.org/monteiro/">Antonia Monteiro</a>, Harvey Mudd College with Professor <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/">Jae Hur</a>, and Shizuoka University with Professor <a href="https://green.shizuoka.ac.jp/staff_en/166/">Hiroyuki Takemoto</a>, Fumi has acquired a wealth of knowledge and expertise in molecular genetics, evolutionary development, and behavioral biology. (<a href="#featured">Publications</a>)
+Through various research endeavors at renowned institutions such as the National University of Singapore with Professor <a href="https://lepdata.org/monteiro/">Antonia Monteiro</a>, Harvey Mudd College with Professor <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/">Jae Hur</a>, and Shizuoka University with Professor <a href="https://green.shizuoka.ac.jp/staff_en/166/">Hiroyuki Takemoto</a>, Fumi has acquired a wealth of knowledge and expertise in molecular genetics, evolutionary development, and behavioral biology.
 
-A cosmopolitan individual hailing from Japan, but having been raised in diverse cultural milieus such as Tokyo, London, and Los Angeles, Fumi has developed an extraordinary capacity for cultural adaptability, and is proficient in both English and Japanese. Endowed with a fervent passion, an amenable disposition and a high degree of patience, in his leisure time, he derives pleasure from a plethora of activities such as gym-going, coffee-drinking and <a href="#slider">scuba diving</a>.
+Fumi's upbringing in diverse cultural environments of Japan, Tokyo, London, and Los Angeles has honed his unique ability to adapt to different cultures, and he is fluent in both English and Japanese. He values passion, patience, and adaptability in himself, and in his leisure time, he derives pleasure from a plethora of activities such as gym-going, coffee-drinking, and scuba diving. Kindly, visit his <a href="#slider">gallery</a> to behold pictures of his scuba diving experiences.
+
 
 # Fumi is an undergraduate student majoring in Computational Biology at Harvey Mudd College in California. He is particularly interested in both molecular and evolutionary genetics. 
 
