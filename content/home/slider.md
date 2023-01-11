@@ -32,7 +32,7 @@ height = "calc(100vh - 70px)"
    cta_label = "My Gallery"
    cta_url = "https://vsco.co/fumitani/gallery"
    cta_icon_pack = "fas"
-   cta_icon = "instagram"
+   cta_icon = "camera"
 
 # [[item]]
 #  title = "Scuba Diving!"
@@ -58,7 +58,7 @@ height = "calc(100vh - 70px)"
    cta_label = "My Gallery"
    cta_url = "https://vsco.co/fumitani/gallery"
    cta_icon_pack = "fas"
-   cta_icon = "instagram"
+   cta_icon = "camera"
 
 # [[item]]
 #  title = "Scuba Diving!"
@@ -93,7 +93,7 @@ height = "calc(100vh - 70px)"
    cta_label = "My Gallery"
    cta_url = "https://vsco.co/fumitani/gallery"
    cta_icon_pack = "fas"
-   cta_icon = "instagram"
+   cta_icon = "camera"
 
 # [[item]]
 #  title = "Scuba Diving!"
@@ -137,7 +137,7 @@ height = "calc(100vh - 70px)"
    cta_label = "My Gallery"
    cta_url = "https://vsco.co/fumitani/gallery"
    cta_icon_pack = "fas"
-   cta_icon = "instagram"
+   cta_icon = "camera"
 
 [[item]]
   title = "Scuba Diving!"
@@ -154,7 +154,7 @@ height = "calc(100vh - 70px)"
    cta_label = "My Gallery"
    cta_url = "https://vsco.co/fumitani/gallery"
    cta_icon_pack = "fas"
-   cta_icon = "instagram"
+   cta_icon = "camera"
 
 # [[item]]
 #  title = ""
@@ -198,7 +198,7 @@ height = "calc(100vh - 70px)"
    cta_label = "My Gallery"
    cta_url = "https://vsco.co/fumitani/gallery"
    cta_icon_pack = "fas"
-   cta_icon = "instagram"
+   cta_icon = "camera"
 
 # [[item]]
 #  title = ""
