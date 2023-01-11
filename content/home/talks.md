@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   organization_url = ""
   title = "Memberships"
   url = ""
-  date_start = "2022-01-01"
+  date_start = "2022-01-02"
   date_end = ""
   description = """
   **Student Member**
@@ -39,40 +39,20 @@ date_format = "Jan 2006"
   * John and Miyoko Davey Foundation (2021-2023)
   """
 
-
 [[item]]
-  organization = "Animal Behavior Society"
+  organization = "As of"
   organization_url = ""
-  title = "Oral Presentation"
+  title = "Presentations"
   url = ""
-  date_start = "2021-09-01"
+  date_start = "2022-01-01"
   date_end = ""
-  description = """"""
-
-[[item]]
-  organization = "The Biophysical Society of Japan"
-  organization_url = ""
-  title = "Poster Presentation"
-  url = ""
-  date_start = "2020-07-28"
-  date_end = ""
-  description = """"""
-
-[[item]]
-  organization = "National High School Student Biology Summit Competition"
-  organization_url = ""
-  title = "Presentation"
-  url = ""
-  date_start = "2021-09-01"
-  date_end = ""
-  description = """"""
-
-[[item]]
-  organization = "Japan Science and Technology Agency National High School Student Research Conference"
-  organization_url = ""
-  title = "Presentation"
-  url = ""
-  date_start = "2021-12-01"
-  date_end = ""
-  description = """"""
+  description = """
+  **Conferences**
+  * Animal Behavior Society (2020-07-28; Oral)
+  * The Biophysical Society of Japan (2020-09-16; Poster)
+  
+  **Competitions**
+  * National High School Student Biology Summit Competition (2021-08-26; Oral)
+  * Japan Science and Technology Agency National High School Student Research Conference (2021-11-15; Oral)
+  """
 +++
