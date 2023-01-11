@@ -19,9 +19,9 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "National High School Student Biology Summit Competition (link in Japanese)"
+  organization = "National High School Student Biology Summit Competition (Link in Japanese)"
   organization_url = "https://www.bio-summit.org/"
-  title = "1st, Minister of Health, Labor and Welfare Award"
+  title = "Grand Prize Winner, Minister of Health, Labor and Welfare Award"
   url = ""
   date_start = "2021-09-01"
   date_end = ""
@@ -30,7 +30,7 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Japan Science and Technology Agency National High School Student Research Conference"
   organization_url = "https://www.jst.go.jp/EN/"
-  title = "1st, Minister of Education, Science and Technology Award"
+  title = "Grand Prize Winner, Minister of Education, Science and Technology Award"
   url = ""
   date_start = "2021-12-01"
   date_end = ""
@@ -47,9 +47,9 @@ date_format = "Jan 2006"
 
 [[item]]
   organization = "Masason Foundation"
-  organization_url = "https://masason-foundation.org/en/"
+  organization_url = "https://masason-foundation.org/en/cpt_testimonial/%E8%B0%B7%E6%BE%A4%E6%96%87%E7%A4%BC/"
   title = "Research-Funding Scholarship"
-  url = "https://masason-foundation.org/en/cpt_testimonial/%E8%B0%B7%E6%BE%A4%E6%96%87%E7%A4%BC/"
+  url = ""
   date_start = "2018-07-01"
   date_end = "2025-05-30"
   description = """Selected as one of the most talented 51 young scholars under 25 years old in Japan by the foundation supported by Masayoshi Son, the CEO of <a href="https://www.softbank.jp/en/"> Softbank</a>."""

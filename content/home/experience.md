@@ -45,7 +45,7 @@ date_format = "Jan 2006"
   location = "Claremont, California"
   date_start = "2021-09-01"
   date_end = "2022-02-01"
-  description = """Developed a biophysical research project on the modeling of the hardware and software aspects of *Conus marmoreus* injection latch in collaboration with Professor Mark Ilton's team at <a href="https://posmlab.org/">PoSM Lab</a>.
+  description = """Developed a biophysical research project on the modeling of the hardware and software aspects of *Conus marmoreus* injection latch in collaboration with Prof. Mark Ilton's team at <a href="https://posmlab.org/">PoSM Lab</a>.
   """
 
 [[experience]]
@@ -55,6 +55,6 @@ date_format = "Jan 2006"
   location = "Shizuoka, Japan"
   date_start = "2018-07-01"
   date_end = "2021-03-31"
-  description = """Selected for a high school student research <a href="https://www.jst.go.jp/cpse/gsc/about/index_english.html">grant</a> from the <a href="https://www.jst.go.jp/EN/">Japan Science and Technology Agency</a>, conducted individual research on *Drosophila  melanogaster* behavior in collaboration with <a href="https://green.shizuoka.ac.jp/staff_en/166/">Prof. Hiroyuki Takemoto</a> of Shizuoka University, published a <a href="https://www.nature.com/articles/s41598-021-88967-1">paper</a> in Scientific Reports as the first author, and gave an <a href="https://www.animalbehaviorsociety.org/2020-virtual/program-full.php">oral presentation</a> at the Animal Behavioral Society.
+  description = """Selected for a high school student research <a href="https://www.jst.go.jp/cpse/gsc/about/index_english.html">grant</a> from the <a href="https://www.jst.go.jp/EN/">Japan Science and Technology Agency</a>, conducted individual research on *Drosophila  melanogaster* behavior in collaboration with <a href="https://green.shizuoka.ac.jp/staff_en/166/">Prof. Hiroyuki Takemoto</a> of Shizuoka University, published a <a href="https://www.nature.com/articles/s41598-021-88967-1">paper</a> in *Scientific Reports* as the first author, and gave an <a href="https://www.animalbehaviorsociety.org/2020-virtual/program-full.php">oral presentation</a> at the Animal Behavioral Society.
   """
 +++
