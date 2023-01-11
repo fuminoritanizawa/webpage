@@ -73,7 +73,7 @@ user_groups:
 
 Fumi is an undergraduate student majoring in Computational Biology at Harvey Mudd College. He is particularly interested in both molecular and evolutionary genetics. 
 
-Fumi has completed research projects in molecular genetics, evolutionary development, and behavioral biology at the National University of Singapore with Professor <a href="https://lepdata.org/monteiro/">Antonia Monteiro</a>, Shizuoka University with Professor <a href="https://green.shizuoka.ac.jp/staff_en/166/">Hiroyuki Takemoto</a>, and Harvey Mudd College with Professor <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/">Jae Hur</a>.
+Fumi has completed research projects in molecular genetics, evolutionary development, and behavioral biology at the National University of Singapore with Professor <a href="https://lepdata.org/monteiro/">Antonia Monteiro</a>, Shizuoka University with Professor <a href="https://green.shizuoka.ac.jp/staff_en/166/">Hiroyuki Takemoto</a>, and Harvey Mudd College with Professor <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/">Jae Hur</a>. My publications are <a href="#publications">here</a>.
 
 Born in Japan and raised in Tokyo, London, and Los Angeles, Fumi is culturally adaptable and fluent in both English and Japanese. He considers himself to be passionate, adaptable, and patient. In his free time, he enjoys going to the gym, drinking coffee, and <a href="#slider">scuba diving</a>.
 
