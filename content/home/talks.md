@@ -2,10 +2,10 @@
 # Accomplishments widget.
 widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+active = true  # Activate this widget? true/false
+weight = 35  # Order that this section will appear.
 
-title = "Honors"
+title = "Presentations and Memberships"
 subtitle = ""
 
 # Date format
@@ -19,21 +19,39 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "National High School Student Biology Summit Competition (Link in Japanese)"
-  organization_url = "https://www.bio-summit.org/"
-  title = "Grand Prize Winner, Minister of Health, Labor and Welfare Award"
+  organization = "International Society for Computational Biology"
+  organization_url = ""
+  title = "Student Member"
   url = ""
   date_start = "2021-09-01"
   date_end = ""
   description = """"""
 
 [[item]]
-  organization = "Japan Science and Technology Agency National High School Student Research Conference"
-  organization_url = "https://www.jst.go.jp/EN/"
-  title = "Grand Prize Winner, Minister of Education, Science and Technology Award"
+  organization = "American Society for Biochemistry and Molecular Biology"
+  organization_url = ""
+  title = "Student Member"
   url = ""
-  date_start = "2021-12-01"
+  date_start = "2021-09-01"
   date_end = ""
+  description = """"""
+
+[[item]]
+  organization = "Biophysics Society"
+  organization_url = ""
+  title = "Student Member"
+  url = ""
+  date_start = "2018-09-01"
+  date_end = "2021-04-01"
+  description = """"""
+
+[[item]]
+  organization = "Animal Behavior Society Society"
+  organization_url = ""
+  title = "Student Member"
+  url = ""
+  date_start = "2018-09-01"
+  date_end = "2021-04-01"
   description = """"""
   
 [[item]]
@@ -43,24 +61,59 @@ date_format = "Jan 2006"
   url = ""
   date_start = "2021-05-01"
   date_end = "2023-04-30"
-  description = """Selected as one of the most talented studying-abroad undergraduates in Japan by a foundation supported by Miyoko Davey, an art collector in New York City."""
+  description = """"""
 
 [[item]]
   organization = "Masason Foundation"
   organization_url = "https://masason-foundation.org/en/cpt_testimonial/%E8%B0%B7%E6%BE%A4%E6%96%87%E7%A4%BC/"
-  title = "Research-Funding Scholarship"
+  title = "Associate Member"
   url = ""
   date_start = "2018-07-01"
-  date_end = "2025-05-30"
-  description = """Selected as one of the most talented 51 young scholars under 25 years old in Japan by the foundation supported by Masayoshi Son, the CEO of <a href="https://www.softbank.jp/en/"> Softbank</a>."""
+  date_end = ""
+  description = """"""
 
 [[item]]
   organization = "Tadashi Yanai Foundation"
   organization_url = "https://www.yanaitadashi-foundation.or.jp/en/"
-  title = "Full-Ride Scholarship"
+  title = "Associate Member"
   url = ""
   date_start = "2021-09-01"
-  date_end = "2025-05-30"
-  description = """Selected as a full scholarship recipient for a foundation supported by Tadashi Yanai, the CEO of <a href="https://www.uniqlo.com/us/en/"> Uniqulo</a>."""
+  date_end = ""
+  description = """"""
 
+[[item]]
+  organization = "Animal Behavior Society"
+  organization_url = ""
+  title = "Oral Presentation"
+  url = ""
+  date_start = "2021-09-01"
+  date_end = ""
+  description = """"""
+
+[[item]]
+  organization = "The Biophysical Society of Japan"
+  organization_url = ""
+  title = "Poster Presentation"
+  url = ""
+  date_start = "2020-07-28"
+  date_end = ""
+  description = """"""
+
+[[item]]
+  organization = "National High School Student Biology Summit Competition"
+  organization_url = ""
+  title = "Presentation"
+  url = ""
+  date_start = "2021-09-01"
+  date_end = ""
+  description = """"""
+
+[[item]]
+  organization = "Japan Science and Technology Agency National High School Student Research Conference"
+  organization_url = ""
+  title = "Presentation"
+  url = ""
+  date_start = "2021-12-01"
+  date_end = ""
+  description = """"""
 +++
