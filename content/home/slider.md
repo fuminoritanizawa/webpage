@@ -16,7 +16,7 @@ height = "calc(100vh - 70px)"
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
-  title = "Scuba diving!!"
+  title = "Scuba Diving"
   content = "Fumi is certified as a PADI Advanced Diver:)"
   align = "left"  # Choose `center`, `left`, or `right`.
 
@@ -44,7 +44,7 @@ height = "calc(100vh - 70px)"
 #  overlay_filter = 0  # Darken the image. Value in range 0-1.
 
 [[item]]
-  title = "Scuba Diving!"
+  title = "Scuba Diving"
   content = "With my coach"
   align = "left"
 
@@ -79,7 +79,7 @@ height = "calc(100vh - 70px)"
 #  overlay_filter = 0  # Darken the image. Value in range 0-1.
 
 [[item]]
-  title = "Scuba Diving!"
+  title = "Scuba Diving"
   content = "Splash!"
   align = "left"
 
@@ -123,7 +123,7 @@ height = "calc(100vh - 70px)"
 #  overlay_filter = 0  # Darken the image. Value in range 0-1.
 
 [[item]]
-  title = "Scuba Diving!"
+  title = "Scuba Diving"
   content = "Okinawa, Japan"
   align = "left"
 
@@ -140,7 +140,7 @@ height = "calc(100vh - 70px)"
    cta_icon = "camera"
 
 [[item]]
-  title = "Scuba Diving!"
+  title = "Scuba Diving"
   content = "Tioman Island, Malaysia"
   align = "left"
 
@@ -184,7 +184,7 @@ height = "calc(100vh - 70px)"
 #  overlay_filter = 0  # Darken the image. Value in range 0-1.
 
 [[item]]
-  title = "Scuba Diving!"
+  title = "Scuba Diving"
   content = "Whitetip reef shark"
   align = "left"
 
