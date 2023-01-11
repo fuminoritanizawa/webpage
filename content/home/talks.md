@@ -26,14 +26,14 @@ date_format = "Jan 2006"
   date_start = "2022-01-01"
   date_end = ""
   description = """
-  **Student Member**
+  Student Member
   * **2021-Present.** &nbspInternational Society for Computational Biology
   * **2021-Present.** &nbspAmerican Society for Biochemistry and Molecular Biology
   * **2021-Present.** &nbspBiophysics Society
   * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbspThe Biophysical Society of Japan
   * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbspAnimal Behavior Society Society
   
-  **Associate Member**
+  <u>Associate Member<u>
   * **2018-Present.** &nbspMasason Foundation
   * **2021-Present.** &nbspTadashi Yanai Foundation
   * **2021-2023.** &nbsp&nbsp&nbsp&nbsp&nbspJohn and Miyoko Davey Foundation
