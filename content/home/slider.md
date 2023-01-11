@@ -29,10 +29,10 @@ height = "calc(100vh - 70px)"
   # Call to action button (optional).
   #   Activate the button by specifying a URL and button label below.
   #   Deactivate by commenting out parameters, prefixing lines with `#`.
-  # cta_label = "Get Academic"
-  # cta_url = "https://sourcethemes.com/academic/"
-  # cta_icon_pack = "fas"
-  # cta_icon = "graduation-cap"
+   cta_label = "My Gallery"
+   cta_url = "https://vsco.co/fumitani/gallery"
+   cta_icon_pack = "fas"
+   cta_icon = "instagram"
 
 # [[item]]
 #  title = "Scuba Diving!"
@@ -51,6 +51,14 @@ height = "calc(100vh - 70px)"
   overlay_color = "#333"  # An HTML color value.
   overlay_img = "pic2.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
+
+  # Call to action button (optional).
+  #   Activate the button by specifying a URL and button label below.
+  #   Deactivate by commenting out parameters, prefixing lines with `#`.
+   cta_label = "My Gallery"
+   cta_url = "https://vsco.co/fumitani/gallery"
+   cta_icon_pack = "fas"
+   cta_icon = "instagram"
 
 # [[item]]
 #  title = "Scuba Diving!"
@@ -78,6 +86,14 @@ height = "calc(100vh - 70px)"
   overlay_color = "#333"  # An HTML color value.
   overlay_img = "pic4.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
+
+  # Call to action button (optional).
+  #   Activate the button by specifying a URL and button label below.
+  #   Deactivate by commenting out parameters, prefixing lines with `#`.
+   cta_label = "My Gallery"
+   cta_url = "https://vsco.co/fumitani/gallery"
+   cta_icon_pack = "fas"
+   cta_icon = "instagram"
 
 # [[item]]
 #  title = "Scuba Diving!"
@@ -115,6 +131,14 @@ height = "calc(100vh - 70px)"
   overlay_img = "pic6.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 
+  # Call to action button (optional).
+  #   Activate the button by specifying a URL and button label below.
+  #   Deactivate by commenting out parameters, prefixing lines with `#`.
+   cta_label = "My Gallery"
+   cta_url = "https://vsco.co/fumitani/gallery"
+   cta_icon_pack = "fas"
+   cta_icon = "instagram"
+
 [[item]]
   title = "Scuba Diving!"
   content = "Tioman Island, Malaysia"
@@ -123,6 +147,14 @@ height = "calc(100vh - 70px)"
   overlay_color = "#555"  # An HTML color value.
   overlay_img = "pic7.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
+
+  # Call to action button (optional).
+  #   Activate the button by specifying a URL and button label below.
+  #   Deactivate by commenting out parameters, prefixing lines with `#`.
+   cta_label = "My Gallery"
+   cta_url = "https://vsco.co/fumitani/gallery"
+   cta_icon_pack = "fas"
+   cta_icon = "instagram"
 
 # [[item]]
 #  title = ""
@@ -159,6 +191,14 @@ height = "calc(100vh - 70px)"
   overlay_color = "#333"  # An HTML color value.
   overlay_img = "pic14.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
+
+  # Call to action button (optional).
+  #   Activate the button by specifying a URL and button label below.
+  #   Deactivate by commenting out parameters, prefixing lines with `#`.
+   cta_label = "My Gallery"
+   cta_url = "https://vsco.co/fumitani/gallery"
+   cta_icon_pack = "fas"
+   cta_icon = "instagram"
 
 # [[item]]
 #  title = ""
