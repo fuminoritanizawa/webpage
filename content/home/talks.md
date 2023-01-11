@@ -32,7 +32,7 @@ date_format = "Jan 2006"
   * Biophysics Society (2021-Present)
   * The Biophysical Society of Japan (2018-2021)
   * Animal Behavior Society Society (2018-2021)
-  <br>
+  
   Associate Member
   * Masason Foundation (2018-Present)
   * Tadashi Yanai Foundation (2021-Present)
