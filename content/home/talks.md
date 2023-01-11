@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 35  # Order that this section will appear.
 
-title = "Presentations/<br>Memberships"
+title = "Presentations &<br>Memberships"
 subtitle = ""
 
 # Date format
@@ -27,8 +27,8 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   **Student Member**
-  * International Society for Computational Biology (2021-Present)
-  * American Society for Biochemistry and Molecular Biology (2021-Present)
+  * 2021-Present. International Society for Computational Biology
+  * 2021-Present. American Society for Biochemistry and Molecular Biology
   * Biophysics Society (2021-Present)
   * The Biophysical Society of Japan (2018-2021)
   * Animal Behavior Society Society (2018-2021)
