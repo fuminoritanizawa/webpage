@@ -26,14 +26,14 @@ date_format = "Jan 2006"
   date_start = "2022-01-01"
   date_end = ""
   description = """
-  Student Member
+  <u>Student Member</u>
   * **2021-Present.** &nbspInternational Society for Computational Biology
   * **2021-Present.** &nbspAmerican Society for Biochemistry and Molecular Biology
   * **2021-Present.** &nbspBiophysics Society
   * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbspThe Biophysical Society of Japan
   * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbspAnimal Behavior Society Society
   
-  <u>Associate Member<u>
+  <u>Associate Member</u>
   * **2018-Present.** &nbspMasason Foundation
   * **2021-Present.** &nbspTadashi Yanai Foundation
   * **2021-2023.** &nbsp&nbsp&nbsp&nbsp&nbspJohn and Miyoko Davey Foundation
@@ -47,11 +47,11 @@ date_format = "Jan 2006"
   date_start = "2022-01-02"
   date_end = ""
   description = """
-  Conferences
+  <u>Conferences</u>
   * **2020-07-28** Animal Behavior Society (Oral)
   * **2020-09-16** The Biophysical Society of Japan (Poster)
   
-  Competitions
+  <u>Competitions</u>
   * **2021-11-15** Japan Science and Technology Agency National High School Student Research Conference (Oral)
   * **2021-08-26** National High School Student Biology Summit Competition (Oral)
   """
