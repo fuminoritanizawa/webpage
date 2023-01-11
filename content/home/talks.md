@@ -21,7 +21,7 @@ date_format = "Jan 2006"
 [[item]]
   organization = "International Society for Computational Biology"
   organization_url = ""
-  title = "Student Member"
+  title = "&nbsp"
   url = ""
   date_start = "2021-09-01"
   date_end = ""
