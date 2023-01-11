@@ -47,11 +47,11 @@ date_format = "Jan 2006"
   date_start = "2022-01-02"
   date_end = ""
   description = """
-  **Conferences**
+  Conferences
   * **2020-07-28** Animal Behavior Society (Oral)
   * **2020-09-16** The Biophysical Society of Japan (Poster)
   
-  **Competitions**
+  Competitions
   * **2021-11-15** Japan Science and Technology Agency National High School Student Research Conference (Oral)
   * **2021-08-26** National High School Student Biology Summit Competition (Oral)
   """
