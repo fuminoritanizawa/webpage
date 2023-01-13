@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   date_start = "2022-05-23"
   date_end = "2022-08-07"
   description = """ 
-  Selected for the <a href="https://amgenscholars.com/university/national-university-of-singapore/" target="_blank">Amgen Scholars Program</a> to work with <a href="https://lepdata.org/monteiro/" target="_blank">Prof. Antonia Monteiro's team</a> on an evolutionary developmental analysis of food odor preference and its genetics in *Bicyclus anynana*.
+  Selected for the <a href="https://amgenscholars.com/university/national-university-of-singapore/" target="_blank">Amgen Scholars Program</a> to work with <a href="https://lepdata.org/monteiro/" target="_blank">Prof. Antonia Monteiro</a>'s team on an evolutionary developmental analysis of food odor preference and its genetics in *Bicyclus anynana*.
   """
 [[experience]]
   title = "Research Assistant"
@@ -45,7 +45,7 @@ date_format = "Jan 2006"
   location = "Claremont, California"
   date_start = "2021-09-01"
   date_end = "2022-02-01"
-  description = """Developed a biophysical research project on the modeling of the hardware and software aspects of *Conus marmoreus* injection latch in collaboration with Prof. Mark Ilton's team at <a href="https://posmlab.org/">PoSM Lab</a>.
+  description = """Developed a biophysical research project on the modeling of the hardware and software aspects of *Conus marmoreus* injection latch in collaboration with <a href="https://posmlab.org/">Prof. Mark Ilton</a>'s team.
   """
 
 [[experience]]

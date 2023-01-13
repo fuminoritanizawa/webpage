@@ -31,7 +31,7 @@ date_format = "Jan 2006"
   * **2021-Present.** &nbspAmerican Society for Biochemistry and Molecular Biology
   * **2021-Present.** &nbspBiophysics Society
   * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbspThe Biophysical Society of Japan
-  * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbspAnimal Behavior Society Society
+  * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbspAnimal Behavior Society
   
   <u>Associate Member</u>
   * **2018-Present.** &nbspMasason Foundation
