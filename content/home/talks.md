@@ -53,7 +53,7 @@ date_format = "Jan 2006"
   * **2020-09-16** Biophysical Society of Japan (Japan, Poster)
   
   <u>Competitions</u>
-  * **2021-11-15** Japan Science and Technology Agency National High School Student Research Conference (Japan, Oral)
-  * **2021-08-26** National High School Student Biology Summit Competition (Japan, Oral)
+  * **2020-11-15** Japan Science and Technology Agency National High School Student Research Conference (Japan, Oral)
+  * **2020-08-26** National High School Student Biology Summit Competition (Japan, Oral)
   """
 +++
