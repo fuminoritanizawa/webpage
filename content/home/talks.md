@@ -92,11 +92,11 @@ date_format = "Jan 2006"
   date_start = "2022-01-08"
   date_end = ""
   description = """
-  * **2018-Present.** &nbsp<a href="https://masason-foundation.org/en/cpt_testimonial/%E8%B0%B7%E6%BE%A4%E6%96%87%E7%A4%BC/">Masason Foundation</a><br>
+  * **2018-Present. &nbsp<a href="https://masason-foundation.org/en/cpt_testimonial/%E8%B0%B7%E6%BE%A4%E6%96%87%E7%A4%BC/">Masason Foundation</a>**<br>
   Selected as one of the most talented 51 young scholars under 25 years old in Japan by the foundation supported by Masayoshi Son, the CEO of <a href="https://www.softbank.jp/en/"> Softbank</a> ($35K max.)
-  * **2021-Present.** &nbsp<a a href="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a><br>
+  * **2021-Present. &nbsp<a a href="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a>**<br>
   Selected as a full scholarship recipient for a foundation supported by Tadashi Yanai, the CEO of <a href="https://www.uniqlo.com/us/en/"> Uniqlo</a> ($95K p.a.)
-  * **2021-2023.** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.jmdavey.foundation/">John and Miyoko Davey Foundation</a><br>
+  * **2021-2023. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.jmdavey.foundation/">John and Miyoko Davey Foundation</a>**<br>
   Selected as one of the most talented studying-abroad undergraduates in Japan by a foundation supported by Miyoko Davey, an art collector in New York City.
   """
 
@@ -123,9 +123,9 @@ date_format = "Jan 2006"
   date_start = "2022-01-06"
   date_end = ""
   description = """
-  * **BIOL 046** &nbsp Introduction to Biology (Harvey Mudd Collge)<br>
+  * **BIOL 046 &nbsp Introduction to Biology (Harvey Mudd Collge)**<br>
   Focuses on topics in molecular biology, organismal physiology, evolution, population, and community ecology, using R and data science to understand climate change.
-  * **JAPN 051B** &nbsp Intermediate Japanese (Pomona College)<br>
+  * **JAPN 051B &nbsp Intermediate Japanese (Pomona College)**<br>
   Focuses on developing advanced skills in all aspects of the language, including new grammatical forms, expanded vocabulary and kanji, reading and writing composition.
   """
 +++
