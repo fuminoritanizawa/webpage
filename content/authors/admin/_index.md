@@ -101,7 +101,7 @@ Fumi's upbringing in diverse cultural environments of Tokyo, London, and Los Ang
         <p class="course"> BS in Computational Biology (Expected in 2025)</p>
         <p class="institution"> <a href="https://www.hmc.edu/">Harvey Mudd College (Claremont, CA)</a> </p>
         <small><p class="detail"> 
-        Supervisor: <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/"> Prof. Jae Hur  </a>. 
+        Supervisor: <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/">Prof. Jae Hur  </a>. 
         <br>
         Selected Coursework: Molecular Genetics, Developmental Biology, Mathematical and Computational Biology, Data Structures/Program Development, Differential Equations, Environmental Analysis</p></small>
     </div>
