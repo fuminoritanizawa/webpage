@@ -118,12 +118,14 @@ date_format = "Jan 2006"
 [[item]]
   organization = "As of"
   organization_url = ""
-  title = "Teaching Assistant & Grader"
+  title = "Teaching Assistants & Graders"
   url = ""
   date_start = "2022-01-06"
   date_end = ""
   description = """
   * **BIOL 046** &nbsp Introduction to Biology (Harvey Mudd Collge)
+  Focuses on topics in molecular biology, organismal physiology, evolution, population, and community ecology, using R and data science to understand climate change.
   * **JAPN 051B** &nbsp Intermediate Japanese (Pomona College)
+  Focuses on developing advanced skills in all aspects of the language, including new grammatical forms, expanded vocabulary and kanji, reading and writing composition.
   """
 +++
