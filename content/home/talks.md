@@ -73,9 +73,9 @@ date_format = "Jan 2006"
 
   <u>Awards</u>
   * **2020-11-15** &nbsp&nbsp&nbsp&nbsp&nbsp&nbspGrand Prize Winner, Minister of Education, Science and Technology Award
-  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspJapan Science and Technology Agency National High School Student Research Conference
+  Japan Science and Technology Agency National High School Student Research Conference
   * **2021-08-26** &nbsp&nbsp&nbsp&nbsp&nbsp&nbspGrand Prize Winner, Minister of Health, Labor and Welfare Award
-  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNational High School Student Biology Summit Competition
+  National High School Student Biology Summit Competition
   
   <u>Fellowships</u>
   * **2018-Present.** &nbspMasason Foundation (Research Grants, $35K)
