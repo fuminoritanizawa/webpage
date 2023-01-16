@@ -39,23 +39,23 @@ date_format = "Jan 2006"
 #  * **2021-2023.** &nbsp&nbsp&nbsp&nbsp&nbspJohn and Miyoko Davey Foundation
 #  """
 
-[[item]]
-  organization = "As of"
-  organization_url = ""
-  title = "Presentations"
-  url = ""
-  date_start = "2022-01-02"
-  date_end = ""
-  description = """
-  <u>Conferences</u>
-  * **2022-08-04** Amgen Scholars Asia Symposium (Singapore, Poster)
-  * **2020-07-28** Animal Behavior Society (USA, Oral)
-  * **2020-09-16** Biophysical Society of Japan (Japan, Poster)
-  
-  <u>Competitions</u>
-  * **2020-11-15** Japan Science and Technology Agency National High School Student Research Conference (Japan, Oral)
-  * **2020-08-26** National High School Student Biology Summit Competition (Japan, Oral)
-  """
+# [[item]]
+#  organization = "As of"
+#  organization_url = ""
+#  title = "Presentations"
+#  url = ""
+#  date_start = "2022-01-02"
+#  date_end = ""
+#  description = """
+#  <u>Conferences</u>
+#  * **2022-08-04** Amgen Scholars Asia Symposium (Singapore, Poster)
+#  * **2020-07-28** Animal Behavior Society (USA, Oral)
+#  * **2020-09-16** Biophysical Society of Japan (Japan, Poster)
+#  
+#  <u>Competitions</u>
+#  * **2020-11-15** Japan Science and Technology Agency National High School Student Research Conference (Japan, Oral)
+#  * **2020-08-26** National High School Student Biology Summit Competition (Japan, Oral)
+#  """
 
 
 [[item]]
@@ -66,22 +66,27 @@ date_format = "Jan 2006"
   date_start = "2022-01-03"
   date_end = ""
   description = """
+  <u>Presentations</u>
+  * **2022-08-04** Amgen Scholars Asia Symposium (Singapore, Poster)
+  * **2020-07-28** Animal Behavior Society (USA, Oral)
+  * **2020-09-16** Biophysical Society of Japan (Japan, Poster)
+
   <u>Awards</u>
-  * **2020-11-15** Grand Prize Winner, Minister of Education, Science and Technology Award
-  Japan Science and Technology Agency National High School Student Research Conference
-  * **2021-08-26** Grand Prize Winner, Minister of Health, Labor and Welfare Award
-  National High School Student Biology Summit Competition
+  * **2020-11-15** &nbsp&nbsp&nbsp&nbsp&nbsp&nbspGrand Prize Winner, Minister of Education, Science and Technology Award
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspJapan Science and Technology Agency National High School Student Research Conference
+  * **2021-08-26** &nbsp&nbsp&nbsp&nbsp&nbsp&nbspGrand Prize Winner, Minister of Health, Labor and Welfare Award
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNational High School Student Biology Summit Competition
   
   <u>Fellowships</u>
-  * **2018-Present.**  Masason Foundation (Research Grants, $35K)
-  * **2021-Present.**  Tadashi Yanai Foundation (Full-ride Scholarship, $95K/year)
-  * **2021-2023.**     John and Miyoko Davey Foundation (Scholarship, $12K/year)
+  * **2018-Present.** &nbspMasason Foundation (Research Grants, $35K)
+  * **2021-Present.** &nbspTadashi Yanai Foundation (Full-ride Scholarship, $95K/year)
+  * **2021-2023.** &nbsp&nbsp&nbsp&nbsp&nbsp&nbspJohn and Miyoko Davey Foundation (Scholarship, $12K/year)
 
   <u>Memberships</u>
   * **2021-Present.** &nbspInternational Society for Computational Biology
   * **2021-Present.** &nbspAmerican Society for Biochemistry and Molecular Biology
   * **2021-Present.** &nbspBiophysics Society
-  * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbspThe Biophysical Society of Japan
-  * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbspAnimal Behavior Society
+  * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbsp&nbspThe Biophysical Society of Japan
+  * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbsp&nbspAnimal Behavior Society
   """
 +++
