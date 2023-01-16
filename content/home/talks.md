@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 35  # Order that this section will appear.
 
-title = "Presentations &<br>Memberships"
+title = "Honors"
 subtitle = ""
 
 # Date format
@@ -18,26 +18,26 @@ date_format = "Jan 2006"
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
-[[item]]
-  organization = "As of"
-  organization_url = ""
-  title = "Memberships"
-  url = ""
-  date_start = "2022-01-01"
-  date_end = ""
-  description = """
-  <u>Student Member</u>
-  * **2021-Present.** &nbspInternational Society for Computational Biology
-  * **2021-Present.** &nbspAmerican Society for Biochemistry and Molecular Biology
-  * **2021-Present.** &nbspBiophysics Society
-  * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbspThe Biophysical Society of Japan
-  * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbspAnimal Behavior Society
+# [[item]]
+#  organization = "As of"
+#  organization_url = ""
+#  title = "Memberships"
+#  url = ""
+#  date_start = "2022-01-01"
+#  date_end = ""
+#  description = """
+#  <u>Student Member</u>
+#  * **2021-Present.** &nbspInternational Society for Computational Biology
+#  * **2021-Present.** &nbspAmerican Society for Biochemistry and Molecular Biology
+#  * **2021-Present.** &nbspBiophysics Society
+#  * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbspThe Biophysical Society of Japan
+#  * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbspAnimal Behavior Society
   
-  <u>Associate Member</u>
-  * **2018-Present.** &nbspMasason Foundation
-  * **2021-Present.** &nbspTadashi Yanai Foundation
-  * **2021-2023.** &nbsp&nbsp&nbsp&nbsp&nbspJohn and Miyoko Davey Foundation
-  """
+#  <u>Associate Member</u>
+#  * **2018-Present.** &nbspMasason Foundation
+#  * **2021-Present.** &nbspTadashi Yanai Foundation
+#  * **2021-2023.** &nbsp&nbsp&nbsp&nbsp&nbspJohn and Miyoko Davey Foundation
+#  """
 
 [[item]]
   organization = "As of"
@@ -55,5 +55,33 @@ date_format = "Jan 2006"
   <u>Competitions</u>
   * **2020-11-15** Japan Science and Technology Agency National High School Student Research Conference (Japan, Oral)
   * **2020-08-26** National High School Student Biology Summit Competition (Japan, Oral)
+  """
+
+
+[[item]]
+  organization = "As of"
+  organization_url = ""
+  title = "Honors"
+  url = ""
+  date_start = "2022-01-03"
+  date_end = ""
+  description = """
+  <u>Awards</u>
+  * **2020-11-15** Grand Prize Winner, Minister of Education, Science and Technology Award
+  Japan Science and Technology Agency National High School Student Research Conference
+  * **2021-08-26** Grand Prize Winner, Minister of Health, Labor and Welfare Award
+  National High School Student Biology Summit Competition
+  
+  <u>Fellowships</u>
+  * **2018-Present.**  Masason Foundation (Research Grants, $35K)
+  * **2021-Present.**  Tadashi Yanai Foundation (Full-ride Scholarship, $95K/year)
+  * **2021-2023.**     John and Miyoko Davey Foundation (Scholarship, $12K/year)
+
+  <u>Memberships</u>
+  * **2021-Present.** &nbspInternational Society for Computational Biology
+  * **2021-Present.** &nbspAmerican Society for Biochemistry and Molecular Biology
+  * **2021-Present.** &nbspBiophysics Society
+  * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbspThe Biophysical Society of Japan
+  * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbspAnimal Behavior Society
   """
 +++
