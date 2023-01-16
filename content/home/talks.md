@@ -67,9 +67,9 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   <u>Presentations</u>
-  * **2022-08-04** Amgen Scholars Asia Symposium (Singapore, Poster)
-  * **2020-07-28** Animal Behavior Society (USA, Oral)
-  * **2020-09-16** Biophysical Society of Japan (Japan, Poster)
+  * **2022-08-04** &nbsp&nbsp&nbsp&nbsp&nbsp&nbspAmgen Scholars Asia Symposium (Singapore, Poster)
+  * **2020-07-28** &nbsp&nbsp&nbsp&nbsp&nbsp&nbspAnimal Behavior Society (USA, Oral)
+  * **2020-09-16** &nbsp&nbsp&nbsp&nbsp&nbsp&nbspBiophysical Society of Japan (Japan, Poster)
 
   <u>Awards</u>
   * **2020-11-15** &nbsp&nbsp&nbsp&nbsp&nbsp&nbspGrand Prize Winner, Minister of Education, Science and Technology Award
