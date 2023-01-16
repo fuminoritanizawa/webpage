@@ -67,15 +67,15 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   <u>Presentations</u>
-  * **2022-08-04** &nbsp&nbsp&nbsp&nbsp&nbsp&nbspAmgen Scholars Asia Symposium (Singapore, Poster)
-  * **2020-07-28** &nbsp&nbsp&nbsp&nbsp&nbsp&nbspAnimal Behavior Society (USA, Oral)
-  * **2020-09-16** &nbsp&nbsp&nbsp&nbsp&nbsp&nbspBiophysical Society of Japan (Japan, Poster)
+  * **2022-08-04** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.dbs.nus.edu.sg/wp-content/uploads/sites/7/2022/08/ASAS-program-booklet-Web.pdf">Amgen Scholars Asia Symposium</a> (Singapore, Poster)
+  * **2020-07-28** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.animalbehaviorsociety.org/2020-virtual/program-full.php">Animal Behavior Society</a> (USA, Oral)
+  * **2020-09-16** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www2.aeplan.co.jp/bsj2020/english/index.html">Biophysical Society of Japan</a> (Japan, Poster)
 
   <u>Awards</u>
   * **2020-11-15** &nbsp&nbsp&nbsp&nbsp&nbsp&nbspGrand Prize Winner, Minister of Education, Science and Technology Award
-  Japan Science and Technology Agency National High School Student Research Conference
+  <a href="https://www.jst.go.jp/EN/">Japan Science and Technology Agency National High School Student Research Conference</a> (Japan)
   * **2021-08-26** &nbsp&nbsp&nbsp&nbsp&nbsp&nbspGrand Prize Winner, Minister of Health, Labor and Welfare Award
-  National High School Student Biology Summit Competition
+  <a href="https://www.bio-summit.org/jusyou.html">National High School Student Biology Summit Competition</a> (Japan)
   
   <u>Fellowships</u>
   * **2018-Present.** &nbsp<a href="https://masason-foundation.org/en/cpt_testimonial/%E8%B0%B7%E6%BE%A4%E6%96%87%E7%A4%BC/">Masason Foundation</a><br>
