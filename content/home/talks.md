@@ -78,9 +78,9 @@ date_format = "Jan 2006"
   date_start = "2022-01-09"
   date_end = ""
   description = """
-  * **2020-11-15** &nbsp&nbsp&nbsp&nbsp&nbsp&nbspGrand Prize Winner, Minister of Education, Science and Technology Award
+  * **2020-11-15** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Grand Prize Winner, Minister of Education, Science and Technology Award
   <a href="https://www.jst.go.jp/EN/">Japan Science and Technology Agency National High School Student Research Conference</a> (Japan)
-  * **2021-08-26** &nbsp&nbsp&nbsp&nbsp&nbsp&nbspGrand Prize Winner, Minister of Health, Labor and Welfare Award
+  * **2021-08-26** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Grand Prize Winner, Minister of Health, Labor and Welfare Award
   <a href="https://www.bio-summit.org/jusyou.html">National High School Student Biology Summit Competition</a> (Japan)
   """
 
@@ -108,10 +108,22 @@ date_format = "Jan 2006"
   date_start = "2022-01-07"
   date_end = ""
   description = """
-  * **2021-Present.** &nbspInternational Society for Computational Biology
-  * **2021-Present.** &nbspAmerican Society for Biochemistry and Molecular Biology
-  * **2021-Present.** &nbspBiophysics Society
-  * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbsp&nbspThe Biophysical Society of Japan
-  * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbsp&nbspAnimal Behavior Society
+  * **2021-Present.** &nbsp International Society for Computational Biology
+  * **2021-Present.** &nbsp American Society for Biochemistry and Molecular Biology
+  * **2021-Present.** &nbsp Biophysics Society
+  * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp The Biophysical Society of Japan
+  * **2018-2021.** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Animal Behavior Society
+  """
+
+[[item]]
+  organization = "As of"
+  organization_url = ""
+  title = "Teaching Assistant & Grader"
+  url = ""
+  date_start = "2022-01-06"
+  date_end = ""
+  description = """
+  * **BIOL 046** &nbsp Introduction to Biology (Harvey Mudd Collge)
+  * **JAPN 051B** &nbsp Intermediate Japanese (Pomona College)
   """
 +++
