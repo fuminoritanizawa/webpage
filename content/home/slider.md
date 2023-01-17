@@ -45,7 +45,7 @@ height = "calc(100vh - 70px)"
 
 [[item]]
   title = "Scuba Diving"
-  content = "With my coach"
+  content = "Fumi is certified as a PADI Advanced Diver:)"
   align = "left"
 
   overlay_color = "#333"  # An HTML color value.
@@ -80,7 +80,7 @@ height = "calc(100vh - 70px)"
 
 [[item]]
   title = "Scuba Diving"
-  content = "Splash!"
+  content = "Fumi is certified as a PADI Advanced Diver:)"
   align = "left"
 
   overlay_color = "#333"  # An HTML color value.
@@ -124,7 +124,7 @@ height = "calc(100vh - 70px)"
 
 [[item]]
   title = "Scuba Diving"
-  content = "Okinawa, Japan"
+  content = "Fumi is certified as a PADI Advanced Diver:)"
   align = "left"
 
   overlay_color = "#333"  # An HTML color value.
@@ -141,7 +141,7 @@ height = "calc(100vh - 70px)"
 
 [[item]]
   title = "Scuba Diving"
-  content = "Tioman Island, Malaysia"
+  content = "Fumi is certified as a PADI Advanced Diver:)"
   align = "left"
 
   overlay_color = "#555"  # An HTML color value.
@@ -185,7 +185,7 @@ height = "calc(100vh - 70px)"
 
 [[item]]
   title = "Scuba Diving"
-  content = "Whitetip reef shark"
+  content = "Fumi is certified as a PADI Advanced Diver:)"
   align = "left"
 
   overlay_color = "#333"  # An HTML color value.
