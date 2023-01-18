@@ -80,7 +80,7 @@ date_format = "Jan 2006"
   description = """
   * **2020-11-15** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Grand Prize Winner, Minister of Education, Science and Technology Award
   <a href="https://www.jst.go.jp/EN/">Japan Science and Technology Agency National High School Student Research Conference</a> (Japan)
-  * **2021-08-26** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Grand Prize Winner, Minister of Health, Labor and Welfare Award
+  * **2020-08-26** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Grand Prize Winner, Minister of Health, Labor and Welfare Award
   <a href="https://www.bio-summit.org/jusyou.html">National High School Student Biology Summit Competition</a> (Japan)
   """
 
