@@ -65,9 +65,9 @@ date_format = "Jan 2006"
   date_start = "2022-01-10"
   date_end = ""
   description = """
-  * **2022-08-04** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.dbs.nus.edu.sg/wp-content/uploads/sites/7/2022/08/ASAS-program-booklet-Web.pdf">Amgen Scholars Asia Symposium</a> (Singapore, Poster)
-  * **2020-07-28** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.animalbehaviorsociety.org/2020-virtual/program-full.php">Animal Behavior Society</a> (USA, Oral)
-  * **2020-09-16** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www2.aeplan.co.jp/bsj2020/english/index.html">Biophysical Society of Japan</a> (Japan, Poster)
+  * **2022-08-04** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Amgen Scholars Asia Symposium</a> (Singapore, <a href="https://drive.google.com/file/d/12YTY_7T59ulM1oejuhqcQbREXIcBKJ_2/view?usp=sharing">Poster</a>)
+  * **2020-07-28** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://drive.google.com/file/d/1k7zVLcHGKyaJccKhNUnBkV3zErXhjgui/view?usp=sharing">Animal Behavior Society</a> (USA, Oral)
+  * **2020-09-16** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://drive.google.com/file/d/1JZ_QaI9jZCDhGZsxKOzLGnDE6LbY-ED8/view?usp=sharing">Biophysical Society of Japan</a> (Japan, Poster)
   """
 
 [[item]]
