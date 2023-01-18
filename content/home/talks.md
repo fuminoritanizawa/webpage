@@ -66,8 +66,8 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   * **2022-08-04** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Amgen Scholars Asia Symposium</a> (Singapore, <a href="https://drive.google.com/file/d/12YTY_7T59ulM1oejuhqcQbREXIcBKJ_2/view?usp=sharing">Poster</a>)
-  * **2020-07-28** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://drive.google.com/file/d/1k7zVLcHGKyaJccKhNUnBkV3zErXhjgui/view?usp=sharing">Animal Behavior Society</a> (USA, Oral)
-  * **2020-09-16** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://drive.google.com/file/d/1JZ_QaI9jZCDhGZsxKOzLGnDE6LbY-ED8/view?usp=sharing">Biophysical Society of Japan</a> (Japan, Poster)
+  * **2020-07-28** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Animal Behavior Society (USA, <a href="https://drive.google.com/file/d/1k7zVLcHGKyaJccKhNUnBkV3zErXhjgui/view?usp=sharing">Oral</a>)
+  * **2020-09-16** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Biophysical Society of Japan(Japan, <a href="https://drive.google.com/file/d/1JZ_QaI9jZCDhGZsxKOzLGnDE6LbY-ED8/view?usp=sharing">Poster</a>)
   """
 
 [[item]]
