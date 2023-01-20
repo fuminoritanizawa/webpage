@@ -60,7 +60,7 @@ date_format = "Jan 2006"
 [[item]]
   organization = "As of"
   organization_url = ""
-  title = "Presentations"
+  title = "Conference Presentations"
   url = ""
   date_start = "2022-01-10"
   date_end = ""
