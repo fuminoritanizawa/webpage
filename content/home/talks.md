@@ -95,7 +95,7 @@ date_format = "Jan 2006"
   * **2018-Present. &nbsp<a href="https://masason-foundation.org/en/cpt_testimonial/%E8%B0%B7%E6%BE%A4%E6%96%87%E7%A4%BC/">Masason Foundation</a>**<br>
   Selected as one of the most talented 51 young scholars under 25 years old in Japan by the foundation supported by Masayoshi Son, the CEO of <a href="https://www.softbank.jp/en/"> Softbank</a> ($35K max./year)
   * **2021-Present. &nbsp<a a href="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a>**<br>
-  Selected as a full scholarship recipient for a foundation supported by Tadashi Yanai, the CEO of <a href="https://www.uniqlo.com/us/en/"> Uniqlo</a> ($95K/year)
+  Selected as a full scholarship recipient for a foundation supported by Tadashi Yanai, the CEO of <a href="https://www.uniqlo.com/us/en/"> Uniqlo</a> ($110K/year)
   * **2021-2023. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.jmdavey.foundation/">John and Miyoko Davey Foundation</a>**<br>
   Selected as one of the most talented studying-abroad undergraduates in Japan by a foundation supported by Miyoko Davey, an art collector in New York City.
   """
