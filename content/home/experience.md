@@ -20,7 +20,7 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Research Program Scholar"
-  company = "Google Research"
+  company = "Google"
   company_url = "https://research.google/"
   location="Mountain View, California"
   date_start = "2023-01-01"
