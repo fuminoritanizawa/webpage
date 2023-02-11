@@ -19,6 +19,17 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "CS Research Mentorship Program"
+  company = "Google"
+  company_url = "https://research.google/outreach/csrmp/"
+  location="Mountain View, California"
+  date_start = "2023-01-01"
+  date_end = ""
+  description = """ 
+  Selected for the competitive CS Research Mentorship Program (CSRMP), providing career mentorship, peer-to-peer networking and support for students in computing research.
+  """
+
+[[experience]]
   title = "Summer Research Internship"
   company = "National University of Singapore"
   company_url = "https://www.nus.edu.sg/"
@@ -28,7 +39,6 @@ date_format = "Jan 2006"
   description = """ 
   Selected for the <a href="https://amgenscholars.com/university/national-university-of-singapore/" target="_blank">Amgen Scholars Program</a> to work with <a href="https://lepdata.org/monteiro/" target="_blank">Prof. Antonia Monteiro</a>'s team on an evolutionary developmental analysis of food odor preference and its genetics in *Bicyclus anynana*.
   """
-  icon = "fas fa-graduation-cap"
   
 [[experience]]
   title = "Research Assistant"
