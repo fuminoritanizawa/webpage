@@ -20,8 +20,8 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "CS Research Mentorship Program"
-  company = "Google"
-  company_url = "https://research.google/outreach/csrmp/"
+  company = "Google Research"
+  company_url = "https://research.google/"
   location="Mountain View, California"
   date_start = "2023-01-01"
   date_end = ""
