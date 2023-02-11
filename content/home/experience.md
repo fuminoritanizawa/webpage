@@ -27,8 +27,9 @@ date_format = "Jan 2006"
   date_end = "2022-08-07"
   description = """ 
   Selected for the <a href="https://amgenscholars.com/university/national-university-of-singapore/" target="_blank">Amgen Scholars Program</a> to work with <a href="https://lepdata.org/monteiro/" target="_blank">Prof. Antonia Monteiro</a>'s team on an evolutionary developmental analysis of food odor preference and its genetics in *Bicyclus anynana*.
-  icon = "fas fa-graduation-cap"
   """
+  icon = "fas fa-graduation-cap"
+  
 [[experience]]
   title = "Research Assistant"
   company = "Harvey Mudd College"
