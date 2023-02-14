@@ -20,13 +20,13 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Research Program Scholar"
-  company = "Google"
+  company = "Google LLC"
   company_url = "https://research.google/"
   location="Mountain View, California"
   date_start = "2023-01-01"
   date_end = ""
   description = """ 
-  Selected for the competitive CS Research Mentorship Program (Google-CSRMP), providing career mentorship, peer-to-peer networking and support for students in computing research.
+  Selected for Google's competitive CS Research Mentorship Program (Google-CSRMP) to collaborate on innovative projects, receive career mentorship, and connect with peers in computing research.
   """
 
 [[experience]]
