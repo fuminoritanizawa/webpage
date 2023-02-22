@@ -79,9 +79,9 @@ user_groups:
 ---
 Fumi is a passionate undergraduate studying Computational Biology at Harvey Mudd College in California, with a keen interest in molecular and evolutionary genetics. 
 
-He actively engages in <a href="#experience">research</a> to enhance his understanding of the field, having worked with renowned professors at institutions such as the National University of Singapore (Prof. <a href="https://lepdata.org/monteiro/">Antonia Monteiro</a>), Harvey Mudd College (Prof. <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/">Jae Hur</a>), and Shizuoka University (Prof. <a href="https://green.shizuoka.ac.jp/staff_en/166/">Hiroyuki Takemoto</a>) (his <a href="#featured">Publications</a>). 
+He actively engages in <a href="#experience">research</a> to enhance his understanding of the field, having worked with renowned professors at institutions such as the National University of Singapore (Prof. <a href="https://lepdata.org/monteiro/">Antonia Monteiro</a>), Harvey Mudd College (Prof. <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/">Jae Hur</a>), and Shizuoka University (Prof. <a href="https://green.shizuoka.ac.jp/staff_en/166/">Hiroyuki Takemoto</a>) (his publications are <a href="#featured">here</a>!). 
 
-Fumi's upbringing in Tokyo, London, and Los Angeles has honed his ability to adapt to different cultures, and he is fluent in both English and Japanese. He values passion, patience, and adaptability and enjoys a variety of activities, including gym-going, coffee-drinking, and scuba diving, which you can see in his <a href="#slider">gallery</a>!
+Fumi's upbringing in Tokyo, London, and Los Angeles has honed his ability to adapt to different cultures, and he is fluent in both English and Japanese. He values passion, patience, and adaptability and enjoys a variety of activities, including gym-going, coffee-drinking, and scuba diving. Please visit his <a href="#slider">gallery</a> to behold pictures of his divings!
 <br>
 
 # Education
