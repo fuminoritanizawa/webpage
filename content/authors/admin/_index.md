@@ -77,12 +77,11 @@ user_groups:
 - Researchers
 - Visitors
 ---
-Fumi is an ambitious and passionate undergraduate majoring in Computational Biology at Harvey Mudd College in California. He possesses a scholarly interest in both molecular and evolutionary genetics and actively engages in <a href="#experience">research</a> to enhance his understanding in this field.
+Fumi is a passionate undergraduate studying Computational Biology at Harvey Mudd College in California, with a keen interest in molecular and evolutionary genetics. 
 
-Through various research endeavors at renowned institutions such as the National University of Singapore with Professor <a href="https://lepdata.org/monteiro/">Antonia Monteiro</a>, Harvey Mudd College with Professor <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/">Jae Hur</a>, and Shizuoka University with Professor <a href="https://green.shizuoka.ac.jp/staff_en/166/">Hiroyuki Takemoto</a>, Fumi has acquired a wealth of knowledge and expertise in molecular genetics, evolutionary development, and behavioral biology. (<a href="#featured">Publications</a>)
+He actively engages in <a href="#experience">research</a> to enhance his understanding of the field, having worked with renowned professors at institutions such as the National University of Singapore (Prof. <a href="https://lepdata.org/monteiro/">Antonia Monteiro</a>), Harvey Mudd College (Prof. <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/">Jae Hur</a>), and Shizuoka University (Prof. <a href="https://green.shizuoka.ac.jp/staff_en/166/">Hiroyuki Takemoto</a>) (his <a href="#featured">Publications</a>). 
 
-Fumi's upbringing in diverse cultural environments of Tokyo, London, and Los Angeles has honed his unique ability to adapt to different cultures, and he is fluent in both English and Japanese. He values passion, patience, and adaptability in himself, and in his leisure time, he derives pleasure from a plethora of activities such as gym-going, coffee-drinking, and scuba diving. Please visit his <a href="#slider">gallery</a> to behold pictures of his scuba diving experiences!
-
+Fumi's upbringing in Tokyo, London, and Los Angeles has honed his ability to adapt to different cultures, and he is fluent in both English and Japanese. He values passion, patience, and adaptability and enjoys a variety of activities, including gym-going, coffee-drinking, and scuba diving, which you can see in his <a href="#slider">gallery</a>!
 <br>
 
 # Education
