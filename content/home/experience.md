@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   date_start = "2023-01-01"
   date_end = ""
   description = """ 
-  Selected for Google's competitive CS Research Mentorship Program (Google-CSRMP) to collaborate on innovative projects, receive career mentorship, and connect with peers in computing research.
+  Selected for Google's CS Research Mentorship Program (Google-CSRMP) to collaborate on research projects, receive career mentorship, and connect with peers in computing research.
   """
 
 [[experience]]
