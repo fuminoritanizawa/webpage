@@ -18,16 +18,6 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
-[[experience]]
-  title = "Research Program Scholar"
-  company = "Google"
-  company_url = "https://research.google/"
-  location="Mountain View, California"
-  date_start = "2023-01-01"
-  date_end = ""
-  description = """ 
-  Selected for Google's CS Research Mentorship Program (Google-CSRMP) to collaborate on research projects, receive career mentorship, and connect with peers in computing research.
-  """
 
 [[experience]]
   title = "Summer Research Internship"
