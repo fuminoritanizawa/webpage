@@ -18,6 +18,16 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
+[[experience]]
+  title = "CS Research Mentorship Program"
+  company = "Google Research"
+  company_url = ""
+  location="Online"
+  date_start = "2023-01-01"
+  date_end = ""
+  description = """ 
+  Participated in the Google CS Research Mentorship Program, working remotely on a 12-week research project with Google researchers and developing computer science skills. 
+  """
 
 [[experience]]
   title = "Summer Research Internship"
