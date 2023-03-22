@@ -21,7 +21,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "CS Research Mentorship Program"
   company = "Google Research"
-  company_url = ""
+  company_url = "https://research.google"
   location="Online"
   date_start = "2023-01-01"
   date_end = ""
