@@ -100,4 +100,4 @@ In my high school years, I worked at Shizuoka University on the behavioral biolo
 </ul>
 
 # What's new
-Thrilled to announce that I have secured a summer internship at the  <a href="https://www.srinivasanlab.org/">Srinivasan Lab</a>, part of <a href="https://www.scripps.edu/">Scripps Research Institution</a> in San Diego. I'll be contributing to research on metabolic regulation and nervous systems in C. elegans!
+Thrilled to announce that I have secured a summer 2023 internship at the  <a href="https://www.srinivasanlab.org/">Srinivasan Lab</a>, part of <a href="https://www.scripps.edu/">Scripps Research Institution</a> in San Diego. I'll be contributing to research on metabolic regulation and nervous systems in C. elegans!
