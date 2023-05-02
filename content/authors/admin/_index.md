@@ -86,14 +86,6 @@ In my high school years, I worked at Shizuoka University on the behavioral biolo
 
 # Education
 <ul class="ul-edu fa-ul">
-    <!-- <li>
-    <i class="fa-li fas fa-graduation-cap"></i>
-    <div class="description">
-        <p class="course">Doctor of Philosophy (Pursuing)</p>
-        <p class="institution"> <a href="https://www.gatsby.ucl.ac.uk/"> University College London, Gatsby Computational Neuroscience Unit </a> </p>
-        <p class="detail"> Supervised by Prof. <a href="http://www.gatsby.ucl.ac.uk/~gretton/"> Arthur Gretton </a> </p>
-    </div>
-    </li> -->
     <li>
     <i class="fa-li fas fa-graduation-cap"></i>
     <div class="description">
@@ -105,15 +97,8 @@ In my high school years, I worked at Shizuoka University on the behavioral biolo
         Selected Coursework: Molecular Genetics, Developmental Biology, Mathematical and Computational Biology, Data Structures/Program Development, Differential Equations, Environmental Analysis</p></small>
     </div>
     </li>
+</ul>
 
 # What's new
  I'm thrilled to announce that I have secured a summer internship at the  <a href="https://www.srinivasanlab.org/">Srinivasan Lab</a>, part of <a href="https://www.scripps.edu/">Scripps Research Institution</a> in San Diego. During my time there, I'll be contributing to research on metabolic regulation and nervous systems in C. elegans!
 
-    <!-- <li>
-    <i class="fa-li fas fa-graduation-cap"></i>
-    <div class="description">
-        <p class="course">Bachelor of Engineering (2017)</p>
-        <p class="institution"> <a href="https://www.keisu.t.u-tokyo.ac.jp/en/index/"> University of Tokyo, Department of Mathematical Engineering and Information Physics</a> </p>
-    </div>
-    </li> -->
-</ul>
