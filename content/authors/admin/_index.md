@@ -105,6 +105,10 @@ In my high school years, I worked at Shizuoka University on the behavioral biolo
         Selected Coursework: Molecular Genetics, Developmental Biology, Mathematical and Computational Biology, Data Structures/Program Development, Differential Equations, Environmental Analysis</p></small>
     </div>
     </li>
+
+# What's new
+ I'm thrilled to announce that I have secured a summer internship at the  <a href="https://www.srinivasanlab.org/">Srinivasan Lab</a>, part of <a href="https://www.scripps.edu/">Scripps Research Institution</a> in San Diego. During my time there, I'll be contributing to research on metabolic regulation and nervous systems in C. elegans!
+
     <!-- <li>
     <i class="fa-li fas fa-graduation-cap"></i>
     <div class="description">
