@@ -77,7 +77,7 @@ user_groups:
 - Researchers
 - Visitors
 ---
-Hey there! I'm Fumi, an undergraduate student studying Computational Biology at Harvey Mudd College in California. I am interested in molecular and evolutionary genetics. 
+Hey there! I'm Fumi, an undergraduate student studying Computational Biology at Harvey Mudd College in California. My current focus is on understanding the molecular and genomic mechanisms behind environmental stress responses, with a particular interest in longevity-related processes.
 
 In my high school years, I worked at Shizuoka University on the behavioral biology of drosophila meagosters (<a href="https://www.nature.com/articles/s41598-021-88967-1">Tanizawa and Takemoto, 2021</a>). I also had a research experience on the developmental evolution of African butterflies at the National University of Singapore advised by Professor Antonia Monteiro.
 
@@ -94,7 +94,7 @@ In my high school years, I worked at Shizuoka University on the behavioral biolo
         <small><p class="detail"> 
         Supervisor: <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/">Prof. Jae Hur  </a>. 
         <br>
-        Selected Coursework: Molecular Genetics, Developmental Biology, Mathematical and Computational Biology, Data Structures/Program Development, Differential Equations, Environmental Analysis</p></small>
+        Selected Coursework: Molecular Genetics, Developmental Biology, Mathematical and Computational Biology, Data Structures/Program Development, Environmental Analysis</p></small>
     </div>
     </li>
 </ul>
