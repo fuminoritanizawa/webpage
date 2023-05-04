@@ -81,7 +81,7 @@ Hey there! I'm Fumi, an undergraduate student studying Computational Biology at 
 
 In my high school years, I worked at Shizuoka University on the behavioral biology of drosophila meagosters (<a href="https://www.nature.com/articles/s41598-021-88967-1">Tanizawa and Takemoto, 2021</a>). I also had a research experience on the developmental evolution of African butterflies at the National University of Singapore advised by Professor Antonia Monteiro.
 
- Currently, I am working on the molecular genetics of aging on drosophila at Harvey Mudd College. If you have any questions or would like to connect, feel free to contact me via email or Twitter!
+ Currently, I am working on the molecular genetics of aging on drosophila at Harvey Mudd College. Feel free to contact me via email or Twitter!
 <br>
 
 # Education
