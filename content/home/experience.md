@@ -19,6 +19,15 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Summer Research Internship"
+  company = "Scripps Research Institute"
+  company_url = "https://www.srinivasanlab.org"
+  location="San Diego, California"
+  date_start = "2023-05-22"
+  date_end = ""
+  description = "On-going"
+
+[[experience]]
   title = "CS Research Mentorship Program"
   company = "Google Research"
   company_url = "https://research.google"
