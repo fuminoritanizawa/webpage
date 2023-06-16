@@ -80,7 +80,13 @@ user_groups:
 - Drosophila
 - Biologist
 ---
-Hello! I'm Fumi, a Computational Biology student from Harvey Mudd. My passion is in unraveling the genetic mechanisms of animal adaptation to environmental stress, particularly in longevity studies. My journey so far includes decoding fruit fly genetics, tracing butterfly evolution, and exploring C. elegans' neuroscience. Always on the lookout for exciting learning opportunities!
+Hello! I'm Fumi, a Computational Biology student from Harvey Mudd. 
+
+My passion is in unraveling the genetic mechanisms of animal adaptation to environmental stress, particularly in longevity studies. 
+
+My journey so far includes decoding fruit fly genetics, tracing butterfly evolution, and exploring C. elegans' neuroscience. 
+
+Always on the lookout for exciting learning opportunities!
 <br>
 
 # Education
@@ -96,4 +102,4 @@ Hello! I'm Fumi, a Computational Biology student from Harvey Mudd. My passion is
 </ul>
 
 # What's new
-Thrilled to announce that I have secured a summer 2023 internship at the  <a href="https://www.srinivasanlab.org/">Srinivasan Lab</a>, part of <a href="https://www.scripps.edu/">Scripps Research Institution</a> in San Diego. I'll be contributing to research on reverse genetics of nervous systems in C. elegans, using rescue cloning and transgenetic animals!
+Thrilled to announce my summer 2023 internship at the  <a href="https://www.srinivasanlab.org/">Srinivasan Lab</a>, part of <a href="https://www.scripps.edu/">Scripps Research Institution</a> in San Diego. Research on reverse genetics of nervous systems in C. elegans, using rescue cloning and transgenetic animals!
