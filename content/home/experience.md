@@ -46,7 +46,9 @@ date_format = "Jan 2006"
   location = "Claremont, California"
   date_start = "2021-12-01"
   date_end = ""
-  description = "Embarking on a molecular genetic research project focused on *Drosophila melanogaster* longevity with [Prof. Jae Hur's](https://www.hmc.edu/biology/faculty-staff/jae-hur/) team since freshman year."
+  description = """
+  - Embarking on a molecular genetic research project focused on *Drosophila melanogaster* longevity with [Prof. Jae Hur's](https://www.hmc.edu/biology/faculty-staff/jae-hur/) team since freshman year.
+  """
 
 [[experience]]
   title = "Undergraduate Research Assistant"
@@ -55,7 +57,9 @@ date_format = "Jan 2006"
   location = "Claremont, California"
   date_start = "2021-09-01"
   date_end = "2022-02-01"
-  description = "Undertook a biophysical research project modeling both hardware and software aspects of *Conus marmoreus* injection latch, working closely with [Prof. Mark Ilton's](https://posmlab.org/) team."
+  description = """
+  - Undertook a biophysical research project modeling both hardware and software aspects of *Conus marmoreus* injection latch, working closely with [Prof. Mark Ilton's](https://posmlab.org/) team.
+  """
 
 [[experience]]
   title = "High-school Research Assistant"
