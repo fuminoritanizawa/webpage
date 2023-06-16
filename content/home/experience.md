@@ -49,7 +49,7 @@ date_format = "Jan 2006"
   description = "Embarking on a molecular genetic research project focused on *Drosophila melanogaster* longevity with [Prof. Jae Hur's](https://www.hmc.edu/biology/faculty-staff/jae-hur/) team since freshman year."
 
 [[experience]]
-  title = "Research Assistant"
+  title = "Undergraduate Research Assistant"
   company = "Harvey Mudd College"
   company_url = "https://www.hmc.edu/"
   location = "Claremont, California"
@@ -58,7 +58,7 @@ date_format = "Jan 2006"
   description = "Undertook a biophysical research project modeling both hardware and software aspects of *Conus marmoreus* injection latch, working closely with [Prof. Mark Ilton's](https://posmlab.org/) team."
 
 [[experience]]
-  title = "Research Scholar"
+  title = "High-school Research Assistant"
   company = "Shizuoka University"
   company_url = "https://www.shizuoka.ac.jp/english/"
   location = "Shizuoka, Japan"
@@ -70,5 +70,4 @@ date_format = "Jan 2006"
   - Published a [paper](https://www.nature.com/articles/s41598-021-88967-1) as the first author in *Scientific Reports*.
   - Presented [oral presentation](https://www.animalbehaviorsociety.org/2020-virtual/program-full.php) at the Animal Behavioral Society.
   """
-
 +++

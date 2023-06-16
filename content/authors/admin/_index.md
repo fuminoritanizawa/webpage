@@ -69,13 +69,16 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "ftanizawa@hmc.edu"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
-- Visitors
+- Neuroscientist
+- Researcher
+- Celegans
+- Drosophila
+- Biologist
 ---
 Hello! I'm Fumi, a Computational Biology student from Harvey Mudd. My passion is in unraveling the genetic mechanisms of animal adaptation to environmental stress, particularly in longevity studies. My journey so far includes decoding fruit fly genetics, tracing butterfly evolution, and exploring C. elegans' neuroscience. Always on the lookout for exciting learning opportunities!
 <br>
@@ -88,7 +91,6 @@ Hello! I'm Fumi, a Computational Biology student from Harvey Mudd. My passion is
         <p class="course"> BS -- Computational Biology (Expected in 2025)</p>
         <p class="institution"> <a href="https://www.hmc.edu/">Harvey Mudd College (Claremont, CA)</a> </p>
         <small><p class="detail"> 
-        Supervisor: <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/">Prof. Jae Hur  </a> 
     </div>
     </li>
 </ul>
