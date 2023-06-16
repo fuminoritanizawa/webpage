@@ -25,9 +25,7 @@ date_format = "Jan 2006"
   location="Online"
   date_start = "2023-01-01"
   date_end = ""
-  description = """ 
-  Participated in the Google CS Research Mentorship Program, working remotely on a 12-week research project with Google researchers and developing computer science skills. 
-  """
+  description = "Collaborating in a cutting-edge mentorship program that fosters learning and development in computational biology."
 
 [[experience]]
   title = "Summer Research Internship"
@@ -37,18 +35,18 @@ date_format = "Jan 2006"
   date_start = "2022-05-23"
   date_end = "2022-08-07"
   description = """ 
-  Selected for the <a href="https://amgenscholars.com/university/national-university-of-singapore/" target="_blank">Amgen Scholars Program</a> to work with <a href="https://lepdata.org/monteiro/" target="_blank">Prof. Antonia Monteiro</a>'s team on an evolutionary developmental analysis of food odor preference and its genetics in *Bicyclus anynana*.
+  - Earned a spot in the prestigious [Amgen Scholars Program](https://amgenscholars.com/university/national-university-of-singapore/).
+  - Contributed to [Prof. Antonia Monteiro's](https://lepdata.org/monteiro/) team, performing evolutionary developmental analysis of food odor preference and its genetics in *Bicyclus anynana*.
   """
   
 [[experience]]
-  title = "Research Assistant"
+  title = "Undergraduate Research Assistant"
   company = "Harvey Mudd College"
   company_url = "https://www.hmc.edu/"
   location = "Claremont, California"
   date_start = "2021-12-01"
   date_end = ""
-  description = """Developed a molecular genetic research project on the longevity of *Drosophila melanogaster* in collaboration with <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/">Prof. Jae Hur</a>'s team since my freshman year.
-  """
+  description = "Embarking on a molecular genetic research project focused on *Drosophila melanogaster* longevity with [Prof. Jae Hur's](https://www.hmc.edu/biology/faculty-staff/jae-hur/) team since freshman year."
 
 [[experience]]
   title = "Research Assistant"
@@ -57,8 +55,7 @@ date_format = "Jan 2006"
   location = "Claremont, California"
   date_start = "2021-09-01"
   date_end = "2022-02-01"
-  description = """Developed a biophysical research project on the modeling of the hardware and software aspects of *Conus marmoreus* injection latch in collaboration with <a href="https://posmlab.org/">Prof. Mark Ilton</a>'s team.
-  """
+  description = "Undertook a biophysical research project modeling both hardware and software aspects of *Conus marmoreus* injection latch, working closely with [Prof. Mark Ilton's](https://posmlab.org/) team."
 
 [[experience]]
   title = "Research Scholar"
@@ -67,6 +64,11 @@ date_format = "Jan 2006"
   location = "Shizuoka, Japan"
   date_start = "2018-07-01"
   date_end = "2021-03-31"
-  description = """Selected for a high school student research <a href="https://www.jst.go.jp/cpse/gsc/about/index_english.html">grant</a> from the <a href="https://www.jst.go.jp/EN/">Japan Science and Technology Agency</a>, conducted individual research on *Drosophila  melanogaster* behavior in collaboration with <a href="https://green.shizuoka.ac.jp/staff_en/166/">Prof. Hiroyuki Takemoto</a> of Shizuoka University, published a <a href="https://www.nature.com/articles/s41598-021-88967-1">paper</a> in *Scientific Reports* as the first author, and gave an <a href="https://www.animalbehaviorsociety.org/2020-virtual/program-full.php">oral presentation</a> at the Animal Behavioral Society.
+  description = """
+  - Received a high school student research [grant](https://www.jst.go.jp/cpse/gsc/about/index_english.html) from the [Japan Science and Technology Agency](https://www.jst.go.jp/EN/).
+  - Conducted independent research on *Drosophila melanogaster* behavior with [Prof. Hiroyuki Takemoto](https://green.shizuoka.ac.jp/staff_en/166/) at Shizuoka University.
+  - Published a [paper](https://www.nature.com/articles/s41598-021-88967-1) as the first author in *Scientific Reports*.
+  - Presented [oral presentation](https://www.animalbehaviorsociety.org/2020-virtual/program-full.php) at the Animal Behavioral Society.
   """
+
 +++

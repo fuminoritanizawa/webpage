@@ -77,11 +77,7 @@ user_groups:
 - Researchers
 - Visitors
 ---
-Hey there! I'm Fumi, an undergraduate student studying Computational Biology at Harvey Mudd College in California. My current focus is on understanding the molecular and genomic mechanisms behind environmental stress responses, with a particular interest in longevity-related processes.
-
-In my high school years, I worked at Shizuoka University on the behavioral biology of drosophila meagosters (<a href="https://www.nature.com/articles/s41598-021-88967-1">Tanizawa and Takemoto, 2021</a>). I also had a research experience on the developmental evolution of African butterflies at the National University of Singapore advised by Professor Antonia Monteiro.
-
- Currently, I am working on the molecular genetics of aging on drosophila at Harvey Mudd College. Feel free to contact me via email or Twitter!
+Hello! I'm Fumi, a Computational Biology student from Harvey Mudd. My passion is in unraveling the genetic mechanisms of animal adaptation to environmental stress, particularly in longevity studies. My journey so far includes decoding fruit fly genetics, tracing butterfly evolution, and exploring C. elegans' neuroscience. Always on the lookout for exciting learning opportunities!
 <br>
 
 # Education
@@ -89,15 +85,13 @@ In my high school years, I worked at Shizuoka University on the behavioral biolo
     <li>
     <i class="fa-li fas fa-graduation-cap"></i>
     <div class="description">
-        <p class="course"> BS in Computational Biology (Expected in 2025)</p>
+        <p class="course"> BS -- Computational Biology (Expected in 2025)</p>
         <p class="institution"> <a href="https://www.hmc.edu/">Harvey Mudd College (Claremont, CA)</a> </p>
         <small><p class="detail"> 
-        Supervisor: <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/">Prof. Jae Hur  </a>. 
-        <br>
-        Selected Coursework: Molecular Genetics, Developmental Biology, Mathematical and Computational Biology, Data Structures/Program Development, Environmental Analysis</p></small>
+        Supervisor: <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/">Prof. Jae Hur  </a> 
     </div>
     </li>
 </ul>
 
 # What's new
-Thrilled to announce that I have secured a summer 2023 internship at the  <a href="https://www.srinivasanlab.org/">Srinivasan Lab</a>, part of <a href="https://www.scripps.edu/">Scripps Research Institution</a> in San Diego. I'll be contributing to research on metabolic regulation and nervous systems in C. elegans!
+Thrilled to announce that I have secured a summer 2023 internship at the  <a href="https://www.srinivasanlab.org/">Srinivasan Lab</a>, part of <a href="https://www.scripps.edu/">Scripps Research Institution</a> in San Diego. I'll be contributing to research on reverse genetics of nervous systems in C. elegans, using rescue cloning and transgenetic animals!
