@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   company_url = "https://www.srinivasanlab.org"
   location="San Diego, California"
   date_start = "2023-05-22"
-  date_end = ""
+  date_end = "2023-08-22"
   description = """
 - Developed tissue-specific rescue constructs to investigate the role of a gene of interest. Skills utilized included: designing plasmids using SnapGene and WormBase, PCR, gel extraction, Gibson assembly, competent cell transformation, and miniprep.
 - Engineered a global knockout of a lab-interest gene, involving the deletion of all six exons (approximately 3,500 base pairs). Skills utilized included: designing appropriate sgRNA and PAM, creating a repair template with an EcoRI cutting site, and developing a screening strategy using Co-CRISPR with the dpy-10 gene (dpy/rol phenotype marker).
@@ -39,7 +39,7 @@ date_format = "Jan 2006"
   location="Online"
   date_start = "2023-01-01"
   date_end = ""
-  description = "Collaborating in a cutting-edge mentorship program that fosters learning and development in computational biology."
+  description = ""
 
 [[experience]]
   title = "Summer Research Internship"
