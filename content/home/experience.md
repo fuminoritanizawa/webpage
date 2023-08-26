@@ -26,13 +26,10 @@ date_format = "Jan 2006"
   date_start = "2023-05-22"
   date_end = ""
   description = """
-- Developed tissue-specific rescue constructs for a gene of interest to investigate its role. Skills utilized include: 
-  - Cloning: Designed plasmids using SnapGene and WormBase, performed PCR, gel extraction, Gibson assembly, competent cell transformation, and miniprep.
-- Engineered a global knockout of a lab-interest gene, involving the deletion of all six exons (approximately 3,500 base pairs). Skills utilized include:
-  - CRISPR-Cas9 Design: Selected appropriate sgRNA and PAM, designed a repair template with EcoRI cutting site, and developed a screening strategy using Co-CRISPR with the dpy-10 gene (dpy/rol phenotype marker).
-- Created a worm strain by crossing a gene mutation line with a rescue construct line of the gene of interest labeled with green fluorescent protein. Skills utilized include:
-  - Genetic Crosses: Conducted worm crossing, genotyping, and microscopy with green fluorescent protein.
-- Performed imaging of NeuroPAL line and GFP crossed product worms using an A1 Confocal Microscope.
+- Developed tissue-specific rescue constructs to investigate the role of a gene of interest. Skills utilized included: designing plasmids using SnapGene and WormBase, PCR, gel extraction, Gibson assembly, competent cell transformation, and miniprep.
+- Engineered a global knockout of a lab-interest gene, involving the deletion of all six exons (approximately 3,500 base pairs). Skills utilized included: designing appropriate sgRNA and PAM, creating a repair template with an EcoRI cutting site, and developing a screening strategy using Co-CRISPR with the dpy-10 gene (dpy/rol phenotype marker).
+- Created a worm strain by crossing a gene mutation line with a rescue construct line of the gene of interest labeled with green fluorescent protein. Skills utilized included: worm crossing, genotyping, and fluorescence microscopy with green fluorescent protein.
+- Performed imaging of NeuroPAL line and GFP-crossed product worms using an A1 Confocal Microscope.
   """
 
 [[experience]]
