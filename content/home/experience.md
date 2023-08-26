@@ -25,7 +25,15 @@ date_format = "Jan 2006"
   location="San Diego, California"
   date_start = "2023-05-22"
   date_end = ""
-  description = "On-going"
+  description = """
+- Developed tissue-specific rescue constructs for a gene of interest to investigate its role. Skills utilized include: 
+  - Cloning: Designed plasmids using SnapGene and WormBase, performed PCR, gel extraction, Gibson assembly, competent cell transformation, and miniprep.
+- Engineered a global knockout of a lab-interest gene, involving the deletion of all six exons (approximately 3,500 base pairs). Skills utilized include:
+  - CRISPR-Cas9 Design: Selected appropriate sgRNA and PAM, designed a repair template with EcoRI cutting site, and developed a screening strategy using Co-CRISPR with the dpy-10 gene (dpy/rol phenotype marker).
+- Created a worm strain by crossing a gene mutation line with a rescue construct line of the gene of interest labeled with green fluorescent protein. Skills utilized include:
+  - Genetic Crosses: Conducted worm crossing, genotyping, and microscopy with green fluorescent protein.
+- Performed imaging of NeuroPAL line and GFP crossed product worms using an A1 Confocal Microscope.
+  """
 
 [[experience]]
   title = "CS Research Mentorship Program"
