@@ -26,10 +26,10 @@ date_format = "Jan 2006"
   date_start = "2023-05-22"
   date_end = "2023-08-22"
   description = """
-- Developed tissue-specific rescue constructs to investigate the role of a gene of interest. Skills utilized included: designing plasmids using SnapGene and WormBase, PCR, gel extraction, Gibson assembly, competent cell transformation, and miniprep.
-- Engineered a global knockout of a lab-interest gene, involving the deletion of all six exons (approximately 3,500 base pairs). Skills utilized included: designing appropriate sgRNA and PAM, creating a repair template with an EcoRI cutting site, and developing a screening strategy using Co-CRISPR with the dpy-10 gene (dpy/rol phenotype marker).
-- Created a worm strain by crossing a gene mutation line with a rescue construct line of the gene of interest labeled with green fluorescent protein. Skills utilized included: worm crossing, genotyping, and fluorescence microscopy with green fluorescent protein.
-- Performed imaging of NeuroPAL line and GFP-crossed product worms using an A1 Confocal Microscope.
+- Developed tissue-specific rescue constructs to investigate the role of a gene of interest. **Skills:** designing plasmids using SnapGene and WormBase, PCR, gel extraction, Gibson assembly, competent cell transformation, and miniprep.
+- Engineered a global knockout of a lab-interest gene, involving the deletion of all six exons (approximately 3,500 base pairs). **Skills:** designing appropriate sgRNA and PAM, creating a repair template with an EcoRI cutting site, and developing a screening strategy using Co-CRISPR with the dpy-10 gene (dpy/rol phenotype marker).
+- Created a worm strain by crossing a gene mutation line with a rescue construct line of the gene of interest labeled with green fluorescent protein. **Skills:** worm crossing, genotyping, and fluorescence microscopy with green fluorescent protein.
+- Performed imaging of NeuroPAL line and GFP-crossed product worms using an A1 Confocal Microscope.**Skills:** confocal microscopy imaging with multiple laser channels.
   """
 
 [[experience]]
@@ -49,8 +49,8 @@ date_format = "Jan 2006"
   date_start = "2022-05-23"
   date_end = "2022-08-07"
   description = """ 
-  - Earned a spot in the prestigious [Amgen Scholars Program](https://amgenscholars.com/university/national-university-of-singapore/).
-  - Contributed to [Prof. Antonia Monteiro's](https://lepdata.org/monteiro/) team, performing evolutionary developmental analysis of food odor preference and its genetics in *Bicyclus anynana*.
+  - Earned a spot in the [Amgen Scholars Program](https://amgenscholars.com/university/national-university-of-singapore/).
+  - Contributed to [Prof. Antonia Monteiro's](https://lepdata.org/monteiro/) team, performing evolutionary developmental analysis of food odor preference and its genetics in *Bicyclus anynana*. 
   """
   
 [[experience]]
