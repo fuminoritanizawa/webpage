@@ -30,7 +30,7 @@ date_format = "Jan 2006"
 - Engineered a global knockout of a lab-interest gene, involving the deletion of all six exons (approximately 3,500 base pairs). **Skills:** designing appropriate sgRNA and PAM, creating a repair template with an EcoRI cutting site, and developing a screening strategy using Co-CRISPR with the dpy-10 gene (dpy/rol phenotype marker).
 - Created a worm strain by crossing a gene mutation line with a rescue construct line of the gene of interest labeled with green fluorescent protein. **Skills:** worm crossing, genotyping, and fluorescence microscopy with green fluorescent protein.
 - Performed imaging of NeuroPAL line and GFP-crossed product worms using an A1 Confocal Microscope.**Skills:** confocal microscopy imaging with multiple laser channels.
-  """
+"""
 
 [[experience]]
   title = "CS Research Mentorship Program"
