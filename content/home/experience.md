@@ -93,6 +93,7 @@ date_format = "Jan 2006"
   date_start = "2018-07-01"
   date_end = "2021-03-31"
   description = """
+  Collaborated with Dr. Hiroyuki Takemoto at Shizuoka University on independent research, investigating the impact of sleep deprivation on feeding behaviros.
   - Awarded a high school research [grant](https://www.jst.go.jp/cpse/gsc/about/index_english.html) from the [Japan Science and Technology Agency](https://www.jst.go.jp/EN/); conducted research with Prof. Hiroyuki Takemoto at Shizuoka University.
   - Published a first-authored [paper](https://www.nature.com/articles/s41598-021-88967-1) in *Scientific Reports* and presented findings at the Animal Behavioral Society [conference](https://www.animalbehaviorsociety.org/2020-virtual/program-full.php).
   - Conducted a behavioral analysis of *Drosophila melanogaster*, investigating the effects of sleep deprivation on food odor preference using self-made devices.
