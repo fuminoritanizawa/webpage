@@ -26,7 +26,8 @@ date_format = "Jan 2006"
   date_start = "2023-05-22"
   date_end = "2023-08-22"
   description = """
-- Designed and cloned tissue-specific rescue constructs to examine the function of a targeted gene using Gibson Assembly.
+  Participated in [Professor Supriya Srinivasan's molecular neuroscience lab](https://www.srinivasanlab.org) focused on metabolism
+- Designed and cloned tissue-specific rescue constructs for *Caenorhabditis elegans* to examine the function of a targeted gene using Gibson Assembly.
 - Engineered a complete knockout of a gene of interest in the lab by deleting all six exons (approximately 3,500 base pairs), designing the necessary sgRNA and PAM, creating an EcoRI cutting site repair template, and developing a screening strategy using Co-CRISPR with the dpy-10 gene (dpy/rol phenotype marker).
 - Developed a worm strain by crossbreeding a gene mutation line with a rescue construct line of the targeted gene marked with green fluorescent protein (GFP).
 - Conducted imaging of NeuroPAL line and GFP-crossbred product worms using an A1 Confocal Microscope.
@@ -61,7 +62,9 @@ date_format = "Jan 2006"
   date_start = "2021-12-01"
   date_end = ""
   description = """
-  - Embarking on a molecular genetic research project focused on *Drosophila melanogaster* longevity with [Prof. Jae Hur's](https://www.hmc.edu/biology/faculty-staff/jae-hur/) team since freshman year.
+  Participated in [Professor Jae Hur's molecular biology lab](https://www.hmc.edu/biology/faculty-staff/hur/) focused on aging
+  - Investigated the impacts of health (via mating, diet, and hormesis) on mitochondrial protein degradation in *Drosophila melanogaster*
+  - Conducted RNA extraction, cDNA synthesis, qPCR, fluorescent and colorimetric enzymatic activity assays utilizing automated microplate readers, managed fly genetics and culture, induced stress, and assessed physiology, including longevity.
   """
 
 [[experience]]
