@@ -80,11 +80,12 @@ user_groups:
 - Drosophila
 - Biologist
 ---
-Fumi (Fuminori Tanizawa) is a Computational Biology undergraduate at Harvey Mudd College and originally from Tokyo, Japan. I have previously contributed to projects in molecular genetics, molecular neuroscience, and evolutionary biology at institutions such as Scripps Research (TSRI), National University of Singapore, Harvey Mudd College, and Shizuoka University. My ultimate aspiration is to work at the crossroads of molecular genetics and physiology to advance human health.
+Fumi (Fuminori Tanizawa), originally from Tokyo, Japan, is a Computational Biology undergraduate at Harvey Mudd College. I've worked on molecular genetics, neuroscience, and evolutionary biology projects at Scripps Research (TSRI), National University of Singapore, Harvey Mudd College, and Shizuoka University. I am driven to advance human health at the intersection of molecular genetics and physiology.
 
-My research experience includes working with *Drosophila melanogaster*, *Caenorhabditis elegans*, and *Bicyclus anynana*. Among many captivating fields, I am particularly intrigued by the engineering of genomics and their phenotypes. Beyond the lab, I am engrossed in the study of Mathematical and Computational Biology, taking pleasure in crafting differential logic behind biological phenomena and translating it into discrete computational binary using powerful computing resources.
+My experience includes working with *Drosophila melanogaster*, *Caenorhabditis elegans*, and *Bicyclus anynana*. Outside the lab, I am majoring in Mathematical and Computational Biology, and enjoy crafting differential logic behind biological phenomena and translating them into computational binary.
 
-As an enthusiast of coffee and plants, I delight in filling my room with the aromas of greenery and coffee. I am also passionate about skateboarding, cars, and diving. When it comes to cars, I enjoy staying updated on the latest models from various manufacturers. Additionally, I have a penchant for Japanese food and sweets, and can easily spend an entire day at H Mart.
+Lately, I delight in filling my room with the aromas of greenery and coffee. I also love cars and enjoy staying updated on the latest models from various manufacturers. As a penchant for Japanese food and sweets, I can easily spend an entire day at H Mart.
+
 <br>
 
 # Education
