@@ -80,13 +80,11 @@ user_groups:
 - Drosophila
 - Biologist
 ---
-Hello! I'm Fumi, a Computational Biology student from Harvey Mudd. 
+Fumi (Fuminori Tanizawa) is a Computational Biology undergraduate at Harvey Mudd College and originally from Tokyo, Japan. I have previously contributed to projects in molecular genetics, molecular neuroscience, and evolutionary biology at institutions such as Scripps Research (TSRI), National University of Singapore, Harvey Mudd College, and Shizuoka University. My ultimate aspiration is to work at the crossroads of molecular genetics and physiology to advance human health.
 
-My passion is in unraveling the genetic mechanisms of animal adaptation to environmental stress, particularly in longevity studies. 
+My research experience includes working with *Drosophila melanogaster*, *Caenorhabditis elegans*, and *Bicyclus anynana*. Among many captivating fields, I am particularly intrigued by the engineering of genomics and their phenotypes. Beyond the lab, I am engrossed in the study of Mathematical and Computational Biology, taking pleasure in crafting differential logic behind biological phenomena and translating it into discrete computational binary using powerful computing resources.
 
-My journey so far includes decoding fruit fly genetics, tracing butterfly evolution, and exploring *C. elegans*' neuroscience. 
-
-Always on the lookout for exciting learning opportunities!
+As an enthusiast of coffee and plants, I delight in filling my room with the aromas of greenery and coffee. I am also passionate about skateboarding, cars, and diving. When it comes to cars, I enjoy staying updated on the latest models from various manufacturers. Additionally, I have a penchant for Japanese food and sweets, and can easily spend an entire day at H Mart.
 <br>
 
 # Education
