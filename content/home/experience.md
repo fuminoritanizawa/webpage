@@ -78,7 +78,11 @@ date_format = "Jan 2006"
   date_start = "2021-09-01"
   date_end = "2022-02-01"
   description = """
-  - Undertook a biophysical research project modeling both hardware and software aspects of *Conus marmoreus* injection latch, working closely with [Prof. Mark Ilton's](https://posmlab.org/) team.
+  Collaborated with [Prof. Mark Ilton's team](https://posmlab.org) on a biophysical research project, modeling both hardware and software aspects of Conus marmoreus injection latch.
+  - Studied the mechanical characterization of elastic biological materials, crucial for animal locomotion, which exhibit a highly non-linear mechanical response and are rate-dependent due to complex dynamic relaxation processes.
+  - Conducted recoil experiments to characterize the high-rate, large deformation response of elastic materials, involving stretching a clamped material, measuring force and displacement, then releasing the material and measuring the recoil using high-speed videography.
+  - Analyzed the dynamics of elastic energy release to infer the high-rate and large deformation mechanical properties of the material.
+  - Contributed to ongoing efforts to develop a methodology for inferring mechanical properties from recoil experiments, enabling the characterization of elastic biological materials during ultrafast movement.
   """
 
 [[experience]]
@@ -93,5 +97,10 @@ date_format = "Jan 2006"
   - Conducted independent research on *Drosophila melanogaster* behavior with [Prof. Hiroyuki Takemoto](https://green.shizuoka.ac.jp/staff_en/166/) at Shizuoka University.
   - Published a [paper](https://www.nature.com/articles/s41598-021-88967-1) as the first author in *Scientific Reports*.
   - Presented [oral presentation](https://www.animalbehaviorsociety.org/2020-virtual/program-full.php) at the Animal Behavioral Society.
-  """
+
+- Awarded a high school research [grant](https://www.jst.go.jp/cpse/gsc/about/index_english.html) from the [Japan Science and Technology Agency](https://www.jst.go.jp/EN/); conducted research with Prof. Hiroyuki Takemoto at Shizuoka University.
+- Published a first-authored [paper](https://www.nature.com/articles/s41598-021-88967-1) in *Scientific Reports* and presented findings at the Animal Behavioral Society [conference](https://www.animalbehaviorsociety.org/2020-virtual/program-full.php).
+- Conducted a behavioral analysis of *Drosophila melanogaster*, investigating the effects of sleep deprivation on food odor preference using self-made devices.
+- The study contributes to understanding the interaction between sleep and neural disorders, offering a novel approach to investigating cognitive deficits towards novel stimuli.
+"""
 +++
