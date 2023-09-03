@@ -7,7 +7,7 @@ weight = 190  # Order that this section will appear.
 
 # Slide interval.
 # Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
-interval = 2000
+interval = 3000
 
 # Slide height (optional).
 # E.g. `500px` for 500 pixels or `calc(100vh - 70px)` for full screen.
@@ -16,14 +16,14 @@ height = "calc(100vh - 70px)"
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
-  title = "Scuba Diving"
-  content = "Fumi is certified as a PADI Advanced Diver:)"
+  title = "Srinivasan Lab"
+  content = "The Scripps Research Institue (La Jolla, CA, Summer 2023)"
   align = "left"  # Choose `center`, `left`, or `right`.
 
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
   overlay_color = "#666"  # An HTML color value.
-  overlay_img = "pic1.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "pic16.jpeg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 
   # Call to action button (optional).
@@ -43,23 +43,6 @@ height = "calc(100vh - 70px)"
 #  overlay_img = "pic15.jpg"  # Image path relative to your `static/img/` folder.
 #  overlay_filter = 0  # Darken the image. Value in range 0-1.
 
-[[item]]
-  title = "Scuba Diving"
-  content = "Fumi is certified as a PADI Advanced Diver:)"
-  align = "left"
-
-  overlay_color = "#333"  # An HTML color value.
-  overlay_img = "pic2.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0  # Darken the image. Value in range 0-1.
-
-  # Call to action button (optional).
-  #   Activate the button by specifying a URL and button label below.
-  #   Deactivate by commenting out parameters, prefixing lines with `#`.
-   cta_label = "View My Gallery"
-   cta_url = "https://vsco.co/fuminori-tanizawa/gallery"
-   cta_icon_pack = "fas"
-   cta_icon = "camera"
-
 # [[item]]
 #  title = "Scuba Diving!"
 #  content = "My buddies"
@@ -77,23 +60,6 @@ height = "calc(100vh - 70px)"
 #  overlay_color = "#555"  # An HTML color value.
 #  overlay_img = "pic3.jpg"  # Image path relative to your `static/img/` folder.
 #  overlay_filter = 0  # Darken the image. Value in range 0-1.
-
-[[item]]
-  title = "Scuba Diving"
-  content = "Fumi is certified as a PADI Advanced Diver:)"
-  align = "left"
-
-  overlay_color = "#333"  # An HTML color value.
-  overlay_img = "pic4.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0  # Darken the image. Value in range 0-1.
-
-  # Call to action button (optional).
-  #   Activate the button by specifying a URL and button label below.
-  #   Deactivate by commenting out parameters, prefixing lines with `#`.
-   cta_label = "View My Gallery"
-   cta_url = "https://vsco.co/fuminori-tanizawa/gallery"
-   cta_icon_pack = "fas"
-   cta_icon = "camera"
 
 # [[item]]
 #  title = "Scuba Diving!"
@@ -122,40 +88,6 @@ height = "calc(100vh - 70px)"
 #  overlay_img = "pic9.jpg"  # Image path relative to your `static/img/` folder.
 #  overlay_filter = 0  # Darken the image. Value in range 0-1.
 
-[[item]]
-  title = "Scuba Diving"
-  content = "Fumi is certified as a PADI Advanced Diver:)"
-  align = "left"
-
-  overlay_color = "#333"  # An HTML color value.
-  overlay_img = "pic6.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0  # Darken the image. Value in range 0-1.
-
-  # Call to action button (optional).
-  #   Activate the button by specifying a URL and button label below.
-  #   Deactivate by commenting out parameters, prefixing lines with `#`.
-   cta_label = "View My Gallery"
-   cta_url = "https://vsco.co/fuminori-tanizawa/gallery"
-   cta_icon_pack = "fas"
-   cta_icon = "camera"
-
-[[item]]
-  title = "Scuba Diving"
-  content = "Fumi is certified as a PADI Advanced Diver:)"
-  align = "left"
-
-  overlay_color = "#555"  # An HTML color value.
-  overlay_img = "pic7.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0  # Darken the image. Value in range 0-1.
-
-  # Call to action button (optional).
-  #   Activate the button by specifying a URL and button label below.
-  #   Deactivate by commenting out parameters, prefixing lines with `#`.
-   cta_label = "View My Gallery"
-   cta_url = "https://vsco.co/fuminori-tanizawa/gallery"
-   cta_icon_pack = "fas"
-   cta_icon = "camera"
-
 # [[item]]
 #  title = ""
 #  content = ""
@@ -182,23 +114,6 @@ height = "calc(100vh - 70px)"
 #  overlay_color = "#555"  # An HTML color value.
 #  overlay_img = "pic13.jpg"  # Image path relative to your `static/img/` folder.
 #  overlay_filter = 0  # Darken the image. Value in range 0-1.
-
-[[item]]
-  title = "Scuba Diving"
-  content = "Fumi is certified as a PADI Advanced Diver:)"
-  align = "left"
-
-  overlay_color = "#333"  # An HTML color value.
-  overlay_img = "pic14.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0  # Darken the image. Value in range 0-1.
-
-  # Call to action button (optional).
-  #   Activate the button by specifying a URL and button label below.
-  #   Deactivate by commenting out parameters, prefixing lines with `#`.
-   cta_label = "View My Gallery"
-   cta_url = "https://vsco.co/fuminori-tanizawa/gallery"
-   cta_icon_pack = "fas"
-   cta_icon = "camera"
 
 # [[item]]
 #  title = ""
