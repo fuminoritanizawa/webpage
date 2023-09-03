@@ -20,7 +20,7 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Summer Research Internship"
-  company = "Scripps Research Institute"
+  company = "The Scripps Research Institute"
   company_url = "https://www.srinivasanlab.org"
   location="San Diego, California"
   date_start = "2023-05-22"
@@ -40,7 +40,13 @@ date_format = "Jan 2006"
   location="Online"
   date_start = "2023-01-01"
   date_end = ""
-  description = ""
+  description = """
+  Participated in Google Research's CS Research Mentorship Program (CSRMP) aimed at supporting CS-related students in research.
+  - Engaged in group and one-on-one meetings with a Google mentor and peers to discuss various topics, including defining a research problem, applying to graduate school, navigating the publication process, and applying for postdoc/academia/industry positions.
+  - Participated in virtual networking events, career panels, tech talks, and information sessions about computing research opportunities.
+  - Collaborated with a small group of peers and a Google mentor to structure discussions and identify opportunities around key topics in computing research.
+  - Contributed to a broader peer community by participating in discussions and sharing experiences and perspectives to foster a supportive environment.
+  """
 
 [[experience]]
   title = "Summer Research Internship"
