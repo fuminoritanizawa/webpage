@@ -80,9 +80,9 @@ user_groups:
 - Drosophila
 - Biologist
 ---
-Fumi is an undergraduate at Harvey Mudd College and is originally from Tokyo. I've worked on molecular genetics, neuroscience, and evolutionary biology projects at Scripps Research (TSRI), National University of Singapore, Harvey Mudd College, and Shizuoka University. I am driven to advance human health at the intersection of molecular genetics and physiology.
+Fumi is an undergraduate at <a href="https://www.hmc.edu">Harvey Mudd College</a>, originally from Tokyo. I've worked on molecular genetics, neuroscience, and evolutionary biology projects at <a href="https://www.scripps.edu/faculty/srinivasan/">Scripps Research (TSRI)</a>, <a href="https://www.dbs.nus.edu.sg/staffs/antonia-monteiro/">National University of Singapore</a>, <a href="https://www.hmc.edu/biology/faculty-staff/hur/">Harvey Mudd College</a>, and <a href="https://green.shizuoka.ac.jp/en/">Shizuoka University</a>. I am driven to advance human health at the intersection of molecular genetics and physiology.
 
-My experience includes working with *Drosophila melanogaster*, *Caenorhabditis elegans*, and *Bicyclus anynana*. Outside the lab, I am majoring in Mathematical and Computational Biology, and enjoy crafting differential logic behind biological phenomena and translating them into computational binary.
+My experience includes working with *Drosophila melanogaster*, *Caenorhabditis elegans*, and <a href="https://en.wikipedia.org/wiki/Bicyclus_anynana">*Bicyclus anynana*</a>. Outside the lab, I am majoring in Mathematical and Computational Biology, and enjoy crafting differential logic behind biological phenomena and translating them into computational binary.
 
 Lately, I delight in filling my room with the aromas of greenery and coffee. I also love cars and enjoy staying updated on the latest models from various manufacturers. As a penchant for Japanese food and sweets, I can easily spend an entire day at H Mart.
 
