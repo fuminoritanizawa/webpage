@@ -26,10 +26,10 @@ date_format = "Jan 2006"
   date_start = "2023-05-22"
   date_end = "2023-08-22"
   description = """
-- Developed tissue-specific rescue constructs to investigate the role of a gene of interest. **Skills:** designing plasmids using SnapGene and WormBase, PCR, gel extraction, Gibson assembly, competent cell transformation, and miniprep.
-- Engineered a global knockout of a lab-interest gene, involving the deletion of all six exons (approximately 3,500 base pairs). **Skills:** designing appropriate sgRNA and PAM, creating a repair template with an EcoRI cutting site, and developing a screening strategy using Co-CRISPR with the dpy-10 gene (dpy/rol phenotype marker).
-- Created a worm strain by crossing a gene mutation line with a rescue construct line of the gene of interest labeled with green fluorescent protein. **Skills:** worm crossing, genotyping, and fluorescence microscopy with green fluorescent protein.
-- Performed imaging of NeuroPAL line and GFP-crossed product worms using an A1 Confocal Microscope.**Skills:** confocal microscopy imaging with multiple laser channels.
+- Designed and cloned tissue-specific rescue constructs to examine the function of a targeted gene using Gibson Assembly.
+- Engineered a complete knockout of a gene of interest in the lab by deleting all six exons (approximately 3,500 base pairs), designing the necessary sgRNA and PAM, creating an EcoRI cutting site repair template, and developing a screening strategy using Co-CRISPR with the dpy-10 gene (dpy/rol phenotype marker).
+- Developed a worm strain by crossbreeding a gene mutation line with a rescue construct line of the targeted gene marked with green fluorescent protein (GFP).
+- Conducted imaging of NeuroPAL line and GFP-crossbred product worms using an A1 Confocal Microscope.
 """
 
 [[experience]]
