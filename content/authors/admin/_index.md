@@ -80,7 +80,7 @@ user_groups:
 - Drosophila
 - Biologist
 ---
-Fumi (Fuminori Tanizawa), originally from Tokyo, Japan, is a Computational Biology undergraduate at Harvey Mudd College. I've worked on molecular genetics, neuroscience, and evolutionary biology projects at Scripps Research (TSRI), National University of Singapore, Harvey Mudd College, and Shizuoka University. I am driven to advance human health at the intersection of molecular genetics and physiology.
+Fumi is an undergraduate at Harvey Mudd College and is originally from Tokyo. I've worked on molecular genetics, neuroscience, and evolutionary biology projects at Scripps Research (TSRI), National University of Singapore, Harvey Mudd College, and Shizuoka University. I am driven to advance human health at the intersection of molecular genetics and physiology.
 
 My experience includes working with *Drosophila melanogaster*, *Caenorhabditis elegans*, and *Bicyclus anynana*. Outside the lab, I am majoring in Mathematical and Computational Biology, and enjoy crafting differential logic behind biological phenomena and translating them into computational binary.
 
