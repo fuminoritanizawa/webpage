@@ -50,8 +50,11 @@ date_format = "Jan 2006"
   date_start = "2022-05-23"
   date_end = "2022-08-07"
   description = """ 
-  - Earned a spot in the [Amgen Scholars Program](https://amgenscholars.com/university/national-university-of-singapore/).
-  - Contributed to [Prof. Antonia Monteiro's](https://lepdata.org/monteiro/) team, performing evolutionary developmental analysis of food odor preference and its genetics in *Bicyclus anynana*. 
+  Engaged in [Professor Antonia Monteiro's evolutionary development lab](https://lepdata.org/monteiro/) centered on behavioral inheritance
+  - Selected for [the Amgen Scholars Program](https://amgenscholars.com), conducting evolutionary developmental analysis of food odor preference and its genetics in Bicyclus anynana.
+  - Investigated the inheritance of learned novel food odor preferences in Bicyclus anynana butterfly larvae.
+  - Performed Egg Infections, Insect Dissection, and Insect Injections.
+  - Conducted Behavioral Odor Choice Assays and managed Insect Rearing.
   """
   
 [[experience]]

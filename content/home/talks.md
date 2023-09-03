@@ -65,7 +65,7 @@ date_format = "Jan 2006"
   date_start = "2022-01-08"
   date_end = ""
   description = """
-  * **2023. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.hmc.edu/engagement/community-opportunities/students/summer-internships/huppe-memorial-internship/">Ben Huppe ’14 Memorial Internship for a Sustainable World</a>**<br>
+  * **2023. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.hmc.edu/engagement/community-opportunities/students/summer-internships/huppe-memorial-internship/">Ben Huppe ’14 Memorial Internship for a Sustainable World</a>**<br>
   Selected as a summer internship scholarship recipient for my research at Scripps Research in 2023
   * **2018-Present. &nbsp<a href="https://masason-foundation.org/en/cpt_testimonial/%E8%B0%B7%E6%BE%A4%E6%96%87%E7%A4%BC/">Masason Foundation</a>**<br>
   Selected as one of the most talented 51 young scholars under 25 years old in Japan by the foundation supported by Masayoshi Son, the CEO of <a href="https://www.softbank.jp/en/"> Softbank</a> ($35K max./year)
