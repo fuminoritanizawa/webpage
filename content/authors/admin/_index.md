@@ -80,16 +80,6 @@ user_groups:
 - Drosophila
 - Biologist
 ---
-Fumi is an undergraduate at <a href="https://www.hmc.edu">Harvey Mudd College</a>, originally from Tokyo. 
-As an aspring biologist, I believe studying the intricate relationship between stress factors and longevity enable us to explore the very blueprint of life: how molecualr interaction let organisms alive.
-
-With this focus, I have been luck to have worked on molecular genetics, neuroscience, and evolutionary biology projects at <a href="https://www.scripps.edu/faculty/srinivasan/">Scripps Research (TSRI)</a>, <a href="https://www.dbs.nus.edu.sg/staffs/antonia-monteiro/">National University of Singapore</a>, <a href="https://www.hmc.edu/biology/faculty-staff/hur/">Harvey Mudd College</a>, and <a href="https://green.shizuoka.ac.jp/en/">Shizuoka University</a>. I am driven to advance human health at the intersection of molecular genetics and physiology.
-
-My experience includes working with *Drosophila melanogaster*, *Caenorhabditis elegans*, <a href="https://en.wikipedia.org/wiki/Bicyclus_anynana">*Bicyclus anynana*</a>, and *Trypanosoma brucei*. In school, I am majoring in Mathematical and Computational Biology, and enjoy crafting differential logic behind biological phenomena and translating them into computational binary.
-
-Lately, I am struggling stop buying new plants to my room addicted by watering plants in my room. I also love cars and enjoy watching car race youtube in my free time. As a penchant for Japanese food and sweets, I can easily spend an entire day at H Mart.
-
-
 Fumi is an undergrad at <a href="https://www.hmc.edu">Harvey Mudd College</a>, originally from Tokyo. As an aspiring biologist, I'm intrigued by the complex link between stress factors and longevity, exploring life's blueprint through molecular interactions.
 
 I've had the opportunity to work in molecular genetics, neuroscience, and evolutionary biology at <a href="https://www.scripps.edu/faculty/srinivasan/">Scripps Research (TSRI)</a>, <a href="https://www.dbs.nus.edu.sg/staffs/antonia-monteiro/">National University of Singapore</a>, <a href="https://www.hmc.edu/biology/faculty-staff/hur/">Harvey Mudd College</a>, and <a href="https://green.shizuoka.ac.jp/en/">Shizuoka University</a>. My passion lies at the intersection of molecular genetics and physiology, aiming to advance human health.
