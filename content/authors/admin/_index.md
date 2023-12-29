@@ -80,11 +80,11 @@ user_groups:
 - Drosophila
 - Biologist
 ---
-Fumi is an undergrad at <a href="https://www.hmc.edu">Harvey Mudd College</a>, originally from Tokyo. As an aspiring biologist, I'm intrigued by the complex link between stress factors and longevity, exploring life's blueprint through molecular interactions.
+Fumi is an undergrad at <a href="https://www.hmc.edu">Harvey Mudd College</a>, originally from Tokyo. 
 
-I've had the opportunity to work in molecular genetics, neuroscience, and evolutionary biology at <a href="https://www.scripps.edu/faculty/srinivasan/">Scripps Research (TSRI)</a>, <a href="https://www.dbs.nus.edu.sg/staffs/antonia-monteiro/">National University of Singapore</a>, <a href="https://www.hmc.edu/biology/faculty-staff/hur/">Harvey Mudd College</a>, and <a href="https://green.shizuoka.ac.jp/en/">Shizuoka University</a>. My passion lies at the intersection of molecular genetics and physiology, aiming to advance human health.
+As an aspiring biologist, my passion lies at the intersection of molecular genetics and physiology, aiming to advance human health. I've had the opportunity to work in molecular genetics, neuroscience, and evolutionary biology projects at <a href="https://www.scripps.edu/faculty/srinivasan/">Scripps Research (TSRI)</a>, <a href="https://www.dbs.nus.edu.sg/staffs/antonia-monteiro/">National University of Singapore</a>, <a href="https://www.hmc.edu/biology/faculty-staff/hur/">Harvey Mudd College</a>, and <a href="https://green.shizuoka.ac.jp/en/">Shizuoka University</a>, focusing on organisms like *D. melanogaster*, *C. elegans*, *B. anynana*, and *T. brucei*. 
 
-My experience includes projects with *D. melanogaster*, *C. elegans*, *B. anynana*, and *T. brucei*. In school, I'm majoring in Mathematical and Computational Biology, delving into the logic of biological phenomena and their computational interpretations.
+In school, I'm majoring in Mathematical and Computational Biology, delving into the logic of biological phenomena and their computational interpretations.
 
 Outside of academics, I'm a bit of a plant enthusiast, constantly adding to my room collection. I'm a car fanatic too, often spending free time watching racing and review videos on YouTube. Also, my love for Japanese food and sweets makes me a regular at H Mart.
 
