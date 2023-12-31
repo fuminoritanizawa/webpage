@@ -20,7 +20,7 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Summer Research Internship"
-  company = "The Scripps Research Institute"
+  company = "Scripps Research"
   company_url = "https://www.srinivasanlab.org"
   location="San Diego, California"
   date_start = "2023-05-22"
