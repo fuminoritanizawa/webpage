@@ -39,7 +39,7 @@ date_format = "Jan 2006"
   company_url = "https://research.google"
   location="Online"
   date_start = "2023-01-01"
-  date_end = ""
+  date_end = "2023-04-01"
   description = """
   Participated in Google Research's CS Research Mentorship Program (CSRMP) aimed at supporting CS-related students in research.
   - Engaged in group and one-on-one meetings with a Google mentor and peers to discuss various topics, including defining a research problem, applying to graduate school, navigating the publication process, and applying for postdoc/academia/industry positions.
