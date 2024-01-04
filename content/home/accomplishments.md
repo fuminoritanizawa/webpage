@@ -61,6 +61,6 @@ date_format = "Jan 2006"
   url = ""
   date_start = "2021-09-01"
   date_end = "2025-05-30"
-  description = """Selected as a full-ride scholarship recipient for a foundation supported by Tadashi Yanai, the CEO of <a href="https://www.uniqlo.com/us/en/"> Uniqlo</a> ($95K p.a.)"""
+  description = """Selected as a full-ride scholarship recipient for a foundation supported by Tadashi Yanai, the CEO of <a href="https://www.uniqlo.com/us/en/"> Uniqlo</a> ($95K per year)"""
 
 +++
