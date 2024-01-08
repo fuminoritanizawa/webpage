@@ -97,8 +97,8 @@ Outside of academics, I'm a bit of a plant enthusiast, constantly adding to my r
     <div class="description">
         <p class="course"> B.S. Computational Biology (Expected in 2025)</p>
         <p class="institution"> <a href="https://www.hmc.edu/">Harvey Mudd College (Claremont, CA)</a> </p>
-        <small><p class="detail"><i>GPA: 3.9/4.0; Dean's List all semester</i></p>
-        <small><p class="detial"> Selected Coursework: Molecular Genetics, Molecular Immunology, Evolutionary Biology, Developmental Biology, Math & CS Biology, Data Structures/Program Development, Differential Equations, Discrete, Environmental Analysis</p>
+        <p class="detail"><i>GPA: 3.9/4.0; Dean's List all semester</i></p>
+        <p class="detial"><small>Selected Coursework: Molecular Genetics, Molecular Immunology, Evolutionary Biology, Developmental Biology, Math & CS Biology, Data Structures/Program Development, Differential Equations, Discrete, Environmental Analysis/small></p>
     </div>
     </li>
 </ul>
