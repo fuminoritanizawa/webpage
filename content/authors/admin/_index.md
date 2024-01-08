@@ -97,7 +97,7 @@ Outside of academics, I'm a bit of a plant enthusiast, constantly adding to my r
     <div class="description">
         <p class="course"> BS Computational Biology (Expected in 2025)</p>
         <p class="institution"> <a href="https://www.hmc.edu/">Harvey Mudd College (Claremont, CA)</a> </p>
-        <small><p class="detail"> GPA: 3.9/4.0; Dean's List all semester</p>
+        <small><p class="detail"><i>GPA: 3.9/4.0; Dean's List all semester</i></p>
     </div>
     </li>
 </ul>
