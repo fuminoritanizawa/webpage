@@ -86,7 +86,7 @@ Hi! I'm **Fumi**, a **Computational Biology** Major at **<a href="https://www.hm
 
 As an aspiring biologist, my passion lies at the intersection of molecular genetics and physiology, aiming to advance human health. I've had the opportunity to work in molecular genetics, neuroscience, and evolutionary biology projects at <a href="https://www.scripps.edu/faculty/srinivasan/">Scripps Research (TSRI)</a>, <a href="https://www.dbs.nus.edu.sg/staffs/antonia-monteiro/">National University of Singapore</a>, <a href="https://www.hmc.edu/biology/faculty-staff/hur/">Harvey Mudd College</a>, and <a href="https://green.shizuoka.ac.jp/en/">Shizuoka University</a>, focusing on organisms like *D. melanogaster*, *C. elegans*, *B. anynana*, and *T. brucei*. 
 
-Outside of academics, I'm a bit of a plant enthusiast, constantly adding to my room collection. I'm a car fanatic too, often spending free time watching racing and review videos on YouTube. Also, my love for Japanese food and sweets makes me a regular at H Mart.
+Beyond my studies, I'm passionate about collecting plants, watching car races/reviews on YouTube, and indulging in Japanese food and sweets, often visiting H Mart.
 
 <br>
 
