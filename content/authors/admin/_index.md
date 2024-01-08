@@ -80,7 +80,7 @@ user_groups:
 - Drosophila
 - Biologist
 ---
-Hi! I'm **Fumi**, a **Computational Biology** Major at **<a href="https://www.hmc.edu">Harvey Mudd College</a>**, originally from Tokyo. I'm currently studying at the Schulz Lab, adviced by Dr. Danae Schulz. I've also been a member of <a href ="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a> and <a href="https://masason-foundation.org/en/">Masason Foundation</a>, where I've been fortunate to receive a full-ride scholarship since 2021.
+Hi! I'm **Fumi**, a **Computational Biology** Major at **<a href="https://www.hmc.edu">Harvey Mudd College</a>**, originally from Tokyo. I'm currently studying at the Schulz Lab, adviced by Dr. Danae Schulz. I've also been a member of <a href ="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a> and <a href="https://masason-foundation.org/en/">Masason Foundation</a>, where I've been fortunate to receive a full-ride scholarship since 2018.
 
 初めまして！ハービー・マッド大学 計算生物学 学部3年の谷澤文礼です!
 
