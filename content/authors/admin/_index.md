@@ -82,7 +82,7 @@ user_groups:
 ---
 Hi! I'm **Fumi**, a **Computational Biology** Major at **<a href="https://www.hmc.edu">Harvey Mudd College</a>**, originally from Tokyo. I'm currently studying at the Schulz Lab, adviced by Dr. Danae Schulz. I've also been a member of <a href ="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a> and <a href="https://masason-foundation.org/en/">Masason Foundation</a>, where I've been fortunate to receive a full-ride scholarship since 2021.
 
-初めまして！ハーヴィーマッド大学 計算生物学 学部3年の谷澤文礼です!
+初めまして！ハービー・マッド大学 計算生物学 学部3年の谷澤文礼です!
 
 As an aspiring biologist, my passion lies at the intersection of molecular genetics and physiology, aiming to advance human health. I've had the opportunity to work in molecular genetics, neuroscience, and evolutionary biology projects at <a href="https://www.scripps.edu/faculty/srinivasan/">Scripps Research (TSRI)</a>, <a href="https://www.dbs.nus.edu.sg/staffs/antonia-monteiro/">National University of Singapore</a>, <a href="https://www.hmc.edu/biology/faculty-staff/hur/">Harvey Mudd College</a>, and <a href="https://green.shizuoka.ac.jp/en/">Shizuoka University</a>, focusing on organisms like *D. melanogaster*, *C. elegans*, *B. anynana*, and *T. brucei*. 
 
