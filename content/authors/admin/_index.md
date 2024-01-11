@@ -88,7 +88,7 @@ Fueled by a passion for **molecular genetics and physiology**, my goal is to con
 - Molecular genetics in *D. melanogaster* and *T. brucei* at <a href="https://www.hmc.edu">Harvey Mudd College</a>, molecular cloning in flies and parasites (<a href="https://www.hmc.edu/biology/faculty-staff/hur/">Hur Lab</a> & <a href="https://sites.google.com/a/g.hmc.edu/schulzlab/">Schulz Lab</a>).
 - Evolutionary biology in *B. anynana* at <a href="https://www.dbs.nus.edu.sg/staffs/antonia-monteiro/">National University of Singapore</a>, studying behavioral inheritance in African butterflies (<a href="https://lepdata.org/monteiro/">Monteiro Lab</a>).
 
-Outside academia, I’m an avid plant collector, aquarium enthusiast, and a keen follower of car racing and reviews on YouTube:) 
+Outside academia, I enjoy designing and maintaining my fish tank, collecting plants, and following car racing and car reviews on YouTube.:) 
 
 **For contact**:
 - Email: ftanizawa [at] hmc [dot] edu
