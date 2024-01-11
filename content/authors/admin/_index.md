@@ -94,7 +94,7 @@ Outside academia, I’m an avid plant collector, aquarium enthusiast, and a keen
 - Email: ftanizawa [at] hmc [dot] edu
 - Social Media: icons under my profile pic
 
-<small>Japanese: 初めまして！ハービー・マッド大学で計算生物学を専攻する谷澤文礼です！</small>
+<small>Japanese: 初めまして！ハービー・マッド大学の計算生物学専攻、谷澤文礼です！</small>
 <br>
 
 # Education
