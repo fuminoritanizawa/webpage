@@ -37,9 +37,6 @@ subtitle = ""
     <div class="description">
         <p class="course"> B.S. Computational Biology (Expected in 2025)</p>
         <p class="institution"> <a href="https://www.hmc.edu/">Harvey Mudd College (Claremont, CA)</a> </p>
-        <br>
-        <p class="detail"> <b>Advisors:</b> Prof. <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/">Jae Hur  </a>, Prof. <a href="https://www.hmc.edu/biology/faculty-staff/schulz/">Danae Schulz</a>.
-        <b>Selected Coursework:</b> Molecular Genetics, Molecular Immunology, Evolutionary Biology, Developmental Biology, Math & CS Biology, Data Structures/Program Development, Differential Equations, Discrete, Environmental Analysis</p>
     </div>
     </li>
     <!-- <li>
