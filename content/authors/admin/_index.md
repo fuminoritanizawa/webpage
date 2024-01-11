@@ -75,21 +75,24 @@ email: "ftanizawa@hmc.edu"
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Neuroscientist
+- Molecular Genetics
 - Researcher
 - Celegans
 - Drosophila
 - Biologist
 ---
-Hi! I'm **Fumi**, a **Computational Biology** Major at **<a href="https://www.hmc.edu">Harvey Mudd College</a>**, originally from Tokyo. I'm currently studying at the Schulz Lab, adviced by Dr. Danae Schulz. I've also been a member of <a href ="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a> and <a href="https://masason-foundation.org/en/">Masason Foundation</a>, where I've been fortunate to receive a full-ride scholarship since 2018.
+Hello! I'm **Fumi**, a **Computational Biology Major** at **<a href="https://www.hmc.edu">Harvey Mudd College</a>**, originally from Tokyo. I'm currently studying at the <a href="https://sites.google.com/a/g.hmc.edu/schulzlab/home">Schulz Lab</a>, adviced by Dr. Danae Schulz. I've also been, from Tokyo. Currently, I'm immersed in research at the Schulz Lab, under the guidance of Dr. Danae Schulz. I'm also a proud recipient of full-ride scholarships from the <a href ="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a> and the <a href="https://masason-foundation.org/en/">Masason Foundation</a> since 2018.
 
-初めまして！ハービー・マッド大学 計算生物学 学部3年の谷澤文礼です!
+初めまして！ハービー・マッド大学で計算生物学を専攻する3年生、谷澤文礼です！
 
-As an aspiring biologist, my passion lies at the intersection of molecular genetics and physiology, aiming to advance human health. I've had the opportunity to work in molecular genetics, neuroscience, and evolutionary biology projects at <a href="https://www.scripps.edu/faculty/srinivasan/">Scripps Research (TSRI)</a>, <a href="https://www.dbs.nus.edu.sg/staffs/antonia-monteiro/">National University of Singapore</a>, <a href="https://www.hmc.edu/biology/faculty-staff/hur/">Harvey Mudd College</a>, and <a href="https://green.shizuoka.ac.jp/en/">Shizuoka University</a>, focusing on organisms like *D. melanogaster*, *C. elegans*, *B. anynana*, and *T. brucei*. 
+Fueled by a passion for **molecular genetics and physiology**, my goal in biology is to contribute to **human health** advancements. I've had the opportunity to engage in various projects across molecular genetics, neuroscience, and evolutionary biology at renowned institutions like <a href="https://www.scripps.edu/faculty/srinivasan/">Scripps Research (TSRI)</a>, <a href="https://www.dbs.nus.edu.sg/staffs/antonia-monteiro/">National University of Singapore</a>, <a href="https://www.hmc.edu/biology/faculty-staff/hur/">Harvey Mudd College</a>, and <a href="https://green.shizuoka.ac.jp/en/">Shizuoka University</a>. My studies have focused on a range of organisms including *D. melanogaster* (flies), *C. elegans* (worms), *B. anynana* (butterflies), and *T. brucei* (parasites).
 
-Beyond my studies, I'm passionate about collecting plants, watching car races/reviews on YouTube, and indulging in Japanese food and sweets, often visiting H Mart.
+Outside the lab, I'm an avid plant collector, car racing and review enthusiast on YouTube, and a lover of Japanese cuisine, frequently found at H Mart.
 
+**For contact:**
+Email - ftanizawa [at] hmc.edu
+Social Media - Icons on the left
 <br>
-
 # Education
 <ul class="ul-edu fa-ul">
     <li>
