@@ -93,7 +93,7 @@ Outside the lab, I'm an avid plant collector, car racing and review enthusiast o
 - Email: ftanizawa [at] hmc.edu
 - Social Media: icons under my profile pic
 
-# Education
+<!-- # Education
 # <ul class="ul-edu fa-ul">
 #    <li>
 #    <i class="fa-li fas fa-graduation-cap"></i>
@@ -104,4 +104,4 @@ Outside the lab, I'm an avid plant collector, car racing and review enthusiast o
 #        <p class="detial"><small>Selected Coursework: Molecular Genetics, Molecular Immunology, Evolutionary Biology, Developmental Biology, Math & CS Biology, Data Structures/Program Development, Differential Equations, Discrete, Environmental Analysis</small></p>
 #    </div>
 #    </li>
-# </ul>
+# </ul> -->
