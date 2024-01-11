@@ -81,9 +81,10 @@ user_groups:
 - Drosophila
 - Biologist
 ---
-Hello! I'm Fumi, a Computational Biology Major at Harvey Mudd College, originally from Tokyo, currently engaged in molecular genetics research. Since 2018, I've been honored with full-ride scholarships from the <a href ="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a> and the <a href="https://masason-foundation.org/en/">Masason Foundation</a>.
+Hello! I'm **Fumi**, a **Computational Biology** Major at **Harvey Mudd College**, originally from Tokyo, currently engaged in molecular genetics research. Since 2018, I've been honored with full-ride scholarships from the <a href ="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a> and the <a href="https://masason-foundation.org/en/">Masason Foundation</a>.
 
-Fueled by a passion for **molecular genetics** and **physiology**, my goal is to contribute to **human health** advancements. My academic journey includes projects in:
+Fueled by a **passion for molecular genetics and physiology, my goal is to contribute to **human health advancements**.
+My academic journey includes projects in:
 
 - Neuroscience in *C. elegans* at <a href="https://www.scripps.edu/faculty/srinivasan/">Scripps Research</a>, constructing plasmid rescue and CRISPR of nematodes (<a href="https://www.srinivasanlab.org">Srinivasan Lab</a>).r
 - Molecular genetics in *D, melanogaster* and *Trypanosoma brucei* at <a href="https://www.hmc.edu">Harvey Mudd College</a>, molecular cloning in flies and parasites (<a href="https://www.hmc.edu/biology/faculty-staff/hur/">Hur Lab</a> & <a href="https://sites.google.com/a/g.hmc.edu/schulzlab/">Schulz Lab</a>).
@@ -91,11 +92,13 @@ Fueled by a passion for **molecular genetics** and **physiology**, my goal is to
 
 Outside academia, I’m an avid plant collector, aquarium enthusiast, and car racing and review enthusiast on YouTube.
 
-For contact:
+Japanese: 初めまして！ハービー・マッド大学で計算生物学を専攻する谷澤文礼です！
+
+**For contact**:
 - Email: ftanizawa [at] hmc [dot] edu
 - Social Media: icons under my profile pic
 
-Japanese: 初めまして！ハービー・マッド大学で計算生物学を専攻する谷澤文礼です！
+<br>
 
 # Education
 <ul class="ul-edu fa-ul">
