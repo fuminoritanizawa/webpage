@@ -83,7 +83,7 @@ user_groups:
 ---
 Hello! I'm **Fumi**, a **Computational Biology Major** at **<a href="https://www.hmc.edu">Harvey Mudd College</a>**, originally from Tokyo. I'm currently studying at the <a href="https://sites.google.com/a/g.hmc.edu/schulzlab/home">Schulz Lab</a>, adviced by Dr. Danae Schulz. I've also been, from Tokyo. Currently, I'm immersed in research at the Schulz Lab, under the guidance of Dr. Danae Schulz. I'm also a proud recipient of full-ride scholarships from the <a href ="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a> and the <a href="https://masason-foundation.org/en/">Masason Foundation</a> since 2018.
 
-初めまして！ハービー・マッド大学で計算生物学を専攻する3年生、谷澤文礼です！
+初めまして！ハービー・マッド大学で計算生物学を専攻する谷澤文礼です！
 
 Fueled by a passion for **molecular genetics and physiology**, my goal in biology is to contribute to **human health** advancements. I've had the opportunity to engage in various projects across molecular genetics, neuroscience, and evolutionary biology at renowned institutions like <a href="https://www.scripps.edu/faculty/srinivasan/">Scripps Research (TSRI)</a>, <a href="https://www.dbs.nus.edu.sg/staffs/antonia-monteiro/">National University of Singapore</a>, <a href="https://www.hmc.edu/biology/faculty-staff/hur/">Harvey Mudd College</a>, and <a href="https://green.shizuoka.ac.jp/en/">Shizuoka University</a>. My studies have focused on a range of organisms including *D. melanogaster* (flies), *C. elegans* (worms), *B. anynana* (butterflies), and *T. brucei* (parasites).
 
