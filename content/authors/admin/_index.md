@@ -95,7 +95,6 @@ Email - ftanizawa [at] hmc.edu
 
 Social Media - Icons below my profile pic
 
-<br>
 # Education
 <ul class="ul-edu fa-ul">
     <li>
