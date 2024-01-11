@@ -91,8 +91,10 @@ Fueled by a passion for **molecular genetics and physiology**, my goal is to con
 Outside academia, I enjoy designing and maintaining my fish tank, collecting plants, and following car racing and car reviews on YouTube.:) 
 
 **For contact**:
+<small>
 - Email: ftanizawa [at] hmc [dot] edu
 - Social Media: icons under my profile pic
+</small>
 
 <small>Japanese: 初めまして！ハービー・マッド大学の計算生物学専攻、谷澤文礼です！</small>
 <br>
@@ -105,7 +107,7 @@ Outside academia, I enjoy designing and maintaining my fish tank, collecting pla
         <p class="course"> B.S. Computational Biology (Expected in 2025)</p>
         <p class="institution"> <a href="https://www.hmc.edu/">Harvey Mudd College (Claremont, CA)</a> </p>
         <p class="detail"><i>GPA: 3.9/4.0; Dean's List all semester</i></p>
-        <small><p class="detial">Selected Coursework: Molecular Genetics, Molecular Immunology, Evolutionary Biology, Developmental Biology, Data Structures/Program Development, Differential Equations, Discrete, Environmental Analysis</p></small>>
+        <small><p class="detial">Selected Coursework: Molecular Genetics, Molecular Immunology, Evolutionary Biology, Developmental Biology, Data Structures/Program Development, Differential Equations, Discrete, Environmental Analysis</p></small>
     </div>
   </li>
 </ul>
