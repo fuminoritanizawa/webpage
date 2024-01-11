@@ -90,8 +90,11 @@ Fueled by a passion for **molecular genetics and physiology**, my goal in biolog
 Outside the lab, I'm an avid plant collector, car racing and review enthusiast on YouTube, and a lover of Japanese cuisine, frequently found at H Mart.
 
 **For contact:**
+
 Email - ftanizawa [at] hmc.edu
-Social Media - Icons on the left
+
+Social Media - Icons below my profile pic
+
 <br>
 # Education
 <ul class="ul-edu fa-ul">
