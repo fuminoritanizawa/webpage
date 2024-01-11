@@ -81,14 +81,31 @@ user_groups:
 - Drosophila
 - Biologist
 ---
-Hello! I'm **Fumi**, a **Computational Biology Major** at **<a href="https://www.hmc.edu">Harvey Mudd College</a>**, originally from Tokyo. I'm currently studying at the <a href="https://sites.google.com/a/g.hmc.edu/schulzlab/home">Schulz Lab</a>, adviced by Dr. Danae Schulz. I've also been, from Tokyo. Currently, I'm immersed in research at the Schulz Lab, under the guidance of Dr. Danae Schulz. I'm also a proud recipient of full-ride scholarships from the <a href ="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a> and the <a href="https://masason-foundation.org/en/">Masason Foundation</a> since 2018.
+Hello! I'm Fumi, a Computational Biology Major at Harvey Mudd College, originally from Tokyo, currently engaged in molecular genetics research. Since 2018, I've been honored with full-ride scholarships from the <a href ="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a> and the <a href="https://masason-foundation.org/en/">Masason Foundation</a>.
 
-初めまして！ハービー・マッド大学で計算生物学を専攻する谷澤文礼です！
+Fueled by a passion for **molecular genetics** and **physiology**, my goal is to contribute to **human health** advancements. My academic journey includes projects in:
 
-Fueled by a passion for **molecular genetics and physiology**, my goal in biology is to contribute to **human health** advancements. I've had the opportunity to engage in various projects across molecular genetics, neuroscience, and evolutionary biology at renowned institutions like <a href="https://www.scripps.edu/faculty/srinivasan/">Scripps Research (TSRI)</a>, <a href="https://www.dbs.nus.edu.sg/staffs/antonia-monteiro/">National University of Singapore</a>, <a href="https://www.hmc.edu/biology/faculty-staff/hur/">Harvey Mudd College</a>, and <a href="https://green.shizuoka.ac.jp/en/">Shizuoka University</a>. My studies have focused on a range of organisms including *D. melanogaster* (flies), *C. elegans* (worms), *B. anynana* (butterflies), and *T. brucei* (parasites).
+- Neuroscience in *C. elegans* at <a href="https://www.scripps.edu/faculty/srinivasan/">Scripps Research</a>, constructing plasmid rescue and CRISPR of nematodes (<a href="https://www.srinivasanlab.org">Srinivasan Lab</a>).r
+- Molecular genetics in *D, melanogaster* and *Trypanosoma brucei* at <a href="https://www.hmc.edu">Harvey Mudd College</a>, molecular cloning in flies and parasites (<a href="https://www.hmc.edu/biology/faculty-staff/hur/">Hur Lab</a> & <a href="https://sites.google.com/a/g.hmc.edu/schulzlab/">Schulz Lab</a>).
+- Evolutionary biology in *B. anynana* at <a href="https://www.dbs.nus.edu.sg/staffs/antonia-monteiro/">National University of Singapore</a>, studying behavioral inheritance in African butterflies (<a href="https://lepdata.org/monteiro/">Monteiro Lab</a>).
 
-Outside the lab, I'm an avid plant collector, car racing and review enthusiast on YouTube, and a lover of Japanese cuisine, frequently found at H Mart.
+Outside academia, I’m an avid plant collector, aquarium enthusiast, and car racing and review enthusiast on YouTube.
 
-**For contact:**
-- Email: ftanizawa [at] hmc.edu
+For contact:
+- Email: ftanizawa [at] hmc [dot] edu
 - Social Media: icons under my profile pic
+
+Japanese: 初めまして！ハービー・マッド大学で計算生物学を専攻する谷澤文礼です！
+
+# Education
+<ul class="ul-edu fa-ul">
+  <li>
+    <i class="fa-li fas fa-graduation-cap"></i>
+    <div class="description">
+        <p class="course"> B.S. Computational Biology (Expected in 2025)</p>
+        <p class="institution"> <a href="https://www.hmc.edu/">Harvey Mudd College (Claremont, CA)</a> </p>
+        <p class="detail"><i>GPA: 3.9/4.0; Dean's List all semester</i></p>
+        <p class="detial"><small>Selected Coursework: Molecular Genetics, Molecular Immunology, Evolutionary Biology, Developmental Biology, Data Structures/Program Development, Differential Equations, Discrete, Environmental Analysis</small></p>
+    </div>
+  </li>
+</ul>
