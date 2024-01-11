@@ -105,7 +105,7 @@ Outside academia, I enjoy designing and maintaining my fish tank, collecting pla
         <p class="course"> B.S. Computational Biology (Expected in 2025)</p>
         <p class="institution"> <a href="https://www.hmc.edu/">Harvey Mudd College (Claremont, CA)</a> </p>
         <p class="detail"><i>GPA: 3.9/4.0; Dean's List all semester</i></p>
-        <p class="detial"><small>Selected Coursework: Molecular Genetics, Molecular Immunology, Evolutionary Biology, Developmental Biology, Data Structures/Program Development, Differential Equations, Discrete, Environmental Analysis</small></p>
+        <small><p class="detial">Selected Coursework: Molecular Genetics, Molecular Immunology, Evolutionary Biology, Developmental Biology, Data Structures/Program Development, Differential Equations, Discrete, Environmental Analysis</p></small>>
     </div>
   </li>
 </ul>
