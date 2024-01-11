@@ -90,20 +90,5 @@ Fueled by a passion for **molecular genetics and physiology**, my goal in biolog
 Outside the lab, I'm an avid plant collector, car racing and review enthusiast on YouTube, and a lover of Japanese cuisine, frequently found at H Mart.
 
 **For contact:**
-
-Email - ftanizawa [at] hmc.edu
-
-Social Media - Icons below my profile pic
-
-# Education
-<ul class="ul-edu fa-ul">
-    <li>
-    <i class="fa-li fas fa-graduation-cap"></i>
-    <div class="description">
-        <p class="course"> B.S. Computational Biology (Expected in 2025)</p>
-        <p class="institution"> <a href="https://www.hmc.edu/">Harvey Mudd College (Claremont, CA)</a> </p>
-        <p class="detail"><i>GPA: 3.9/4.0; Dean's List all semester</i></p>
-        <p class="detial"><small>Selected Coursework: Molecular Genetics, Molecular Immunology, Evolutionary Biology, Developmental Biology, Math & CS Biology, Data Structures/Program Development, Differential Equations, Discrete, Environmental Analysis</small></p>
-    </div>
-    </li>
-</ul>
+- Email: ftanizawa [at] hmc.edu
+- Social Media: icons under my profile pic

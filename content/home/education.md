@@ -4,7 +4,7 @@
 
 widget = "education"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
 title = "Education"
@@ -36,13 +36,12 @@ subtitle = ""
     <li>
     <i class="fa-li fas fa-graduation-cap"></i>
     <div class="description">
-        <p class="course"> Bachelor of Science (Expected in 2025)</p>
+        <p class="course"> B.S. Computational Biology (Expected in 2025)</p>
         <p class="institution"> <a href="https://www.hmc.edu/">Harvey Mudd College (Claremont, CA)</a> </p>
-        <p class="detail"> <b>Major:</b> Mathematical and Computational Biology. 
         <br>
-        <b>Research Supervisor:</b> Prof. <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/"> Jae Hur  </a>. 
-        <br>
-        <b>Selected Coursework:</b> Molecular Genetics, Developmental Biology, Mathematical and Computational Biology, Data Structures/Program Development, Differential Equations, Environmental Analysis</p>
+        <b>Advisors:</b> Prof. <a href="https://www.hmc.edu/biology/faculty-staff/jae-hur/"> Jae Hur  </a>. 
+        <br>, Prof. <a href="https://www.hmc.edu/biology/faculty-staff/schulz/">Danae Schulz</a>
+        <b>Selected Coursework:</b> Molecular Genetics, Molecular Immunology, Evolutionary Biology, Developmental Biology, Math & CS Biology, Data Structures/Program Development, Differential Equations, Discrete, Environmental Analysis</p>
     </div>
     </li>
     <!-- <li>
