@@ -81,7 +81,7 @@ user_groups:
 - Drosophila
 - Biologist
 ---
-Hello! I'm **Fumi**, a **Computational Biology** Major at **Harvey Mudd College**, originally from Tokyo, currently engaged in molecular genetics research. Since 2018, I've been honored with full-ride scholarships from the <a href ="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a> and the <a href="https://masason-foundation.org/en/">Masason Foundation</a>.
+Hello! I'm **Fumi**, a **Computational Biology** Major at **Harvey Mudd College**, originally from Japan, currently engaged in molecular genetics research. Since 2018, I've been honored with full-ride scholarships from the <a href ="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a> and the <a href="https://masason-foundation.org/en/">Masason Foundation</a>.
 
 Fueled by a passion for **molecular genetics and physiology**, my goal is to contribute to **human health advancements**. My academic journey includes projects in:
 - Neuroscience in *C. elegans* at <a href="https://www.scripps.edu/faculty/srinivasan/">Scripps Research</a>, constructing plasmid rescue and CRISPR global knockout of nematodes (<a href="https://www.srinivasanlab.org">Srinivasan Lab</a>).
