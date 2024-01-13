@@ -84,16 +84,16 @@ user_groups:
 Hello! I'm **Fumi**, a **Computational Biology** Major at **Harvey Mudd College**, originally from Tokyo, currently engaged in molecular genetics research. Since 2018, I've been honored with full-ride scholarships from the <a href ="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a> and the <a href="https://masason-foundation.org/en/">Masason Foundation</a>.
 
 Fueled by a passion for **molecular genetics and physiology**, my goal is to contribute to **human health advancements**. My academic journey includes projects in:
-- Neuroscience in *C. elegans* at <a href="https://www.scripps.edu/faculty/srinivasan/">Scripps Research</a>, constructing plasmid rescue and CRISPR of nematodes (<a href="https://www.srinivasanlab.org">Srinivasan Lab</a>).
+- Neuroscience in *C. elegans* at <a href="https://www.scripps.edu/faculty/srinivasan/">Scripps Research</a>, constructing plasmid rescue and CRISPR global knockout of nematodes (<a href="https://www.srinivasanlab.org">Srinivasan Lab</a>).
 - Molecular genetics in *D. melanogaster* and *T. brucei* at <a href="https://www.hmc.edu">Harvey Mudd College</a>, molecular cloning in flies and parasites (<a href="https://www.hmc.edu/biology/faculty-staff/hur/">Hur Lab</a> & <a href="https://sites.google.com/a/g.hmc.edu/schulzlab/">Schulz Lab</a>).
 - Evolutionary biology in *B. anynana* at <a href="https://www.dbs.nus.edu.sg/staffs/antonia-monteiro/">National University of Singapore</a>, studying behavioral inheritance in African butterflies (<a href="https://lepdata.org/monteiro/">Monteiro Lab</a>).
 
-Outside academia, I enjoy designing and maintaining my fish tank, collecting plants, and following car racing and car reviews on YouTube.:) 
+Outside academia, I enjoy designing and maintaining my fish tank, collecting plants, and following car racing and car reviews on YouTube:)
 
 **For contact**:
 <small>
 - Email: ftanizawa [at] hmc [dot] edu
-- Social Media: icons under my profile pic
+- Social Media: icons under my profile pic above
 </small>
 
 <small>Japanese: 初めまして！ハービー・マッド大学の計算生物学専攻、谷澤文礼です！</small>
