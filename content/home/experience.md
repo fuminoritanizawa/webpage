@@ -19,6 +19,20 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Undergraduate Research Assistant"
+  company = "Harvey Mudd College"
+  company_url = "https://www.hmc.edu/"
+  location="Claremont, California"
+  date_start = "2023-09-01"
+  date_end = ""
+  description = """
+  Participated in [Professor Danae Schulz's genetic parasitology lab](https://sites.google.com/a/g.hmc.edu/schulzlab/) focused on sleeping sickness
+  - Engineered an RNAi plasmid targeting the EAF6 gene in the HAT complex of *Trypanosoma brucei*, the parasite causing African sleeping sickness, to study its role in the parasite's lifecycle transitions, especially between Bloodstream and Insect forms.
+  - Electro-transformed an RNAi plasmid into *T. brucei*, incorporating an EP1-GFP reporter system to enable real-time monitoring of procyclin expression, encoded by the EP1 gene, as a proxy for lifecycle differentiation.
+  - Performed detailed flow cytometry to track EP1-GFP expression in *T. brucei*, uncovering EAF6's critical role in facilitating differentiation and indicating potential RNAi system leakage.
+"""
+
+[[experience]]
   title = "Summer Research Internship"
   company = "Scripps Research"
   company_url = "https://www.srinivasanlab.org"
