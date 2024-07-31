@@ -22,6 +22,8 @@ bio: B.S. Student in MathCompBiology
 
 Interests:
   - Molecular Immunology
+  - Regenerative Medicine
+  - Bioinformatics
 
 education:
   courses:
