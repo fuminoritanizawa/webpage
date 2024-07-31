@@ -34,6 +34,7 @@ education:
   - course: BSc in Computational Biology
     institution: Harvey Mudd College
     year: 2025 (Expected)
+    GPA: 3.92/4.00
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
