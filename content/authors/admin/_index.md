@@ -20,17 +20,17 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: B.S. Student in MathCompBiology
 
-#education:
-#  courses:
-#  - course: PhD in Artificial Intelligence
-#    institution: Stanford University
-#    year: 2012
-#  - course: MEng in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2009
-#  - course: BSc in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2008
+education:
+  courses:
+  - course: PhD in Artificial Intelligence
+    institution: Stanford University
+    year: 2012
+  - course: MEng in Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    year: 2009
+  - course: BSc in Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    year: 2008
 
 # intro ver archive
 # Fumi is an undergraduate student majoring in Computational Biology at Harvey Mudd College in California. He is particularly interested in both molecular and evolutionary genetics. 
