@@ -83,7 +83,7 @@ Hi! I’m Fumi Tanizawa, a senior at Harvey Mudd College majoring in Computation
 
 <!-- I've been honored with full-ride scholarships from the <a href ="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a> and the <a href="https://masason-foundation.org/en/">Masason Foundation</a>. -->
 
-Japanese: こんにちは！ハーベイマッド大学で計算生物学専攻の谷澤文礼です。分子遺伝学と再生医学を専門とし, ジョンズホプキンス大学医学部, スクリップス研究所, 静岡大学での研究経験があります。分子免疫学と遺伝医学, 特にネグレクトされている熱帯病への応用に関心があります。私の志は, 人間の健康改善に対するアプローチを変革する画期的な基礎研究を主導することです。孫正義育英財団2期, 柳井正財団5期。
+Japanese: こんにちは！ハーベイマッド大学で計算生物学を専攻している谷澤文礼です。分子遺伝学と再生医学を専門とし、ジョンズホプキンス大学医学部、スクリップス研究所、静岡大学での研究経験があります。分子免疫学と遺伝医学、特にネグレクトされている熱帯病への応用に関心があります。私の志は、人間の健康改善に対するアプローチを変革する画期的な基礎研究を主導することです。孫正義育英財団2期、柳井正財団5期。
 
 <!-- # Education
 <ul class="ul-edu fa-ul">
