@@ -77,13 +77,11 @@ user_groups:
 - Neuroscientist
 - Molecular Genetics
 - Researcher
-- Celegans
-- Drosophila
 - Biologist
 ---
-Hi! I’m Fumi Tanizawa, a senior at Harvey Mudd College majoring in Computational Biology. I specialize in molecular genetics and regenerative medicine, with research experience at Johns Hopkins Medicine, Scripps Research, and Shizuoka University. My interests include molecular immunology and genetic medicine, focusing on neglected tropical diseases. My big dream is to lead groundbreaking basic research that transforms our understanding and treatment of genetic diseases.
+Hi! I’m Fumi Tanizawa, a senior at Harvey Mudd College majoring in Computational Biology. My interests include molecular immunology and genetic medicine, with a focus on neglected tropical diseases. I’ve conducted research at Johns Hopkins Medicine, Scripps Research, and Shizuoka University. My aspiration is to lead pioneering research that transforms our approach to improving human health.
 
-I've been honored with full-ride scholarships from the <a href ="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a> and the <a href="https://masason-foundation.org/en/">Masason Foundation</a>.
+<!-- I've been honored with full-ride scholarships from the <a href ="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a> and the <a href="https://masason-foundation.org/en/">Masason Foundation</a>. -->
 
 Japanese: こんにちは！ハーベイマッド大学で計算生物学専攻の谷澤文礼です。分子遺伝学と再生医学を専門とし, ジョンズホプキンス大学医学部, スクリップス研究所, 静岡大学での研究経験があります。分子免疫学と遺伝医学, 特にネグレクトされている熱帯病への応用に関心があります。私の志は, 人間の健康改善に対するアプローチを変革する画期的な基礎研究を主導することです。孫正義育英財団2期, 柳井正財団5期。
 
