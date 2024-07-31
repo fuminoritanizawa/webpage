@@ -22,7 +22,7 @@ bio: B.S. Student in MathCompBiology
 
 Interests:
   - Molecular Immunology
-  - Regenerative Medicine
+  - Translational Medicine
   - Bioinformatics
 
 education:
@@ -77,6 +77,6 @@ user_groups:
 - Researcher
 - Biologist
 ---
-Hi! I’m Fumi Tanizawa, a senior at Harvey Mudd College majoring in Computational Biology. My interests include molecular immunology and genetic medicine, with a focus on neglected tropical diseases. I’ve conducted research at Johns Hopkins Medicine, Scripps Research, and Shizuoka University. My aspiration is to lead pioneering research that transforms our approach to improving human health.
+Hi! I’m Fumi Tanizawa, a senior at Harvey Mudd College majoring in Computational Biology, originally from Tokyo, Japan. I am passionate about molecular genetics and genetic medicine. I have extensive research experience at Johns Hopkins Medicine, Scripps Research, and the National University of Singapore. My primary interest lies in infectious disease immunology, particularly in addressing neglected tropical diseases. My goal is to lead pioneering research that transforms our understanding and treatment of human health issues.
 
-Japanese: こんにちは！ハーベイマッド大学で計算生物学を専攻している谷澤文礼です。分子遺伝学と再生医学を専門とし、ジョンズホプキンス大学医学部、スクリップス研究所、静岡大学での研究経験があります。分子免疫学と遺伝医学、特にネグレクトされている熱帯病への応用に関心があります。私の志は、人間の健康改善に対するアプローチを変革する画期的な基礎研究を主導することです。孫正義育英財団2期、柳井正財団5期。
+こんにちは！米国ハーベイ・マッド大学で計算生物学を専攻している4年生の谷澤文礼です。分子遺伝学と遺伝子医学に強い情熱を持っています。これまでにジョンズ・ホプキンス大学医学部、スクリップス研究所、シンガポール国立大学などで豊富な研究経験を積んできました。特に、"顧みられない熱帯病(NTDs)"に対する感染症免疫学に深い興味を持っています。私の目標は、人間の健康問題に対する理解と治療を革新する先駆的な基礎研究をリードすることです。
