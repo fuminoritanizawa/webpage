@@ -81,25 +81,13 @@ user_groups:
 - Drosophila
 - Biologist
 ---
-Hello! I'm **Fumi**, a **Computational Biology** Major at **Harvey Mudd College**, originally from Japan, currently engaged in molecular genetics research. Since 2018, I've been honored with full-ride scholarships from the <a href ="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a> and the <a href="https://masason-foundation.org/en/">Masason Foundation</a>.
+Hi! I’m Fumi Tanizawa, a senior at Harvey Mudd College majoring in Computational Biology. I specialize in molecular genetics and regenerative medicine, with research experience at Johns Hopkins Medicine, Scripps Research, and Shizuoka University. My interests include molecular immunology and genetic medicine, focusing on neglected tropical diseases. My big dream is to lead groundbreaking basic research that transforms our understanding and treatment of genetic diseases.
 
-Fueled by a passion for **molecular genetics and physiology**, my goal is to contribute to **human health advancements**. My academic journey includes projects in:
-- Neuroscience in *C. elegans* at <a href="https://www.scripps.edu/faculty/srinivasan/">Scripps Research</a>, constructing plasmid rescue and CRISPR global knockout of nematodes (<a href="https://www.srinivasanlab.org">Srinivasan Lab</a>).
-- Molecular genetics in *D. melanogaster* and *T. brucei* at <a href="https://www.hmc.edu">Harvey Mudd College</a>, molecular cloning in flies and parasites (<a href="https://www.hmc.edu/biology/faculty-staff/hur/">Hur Lab</a> & <a href="https://sites.google.com/a/g.hmc.edu/schulzlab/">Schulz Lab</a>).
-- Evolutionary biology in *B. anynana* at <a href="https://www.dbs.nus.edu.sg/staffs/antonia-monteiro/">National University of Singapore</a>, studying behavioral inheritance in African butterflies (<a href="https://lepdata.org/monteiro/">Monteiro Lab</a>).
+I've been honored with full-ride scholarships from the <a href ="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a> and the <a href="https://masason-foundation.org/en/">Masason Foundation</a>.
 
-Outside academia, I enjoy designing and maintaining my fish tank, collecting plants, and following car racing and car reviews on YouTube:)
+Japanese: こんにちは！ハーベイマッド大学で計算生物学専攻の谷澤文礼です。分子遺伝学と再生医学を専門とし, ジョンズホプキンス大学医学部, スクリップス研究所, 静岡大学での研究経験があります。分子免疫学と遺伝医学, 特にネグレクトされている熱帯病への応用に関心があります。私の志は, 人間の健康改善に対するアプローチを変革する画期的な基礎研究を主導することです。孫正義育英財団2期, 柳井正財団5期。
 
-**For contact**:
-<small>
-- Email: ftanizawa [at] hmc [dot] edu
-- Social Media: icons under my profile pic above
-</small>
-
-<small>Japanese: 初めまして！ハービー・マッド大学の計算生物学専攻、谷澤文礼です！</small>
-<br>
-
-# Education
+<!-- # Education
 <ul class="ul-edu fa-ul">
   <li>
     <i class="fa-li fas fa-graduation-cap"></i>
@@ -110,4 +98,4 @@ Outside academia, I enjoy designing and maintaining my fish tank, collecting pla
         <small><p class="detial">Selected Coursework: Molecular Genetics, Molecular Immunology, Evolutionary Biology, Developmental Biology, Data Structures/Program Development, Differential Equations, Discrete, Environmental Analysis</p></small>
     </div>
   </li>
-</ul>
+</ul> -->
