@@ -4,10 +4,10 @@
 
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false FUMI EDITION
+active = true  # Activate this widget? true/false FUMI EDITION
 weight = 45  # Order that this section will appear.
 
-title = "Teaching Experience"
+title = "Education"
 subtitle = ""
 
 [design]
