@@ -2,7 +2,7 @@
 date: "2024-08-03"
 external_link: ""
 image:
-  caption: Photo by <a href="https://unsplash.com/@kenwhytock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ken  Whytock</a> on <a href="https://unsplash.com/s/photos/union-protest-strike?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  caption: <a href="antigenicvariation_poster.pdf">Poster</a> of My Project
   focal_point: Smart
 links:
 - name: Poster
