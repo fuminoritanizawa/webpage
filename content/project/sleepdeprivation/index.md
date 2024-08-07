@@ -24,4 +24,7 @@ title: Sleep contributes to preference for novel food odours in Drosophila melan
 - Funded by the Japan Science and Technology Agency
 
 **Abstract**
+
 The importance of sleep in maintaining cognitive functions such as learning and memory has been reported in both vertebrates and invertebrates. Previous studies demonstrated that sleep deprivation impaired the olfactory memory retention of fruit flies as described in the classical conditioning paradigm. Here, we show that sleep deprivation leads to a preference for the odours of the rearing environment in Drosophila melanogaster. Flies whose sleep had been disturbed with periodic rotation stimuli during night-time preferred apple cider vinegar (ACV) to broth, while this preference was lower in flies without sleep deprivation and those rotated during daytime. Experiments using single odours showed an increase in responses to ACV due to sleep deprivation. These results suggest that sleep functions in food odour preference. Flies grown on medium supplemented with ACV showed greater preference for ACV, and those grown with broth supplementation showed a greater preference for broth under sleep-deprived conditions. These results suggest that flies with night-time sleep deprivation become attached to the environment on which they have developed, and that sleep contributes to preference for novel food odours. This study offers an approach to investigating the interaction between sleep and neural disorders concerning cognitive deficits towards novel stimuli.
+
+(August 2018 - April 2021)
