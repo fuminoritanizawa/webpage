@@ -33,6 +33,10 @@ subtitle = ""
      name = "Immunology"
      tag = "Immunology"
 
+   [[content.filter_button]]
+     name = "Behavior"
+     tag = "Behavior"
+
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "2"

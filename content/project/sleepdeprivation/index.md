@@ -13,9 +13,8 @@ links:
   url: https://www.mugnierlab.org/
 summary: Optimization of an extracellular fluid extraction method from Trypanosoma brucei-infected mice.
 tags:
-- Immunology
-- Genetics
-title: Characterizing the Effect of the Extravascular Environment on Trypanosoma brucei Antigenic Diversity
+- Behavior
+title: Sleep contributes to preference for novel food odours in Drosophila melanogaster
 ---
 
 **Summer 2024 Research Project at Mugnier Lab, Johns Hopkins University**
