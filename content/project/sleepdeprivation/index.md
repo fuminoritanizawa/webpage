@@ -2,15 +2,13 @@
 date: "2024-08-03"
 external_link: ""
 image:
-  caption: <a href="antigenicvariation_poster.pdf">Poster</a> of My Project
+  caption: <a href="sleepdeprivation_poster.pdf">Poster</a> of My Project
   focal_point: Smart
 links:
 - name: Poster
-  url: antigenicvariation_poster.pdf
-- name: Abstract
-  url: antigenicvariation_abstract.pdf
-- name: Mugnier Lab
-  url: https://www.mugnierlab.org/
+  url: sleepdeprivation_poster.pdf
+- name: Paper
+  url: https://www.nature.com/articles/s41598-021-88967-1
 summary: Optimization of an extracellular fluid extraction method from Trypanosoma brucei-infected mice.
 tags:
 - Behavior
