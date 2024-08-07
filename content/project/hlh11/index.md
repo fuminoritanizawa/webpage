@@ -11,7 +11,7 @@ links:
   url: https://www.nature.com/articles/s41598-021-88967-1
 summary:  (May 2023 - August 2023).
 tags:
-- Genomics
+- Genetics
 title: Genomic Regulators of Lipid Metabolism and Longevity in C. elegans
 ---
 
