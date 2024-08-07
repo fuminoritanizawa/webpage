@@ -9,7 +9,7 @@ links:
   url: sleepdeprivation_poster.pdf
 - name: Paper
   url: https://www.nature.com/articles/s41598-021-88967-1
-summary:  (May 2023 - August 2023).
+summary:  Summer Project at Scripps Research (May 2023 - August 2023).
 tags:
 - Genetics
 title: Genomic Regulators of Lipid Metabolism and Longevity in C. elegans

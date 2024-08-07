@@ -11,7 +11,7 @@ links:
   url: antigenicvariation_abstract.pdf
 - name: Mugnier Lab
   url: https://www.mugnierlab.org/
-summary: Optimization of an extracellular fluid extraction method from Trypanosoma brucei-infected mice (May 2024 - August 2024).
+summary: Summer Project at Johns Hopkins University (May 2024 - August 2024).
 tags:
 - Immunology
 - Genetics
