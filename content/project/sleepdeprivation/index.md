@@ -15,10 +15,13 @@ tags:
 title: Sleep contributes to preference for novel food odours in Drosophila melanogaster
 ---
 
-**Summer 2024 Research Project at Mugnier Lab, Johns Hopkins University**
+### Two-Year Project at Shizuoka University, Japan with Dr. Hiroyuki Takemoto
 
-My project investigated how *Trypanosoma brucei* evades human immune systems. This protozoan parasite is transmitted to humans and livestock through tsetse fly bites, posing significant public health and economic burdens in sub-Saharan Africa. It causes chronic infections through antigenic variation, a process in which the parasite periodically switches its variant surface glycoprotein (VSG) coat to escape recognition by host antibodies. While traditional research focuses on parasites in the bloodstream, recent studies suggest that extravascular spaces—areas between cells within tissues—serve as the primary reservoirs of antigenic diversity.
+- Published a first-authored paper ([link](https://www.nature.com/articles/s41598-021-88967-1))
+- Presented at two domestic conferences with a poster and one international conference (the International Animal Behavior Society) orally
+- Won two national high school biology competitions with this project
+- Conducted the research as a visiting student while in high school
+- Funded by the Japan Science and Technology Agency
 
-Our study aimed to optimize a protocol for extracting extracellular fluid (EF) from infected mice for downstream analyses, such as TMT proteomics and ELISA. By dissecting mice and collecting tissues like adipose tissue, heart, and lung, we developed methods to extract EF with minimal contamination using specific centrifugation speeds on a filter and techniques such as washing and perfusion. SDS-PAGE analysis confirmed that EF contained distinct protein components compared to cell lysate and serum. Additionally, ELISA conducted on EF showed lower levels of IgM and IgG, suggesting that lower immune pressure might be relevant to antigenic variation.
-
-This optimized protocol provides a reliable method for EF extraction and enhances our understanding of the extravascular environment’s role in *Trypanosoma brucei* infection. Our findings could potentially contribute to a better understanding of the effect of extravascular spaces on the antigenic variation of parasites and how they evade immune systems.
+**Abstract**
+The importance of sleep in maintaining cognitive functions such as learning and memory has been reported in both vertebrates and invertebrates. Previous studies demonstrated that sleep deprivation impaired the olfactory memory retention of fruit flies as described in the classical conditioning paradigm. Here, we show that sleep deprivation leads to a preference for the odours of the rearing environment in Drosophila melanogaster. Flies whose sleep had been disturbed with periodic rotation stimuli during night-time preferred apple cider vinegar (ACV) to broth, while this preference was lower in flies without sleep deprivation and those rotated during daytime. Experiments using single odours showed an increase in responses to ACV due to sleep deprivation. These results suggest that sleep functions in food odour preference. Flies grown on medium supplemented with ACV showed greater preference for ACV, and those grown with broth supplementation showed a greater preference for broth under sleep-deprived conditions. These results suggest that flies with night-time sleep deprivation become attached to the environment on which they have developed, and that sleep contributes to preference for novel food odours. This study offers an approach to investigating the interaction between sleep and neural disorders concerning cognitive deficits towards novel stimuli.
