@@ -1,22 +1,26 @@
 ---
-date: "2021-05-19T00:00:00Z"
+date: "2024-08-03"
 external_link: ""
 image:
   caption: Photo by <a href="https://unsplash.com/@kenwhytock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ken  Whytock</a> on <a href="https://unsplash.com/s/photos/union-protest-strike?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   focal_point: Smart
 links:
-- name: HPSD Download
-  url: HPSD.xlsx
-- name: Variable Abbreviations
-  url: HPSD_variables.pdf
-- name: Coding Sheet
-  url: HPSD_coding_sheet.pdf
-summary: A detailed coding of strike activity reported in major news outlets.
+- name: Poster
+  url: antigenicvariation_poster.pdf
+- name: Abstract
+  url: antigenicvariation_abstract.pdf
+- name: Mugnier Lab
+  url: https://www.mugnierlab.org/
+summary: Optimization of an extracellular fluid extraction method from Trypanosoma brucei-infected mice.
 tags:
-- Strikes, Industrial Relations
-title: High Profile Strikes Dataset
+- Immunology, Genetics
+title: Characterizing the Effect of the Extravascular Environment on Trypanosoma brucei Antigenic Diversity
 ---
 
-The High Profile Strikes Dataset (HPSD) is a coding of press reports catalogued in the “World Publications” section of the Nexis database pertaining to economic and political trade union protest. In the original dataset, the stories were identified by using broade search terms like "labor," "strikes," and "industrial disputes" and included protest from non-OECD countries for the period 1980 to 2005. 
+**Summer 2024 Research Project at Mugnier Lab, Johns Hopkins University**
 
-The new version of the dataset builds on the earlier version while also expanding the number of sources (e.g. moving beyond just Nexis). I am also looking for ways to make the database open-source, i.e. to allow individual researchers to contribute codings of strike events and to suggest corrections to earlier codings.  
+My project investigated how Trypanosoma brucei invades human immune systems. This protozoan parasite poses a significant public health and economic burden in sub-Saharan Africa by causing chronic infections through antigenic variation. It periodically switches its variant surface glycoprotein (VSG) coat to escape recognition by host antibodies. While most research focuses on the bloodstream, studies suggest that extravascular spaces, areas between cells within tissues, serve as the primary reservoirs of antigenic diversity.
+
+Our study aimed to optimize a protocol for extracting extracellular fluid (EF) from infected mice for analyses such as TMT proteomics and ELISA. By dissecting mice and collecting tissues like adipose tissue, heart, and lung, we developed methods to extract EF with minimal contamination using specific centrifugation speeds and techniques such as washing and perfusion. SDS-PAGE analysis confirmed that EF contained distinct protein components compared to cell lysate and serum.
+
+This optimized protocol provides a reliable method for EF extraction and enhances our understanding of the extravascular environment’s role in Trypanosoma brucei infection. Our findings could potentially lead to the development of novel therapeutic targets, improving treatment strategies for this and other diseases.
