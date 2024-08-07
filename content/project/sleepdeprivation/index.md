@@ -9,7 +9,7 @@ links:
   url: sleepdeprivation_poster.pdf
 - name: Paper
   url: https://www.nature.com/articles/s41598-021-88967-1
-summary: Optimization of an extracellular fluid extraction method from Trypanosoma brucei-infected mice.
+summary: Published Two-Year Project at Shizuoka University, Japan
 tags:
 - Behavior
 title: Sleep contributes to preference for novel food odours in Drosophila melanogaster
