@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 500  # Order that this section will appear.
 
 title = "Contact"
-subtitle = "Find my social media under my [profile pic](#about)."
+subtitle = "My social media is [here](#about)."
 
 # Automatically link email and phone?
 autolink = true
