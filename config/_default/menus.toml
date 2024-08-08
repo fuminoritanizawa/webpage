@@ -33,6 +33,11 @@
   url = "#talks"
   weight = 40 
 
+[[main]]
+  name = "Photos"
+  url = "#slider2"
+  weight = 50
+
 #[[main]]
 #  name = "Others"
 #  url = "#tags"
