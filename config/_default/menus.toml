@@ -24,7 +24,7 @@
   weight = 20
 
 [[main]]
-  name = "Project"
+  name = "Projects"
   url = "#projects"
   weight = 25
 
@@ -37,6 +37,11 @@
   name = "Photos"
   url = "#slider2"
   weight = 50
+
+[[main]]
+  name = "Hobbies"
+  url = "#slider"
+  weight = 70
 
 #[[main]]
 #  name = "Others"
