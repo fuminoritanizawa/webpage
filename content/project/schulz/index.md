@@ -2,7 +2,7 @@
 date: "2021-04-01"
 external_link: ""
 image:
-  caption: <a href="sleepdeprivation_poster.pdf">Poster</a> of My Project
+  caption: <a href="schulz_slide.pdf">Slide</a> of My Project
   focal_point: Smart
 links:
 - name: Slide
