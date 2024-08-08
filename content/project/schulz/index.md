@@ -7,6 +7,8 @@ image:
 links:
 - name: Slide
   url: schulz_slide.pdf
+- name: Schulz Lab
+  url: https://sites.google.com/a/g.hmc.edu/schulzlab/home?authuser=0
 summary: Project at Harvey Mudd College (September 2023 - May 2024).
 tags:
 - Immunology

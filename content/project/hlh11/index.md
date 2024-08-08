@@ -7,6 +7,8 @@ image:
 links:
 - name: Slide
   url: hlh11_slide.pdf
+- name: Srinivasan Lab
+  url: https://www.srinivasanlab.org/
 summary:  Summer Project at Scripps Research (May 2023 - August 2023).
 tags:
 - Genetics

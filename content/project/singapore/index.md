@@ -7,6 +7,8 @@ image:
 links:
 - name: Poster
   url: singapore_poster.pdf
+- name: Monteiro Lab
+  url: https://lepdata.org/monteiro/
 summary:  Summer Project at the National University of Singapore (May 2022 - August 2022).
 tags:
 - Behavior
