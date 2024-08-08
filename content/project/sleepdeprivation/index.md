@@ -9,6 +9,8 @@ links:
   url: sleepdeprivation_poster.pdf
 - name: Paper
   url: https://www.nature.com/articles/s41598-021-88967-1
+- name: Dr. Takemoto
+  url: https://researchmap.jp/htkmt-sce?lang=en
 summary: Published Two-Year Project at Shizuoka University, Japan (August 2018 - April 2021).
 tags:
 - Behavior
