@@ -11,7 +11,7 @@ summary: Project at Harvey Mudd College (September 2023 - May 2024).
 tags:
 - Immunology
 - Genetics
-title: 
+title: HAT Complex Protein EAF6: Role in Lifecycle Differentiation of Trypanosoma brucei
 ---
 
 ### Abstract
