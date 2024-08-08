@@ -1,6 +1,6 @@
 +++
 # Slider widget.
-widget = "slider"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "slider2"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 190  # Order that this section will appear.
