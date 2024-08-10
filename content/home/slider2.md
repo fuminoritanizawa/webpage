@@ -45,6 +45,72 @@ height = "calc(100vh - 70px)"
   overlay_img = "pic17.jpeg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 
+[[item]]
+  title = "Mugnier Lab"
+  content = "Johns Hopkins University (Baltimore, MA/ Summer 2024)"
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#666"  # An HTML color value.
+  overlay_img = "research_pic - 1.jpeg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0  # Darken the image. Value in range 0-1.
+
+[[item]]
+  title = "Mugnier Lab"
+  content = "Johns Hopkins University (Baltimore, MA/ Summer 2024)"
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#666"  # An HTML color value.
+  overlay_img = "research_pic - 2.jpeg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0  # Darken the image. Value in range 0-1.
+
+[[item]]
+  title = "Mugnier Lab"
+  content = "Johns Hopkins University (Baltimore, MA/ Summer 2024)"
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#666"  # An HTML color value.
+  overlay_img = "research_pic - 3.jpeg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0  # Darken the image. Value in range 0-1.
+
+[[item]]
+  title = "Mugnier Lab"
+  content = "Johns Hopkins University (Baltimore, MA/ Summer 2024)"
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#666"  # An HTML color value.
+  overlay_img = "research_pic - 4.jpeg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0  # Darken the image. Value in range 0-1.
+
+[[item]]
+  title = "Mugnier Lab"
+  content = "Johns Hopkins University (Baltimore, MA/ Summer 2024)"
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#666"  # An HTML color value.
+  overlay_img = "research_pic - 5.jpeg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0  # Darken the image. Value in range 0-1.
+
+[[item]]
+  title = "Mugnier Lab"
+  content = "Johns Hopkins University (Baltimore, MA/ Summer 2024)"
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#666"  # An HTML color value.
+  overlay_img = "research_pic - 6.jpeg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0  # Darken the image. Value in range 0-1.
+
 # [[item]]
 #  title = "Scuba Diving!"
 #  content = "Tioman Island, Malaysia!!"
