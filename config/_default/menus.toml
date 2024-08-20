@@ -34,12 +34,12 @@
   weight = 40 
 
 [[main]]
-  name = "People!"
+  name = "People"
   url = "#slider2"
   weight = 50
 
 [[main]]
-  name = "Fun!!"
+  name = "Fun"
   url = "#slider"
   weight = 70
 
