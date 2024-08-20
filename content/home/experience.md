@@ -119,7 +119,7 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "High-school Visiting Research"
+  title = "High-school Visiting Researcher"
   company = "Shizuoka University"
   company_url = "https://www.shizuoka.ac.jp/english/"
   location = "Shizuoka, Japan"
