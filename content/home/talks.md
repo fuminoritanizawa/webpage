@@ -62,7 +62,7 @@ date_format = "Jan 2006"
   organization_url = ""
   title = "Fellowships"
   url = ""
-  date_start = "2022-01-08"
+  date_start = "2024-08-01"
   date_end = ""
   description = """
   * **2023. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.hmc.edu/engagement/community-opportunities/students/summer-internships/huppe-memorial-internship/">Ben Huppe ’14 Memorial Internship for a Sustainable World</a>**<br>
@@ -80,12 +80,16 @@ date_format = "Jan 2006"
   organization_url = ""
   title = "Awards"
   url = ""
-  date_start = "2022-01-09"
+  date_start = "2024-08-01"
   date_end = ""
   description = """
-  * **2020-11-15** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Grand Prize Winner, Minister of Education, Science and Technology Award
+  * **2024-05-31** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Dean's List, <a href="https://www.hmc.edu/">Harvey Mudd College</a>
+  * **2023-05-31** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Dean's List, <a href="https://www.hmc.edu/">Harvey Mudd College</a>
+  * **2022-05-31** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Dean's List, <a href="https://www.hmc.edu/">Harvey Mudd College</a>
   <a href="https://www.jst.go.jp/EN/">Japan Science and Technology Agency National High School Student Research Conference</a> (Japan)
-  * **2020-08-26** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Grand Prize Winner, Minister of Health, Labor and Welfare Award
+  * **2020-11-15** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Grand Prize Winner, Minister of Education, Science and Technology Award,
+  <a href="https://www.jst.go.jp/EN/">Japan Science and Technology Agency National High School Student Research Conference</a> (Japan)
+  * **2020-08-26** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Grand Prize Winner, Minister of Health, Labor and Welfare Award,
   <a href="https://www.bio-summit.org/jusyou.html">National High School Student Biology Summit Competition</a> (Japan)
   """
 
@@ -94,9 +98,10 @@ date_format = "Jan 2006"
   organization_url = ""
   title = "Conference Presentations"
   url = ""
-  date_start = "2022-01-10"
+  date_start = "2024-08-01"
   date_end = ""
   description = """
+  * **2024-07-25** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 2024 C.A.R.E.S. Symposium</a> (Baltimore MA, <a href="https://drive.google.com/file/d/11hOGoWs11NqTKEXN63vFbxNZHNvCM_Ms/view?usp=sharing">Poster</a>)
   * **2022-08-04** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Amgen Scholars Asia Symposium</a> (Singapore, <a href="https://drive.google.com/file/d/12YTY_7T59ulM1oejuhqcQbREXIcBKJ_2/view?usp=sharing">Poster</a>)
   * **2020-07-28** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Animal Behavior Society (USA, <a href="https://drive.google.com/file/d/1k7zVLcHGKyaJccKhNUnBkV3zErXhjgui/view?usp=sharing">Oral</a>)
   * **2020-09-16** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Biophysical Society of Japan(Japan, <a href="https://drive.google.com/file/d/1JZ_QaI9jZCDhGZsxKOzLGnDE6LbY-ED8/view?usp=sharing">Poster</a>)
