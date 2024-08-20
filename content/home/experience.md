@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
 title = "Research Experience"
-subtitle = ""
+subtitle = "For more details, please refer to my [CV](fuminoritanizawa_cv.pdf)."
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
