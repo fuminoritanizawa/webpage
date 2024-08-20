@@ -18,7 +18,97 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
+title = "Summer Research Internship"
+  company = "Johns Hopkins University"
+  company_url = "https://publichealth.jhu.edu/"
+  location="Baltimore, Maryland"
+  date_start = "2024-05-01"
+  date_end = "2024-08-31"
+  description = """
+  Molecular Immunology of *Trypanosome brucei* at [Mugnier Lab](https://www.mugnierlab.org/)
+"""
+
 [[experience]]
+  title = "Undergraduate Research Assistant"
+  company = "Harvey Mudd College"
+  company_url = "https://www.hmc.edu/"
+  location="Claremont, California"
+  date_start = "2023-09-01"
+  date_end = "2024-05-31"
+  description = """
+  Molecular Immunology of *Trypanosome brucei* at [Schulz Lab](https://sites.google.com/a/g.hmc.edu/schulzlab/home?authuser=0)
+"""
+
+[[experience]]
+  title = "Summer Research Internship"
+  company = "Scripps Research"
+  company_url = "https://www.srinivasanlab.org"
+  location="San Diego, California"
+  date_start = "2023-05-22"
+  date_end = "2023-08-22"
+  description = """
+  Molecular genomics of *Caenorhabditis elegans* at [Srinivasan Lab](https://www.srinivasanlab.org/)
+"""
+
+[[experience]]
+  title = "CS Research Mentorship Program"
+  company = "Google Research"
+  company_url = "https://research.google"
+  location="Online"
+  date_start = "2023-01-01"
+  date_end = "2023-04-01"
+  description = """
+  Bioinformatics under Albert Cohen, Ph.D.
+  """
+
+[[experience]]
+  title = "Summer Research Internship"
+  company = "National University of Singapore"
+  company_url = "https://www.nus.edu.sg/"
+  location="Singapore, Singapore"
+  date_start = "2022-05-23"
+  date_end = "2022-08-07"
+  description = """
+  Evolutionary Developmental Biology of *Bicyclus anynana* at [Monteiro Lab](https://lepdata.org/monteiro/)
+  """
+  
+# [[experience]]
+#  title = "Undergraduate Research Assistant"
+#  company = "Harvey Mudd College"
+#  company_url = "https://www.hmc.edu/"
+#  location = "Claremont, California"
+#  date_start = "2021-12-01"
+#  date_end = ""
+#  description = """
+#  Participated in [Professor Jae Hur's molecular biology lab](https://www.hmc.edu/biology/faculty-staff/hur/) focused on aging
+#  - Investigated the impacts of health (via mating, diet, and hormesis) on mitochondrial protein degradation in *Drosophila melanogaster*
+#  - Conducted RNA extraction, cDNA synthesis, qPCR, fluorescent and colorimetric enzymatic activity assays utilizing automated microplate readers, managed fly genetics and culture, induced stress, and assessed physiology, including longevity.
+#  """
+
+[[experience]]
+  title = "Undergraduate Research Assistant"
+  company = "Harvey Mudd College"
+  company_url = "https://www.hmc.edu/"
+  location = "Claremont, California"
+  date_start = "2021-09-01"
+  date_end = "2022-02-01"
+  description = """
+  Biophysics of Cone Snail at [PoSM Lab](https://posmlab.org/)
+  """
+
+[[experience]]
+  title = "High-school Visiting Researcher"
+  company = "Shizuoka University"
+  company_url = "https://www.shizuoka.ac.jp/english/"
+  location = "Shizuoka, Japan"
+  date_start = "2018-07-01"
+  date_end = "2021-03-31"
+  description = """
+  - Behavioral Biology of *Drosophila melanogaster* under Hiroyuki Takemoto, Ph.D.
+  - First-author on the publication titled [“Sleep Contributes to Preference for Novel Food Odours in *Drosophila melanogaster*”](https://www.nature.com/articles/s41598-021-88967-1) on *Scientific Reports*.
+"""
+
+<!-- [[experience]]
   title = "Summer Research Internship"
   company = "Johns Hopkins University"
   company_url = "https://publichealth.jhu.edu/"
@@ -131,5 +221,5 @@ date_format = "Jan 2006"
   - Published a **first-authored** [paper](https://www.nature.com/articles/s41598-021-88967-1) in *Scientific Reports* and presented findings at the Animal Behavioral Society [conference](https://www.animalbehaviorsociety.org/2020-virtual/program-full.php).
   - Conducted a behavioral analysis of *Drosophila melanogaster*, investigating the effects of sleep deprivation on food odor preference using self-made devices.
   - The study contributes to understanding the interaction between sleep and neural disorders, offering a novel approach to investigating cognitive deficits towards novel stimuli.
-"""
+""" -->
 +++
