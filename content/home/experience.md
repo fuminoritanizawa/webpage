@@ -70,7 +70,7 @@ title = "Summer Research Internship"
   date_end = "2022-08-07"
   description = """
   Evolutionary Developmental Biology of *Bicyclus anynana* at [Monteiro Lab](https://lepdata.org/monteiro/)
-  """
+"""
   
 # [[experience]]
 #  title = "Undergraduate Research Assistant"
@@ -94,7 +94,7 @@ title = "Summer Research Internship"
   date_end = "2022-02-01"
   description = """
   Biophysics of Cone Snail at [PoSM Lab](https://posmlab.org/)
-  """
+"""
 
 [[experience]]
   title = "High-school Visiting Researcher"
@@ -107,6 +107,7 @@ title = "Summer Research Internship"
   - Behavioral Biology of *Drosophila melanogaster* under Hiroyuki Takemoto, Ph.D.
   - First-author on the publication titled [“Sleep Contributes to Preference for Novel Food Odours in *Drosophila melanogaster*”](https://www.nature.com/articles/s41598-021-88967-1) on *Scientific Reports*.
 """
++++
 
 <!-- [[experience]]
   title = "Summer Research Internship"
@@ -222,4 +223,3 @@ title = "Summer Research Internship"
   - Conducted a behavioral analysis of *Drosophila melanogaster*, investigating the effects of sleep deprivation on food odor preference using self-made devices.
   - The study contributes to understanding the interaction between sleep and neural disorders, offering a novel approach to investigating cognitive deficits towards novel stimuli.
 """ -->
-+++
