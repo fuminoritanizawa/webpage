@@ -18,7 +18,8 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
-title = "Summer Research Internship"
+[[experience]]
+  title = "Summer Research Internship"
   company = "Johns Hopkins University"
   company_url = "https://publichealth.jhu.edu/"
   location="Baltimore, Maryland"
