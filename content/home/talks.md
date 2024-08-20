@@ -65,7 +65,7 @@ date_format = "Jan 2006"
   date_start = "2024-08-01"
   date_end = ""
   description = """
-  * **2024. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Johns Hopkins University BSI-SIP Fellowship**<br>
+  * **2024. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspJohns Hopkins University BSI-SIP Fellowship**<br>
   Selected as a summer internship scholarship recipient for my research at Johns Hopkins University Medical School in 2024
   * **2023. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.hmc.edu/engagement/community-opportunities/students/summer-internships/huppe-memorial-internship/">Ben Huppe ’14 Memorial Internship for a Sustainable World</a>**<br>
   Selected as a summer internship scholarship recipient for my research at Scripps Research in 2023
