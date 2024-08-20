@@ -19,17 +19,31 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Summer Research Internship"
+  company = "Johns Hopkins University"
+  company_url = "https://publichealth.jhu.edu/"
+  location="Baltimore, Maryland"
+  date_start = "2024-05-01"
+  date_end = "2024-08-31"
+  description = """
+  Participated in [Professor Monica Mugnier's genetic parasitology lab](https://www.mugnierlab.org/) focused on sleeping sickness
+  - Investigated the impact of the extravascular environment on antigenic variation in *Trypanosoma brucei*, a key parasite invasion mechanism, by developing protocols for extracting extracellular fluid (EF) from the organs of infected mice.
+  - Performed precise dissections and evaluated techniques such as blood washing, perfusion, and centrifugation to isolate EF with minimal contamination, validated by 108 samples through SDS-PAGE analysis.
+  - Proposed low immune pressure as a potential driver of antigenic variation by establishing an EF extraction method and conducting ELISA for IgG/M on the extracted EF.
+"""
+
+[[experience]]
   title = "Undergraduate Research Assistant"
   company = "Harvey Mudd College"
   company_url = "https://www.hmc.edu/"
   location="Claremont, California"
   date_start = "2023-09-01"
-  date_end = ""
+  date_end = "2024-05-31"
   description = """
   Participated in [Professor Danae Schulz's genetic parasitology lab](https://sites.google.com/a/g.hmc.edu/schulzlab/) focused on sleeping sickness
-  - Engineered an RNAi plasmid targeting the EAF6 gene in the HAT complex of *Trypanosoma brucei*, the parasite causing African sleeping sickness, to study its role in the parasite's lifecycle transitions, especially between Bloodstream and Insect forms.
-  - Electro-transformed an RNAi plasmid into *T. brucei*, incorporating an EP1-GFP reporter system to enable real-time monitoring of procyclin expression, encoded by the EP1 gene, as a proxy for lifecycle differentiation.
-  - Performed detailed flow cytometry to track EP1-GFP expression in *T. brucei*, uncovering EAF6's critical role in facilitating differentiation and indicating potential RNAi system leakage.
+  - Investigated the impact of the extravascular environment on antigenic variation in *Trypanosoma brucei*, a key parasite invasion mechanism, by developing protocols for extracting extracellular fluid (EF) from the organs of infected mice.
+  - Performed precise dissections and evaluated techniques such as blood washing, perfusion, and centrifugation to isolate EF with minimal contamination, validated by 108 samples through SDS-PAGE analysis.
+  - Proposed low immune pressure as a potential driver of antigenic variation by establishing an EF extraction method and conducting ELISA for IgG/M on the extracted EF.
 """
 
 [[experience]]
@@ -56,10 +70,9 @@ date_format = "Jan 2006"
   date_end = "2023-04-01"
   description = """
   Participated in Google Research's CS Research Mentorship Program (CSRMP) aimed at supporting CS-related students in research.
-  - Engaged in group and one-on-one meetings with a Google mentor and peers to discuss various topics, including defining a research problem, applying to graduate school, navigating the publication process, and applying for postdoc/academia/industry positions.
-  - Participated in virtual networking events, career panels, tech talks, and information sessions about computing research opportunities.
-  - Collaborated with a small group of peers and a Google mentor to structure discussions and identify opportunities around key topics in computing research.
-  - Contributed to a broader peer community by participating in discussions and sharing experiences and perspectives to foster a supportive environment.
+  - Engineered and optimized a Python-based search algorithm for selecting optimal PCR amplicons in *E. coli* DNA, utilizing bioinformatics tools such as Primer3 and Biopython libraries, enhancing computational efficiency and achieving maximal accuracy thresholds.
+  - Developed and implemented advanced evaluation criteria for 88 DNA samples, incorporating metrics such as GC content, melting temperature (Tm), and specificity to markedly improve the precision and reliability of genetic analysis, and designed in-silico PCR simulations to validate the performance of selected amplicons.
+  - Accelerated the processing speed of BLAST for sequence alignment tasks, yielding significant performance enhancements in PCR optimization workflows by parallelizing computations and optimizing query handling.
   """
 
 [[experience]]
@@ -72,23 +85,23 @@ date_format = "Jan 2006"
   description = """ 
   Engaged in [Professor Antonia Monteiro's evolutionary development lab](https://lepdata.org/monteiro/) centered on behavioral inheritance
   - Selected for [the Amgen Scholars Program](https://amgenscholars.com), conducting evolutionary developmental analysis of food odor preference and its genetics in Bicyclus anynana.
-  - Investigated the inheritance of learned novel food odor preferences in Bicyclus anynana butterfly larvae.
-  - Performed Egg Infections, Insect Dissection, and Insect Injections.
-  - Conducted Behavioral Odor Choice Assays and managed Insect Rearing.
+  - Conducted a detailed study on the transgenerational inheritance of learned odor preferences in *Bicyclus anynana*, providing insights into epigenetic inheritance mechanisms.
+  - Designed and executed experiments that demonstrated larvae could learn and pass on novel host plant odor preferences, contributing to our understanding of insect behavior and adaptation.
+  - Showed the ability of *B. anynana* to transmit learned preferences for novel odors to subsequent generations, highlighting the implications for ecological speciation and host plant shifts.
   """
   
-[[experience]]
-  title = "Undergraduate Research Assistant"
-  company = "Harvey Mudd College"
-  company_url = "https://www.hmc.edu/"
-  location = "Claremont, California"
-  date_start = "2021-12-01"
-  date_end = ""
-  description = """
-  Participated in [Professor Jae Hur's molecular biology lab](https://www.hmc.edu/biology/faculty-staff/hur/) focused on aging
-  - Investigated the impacts of health (via mating, diet, and hormesis) on mitochondrial protein degradation in *Drosophila melanogaster*
-  - Conducted RNA extraction, cDNA synthesis, qPCR, fluorescent and colorimetric enzymatic activity assays utilizing automated microplate readers, managed fly genetics and culture, induced stress, and assessed physiology, including longevity.
-  """
+# [[experience]]
+#  title = "Undergraduate Research Assistant"
+#  company = "Harvey Mudd College"
+#  company_url = "https://www.hmc.edu/"
+#  location = "Claremont, California"
+#  date_start = "2021-12-01"
+#  date_end = ""
+#  description = """
+#  Participated in [Professor Jae Hur's molecular biology lab](https://www.hmc.edu/biology/faculty-staff/hur/) focused on aging
+#  - Investigated the impacts of health (via mating, diet, and hormesis) on mitochondrial protein degradation in *Drosophila melanogaster*
+#  - Conducted RNA extraction, cDNA synthesis, qPCR, fluorescent and colorimetric enzymatic activity assays utilizing automated microplate readers, managed fly genetics and culture, induced stress, and assessed physiology, including longevity.
+#  """
 
 [[experience]]
   title = "Undergraduate Research Assistant"
@@ -106,7 +119,7 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "High-school Research Assistant"
+  title = "High-school Visiting Research"
   company = "Shizuoka University"
   company_url = "https://www.shizuoka.ac.jp/english/"
   location = "Shizuoka, Japan"
@@ -115,7 +128,7 @@ date_format = "Jan 2006"
   description = """
   Collaborated with Dr. Hiroyuki Takemoto at Shizuoka University on independent research, investigating the impact of sleep deprivation on feeding behaviros.
   - Awarded a high school research [grant](https://www.jst.go.jp/cpse/gsc/about/index_english.html) from the [Japan Science and Technology Agency](https://www.jst.go.jp/EN/); conducted research with Prof. Hiroyuki Takemoto at Shizuoka University.
-  - Published a first-authored [paper](https://www.nature.com/articles/s41598-021-88967-1) in *Scientific Reports* and presented findings at the Animal Behavioral Society [conference](https://www.animalbehaviorsociety.org/2020-virtual/program-full.php).
+  - Published a **first-authored** [paper](https://www.nature.com/articles/s41598-021-88967-1) in *Scientific Reports* and presented findings at the Animal Behavioral Society [conference](https://www.animalbehaviorsociety.org/2020-virtual/program-full.php).
   - Conducted a behavioral analysis of *Drosophila melanogaster*, investigating the effects of sleep deprivation on food odor preference using self-made devices.
   - The study contributes to understanding the interaction between sleep and neural disorders, offering a novel approach to investigating cognitive deficits towards novel stimuli.
 """
