@@ -65,11 +65,11 @@ date_format = "Jan 2006"
   date_start = "2024-08-01"
   date_end = ""
   description = """
-  * **2024. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspJohns Hopkins University BSI-SIP Fellowship**<br>
+  * **2024. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.hopkinsmedicine.org/som/pathway/sip">Johns Hopkins University BSI-SIP Fellowship</a>**<br>
   Selected as a summer internship scholarship recipient for my research at Johns Hopkins University Medical School in 2024
   * **2023. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.hmc.edu/engagement/community-opportunities/students/summer-internships/huppe-memorial-internship/">Ben Huppe ’14 Memorial Internship for a Sustainable World</a>**<br>
   Selected as a summer internship scholarship recipient for my research at Scripps Research in 2023
-  * **2022. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNUS Amgen Scholars Fellowship**<br>
+  * **2022. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.dbs.nus.edu.sg/amgen-scholars-program/">NUS Amgen Scholars Fellowship</a>**<br>
   Selected as a summer internship scholarship recipient for my research at National University of Singapore in 2022
   * **2018-Present. &nbsp<a href="https://masason-foundation.org/en/cpt_testimonial/%E8%B0%B7%E6%BE%A4%E6%96%87%E7%A4%BC/">Masason Foundation</a>**<br>
   Selected as one of the most talented 51 young scholars under 25 years old in Japan by the foundation supported by Masayoshi Son, the CEO of <a href="https://www.softbank.jp/en/"> Softbank</a> ($35K max./year)
