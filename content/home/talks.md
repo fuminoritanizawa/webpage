@@ -83,9 +83,9 @@ date_format = "Jan 2006"
   date_start = "2024-08-01"
   date_end = ""
   description = """
-  * **2024-05-31** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Dean's List, <a href="https://www.hmc.edu/">Harvey Mudd College</a>
-  * **2023-05-31** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Dean's List, <a href="https://www.hmc.edu/">Harvey Mudd College</a>
-  * **2022-05-31** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Dean's List, <a href="https://www.hmc.edu/">Harvey Mudd College</a>
+  * **2024-05-31** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Dean's List (Spring & Fall), <a href="https://www.hmc.edu/">Harvey Mudd College</a>
+  * **2023-05-31** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Dean's List (Spring & Fall), <a href="https://www.hmc.edu/">Harvey Mudd College</a>
+  * **2022-05-31** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Dean's List (Spring & Fall), <a href="https://www.hmc.edu/">Harvey Mudd College</a>
   <a href="https://www.jst.go.jp/EN/">Japan Science and Technology Agency National High School Student Research Conference</a> (Japan)
   * **2020-11-15** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Grand Prize Winner, Minister of Education, Science and Technology Award,
   <a href="https://www.jst.go.jp/EN/">Japan Science and Technology Agency National High School Student Research Conference</a> (Japan)
