@@ -77,8 +77,8 @@ user_groups:
 - Researcher
 - Biologist
 ---
-Hi! I’m Fumi Tanizawa, a senior majoring in Computational Biology at Harvey Mudd College, originally from Tokyo, Japan. I am passionate about molecular genetics and genetic medicine, with research experience at Johns Hopkins Medicine, Scripps Research, and the National University of Singapore. My primary interest is in infectious disease immunology, particularly parasitology, with a focus on neglected tropical diseases. My aspiration is to lead research that transforms our understanding and treatment of human health issues.
+Hi, I’m Fumi, a senior at Harvey Mudd majoring in Computational Biology. Driven by a passion for advancing human health, I’m focused on becoming a molecular geneticist specializing in infectious diseases. I’ve developed my expertise through internships at Scripps Research, Johns Hopkins Medicine, and the National University of Singapore. My primary focus is on infectious disease, particularly parasitology and neglected tropical diseases. I aspire to lead transformative research that redefines our understanding and treatment of these critical health challenges.
 
 <i class="fas fa-download  pr-1 fa-fw"></i> Download my [curriculum vitae](fuminoritanizawa_cv.pdf).
 
-Japanese: こんにちは！米国ハーベイ・マッド大学の計算生物学専攻4年の谷澤文礼です。孫正義育英財団2期, 柳井正財団5期。
+# Japanese: こんにちは！米国ハーベイ・マッド大学の計算生物学専攻4年の谷澤文礼です。孫正義育英財団2期, 柳井正財団5期。
