@@ -81,7 +81,7 @@ Hi, I’m Fumi, a senior at Harvey Mudd majoring in Computational Biology. Drive
 
 I’ve developed my expertise through internships at Scripps Research, Johns Hopkins Medicine, and the National University of Singapore. My primary focus is on infectious disease, particularly parasitology and neglected tropical diseases.
 
-Also, as a minor in Environmental Analysis, I’m very interested in approaching infectious prevention from the lens of environmental analysis and social justice as well. I aspire to lead transformative research that redefines our understanding and treatment of these critical health challenges.
+As a minor in Environmental Analysis, I’m very interested in approaching infectious prevention from the lens of environmental analysis and social justice as well. I aspire to lead transformative research that redefines our understanding and treatment of these critical health challenges.
 
 <i class="fas fa-download  pr-1 fa-fw"></i> Download my [curriculum vitae](fuminoritanizawa_cv.pdf).
 
