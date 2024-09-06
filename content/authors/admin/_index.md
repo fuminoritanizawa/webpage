@@ -83,6 +83,6 @@ I’ve built my expertise through internships at Scripps Research, Johns Hopkins
 
 In addition, my humanity concentration in Environmental Analysis has deepened my interest in tackling infectious prevention through the lens of environmental and social justice. I aspire to contribute to research that not only advances scientific knowledge but also delivers practical solutions to those affected by diseases.
 
-<i class="fas fa-download  pr-1 fa-fw"></i> Download my [curriculum vitae](fuminoritanizawa_cv.pdf).
+<i class="fas fa-download  pr-1 fa-fw"></i> Download my [CV](fuminoritanizawa_cv.pdf).
 
 <!-- Japanese: こんにちは！米国ハーベイ・マッド大学の計算生物学専攻4年の谷澤文礼です。孫正義育英財団2期, 柳井正財団5期。 -->
