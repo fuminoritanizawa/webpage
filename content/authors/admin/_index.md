@@ -77,11 +77,11 @@ user_groups:
 - Researcher
 - Biologist
 ---
-Hi, I’m Fumi, a senior at Harvey Mudd majoring in Computational Biology. With a strong passion for advancing human health, I aim to become a molecular immunologist specializing in infectious diseases.
+Hi! I’m Fumi, a senior at Harvey Mudd majoring in Computational Biology with a passion for molecular immunology and infectious diseases.
 
-I’ve built my expertise through internships at Scripps Research, Johns Hopkins Medicine, and the National University of Singapore, with a primary focus on infectious diseases, particularly parasitology and neglected tropical diseases.
+I’ve built a strong foundation in evolutionary and epidemiological modeling, along with hands-on lab experience through internships at Scripps Research, Johns Hopkins School of Public Health, and the National University of Singapore.
 
-In addition, my humanity concentration in Environmental Analysis has deepened my interest in tackling infectious prevention through the lens of environmental and social justice. I aspire to contribute to research that not only advances scientific knowledge but also delivers practical solutions to those affected by diseases.
+Through my liberal arts education, my concentration in Environmental Analysis has deepened my understanding of infectious diseases from an environmental and social justice perspective. I am eager to engage in pathological research and am committed to not only advancing science but also finding practical solutions for those most affected by these diseases.
 
 <i class="fas fa-download  pr-1 fa-fw"></i> Download my [CV](fuminoritanizawa_cv.pdf).
 
