@@ -23,7 +23,7 @@ height = "calc(100vh - 70px)"
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
   overlay_color = "#666"  # An HTML color value.
-  overlay_img = "srinivasan_1.png"  # Image path relative to your `static/img/` folder.
+  overlay_img = "srinivasan_01.png"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 
   # Call to action button (optional).
@@ -42,7 +42,18 @@ height = "calc(100vh - 70px)"
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
   overlay_color = "#666"  # An HTML color value.
-  overlay_img = "srinivasan_2.png"  # Image path relative to your `static/img/` folder.
+  overlay_img = "srinivasan_02.png"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0  # Darken the image. Value in range 0-1.
+
+[[item]]
+  title = "Srinivasan Lab"
+  content = "The Scripps Research Institue (La Jolla, CA/ Summer 2023)"
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#666"  # An HTML color value.
+  overlay_img = "srinivasan_03.png"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 
 [[item]]
@@ -109,6 +120,97 @@ height = "calc(100vh - 70px)"
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
   overlay_color = "#666"  # An HTML color value.
   overlay_img = "mugnier_6.png"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0  # Darken the image. Value in range 0-1.
+
+[[item]]
+  title = "Monteiro Lab"
+  content = "National University of Singapore (Singapore, Singapore/ Summer 2022)"
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#666"  # An HTML color value.
+  overlay_img = "monteiro_01.png"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0  # Darken the image. Value in range 0-1.
+
+[[item]]
+  title = "Monteiro Lab"
+  content = "National University of Singapore (Singapore, Singapore/ Summer 2022)"
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#666"  # An HTML color value.
+  overlay_img = "monteiro_02.png"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0  # Darken the image. Value in range 0-1.
+
+[[item]]
+  title = "Monteiro Lab"
+  content = "National University of Singapore (Singapore, Singapore/ Summer 2022)"
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#666"  # An HTML color value.
+  overlay_img = "monteiro_03.png"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0  # Darken the image. Value in range 0-1.
+
+[[item]]
+  title = "Hur Lab"
+  content = "Harvey Mudd College (Claremont, CA/ Home college)"
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#666"  # An HTML color value.
+  overlay_img = "hur_01.png"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0  # Darken the image. Value in range 0-1.
+
+[[item]]
+  title = "Hur Lab"
+  content = "Harvey Mudd College (Claremont, CA/ Home college)"
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#666"  # An HTML color value.
+  overlay_img = "hur_02.png"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0  # Darken the image. Value in range 0-1.
+
+
+[[item]]
+  title = "Amgen Scholars Program"
+  content = "National University of Singapore (Singapore, Singapore/ Summer 2022)"
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#666"  # An HTML color value.
+  overlay_img = "amgen_01.png"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0  # Darken the image. Value in range 0-1.
+
+
+[[item]]
+  title = "Amgen Scholars Program"
+  content = "National University of Singapore (Singapore, Singapore/ Summer 2022)"
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#666"  # An HTML color value.
+  overlay_img = "amgen_02.png"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0  # Darken the image. Value in range 0-1.
+
+
+[[item]]
+  title = "Amgen Scholars Program"
+  content = "National University of Singapore (Singapore, Singapore/ Summer 2022)"
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#666"  # An HTML color value.
+  overlay_img = "amgen_03.png"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 
 # [[item]]
