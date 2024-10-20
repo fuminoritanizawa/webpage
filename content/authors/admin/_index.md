@@ -79,7 +79,7 @@ user_groups:
 ---
 Hi! I’m Fumi, a senior at Harvey Mudd majoring in Computational Biology with a passion for molecular immunology and infectious diseases.
 
-I’ve built a strong foundation in evolutionary and epidemiological modeling, along with hands-on lab experience through internships at Scripps Research, Johns Hopkins School of Public Health, and the National University of Singapore.
+I’ve built a strong computational foundation in evolutionary and epidemiological modeling, along with hands-on lab experience through internships at Scripps Research, Johns Hopkins School of Public Health, and the National University of Singapore.
 
 Through my liberal arts education, my concentration in Environmental Analysis has deepened my understanding of infectious diseases from an environmental and social justice perspective. I am eager to engage in pathological research and am committed to not only advancing science but also finding practical solutions for those most affected by these diseases.
 
