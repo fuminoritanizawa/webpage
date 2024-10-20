@@ -133,17 +133,6 @@ height = "calc(100vh - 70px)"
   overlay_img = "monteiro_01.png"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 
-<!-- [[item]]
-  title = "Monteiro Lab"
-  content = "National University of Singapore (Singapore, Singapore/ Summer 2022)"
-  align = "left"  # Choose `center`, `left`, or `right`.
-
-  # Overlay a color or image (optional).
-  #   Deactivate an option by commenting out the line, prefixing it with `#`.
-  overlay_color = "#666"  # An HTML color value.
-  overlay_img = "monteiro_02.png"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0  # Darken the image. Value in range 0-1. -->
-
 [[item]]
   title = "Monteiro Lab"
   content = "National University of Singapore (Singapore, Singapore/ Summer 2022)"
