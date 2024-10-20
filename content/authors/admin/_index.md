@@ -81,7 +81,7 @@ Hi! I’m Fumi, a senior at Harvey Mudd majoring in Computational Biology with a
 
 I’ve built a strong computational foundation in evolutionary and epidemiological modeling, along with hands-on lab experience through internships at Scripps Research, Johns Hopkins School of Public Health, and the National University of Singapore.
 
-Through my liberal arts education, my concentration in Environmental Analysis has deepened my understanding of infectious diseases from an environmental and social justice perspective. I am eager to engage in pathological research and am committed to not only advancing science but also finding practical solutions for those most affected by these diseases.
+Through my liberal arts education, my concentration in Environmental Analysis has deepened my understanding of infectious diseases from an social justice perspective. I am eager to engage in pathological research and am committed to finding practical sciences for those most affected by these diseases.
 
 <i class="fas fa-download  pr-1 fa-fw"></i> Download my [CV](fuminoritanizawa_cv.pdf).
 
