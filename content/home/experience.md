@@ -19,6 +19,18 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Senior Thesis Researcher"
+  company = "Harvey Mudd College"
+  company_url = "https://www.hmc.edu/biology/"
+  location = "Claremont, California"
+  date_start = "2024-08-01"
+  date_end = ""
+  description = """
+  Investigating mitochondrial proteostasis in immunity of *Drosophila melanogaster* at [Hur Lab](https://www.hmc.edu/biology/faculty-staff/hur/).
+  """
+
+
+[[experience]]
   title = "Summer Research Internship"
   company = "Johns Hopkins University"
   company_url = "https://publichealth.jhu.edu/"
