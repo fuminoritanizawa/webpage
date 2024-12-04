@@ -87,5 +87,5 @@ Through the liberal arts education, my concentration in Environmental Analysis h
 
 <!-- Japanese: こんにちは！米国ハーベイ・マッド大学の計算生物学専攻4年の谷澤文礼です。孫正義育英財団2期, 柳井正財団5期。 -->
 
-## New!
+### New!
 Thrilled to announce I’ve been awarded a **full-ride scholarship** for my PhD (2025–2027) from <a href="https://www.recruit-foundation.org/en/">the Ezoe Memorial Foundation Academic Scholarship</a>, renewable annually **through 2029–2030**.
