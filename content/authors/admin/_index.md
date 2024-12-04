@@ -22,8 +22,8 @@ bio: B.S. Student in MathCompBiology
 
 Interests:
   - Molecular Immunology
+  - Immune Evasion Mechanisms
   - Parasitology
-  - Environmental Analysis
 
 education:
   courses:
