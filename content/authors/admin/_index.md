@@ -83,6 +83,14 @@ I’ve built a strong computational foundation in evolutionary and epidemiologic
 
 Through the liberal arts education, my concentration in Environmental Analysis has deepened my understanding of infectious diseases from an social justice perspective. I am eager to engage in pathological research and am committed to finding practical sciences for those most affected by these diseases.
 
+<!-- Hi! I’m Fumi — an incoming PhD student in Immunology at Stanford Medicine, focused on understanding host-pathogen interactions in infectious diseases.
+
+I have a strong background in computational biology, with research experience in evolutionary and epidemiological modeling, as well as molecular experimentation. My work at Scripps Research, Johns Hopkins University, and the National University of Singapore has trained me to approach disease from both computational and bench-based perspectives.
+
+I graduated from Harvey Mudd College in 2025 with a major in Computational Biology and a concentration in Environmental Analysis. My liberal arts education has shaped a multidisciplinary view of disease — one that connects molecular mechanisms with global health and social justice.
+
+As an aspiring immunologist, I’m committed to research that deepens our understanding of immunity while driving real-world solutions for communities most impacted by infectious disease. -->
+
 <i class="fas fa-download  pr-1 fa-fw"></i> Download my [CV](fuminoritanizawa_cv.pdf).
 
 Japanese: こんにちは！米国ハーベイ・マッド大学の計算生物学専攻4年の谷澤文礼です.
