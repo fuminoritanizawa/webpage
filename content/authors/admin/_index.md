@@ -78,21 +78,21 @@ user_groups:
 - Biologist
 ---
 <section>
-  <p>Hi! I’m Fumi, an incoming PhD student in Immunology at 
+  <p>
+    Hi! I’m Fumi, an incoming PhD student in Immunology at 
     <a href="https://med.stanford.edu/immunol.html" target="_blank">Stanford Medicine</a>. 
-    I’m passionate about how hosts and pathogens interact during infection, using both dry and wet approaches.
+    I’m passionate about host-pathogen interactions in infectious diseases, using both dry and wet approaches.
   </p>
 
   <p>
-    I have a strong background in computational biology, with experience in evolutionary modeling, epidemiology, and molecular bench training. 
+    I have a strong background in computational biology, with experience in evolutionary modeling, epidemiology, and robust molecular bench training. 
     My research spans projects at Scripps Research (<em>C. elegans</em> neuroscience), Johns Hopkins (parasite infections in mice), 
-    the National University of Singapore (butterfly evolutionary development), and Harvey Mudd College (bacterial infection in <em>Drosophila</em>).
+    the National University of Singapore (butterfly evo-devo), and Harvey Mudd College (bacterial infection in <em>Drosophila</em>).
   </p>
 
   <p>
     I graduated from <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a> in 2025 with a degree in Computational Biology 
-    and a concentration in Environmental Analysis. Grounded in a liberal arts education, I approach disease through an interdisciplinary lens—
-    bridging molecular biology, global health, and social equity, and motivating research aimed at improving outcomes for underserved communities.
+    and a humanities concentration in Environmental Analysis. Grounded in a liberal arts education, I value an interdisciplinary lens—bridging molecular biology, global health, and social equity—and pursue research aimed at improving outcomes for underserved communities.
   </p>
 
   <hr>
@@ -108,17 +108,9 @@ user_groups:
 
   <hr>
 
-  <p><strong>日本語 / Japanese:</strong></p>
-  <p>
-    こんにちは！2025年に米国ハーベイ・マッド大学を卒業し、スタンフォード大学医学部 免疫学PhDプログラムに進学予定の谷澤文礼です。感染症における宿主と病原体の相互作用に関心があり、計算（dry）と実験（wet）の両方の手法を用いて研究しています。
-  </p>
-
-  <p>
-    これまで、Scripps Research（<em>C. elegans</em>の神経科学）、ジョンズ・ホプキンス大学（マウスにおける寄生虫感染）、シンガポール国立大学（蝶の進化発生）、およびハーベイ・マッド大学（ショウジョウバエの細菌感染）で研究経験を積んできました。
-  </p>
-
-  <p>
-    孫正義育英財団第2期、柳井正財団第5期、江副記念リクルート財団第54期の奨学生です。
+  <p><strong>日本語 / Japanese:</strong><br>
+  スタンフォード大学医学部 免疫学博士生。感染症における宿主と病原体の相互作用に関心があります。<br>
+  ハービーマッド大学2025年卒（計算生物学専攻）。孫正義（2期）・柳井正（5期）・江副記念財団（54期）奨学生。
   </p>
 </section>
 
