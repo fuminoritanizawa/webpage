@@ -77,24 +77,50 @@ user_groups:
 - Researcher
 - Biologist
 ---
-Hi! I’m Fumi, a senior at Harvey Mudd majoring in Computational Biology with a passion for molecular immunology and infectious diseases.
+<section>
+  <p>Hi! I’m Fumi, an incoming PhD student in Immunology at 
+    <a href="https://med.stanford.edu/immunol.html" target="_blank">Stanford Medicine</a>. 
+    I’m passionate about how hosts and pathogens interact during infection, using both dry and wet approaches.
+  </p>
 
-I’ve built a strong computational foundation in evolutionary and epidemiological modeling, along with hands-on lab experience through internships at Scripps Research, Johns Hopkins School of Public Health, and the National University of Singapore.
+  <p>
+    I have a strong background in computational biology, with experience in evolutionary modeling, epidemiology, and molecular bench training. 
+    My research spans projects at Scripps Research (<em>C. elegans</em> neuroscience), Johns Hopkins (parasite infections in mice), 
+    the National University of Singapore (butterfly evolutionary development), and Harvey Mudd College (bacterial infection in <em>Drosophila</em>).
+  </p>
 
-Through the liberal arts education, my concentration in Environmental Analysis has deepened my understanding of infectious diseases from an social justice perspective. I am eager to engage in pathological research and am committed to finding practical sciences for those most affected by these diseases.
+  <p>
+    I graduated from <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a> in 2025 with a degree in Computational Biology 
+    and a concentration in Environmental Analysis. Grounded in a liberal arts education, I approach disease through an interdisciplinary lens—
+    bridging molecular biology, global health, and social equity, and motivating research aimed at improving outcomes for underserved communities.
+  </p>
 
-<!-- Hi! I’m Fumi — an incoming PhD student in Immunology at Stanford Medicine, focused on understanding host-pathogen interactions in infectious diseases.
+  <hr>
 
-I have a strong background in computational biology, with research experience in evolutionary and epidemiological modeling, as well as molecular experimentation. My work at Scripps Research, Johns Hopkins University, and the National University of Singapore has trained me to approach disease from both computational and bench-based perspectives.
+  <p>
+    I’m always open to new collaborations or opportunities—feel free to reach out!
+  </p>
 
-I graduated from Harvey Mudd College in 2025 with a major in Computational Biology and a concentration in Environmental Analysis. My liberal arts education has shaped a multidisciplinary view of disease — one that connects molecular mechanisms with global health and social justice.
+  <p>
+    <i class="fas fa-download pr-1 fa-fw"></i>
+    <a href="fuminoritanizawa_cv.pdf" download>Download my CV</a>
+  </p>
 
-As an aspiring immunologist, I’m committed to research that deepens our understanding of immunity while driving real-world solutions for communities most impacted by infectious disease. -->
+  <hr>
 
-<i class="fas fa-download  pr-1 fa-fw"></i> Download my [CV](fuminoritanizawa_cv.pdf).
+  <p><strong>日本語 / Japanese:</strong></p>
+  <p>
+    こんにちは！2025年に米国ハーベイ・マッド大学を卒業し、スタンフォード大学医学部 免疫学PhDプログラムに進学予定の谷澤文礼です。感染症における宿主と病原体の相互作用に関心があり、計算（dry）と実験（wet）の両方の手法を用いて研究しています。
+  </p>
 
-Japanese: こんにちは！米国ハーベイ・マッド大学の計算生物学専攻4年の谷澤文礼です.
-孫正義育英財団2期, 柳井正財団5期, 江副記念リクルート財団54期.
+  <p>
+    これまで、Scripps Research（<em>C. elegans</em>の神経科学）、ジョンズ・ホプキンス大学（マウスにおける寄生虫感染）、シンガポール国立大学（蝶の進化発生）、およびハーベイ・マッド大学（ショウジョウバエの細菌感染）で研究経験を積んできました。
+  </p>
+
+  <p>
+    孫正義育英財団第2期、柳井正財団第5期、江副記念リクルート財団第54期の奨学生です。
+  </p>
+</section>
 
 ### New! (2024-11-21)
 Thrilled to announce I’ve been awarded a **full-ride scholarship** for my PhD (2025–2027) from <a href="https://www.recruit-foundation.org/en/">the Ezoe Memorial Foundation Academic Scholarship</a>, renewable annually **through 2029–2030**.
