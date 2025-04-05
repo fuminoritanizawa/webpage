@@ -85,8 +85,8 @@ user_groups:
   </p>
 
   <p>
-    I have a strong background in computational biology, with experience in evolutionary modeling, epidemiology, and robust molecular bench training. 
-    My research spans projects at Scripps Research (<em>C. elegans</em> neuroscience), Johns Hopkins (parasite infections in mice), 
+    I have a strong background in computational biology and robust molecular bench training. 
+    My research spans projects at Scripps Research (<em>C. elegans</em> neurosci), Johns Hopkins (parasite infections in mice), 
     the National University of Singapore (butterfly evo-devo), and Harvey Mudd College (bacterial infection in <em>Drosophila</em>).
   </p>
 
