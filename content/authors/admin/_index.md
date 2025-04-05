@@ -10,20 +10,20 @@ authors:
 superuser: true
 
 # Role/position
-role: Undergraduate Student
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:
-- name: Harvey Mudd College
-  url: https://www.hmc.edu/
+- name: Stanford Immunology
+  url: https://med.stanford.edu/immunol.html
 
 # Short bio (displayed in user profile at end of posts)
-bio: B.S. Student in MathCompBiology
+bio: PhD Student in Immunology
 
 Interests:
-  - Molecular Immunology
+  - Host-pathogen Interaction
   - Immune Evasion
-  - Parasitology
+  - Infectious Diseases
 
 education:
   courses:
@@ -33,9 +33,12 @@ education:
   # - course: MEng in Artificial Intelligence
   #   institution: Massachusetts Institute of Technology
   #   year: 2009
+  - course: PhD in Immunology
+    institution: Stanford Medicine Immunology
+    year: On-going
   - course: BSc in Computational Biology
     institution: Harvey Mudd College
-    year: 2025(Expected; GPA 3.9/4.0)
+    year: 2025(GPA 3.9/4.0)
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -44,7 +47,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:ftanizawa@hmc.edu'
+    link: 'mailto:fuminori@stanford.edu'
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/fmt81
@@ -67,15 +70,15 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "ftanizawa@hmc.edu"
+email: "fuminori@stanford.edu"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Neuroscientist
-- Molecular Genetics
-- Researcher
-- Biologist
+# user_groups:
+# - Neuroscientist
+# - Molecular Genetics
+# - Researcher
+# - Biologist
 ---
 <section>
   <p>
@@ -111,5 +114,9 @@ user_groups:
   </p>
 </section>
 
-### New! (2024-11-21)
-Thrilled to announce I’ve been awarded a **full-ride scholarship** for my PhD (2025–2027) from <a href="https://www.recruit-foundation.org/en/">the Ezoe Memorial Foundation Academic Scholarship</a>, renewable annually **through 2029–2030**.
+### New! 2025-04-15  
+Thrilled to share that I’ve committed to the PhD program in Immunology at [Stanford Medicine](https://med.stanford.edu/immunol.html), starting Fall 2025!
+
+### 2024-11-21  
+Honored to have been awarded a full-ride scholarship for my PhD (2025–2027) from  
+<a href="https://www.recruit-foundation.org/en/">the Ezoe Memorial Foundation Academic Scholarship</a>, renewable annually through 2029–2030.
