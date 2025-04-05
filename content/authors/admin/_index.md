@@ -82,8 +82,7 @@ email: "fuminori@stanford.edu"
 ---
 <section>
   <p>
-    Hi! I’m Fumi, an incoming PhD student in Immunology at 
-    <a href="https://med.stanford.edu/immunol.html" target="_blank">Stanford Medicine</a>. 
+    Hi! I’m Fumi, an incoming PhD student in <a href="https://med.stanford.edu/immunol.html" target="_blank">Immunology at Stanford Medicine</a>. 
     I’m passionate about host-pathogen interactions in infectious diseases, using both dry and wet approaches.
   </p>
 
