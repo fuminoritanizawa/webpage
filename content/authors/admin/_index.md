@@ -92,7 +92,7 @@ user_groups:
 
   <p>
     I graduated from <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a> in 2025 with a degree in Computational Biology 
-    and a humanities concentration in Environmental Analysis. Grounded in a liberal arts education, I value an interdisciplinary lens—bridging molecular biology, global health, and social equity—and pursue research aimed at improving outcomes for underserved communities.
+    and a humanities concentration in Environmental Analysis. Grounded in a liberal arts education, I value an interdisciplinary lens, bridging molecular biology, global health, and social equity, and thus, pursue research aimed at improving outcomes for underserved communities.
   </p>
 
   <p>
