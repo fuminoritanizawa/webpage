@@ -96,7 +96,7 @@ user_groups:
   </p>
 
   <p>
-    I’m always open to new collaborations or opportunities -- feel free to reach out!
+    I’m always open to new collaborations or opportunities&mdash;feel free to reach out!
   </p>
 
   <p>
