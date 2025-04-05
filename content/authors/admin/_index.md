@@ -88,12 +88,10 @@ email: "fuminori@stanford.edu"
   </p>
 
   <p>
+    I have a strong background in computational biology and molecular benchwork, with research spanning Scripps Research, Johns Hopkins, the National University of Singapore, and Harvey Mudd College. 
+  </p>    
   <p>
-    I have a strong background in computational biology and molecular benchwork, with research spanning Scripps Research, Johns Hopkins, the National University of Singapore, and Harvey Mudd College. I graduated from <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a> in 2025 with a degree in Computational Biology and a concentration in Environmental Analysis. Grounded in a liberal arts education, I approach disease through an interdisciplinary lens—linking molecular biology, global health, and social equity to pursue research that benefits underserved communities.
-  </p>
-
-  </p>
-
+    I graduated from <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a> in 2025 with a BSc in Computational Biology and a concentration in Environmental Analysis. Grounded in a liberal arts education, I approach disease through an interdisciplinary lens—linking molecular biology, global health, and social equity to pursue research that benefits underserved communities.
   </p>
 
   <p>
