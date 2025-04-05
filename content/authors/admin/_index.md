@@ -115,7 +115,7 @@ email: "fuminori@stanford.edu"
 ### Updates
 
 #### 2025-04-15 – Committed to Stanford PhD in Immunology  
-I’ll be starting my PhD in Immunology at [Stanford Medicine](https://med.stanford.edu/immunol.html) in Fall 2025, focusing on host-pathogen interactions through both computational and experimental approaches.
+I’ll be starting my PhD in Immunology at [Stanford Medicine](https://med.stanford.edu/immunol.html) in Fall 2025.
 
 #### 2024-11-21 – Awarded Full-Ride PhD Scholarship  
-Received the full-ride <a href="https://www.recruit-foundation.org/en/">Ezoe Memorial Foundation Academic Scholarship</a> for 2025–2027, with annual renewal through 2029–2030 to support my doctoral studies.
+Received the full-ride <a href="https://www.recruit-foundation.org/en/">Ezoe Memorial Foundation Academic Scholarship</a> to support my doctoral studies.
