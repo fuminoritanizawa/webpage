@@ -95,8 +95,6 @@ user_groups:
     and a humanities concentration in Environmental Analysis. Grounded in a liberal arts education, I value an interdisciplinary lens—bridging molecular biology, global health, and social equity—and pursue research aimed at improving outcomes for underserved communities.
   </p>
 
-  <hr>
-
   <p>
     I’m always open to new collaborations or opportunities—feel free to reach out!
   </p>
