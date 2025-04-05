@@ -96,7 +96,7 @@ user_groups:
   </p>
 
   <p>
-    I’m always open to new collaborations or opportunities—feel free to reach out!
+    I’m always open to new collaborations or opportunities -— feel free to reach out!
   </p>
 
   <p>
@@ -107,7 +107,7 @@ user_groups:
   <hr>
 
   <p><strong>日本語 / Japanese:</strong><br>
-  スタンフォード大学医学部 免疫学博士生。感染症における宿主と病原体の相互作用に関心があります。<br>
+  スタンフォード大学医学部 免疫学博士生。感染症における宿主と病原体の相互作用に関心があります
   ハービーマッド大学2025年卒（計算生物学専攻）。孫正義（2期）・柳井正（5期）・江副記念財団（54期）奨学生。
   </p>
 </section>
