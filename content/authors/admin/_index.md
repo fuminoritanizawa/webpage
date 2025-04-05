@@ -38,7 +38,7 @@ education:
     year: On-going
   - course: BSc in Computational Biology
     institution: Harvey Mudd College
-    year: 2025(GPA 3.9/4.0)
+    year: 2025
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
