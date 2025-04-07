@@ -81,21 +81,18 @@ email: "fuminori@stanford.edu"
 # - Biologist
 ---
 <section>
-  <p>
-    Hi! I’m Fumi, an incoming PhD student in <a href="https://med.stanford.edu/immunol.html" target="_blank">Immunology at Stanford Medicine</a>. 
-    I’m passionate about host-pathogen interactions in infectious diseases, using both dry and wet approaches.
-  </p>
+<p>
+  Hi! I’m Fumi, a PhD student in <a href="https://med.stanford.edu/immunol.html" target="_blank">Immunology at Stanford Medicine</a>. I'm very passionate about host-pathogen interactions in infectious diseases, using both dry and wet approaches. My goal is to advance science that serves those most affected by disease&mdash;often communities neglected by mainstream research and healthcare systems.
+</p>
 
-  <p>
-    I have a strong background in computational biology and molecular benchwork, with research spanning Scripps Research, Johns Hopkins, the National University of Singapore, and Harvey Mudd College. 
-  </p>    
-  <p>
-    I graduated from <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a> in 2025 with a BSc in Computational Biology and a concentration in Environmental Analysis. Grounded in a liberal arts education, I approach disease through an interdisciplinary lens—linking molecular biology, global health, and social equity to pursue research that benefits underserved communities.
-  </p>
+<p>
+  I bring a strong foundation in both molecular benchwork and computational biology, with research experience at Scripps Research, Johns Hopkins, the National University of Singapore, and Harvey Mudd College. I earned my B.S. in Computational Biology from <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a> in 2025, with a humanities concentration in Environmental Analysis.
+</p>
 
 <p>
   I’m always open to new collaborations or opportunities&mdash;feel free to reach out!
 </p>
+
 
 <p>
   <i class="fas fa-download pr-1 fa-fw"></i>
