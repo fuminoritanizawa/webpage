@@ -119,7 +119,7 @@ email: "fuminori@stanford.edu"
 
 ### Updates
 
-#### 2025-04-15 – Committed to Stanford PhD in Immunology  
+#### 2025-04-15 – Committed to Stanford Immunology PhD Program  
 I’ll be starting my PhD in Immunology at [Stanford Medicine](https://med.stanford.edu/immunol.html) in Fall 2025.
 
 #### 2024-11-21 – Awarded Full-Ride PhD Scholarship  
