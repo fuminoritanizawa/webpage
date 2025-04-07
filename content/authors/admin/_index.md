@@ -93,9 +93,14 @@ email: "fuminori@stanford.edu"
     I graduated from <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a> in 2025 with a BSc in Computational Biology and a concentration in Environmental Analysis. Grounded in a liberal arts education, I approach disease through an interdisciplinary lens—linking molecular biology, global health, and social equity to pursue research that benefits underserved communities.
   </p>
 
-  <p>
-    I’m always open to new collaborations or opportunities&mdash;feel free to reach out!
-  </p>
+<p>
+  I’m always open to new collaborations or opportunities&mdash;feel free to reach out!
+</p>
+
+<p>
+  <i class="fas fa-download pr-1 fa-fw"></i>
+  <a href="fuminoritanizawa_cv.pdf" download>Download my CV</a>
+</p>
 
 <p>
   Fellowships: 
@@ -107,8 +112,8 @@ email: "fuminori@stanford.edu"
 
   <hr>
 
-  <p><strong>日本語 / Japanese:</strong> こんにちは、谷澤文礼です！[スタンフォード大学医学部免疫学博士課程](https://med.stanford.edu/immunol.html)で感染症における宿主と病原体の相互作用を研究しています。[ハービーマッド大学](https://www.hmc.edu/)計算生物学専攻2025年卒。[孫正義育英](https://masason-foundation.org/)（2期）、[柳井正](https://www.yanaitadashi-foundation.or.jp/)（5期）、[江副記念リクルート](https://www.recruit-foundation.org/about/)財団（54期）奨学生。
-  </p>
+<p><strong>日本語 / Japanese:</strong> こんにちは、谷澤文礼です！<a href="https://med.stanford.edu/immunol.html" target="_blank">スタンフォード大学医学部免疫学博士課程</a>で感染症における宿主と病原体の相互作用を研究しています。<a href="https://www.hmc.edu/" target="_blank">ハービーマッド大学</a>計算生物学専攻2025年卒。<a href="https://masason-foundation.org/" target="_blank">孫正義育英</a>（2期）、<a href="https://www.yanaitadashi-foundation.or.jp/" target="_blank">柳井正</a>（5期）、<a href="https://www.recruit-foundation.org/about/" target="_blank">江副記念リクルート</a>財団（54期）奨学生。</p>
+
 
 </section>
 
