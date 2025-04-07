@@ -90,7 +90,7 @@ email: "fuminori@stanford.edu"
 </p>
 
 <p>
-  I’m always open to new collaborations or opportunities&mdash;feel free to reach out!
+Always open to new collaborations or opportunities&mdash;feel free to reach out!
 </p>
 
 
