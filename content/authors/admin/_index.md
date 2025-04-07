@@ -97,14 +97,15 @@ email: "fuminori@stanford.edu"
     I’m always open to new collaborations or opportunities&mdash;feel free to reach out!
   </p>
 
-  <p>
-    <i class="fas fa-download pr-1 fa-fw"></i>
-    <a href="fuminoritanizawa_cv.pdf" download>Download my CV</a>
-  </p>
+<p>
+  <i class="fas fa-download pr-1 fa-fw"></i>
+  <a href="fuminoritanizawa_cv.pdf" download>Download my CV</a><br>
+  Fellowships: <a href="https://masason-foundation.org/en/" target="_blank">SoftBank Masason Scholar</a> (Gen 2), <a href="https://www.yanaitadashi-foundation.or.jp/en/" target="_blank">UNIQLO Tadashi Yanai Scholar</a> (Gen 5), <a href="https://www.recruit-foundation.org/en/" target="_blank">Ezoe Memorial Scholar</a> (Gen 54)
+</p>
 
   <hr>
 
-  <p><strong>日本語 / Japanese:</strong> こんにちは、谷澤文礼です！スタンフォード大学医学部免疫学博士課程で感染症における宿主と病原体の相互作用を研究しています。ハービーマッド大学計算生物学専攻2025年卒。孫正義育英（2期）、柳井正（5期）、江副記念リクルート財団（54期）奨学生。
+  <p><strong>日本語 / Japanese:</strong> こんにちは、谷澤文礼です！[スタンフォード大学医学部免疫学博士課程](https://med.stanford.edu/immunol.html)で感染症における宿主と病原体の相互作用を研究しています。[ハービーマッド大学](https://www.hmc.edu/)計算生物学専攻2025年卒。[孫正義育英](https://masason-foundation.org/)（2期）、[柳井正](https://www.yanaitadashi-foundation.or.jp/)（5期）、[江副記念リクルート](https://www.recruit-foundation.org/about/)財団（54期）奨学生。
   </p>
 
 </section>
