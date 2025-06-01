@@ -103,7 +103,7 @@ Always open to new collaborations or opportunities&mdash;feel free to reach out!
   Fellowships: 
   <a href="https://masason-foundation.org/en/" target="_blank">SoftBank Masason Scholar</a> (Gen 2), 
   <a href="https://www.yanaitadashi-foundation.or.jp/en/" target="_blank">UNIQLO Tadashi Yanai Scholar</a> (Gen 5), 
-  <a href="https://www.recruit-foundation.org/en/" target="_blank">Ezoe Memorial Scholar</a> (Gen 54).
+  <a href="https://www.recruit-foundation.org/en/" target="_blank">Recruit Ezoe Memorial Scholar</a> (Gen 54).
 </p>
 
 
