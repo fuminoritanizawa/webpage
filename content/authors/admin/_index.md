@@ -114,10 +114,10 @@ Always open to new collaborations or opportunities&mdash;feel free to reach out!
 
 </section>
 
-### Updates
+<!-- ### Updates
 
 #### 2025-04-15 – Committed to Stanford Immunology PhD Program  
 I’ll be starting my PhD in Immunology at [Stanford Medicine](https://med.stanford.edu/immunol.html) in Fall 2025.
 
 #### 2024-11-21 – Awarded Full-Ride PhD Scholarship  
-Received the full-ride <a href="https://www.recruit-foundation.org/en/">Ezoe Memorial Foundation Academic Scholarship</a> to support my doctoral studies.
+Received the full-ride <a href="https://www.recruit-foundation.org/en/">Ezoe Memorial Foundation Academic Scholarship</a> to support my doctoral studies. -->
