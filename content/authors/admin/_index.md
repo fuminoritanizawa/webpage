@@ -49,20 +49,10 @@ social:
     icon_pack: fas
     link: 'mailto:fuminori@stanford.edu'
     label: Email
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/fmt81
-    label: Follow me on Twitter
-    display:
-      header: true
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?hl=en&user=x-2c0PIAAAAJ
     label: Google Scholar
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/fuminoritanizawa
-    label: GitHub
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/fuminoritanizawa/
@@ -71,6 +61,16 @@ social:
     icon_pack: fas
     link: https://profiles.stanford.edu/fuminori
     label: Stanford Profile
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/fmt81
+    label: Follow me on Twitter
+    display:
+      header: true
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/fuminoritanizawa
+    label: GitHub
   - icon: cv
     icon_pack: ai
     link: files/cv.pdf
@@ -104,12 +104,6 @@ email: "fuminori@stanford.edu"
 <p>
 Always open to new collaborations or opportunities&mdash;feel free to reach out!
 </p>
-
-
-<!--<p>
-  <i class="fas fa-download pr-1 fa-fw"></i>
-  <a href="fuminoritanizawa_cv.pdf" download>Download my CV</a>
-</p> -->
 
 <p>
   Fellowships: 
