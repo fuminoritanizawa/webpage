@@ -67,7 +67,7 @@ social:
     icon_pack: fab
     link: https://www.linkedin.com/in/fuminoritanizawa/
     label: LinkedIn
-  - icon: profile
+  - icon: user
     icon_pack: fas
     link: https://profiles.stanford.edu/fuminori
     label: Stanford Profile
@@ -106,10 +106,10 @@ Always open to new collaborations or opportunities&mdash;feel free to reach out!
 </p>
 
 
-<p>
+<!--<p>
   <i class="fas fa-download pr-1 fa-fw"></i>
   <a href="fuminoritanizawa_cv.pdf" download>Download my CV</a>
-</p>
+</p> -->
 
 <p>
   Fellowships: 
@@ -118,6 +118,10 @@ Always open to new collaborations or opportunities&mdash;feel free to reach out!
   <a href="https://www.recruit-foundation.org/en/" target="_blank">Recruit Ezoe Memorial Scholar</a> (Gen 54).
 </p>
 
+<p>
+  <i class="fas fa-download pr-1 fa-fw"></i>
+  <a href="fuminoritanizawa_cv.pdf" download>Download my CV</a>
+</p>
 
   <hr>
 
