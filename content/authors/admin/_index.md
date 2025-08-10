@@ -67,7 +67,7 @@ social:
     icon_pack: fab
     link: https://github.com/fuminoritanizawa
     label: GitHub
-  - icon: user
+  - icon: university
     icon_pack: fas
     link: https://profiles.stanford.edu/fuminori
     label: Stanford Profile
