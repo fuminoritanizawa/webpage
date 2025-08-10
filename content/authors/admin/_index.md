@@ -114,13 +114,13 @@ Always open to new collaborations or opportunities&mdash;feel free to reach out!
 
 <p>
   <i class="fas fa-download pr-1 fa-fw"></i>
-  <a href="fuminoritanizawa_cv.pdf" download>Download my CV</a>
+  <a href="fuminoritanizawa_cv.pdf">Download my CV</a>
 </p>
 
   <hr>
 
 <p>Japanese: こんにちは、谷澤文礼です！<a href="https://med.stanford.edu/immunol.html" target="_blank">スタンフォード大学医学部免疫学博士課程</a>で感染症における宿主と病原体の相互作用を研究しています。<a href="https://www.hmc.edu/" target="_blank">ハービーマッド大学</a>計算生物学2025年卒。<a href="https://masason-foundation.org/" target="_blank">孫正義育英</a>（2期）、<a href="https://www.yanaitadashi-foundation.or.jp/" target="_blank">柳井正</a>（5期）、<a href="https://www.recruit-foundation.org/about/" target="_blank">江副記念リクルート</a>財団（54期）奨学生。履歴書は
-  <a href="fuminoritanizawa_cv.pdf" download>こちら</a>。</p>
+  <a href="fuminoritanizawa_cv.pdf">こちら</a>。</p>
 
 
 </section>
