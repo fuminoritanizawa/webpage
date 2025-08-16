@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   company_url = "https://www.hmc.edu/biology/"
   location = "Claremont, California"
   date_start = "2024-08-01"
-  date_end = ""
+  date_end = "2025-05-18"
   description = """
   Mitochondrial proteostasis abd Innate immunity of *Drosophila melanogaster* at [Hur Lab](https://www.hmc.edu/biology/faculty-staff/hur/).
   """

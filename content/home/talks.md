@@ -65,16 +65,18 @@ date_format = "Jan 2006"
   date_start = "2024-08-01"
   date_end = ""
   description = """
+  * **2025-Present. &nbsp<a a href="https://www.recruit-foundation.org/en/">Ezoe Memorial Recruit Foundation</a>**<br>
+  Selected as a full scholarship recipient for a foundation supported by <a href="https://recruit-holdings.com/en/"> Recruit Holdings Co., Ltd.</a> ($95K/year)
+  * **2021-2025. &nbsp<a a href="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a>**<br>
+  Selected as a full scholarship recipient for a foundation supported by Tadashi Yanai, the CEO of <a href="https://www.uniqlo.com/us/en/"> Uniqlo</a> ($95K/year)
+  * **2018-2025. &nbsp<a href="https://masason-foundation.org/en/cpt_testimonial/%E8%B0%B7%E6%BE%A4%E6%96%87%E7%A4%BC/">Masason Foundation</a>**<br>
+  Selected as one of the most talented 51 young scholars under 25 years old in Japan by the foundation supported by Masayoshi Son, the CEO of <a href="https://www.softbank.jp/en/"> Softbank</a> ($35K max./year)
   * **2024. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.hopkinsmedicine.org/som/pathway/sip">Johns Hopkins University BSI-SIP Fellowship</a>**<br>
   Selected as a summer internship scholarship recipient for my research at Johns Hopkins University Medical School in 2024
   * **2023. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.hmc.edu/engagement/community-opportunities/students/summer-internships/huppe-memorial-internship/">Ben Huppe ’14 Memorial Internship for a Sustainable World</a>**<br>
   Selected as a summer internship scholarship recipient for my research at Scripps Research in 2023
   * **2022. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.dbs.nus.edu.sg/amgen-scholars-program/">National University of Singapore Amgen Scholars Fellowship</a>**<br>
   Selected as a summer internship scholarship recipient for my research at National University of Singapore in 2022
-  * **2018-Present. &nbsp<a href="https://masason-foundation.org/en/cpt_testimonial/%E8%B0%B7%E6%BE%A4%E6%96%87%E7%A4%BC/">Masason Foundation</a>**<br>
-  Selected as one of the most talented 51 young scholars under 25 years old in Japan by the foundation supported by Masayoshi Son, the CEO of <a href="https://www.softbank.jp/en/"> Softbank</a> ($35K max./year)
-  * **2021-Present. &nbsp<a a href="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a>**<br>
-  Selected as a full scholarship recipient for a foundation supported by Tadashi Yanai, the CEO of <a href="https://www.uniqlo.com/us/en/"> Uniqlo</a> ($95K/year)
   * **2021-2023. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.jmdavey.foundation/">John and Miyoko Davey Foundation</a>**<br>
   Selected as one of the most talented studying-abroad undergraduates in Japan by a foundation supported by Miyoko Davey, an art collector in New York City.
   """
@@ -87,9 +89,12 @@ date_format = "Jan 2006"
   date_start = "2024-08-01"
   date_end = ""
   description = """
-  * **2024-05-31** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Dean's List (Fall 2023 & Spring 2024), <a href="https://www.hmc.edu/">Harvey Mudd College</a> (USA)
-  * **2023-05-31** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Dean's List (Fall 2022 & Spring 2023), <a href="https://www.hmc.edu/">Harvey Mudd College</a> (USA)
-  * **2022-05-31** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Dean's List (Fall 2021 & Spring 2022), <a href="https://www.hmc.edu/">Harvey Mudd College</a> (USA)
+  * **2025-05-18** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Mindlin Prize for Best Senior Thesis Research, <a href="https://www.hmc.edu/">Harvey Mudd College</a> (USA)
+  * **2025-05-18** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp High Distinction, <a href="https://www.hmc.edu/">Harvey Mudd College</a> (USA)
+  * **2025-05-18** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Dean's List (2021-2025, all semester), <a href="https://www.hmc.edu/">Harvey Mudd College</a> (USA)
+  * **2025-05-18** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Departmental Honors in Biology, <a href="https://www.hmc.edu/">Harvey Mudd College</a> (USA)
+  * **2025-05-18** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Departmental Honors in Computer Science, <a href="https://www.hmc.edu/">Harvey Mudd College</a> (USA)
+  * **2025-05-18** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Departmental Honors in Humanities, Social Sciences, and the Arts, <a href="https://www.hmc.edu/">Harvey Mudd College</a> (USA)
   * **2020-11-15** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Grand Prize Winner, Minister of Education, Science and Technology Award,
   <a href="https://www.jst.go.jp/EN/">Japan Science and Technology Agency National High School Student Research Conference</a> (Japan)
   * **2020-08-26** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Grand Prize Winner, Minister of Health, Labor and Welfare Award,
