@@ -94,7 +94,7 @@ email: "fuminori@stanford.edu"
 ---
 <section>
 <p>
-  Hi! I’m Fumi, a PhD student in <a href="https://med.stanford.edu/immunol.html" target="_blank">Immunology at Stanford Medicine</a>. I'm very passionate about host-pathogen interactions in infectious diseases, using both dry and wet approaches. My goal is to advance science that serves those most affected by disease&mdash;often communities neglected by mainstream research and healthcare systems.
+  Hi! I’m **Fumi**, a PhD student in <a href="https://med.stanford.edu/immunol.html" target="_blank">Immunology at Stanford Medicine</a>. I'm very passionate about host-pathogen interactions in infectious diseases, using both dry and wet approaches. My goal is to advance science that serves those most affected by disease&mdash;often communities neglected by mainstream research and healthcare systems.
 </p>
 
 <p>
@@ -130,22 +130,8 @@ Always open to new collaborations or opportunities&mdash;feel free to reach out!
 
 <h4>Japanese</h4>
 <p>
-  <strong>谷澤 文礼 (Fuminori Tanizawa)</strong><br>
-  <a href="https://med.stanford.edu/immunol.html" target="_blank">スタンフォード大学医学部 免疫学博士課程</a>。感染症における宿主・病原体相互作用を研究中。2025年<a href="https://www.hmc.edu/" target="_blank">ハービーマッド大学</a>計算生物学専攻卒業。
+  こんにちは、谷澤文礼です！<a href="https://med.stanford.edu/immunol.html" target="_blank">スタンフォード大学医学部免疫学博士課程</a>で感染症における宿主・病原体相互作用を研究しています（<a href="https://www.hmc.edu/" target="_blank">ハービーマッド大学</a>計算生物学専攻2025年卒業）。スタンフォード大学ベイカー・フェロー、および<a href="https://masason-foundation.org/" target="_blank">孫正義育英財団</a>（2期）、<a href="https://www.yanaitadashi-foundation.or.jp/" target="_blank">柳井正財団</a>（5期）、<a href="https://www.recruit-foundation.org/about/" target="_blank">江副記念リクルート財団</a>（54期）奨学生。<a href="fuminoritanizawa_cv.pdf">履歴書はこちら</a>。
 </p>
-
-<p><strong>奨学金・フェローシップ:</strong></p>
-<ul>
-  <li>スタンフォード大学 Baker Fellow</li>
-  <li><a href="https://masason-foundation.org/" target="_blank">孫正義育英財団</a>（2期生）</li>
-  <li><a href="https://www.yanaitadashi-foundation.or.jp/" target="_blank">柳井正財団</a>（5期生）</li>
-  <li><a href="https://www.recruit-foundation.org/about/" target="_blank">江副記念リクルート財団</a>（54期生）</li>
-</ul>
-
-<p>
-  <a href="fuminoritanizawa_cv.pdf" target="_blank">履歴書 (CV)</a>
-</p>
-
 
 </section>
 
