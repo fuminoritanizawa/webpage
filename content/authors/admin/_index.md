@@ -108,7 +108,7 @@ Always open to new collaborations or opportunities&mdash;feel free to reach out!
 <h3>Fellowships</h3>
 <ul>
   <li>
-    Baker Fellow</a>, Stanford University
+    Baker Fellow, Stanford University
   </li>
   <li>
     <a href="https://masason-foundation.org/en/" target="_blank">SoftBank Group Masason Scholar</a> (Gen 2)
