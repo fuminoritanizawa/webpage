@@ -102,7 +102,7 @@ email: "fuminori@stanford.edu"
 </p>
 
 <p>
-  Always excited to connect-—feel free to reach out!
+  Always excited to connect—feel free to reach out!
 </p>
 </section>
 
