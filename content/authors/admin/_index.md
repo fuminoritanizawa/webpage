@@ -105,13 +105,21 @@ email: "fuminori@stanford.edu"
 Always open to new collaborations or opportunities&mdash;feel free to reach out!
 </p>
 
-<p>
-  <strong>Fellowships:</strong><br>
-  • Baker Fellow, Stanford University<br>
-  • <a href="https://masason-foundation.org/en/" target="_blank">Masason Scholar</a> (SoftBank Group, Gen 2)<br>
-  • <a href="https://www.yanaitadashi-foundation.or.jp/en/" target="_blank">Tadashi Yanai Scholar</a> (UNIQLO, Gen 5)<br>
-  • <a href="https://www.recruit-foundation.org/en/" target="_blank">Ezoe Memorial Scholar</a> (Recruit Holdings, Gen 54)
-</p>
+<h3>Fellowships</h3>
+<ul>
+  <li>
+    Baker Fellow</a>, Stanford University
+  </li>
+  <li>
+    <a href="https://masason-foundation.org/en/" target="_blank">SoftBank Group Masason Scholar</a> (Gen 2)
+  </li>
+  <li>
+    <a href="https://www.yanaitadashi-foundation.or.jp/en/" target="_blank">UNIQLO Tadashi Yanai Scholar</a> (Gen 5)
+  </li>
+  <li>
+    <a href="https://www.recruit-foundation.org/en/" target="_blank">Recruit Holdings Ezoe Memorial Scholar</a> (Gen 54)
+  </li>
+</ul>
 
 <p>
   <i class="fas fa-download pr-1 fa-fw"></i>
