@@ -94,30 +94,31 @@ email: "fuminori@stanford.edu"
 ---
 <section>
 <p>
-  Hi! I’m **Fumi**, a PhD student in <a href="https://med.stanford.edu/immunol.html" target="_blank">Immunology at Stanford Medicine</a>. I'm very passionate about host-pathogen interactions in infectious diseases, using both dry and wet approaches. My goal is to advance science that serves those most affected by disease&mdash;often communities neglected by mainstream research and healthcare systems.
+  Hi! I’m <strong>Fumi</strong>, a PhD student in <a href="https://med.stanford.edu/immunol.html" target="_blank">Immunology at Stanford Medicine</a>. I’m driven by host-pathogen interactions in infectious diseases, using wet-lab and computational tools to serve communities often neglected by mainstream research.
 </p>
 
 <p>
-  I bring a strong foundation in both molecular benchwork and computational biology, with research experience at Scripps Research, Johns Hopkins, the National University of Singapore, and Harvey Mudd College. I earned my B.S. in Computational Biology from <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a> in 2025, with a humanities concentration in Environmental Analysis.
+  I hold a B.S. in Computational Biology from <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a> (2025) and have conducted research at Scripps Research, Johns Hopkins, and the National University of Singapore. 
 </p>
 
 <p>
-Always open to new collaborations or opportunities&mdash;feel free to reach out!
+  Always excited to connect-—feel free to reach out!
 </p>
+</section>
 
 <h4>Fellowships</h4>
 <ul>
   <li>
-    Baker Fellow, Stanford University
+    Baker Fellow, Stanford University (2025 - Present)
   </li>
   <li>
-    <a href="https://masason-foundation.org/en/" target="_blank">SoftBank Group Masason Scholar</a> (Gen 2)
+    <a href="https://masason-foundation.org/en/" target="_blank">SoftBank Group Masason Scholar</a> (Gen 2; 2018 - 2025)
   </li>
   <li>
-    <a href="https://www.yanaitadashi-foundation.or.jp/en/" target="_blank">UNIQLO Tadashi Yanai Scholar</a> (Gen 5)
+    <a href="https://www.yanaitadashi-foundation.or.jp/en/" target="_blank">UNIQLO Tadashi Yanai Scholar</a> (Gen 5; 2021 - 2025)
   </li>
   <li>
-    <a href="https://www.recruit-foundation.org/en/" target="_blank">Recruit Holdings Ezoe Memorial Scholar</a> (Gen 54)
+    <a href="https://www.recruit-foundation.org/en/" target="_blank">Recruit Holdings Ezoe Memorial Scholar</a> (Gen 54; 2025 - Present)
   </li>
 </ul>
 
@@ -130,7 +131,7 @@ Always open to new collaborations or opportunities&mdash;feel free to reach out!
 
 <h4>Japanese</h4>
 <p>
-  こんにちは、谷澤文礼です！<a href="https://med.stanford.edu/immunol.html" target="_blank">スタンフォード大学医学部免疫学博士課程</a>で感染症における宿主・病原体相互作用を研究しています（<a href="https://www.hmc.edu/" target="_blank">ハービーマッド大学</a>計算生物学専攻2025年卒業）。スタンフォード大学ベイカー・フェロー、および<a href="https://masason-foundation.org/" target="_blank">孫正義育英財団</a>（2期）、<a href="https://www.yanaitadashi-foundation.or.jp/" target="_blank">柳井正財団</a>（5期）、<a href="https://www.recruit-foundation.org/about/" target="_blank">江副記念リクルート財団</a>（54期）奨学生。<a href="fuminoritanizawa_cv.pdf">履歴書はこちら</a>。
+  こんにちは、谷澤文礼です！<a href="https://med.stanford.edu/immunol.html" target="_blank">スタンフォード大学医学部免疫学博士課程</a>で感染症における宿主・病原体相互作用を研究しています（<a href="https://www.hmc.edu/" target="_blank">ハービーマッド大学</a>計算生物学専攻2025年卒業）。スタンフォード大学ベイカー・フェロー、および<a href="https://masason-foundation.org/" target="_blank">ソフトバンク孫正義育英財団</a>（2期）、<a href="https://www.yanaitadashi-foundation.or.jp/" target="_blank">ユニクロ柳井正財団</a>（5期）、<a href="https://www.recruit-foundation.org/about/" target="_blank">江副記念リクルート財団</a>（54期）奨学生。<a href="fuminoritanizawa_cv.pdf">履歴書はこちら</a>。
 </p>
 
 </section>
