@@ -109,16 +109,16 @@ email: "fuminori@stanford.edu"
 <h4>Fellowships</h4>
 <ul>
   <li>
-    Baker Fellow, Stanford University (2025 - Present)
+    Baker Fellow, Stanford University
   </li>
   <li>
-    <a href="https://masason-foundation.org/en/" target="_blank">SoftBank Group Masason Scholar</a> (Gen 2; 2018 - 2025)
+    <a href="https://masason-foundation.org/en/" target="_blank">SoftBank Group Masason Scholar</a>
   </li>
   <li>
-    <a href="https://www.yanaitadashi-foundation.or.jp/en/" target="_blank">UNIQLO Tadashi Yanai Scholar</a> (Gen 5; 2021 - 2025)
+    <a href="https://www.yanaitadashi-foundation.or.jp/en/" target="_blank">UNIQLO Tadashi Yanai Scholar</a>
   </li>
   <li>
-    <a href="https://www.recruit-foundation.org/en/" target="_blank">Recruit Holdings Ezoe Memorial Scholar</a> (Gen 54; 2025 - Present)
+    <a href="https://www.recruit-foundation.org/en/" target="_blank">Recruit Holdings Ezoe Memorial Scholar</a>
   </li>
 </ul>
 
