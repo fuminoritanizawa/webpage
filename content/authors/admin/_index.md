@@ -98,7 +98,7 @@ email: "fuminori@stanford.edu"
 </p>
 
 <p>
-  I hold a B.S. in Computational Biology from <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a> (2025) and have conducted research at Scripps Research, Johns Hopkins, and the National University of Singapore. 
+  I am originally from Tokyo, Japan, and I hold a B.S. in Computational Biology from <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a> (2025) and have conducted research at Scripps Research, Johns Hopkins, and the National University of Singapore. 
 </p>
 
 <p>
