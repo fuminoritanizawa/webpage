@@ -106,10 +106,11 @@ Always open to new collaborations or opportunities&mdash;feel free to reach out!
 </p>
 
 <p>
-  Fellowships: 
-  <a href="https://masason-foundation.org/en/" target="_blank">SoftBank Group Masason Scholar</a> (Gen 2), 
-  <a href="https://www.yanaitadashi-foundation.or.jp/en/" target="_blank">UNIQLO Tadashi Yanai Scholar</a> (Gen 5), 
-  <a href="https://www.recruit-foundation.org/en/" target="_blank">Recruit Holdings Ezoe Memorial Scholar</a> (Gen 54).
+  <strong>Fellowships:</strong><br>
+  • Baker Fellow, Stanford University<br>
+  • <a href="https://masason-foundation.org/en/" target="_blank">Masason Scholar</a> (SoftBank Group, Gen 2)<br>
+  • <a href="https://www.yanaitadashi-foundation.or.jp/en/" target="_blank">Tadashi Yanai Scholar</a> (UNIQLO, Gen 5)<br>
+  • <a href="https://www.recruit-foundation.org/en/" target="_blank">Ezoe Memorial Scholar</a> (Recruit Holdings, Gen 54)
 </p>
 
 <p>
@@ -119,7 +120,7 @@ Always open to new collaborations or opportunities&mdash;feel free to reach out!
 
   <hr>
 
-<p>Japanese: こんにちは、谷澤文礼です！<a href="https://med.stanford.edu/immunol.html" target="_blank">スタンフォード大学医学部免疫学博士課程</a>で感染症における宿主と病原体の相互作用を研究しています。<a href="https://www.hmc.edu/" target="_blank">ハービーマッド大学</a>計算生物学2025年卒。<a href="https://masason-foundation.org/" target="_blank">ソフトバンク孫正義育英</a>（2期）、<a href="https://www.yanaitadashi-foundation.or.jp/" target="_blank">ユニクロ柳井正</a>（5期）、<a href="https://www.recruit-foundation.org/about/" target="_blank">江副記念リクルート</a>財団（54期）奨学生。履歴書は
+<p>Japanese: こんにちは、谷澤文礼です！<a href="https://med.stanford.edu/immunol.html" target="_blank">スタンフォード大学医学部免疫学博士課程</a>で感染症における宿主と病原体の相互作用を研究しています。<a href="https://www.hmc.edu/" target="_blank">ハービーマッド大学</a>計算生物学2025年卒。<a href="https://masason-foundation.org/" target="_blank">ソフトバンク孫正義育英</a>（2期）、<a href="https://www.yanaitadashi-foundation.or.jp/" target="_blank">ユニクロ柳井正</a>（5期）、<a href="https://www.recruit-foundation.org/about/" target="_blank">江副記念リクルート</a>財団（54期）、スタンフォード大学ベイカー奨学生。履歴書は
   <a href="fuminoritanizawa_cv.pdf">こちら</a>。</p>
 
 
