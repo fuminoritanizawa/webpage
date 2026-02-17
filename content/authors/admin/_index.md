@@ -94,22 +94,22 @@ email: "fuminori@stanford.edu"
 ---
 <section>
 <p>
-  Hi! I’m <strong>Fumi</strong>, a PhD student in 
+  Hi, I’m <strong>Fumi</strong>, a PhD student in 
   <a href="https://med.stanford.edu/immunol.html" target="_blank">Immunology at Stanford Medicine</a>.  
-  I am passionate about applying molecular genomics to improve public health, with a focus on immune responses to infectious diseases that disproportionately impact underserved communities worldwide.
+  My work applies molecular genomics to global health, with a focus on immune responses to infectious diseases that disproportionately affect underserved populations.
 </p>
 
 <p>
-  My research investigates how pathogens interact with the human immune system and how certain infections evade immune defense. I combine laboratory experimentation with computational analysis to generate mechanistic insights that can inform public health strategies and translational research.
+  I study host–pathogen interactions and mechanisms of immune evasion, integrating experimental immunology with computational analysis to uncover mechanistic insights relevant to translational and population-level health.
 </p>
 
 <p>
-  Originally from Japan, I earned my B.S. in Computational Biology from 
+  Originally from Japan, I received my B.S. in Computational Biology from 
   <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a> and have conducted research at Scripps Research, Johns Hopkins University, and the National University of Singapore.
 </p>
 
 <p>
-  I welcome collaboration and interdisciplinary conversation—please feel free to reach out:)
+  I welcome collaboration and interdisciplinary engagement -- feel free to reach out:)
 </p>
 </section>
 
