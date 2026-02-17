@@ -94,15 +94,22 @@ email: "fuminori@stanford.edu"
 ---
 <section>
 <p>
-  Hi! I’m <strong>Fumi</strong>, a PhD student in <a href="https://med.stanford.edu/immunol.html" target="_blank">Immunology at Stanford Medicine</a>. I’m driven by host-pathogen interactions in infectious diseases, using wet-lab and computational tools to serve communities often neglected by mainstream research.
+  Hi! I’m <strong>Fumi Tanizawa</strong>, a PhD student in 
+  <a href="https://med.stanford.edu/immunol.html" target="_blank">Immunology at Stanford Medicine</a>.  
+  I am passionate about applying molecular genomics to improve public health, with a focus on immune responses to infectious diseases that disproportionately impact underserved communities worldwide.
 </p>
 
 <p>
-  I am originally from Tokyo, Japan, and I hold a B.S. in Computational Biology from <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a> and have conducted research at Scripps Research, Johns Hopkins, and the National University of Singapore. 
+  My research investigates how pathogens interact with the human immune system and how certain infections evade immune defense. I combine laboratory experimentation with computational analysis to generate mechanistic insights that can inform public health strategies and translational research.
 </p>
 
 <p>
-  Always excited to connect—feel free to reach out!
+  Originally from Japan, I earned my B.S. in Computational Biology from 
+  <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a> and have conducted research at Scripps Research, Johns Hopkins University, and the National University of Singapore.
+</p>
+
+<p>
+  I welcome collaboration and interdisciplinary conversation—please feel free to reach out:)
 </p>
 </section>
 
