@@ -94,7 +94,7 @@ email: "fuminori@stanford.edu"
 ---
 <section>
 <p>
-  Hi! I’m <strong>Fumi Tanizawa</strong>, a PhD student in 
+  Hi! I’m <strong>Fumi</strong>, a PhD student in 
   <a href="https://med.stanford.edu/immunol.html" target="_blank">Immunology at Stanford Medicine</a>.  
   I am passionate about applying molecular genomics to improve public health, with a focus on immune responses to infectious diseases that disproportionately impact underserved communities worldwide.
 </p>
