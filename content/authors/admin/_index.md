@@ -96,7 +96,7 @@ email: "fuminori@stanford.edu"
 <p>
   Hi, I’m <strong>Fumi</strong>, a PhD student in 
   <a href="https://med.stanford.edu/immunol.html" target="_blank">Immunology at Stanford Medicine</a>.  
-  My work applies molecular genomics to global health, with a focus on immune responses to infectious diseases that disproportionately affect underserved populations.
+  I am passionate about applying molecular genomics to advance global health, particularly in understanding immune responses to infectious diseases that disproportionately impact underserved populations.
 </p>
 
 <p>
