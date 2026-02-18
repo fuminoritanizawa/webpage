@@ -100,7 +100,7 @@ email: "fuminori@stanford.edu"
 </p>
 
 <p>
-  I study host–pathogen interactions and mechanisms of immune evasion, integrating experimental immunology with computational analysis to uncover mechanistic insights relevant to translational and population-level health.
+  I study host–pathogen interactions and mechanisms of immune evasion, especially in parasites, integrating experimental immunology with computational analysis to uncover mechanistic insights relevant to translational and population-level health.
 </p>
 
 <p>
