@@ -100,11 +100,11 @@ email: "fuminori@stanford.edu"
 </p>
 
 <p>
-  I study host–pathogen interactions and mechanisms of immune evasion, especially in parasites, integrating experimental immunology with computational analysis to uncover mechanistic insights relevant to translational and population-level health.
+  My work focuses on host–pathogen interactions and immune evasion in parasitic infections, integrating experimental immunology with computational analysis to uncover mechanistic insights with translational relevance.
 </p>
 
 <p>
-  Originally from Japan, I completed my B.S. in Computational Biology from 
+  Originally from Japan, I earned my B.S. in Computational Biology from 
   <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a> and have conducted research at Scripps Research, Johns Hopkins University, and the National University of Singapore.
 </p>
 
