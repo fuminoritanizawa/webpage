@@ -139,8 +139,8 @@ email: "fuminori@stanford.edu"
 <h4>Japanese</h4>
 <p>
   こんにちは、谷澤文礼です！
-  <a href="https://med.stanford.edu/immunol.html" target="_blank">スタンフォード大学医学部 免疫学博士課程</a>（在籍中）。感染症における宿主・病原体相互作用を研究。<br>
-  <a href="https://www.hmc.edu/" target="_blank">ハービーマッド大学</a>計算生物学専攻 卒業（2025年）。開成会・学習院洋桜会所属。
+  <a href="https://med.stanford.edu/immunol.html" target="_blank">スタンフォード大学医学部 免疫学博士課程</a>（在籍中）。感染症における宿主・病原体相互作用を研究。
+  <a href="https://www.hmc.edu/" target="_blank">ハービーマッド大学</a>計算生物学専攻（2025年）。開成会・学習院洋桜会所属。
   スタンフォード大学ベイカー・フェロー、<a href="https://masason-foundation.org/" target="_blank">孫正義育英財団</a>（2期）、<a href="https://www.yanaitadashi-foundation.or.jp/" target="_blank">柳井正財団</a>（5期）、<a href="https://www.recruit-foundation.org/about/" target="_blank">江副記念リクルート財団</a>（54期）奨学生。
   履歴書は<a href="fuminoritanizawa_cv.pdf">こちら</a>。
 </p>
