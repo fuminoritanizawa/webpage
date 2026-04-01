@@ -16,56 +16,56 @@
 # [[main]]
 #  name = "Home"
 #  url = "#about"
-#  weight = 10
+#  weight = 100
 
 # [[main]]
 #  name = "Education"
 #  url = "#education"
-#  weight = 15
+#  weight = 200
 
 [[main]]
   name = "Publications"
   url = "#publications"
-  weight = 15
+  weight = 300
 
 [[main]]
   name = "Experience"
   url = "#experience"
-  weight = 20
+  weight = 400
 
 [[main]]
   name = "Projects"
   url = "#projects"
-  weight = 25
+  weight = 500
 
 [[main]]
   name = "Awards"
   url = "#awards"
-  weight = 40
+  weight = 600
 
 # [[main]]
 #  name = "People"
 #  url = "#lab-photos"
-#  weight = 50
+#  weight = 700
 
 #[[main]]
 #  name = "Fun"
 #  url = "#personal-photos"
-#  weight = 70
+#  weight = 800
 
 #[[main]]
 #  name = "Others"
 #  url = "#tags"
-#  weight = 100 
+#  weight = 900 
 
 [[main]] 
   name = "Contact"
   url = "#contact"
-  weight = 200
+  weight = 1000
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 [[main]]
   name = "CV"
   url = "fuminoritanizawa_cv.pdf"
-  weight = 500
+  weight = 1100

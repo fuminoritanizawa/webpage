@@ -151,6 +151,15 @@ a {
   padding: 3px 7px;
 }
 
+// Project card image — constrain portrait images to a landscape ratio
+// Featured images from posters/slides are tall; this crops them consistently
+.card-image img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
 
 // =====================================================================
 // 6. PUBLICATION LIST ITEMS
@@ -203,33 +212,28 @@ a {
 
 // =====================================================================
 // 8. AWARDS / ACCOMPLISHMENTS
-// Replaces the &nbsp; date-padding hack with a proper badge + layout
+// The accomplishments template generates div.card.experience.course
 // =====================================================================
 
-// Card left accent bar
-.accomplishments-item .card {
+// Card left accent bar (targets the actual class used by the theme template)
+.card.experience.course {
   border-left: 3px solid var(--color-primary, #2962ff);
   border-radius: 0 10px 10px 0;
 }
 
-.accomplishments-item .card-header {
-  font-size: 1rem;
-  font-weight: 700;
-}
-
 // Style the bold dates inside description lists as pill badges
-.accomplishments-item .card-body ul {
+.card.experience.course .card-text ul {
   padding-left: 0;
   list-style: none;
 }
 
-.accomplishments-item .card-body ul li {
+.card.experience.course .card-text ul li {
   padding: 0.25rem 0;
   line-height: 1.55;
 }
 
 // Make bold text (dates) look like inline tags
-.accomplishments-item .card-body ul li > strong {
+.card.experience.course .card-text ul li > strong {
   display: inline-block;
   background: rgba(0, 0, 0, 0.06);
   border-radius: 4px;
