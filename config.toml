@@ -1,6 +1,9 @@
 # Academic Website Builder
 # https://sourcethemes.com/academic/
 #
+# PURPOSE: Root config stub. Required for Blogdown/Forestry compatibility only.
+# CLASSIFICATION: Safe to ignore — actual config lives in config/_default/
+#
 # The presence of this file is for compatibility with Blogdown and Forestry.
 # If you are not using those tools, this file may be deleted.
 #

@@ -1,3 +1,14 @@
+// ============================================================
+// assets/scss/custom.scss
+// PURPOSE: Site-specific CSS overrides
+// ROLE: Loaded by the Academic theme after its own styles; safely overrides defaults
+// CLASSIFICATION: Safe to edit — this is the correct place for all style customizations
+// NOTE: Do NOT edit theme SCSS files in themes/academic/. Put all custom
+//       styles here instead. Theme updates will not overwrite this file.
+// CURRENT CUSTOMIZATIONS:
+//   - .ul-edu: Education list layout in the About widget
+// ============================================================
+
 ul.ul-edu li {
     position: relative;
     padding: 0px 15px 20px 3px;

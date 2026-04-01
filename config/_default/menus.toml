@@ -1,3 +1,13 @@
+# ============================================================
+# config/_default/menus.toml
+# PURPOSE: Top navigation bar links for the site
+# ROLE: Defines which sections appear in the navbar and their order
+# CLASSIFICATION: Safe to edit
+# COMMON EDITS: Add/remove [[main]] entries; adjust weight (lower = further left)
+# NOTE: URL "#section" anchors to a widget in content/home/<section>.md
+#       URL "filename.pdf" serves a file from static/
+# ============================================================
+#
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.

@@ -1,3 +1,13 @@
+# ============================================================
+# config/_default/params.toml
+# PURPOSE: Theme and feature parameters for the Academic theme
+# ROLE: Controls appearance, widgets, integrations (comments, search, maps, CMS)
+# CLASSIFICATION: Safe to edit
+# COMMON EDITS: theme, font_size, social links, description, show_related
+# NOTE: Comments/search/analytics are all disabled (engine = 0). Enable
+#       by changing engine value and supplying required API keys.
+# ============================================================
+#
 # SITE SETUP
 # Guide: https://sourcethemes.com/academic/docs/get-started/
 # Documentation: https://sourcethemes.com/academic/docs/

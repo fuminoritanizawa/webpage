@@ -1,3 +1,14 @@
+# ============================================================
+# netlify.toml
+# PURPOSE: Netlify deployment and build configuration
+# ROLE: Specifies the Hugo build command, output directory, and HTTP headers
+# CLASSIFICATION: Safe to edit with caution
+# WARNING: HUGO_VERSION is pinned to 0.72.0 (2020). Updating it requires
+#          testing that the Academic theme at the pinned submodule commit
+#          is compatible with the newer Hugo version before deploying.
+# COMMON EDITS: Update HUGO_VERSION only after local testing
+# ============================================================
+
 [build]
   command = "hugo --gc --minify -b $URL"
   publish = "public"

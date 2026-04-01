@@ -1,3 +1,12 @@
+# ============================================================
+# config/_default/config.toml
+# PURPOSE: Core Hugo build configuration for fuminoritanizawa.com
+# ROLE: Controls site-wide settings: base URL, theme, markdown, taxonomies
+# CLASSIFICATION: Safe to edit (most settings are standard Hugo options)
+# FRAGILE: theme name must match themes/ directory; output formats affect PWA
+# COMMON EDITS: title, baseurl, copyright
+# ============================================================
+#
 # Configuration of Hugo
 # Guide: https://sourcethemes.com/academic/docs/get-started/
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
