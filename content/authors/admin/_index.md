@@ -34,7 +34,7 @@ education:
   #   institution: Massachusetts Institute of Technology
   #   year: 2009
   - course: PhD in Immunology
-    institution: Stanford Medicine Immunology (4.11/4.00)
+    institution: Stanford Medicine (4.11/4.00)
     year: On-going
   - course: BSc in Computational Biology
     institution: Harvey Mudd College (3.93/4.00)
