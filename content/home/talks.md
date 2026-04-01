@@ -8,7 +8,7 @@
 widget = "pages"
 headless = true
 active = true
-weight = 55
+weight = 48
 
 title = "Presentations"
 subtitle = "Conference talks and posters"

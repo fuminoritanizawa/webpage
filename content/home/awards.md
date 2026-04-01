@@ -12,7 +12,7 @@ active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
 title = "Accomplishments"
-subtitle = "Fellowships, awards, and conference presentations"
+subtitle = "Fellowships and awards"
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -105,19 +105,5 @@ date_format = "Jan 2006"
   <a href="https://www.jst.go.jp/EN/">Japan Science and Technology Agency National High School Student Research Conference</a> (Japan)
   * **2020-08-26** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Grand Prize Winner, Minister of Health, Labor and Welfare Award,
   <a href="https://www.bio-summit.org/jusyou.html">National High School Student Biology Summit Competition</a> (Japan)
-  """
-
-[[item]]
-  organization = "As of"
-  organization_url = ""
-  title = "Conference Presentations"
-  url = ""
-  date_start = "2024-08-01"
-  date_end = ""
-  description = """
-  * **2024-07-25** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Johns Hopkins C.A.R.E.S. Symposium (Baltimore MA, <a href="https://drive.google.com/file/d/11hOGoWs11NqTKEXN63vFbxNZHNvCM_Ms/view?usp=sharing">Poster</a>)
-  * **2022-08-04** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Amgen Scholars Asia Symposium (Singapore, <a href="https://drive.google.com/file/d/12YTY_7T59ulM1oejuhqcQbREXIcBKJ_2/view?usp=sharing">Poster</a>)
-  * **2020-07-28** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp The Animal Behavior Society (USA, <a href="https://drive.google.com/file/d/1k7zVLcHGKyaJccKhNUnBkV3zErXhjgui/view?usp=sharing">Oral</a>)
-  * **2020-09-16** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Biophysical Society of Japan(Japan, <a href="https://drive.google.com/file/d/1JZ_QaI9jZCDhGZsxKOzLGnDE6LbY-ED8/view?usp=sharing">Poster</a>)
   """
 +++

@@ -39,6 +39,11 @@
   weight = 500
 
 [[main]]
+  name = "Presentations"
+  url = "#talks"
+  weight = 550
+
+[[main]]
   name = "Awards"
   url = "#awards"
   weight = 600
