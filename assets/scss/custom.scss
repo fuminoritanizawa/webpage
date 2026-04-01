@@ -1,129 +1,163 @@
 // ============================================================
 // assets/scss/custom.scss — fuminoritanizawa.com
 // ROLE: Loaded AFTER theme styles. Only file to edit for visuals.
-// PALETTE:
-//   $ink:    #0f172a  deep slate (body dark, hero bg)
-//   $indigo: #6366f1  indigo-500 (primary accent)
-//   $indigo-deep: #4338ca  indigo-700
-//   $indigo-soft: #a5b4fc  indigo-300 (on dark bg)
-//   $muted:  rgba(255,255,255,0.55)  (secondary text on dark)
+//
+// PALETTE (light mode):
+//   Ink:         #0f172a   deep navy — hero bg, heading gradients
+//   Indigo-700:  #4338ca   deep accent — headings, cat labels
+//   Indigo-500:  #6366f1   primary accent — links, pills, dots
+//   Indigo-300:  #a5b4fc   on dark backgrounds
+//   Stripe A:    #ffffff   white sections (publications, projects)
+//   Stripe B:    #f5f6ff   barely-tinted indigo (experience, awards, contact)
+//   Card bg:     #ffffff   always white — pops off both stripes
 // ============================================================
 
-// ── 0. FONT — Inter ──────────────────────────────────────────
+// ── 0. FONT ───────────────────────────────────────────────────
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800;0,14..32,900;1,14..32,400&display=swap');
 
-body,
-.card, .btn, input, textarea, select {
+body, .card, .btn, input, textarea, select {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  letter-spacing: -0.005em;
+  letter-spacing: -0.006em;
+  color: #1e293b;
+}
+
+p { line-height: 1.78; }
+a { transition: color 0.15s ease, opacity 0.15s ease; }
+
+
+// ── 1. SCROLL ANIMATIONS ──────────────────────────────────────
+// Items start invisible + shifted down. JS adds .is-visible → they fade/slide in.
+// The hero (#about) is pre-marked .is-visible by JS, so it's always shown.
+
+.pub-list-item,
+.stream-item,
+.project-card,
+.row.experience,
+.card.experience.course,
+.section-heading,
+.center-text {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+// Stagger effect: each sibling item delays slightly
+.pub-list-item:nth-child(2),
+.stream-item:nth-child(2),
+.row.experience:nth-child(2),
+.card.experience.course:nth-child(2),
+.project-card:nth-child(2) { transition-delay: 0.07s; }
+
+.pub-list-item:nth-child(3),
+.stream-item:nth-child(3),
+.row.experience:nth-child(3),
+.card.experience.course:nth-child(3),
+.project-card:nth-child(3) { transition-delay: 0.14s; }
+
+.pub-list-item:nth-child(n+4),
+.stream-item:nth-child(n+4),
+.row.experience:nth-child(n+4),
+.card.experience.course:nth-child(n+4),
+.project-card:nth-child(n+4) { transition-delay: 0.2s; }
+
+.is-visible,
+.is-visible.pub-list-item,
+.is-visible.stream-item,
+.is-visible.project-card,
+.is-visible.row.experience,
+.is-visible.card.experience.course,
+.is-visible.section-heading,
+.is-visible.center-text {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
 }
 
 
-// ── 1. NAVBAR ─────────────────────────────────────────────────
+// ── 2. NAVBAR ─────────────────────────────────────────────────
 .navbar {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-  backdrop-filter: saturate(200%) blur(16px);
-  -webkit-backdrop-filter: saturate(200%) blur(16px);
-  background: rgba(255, 255, 255, 0.88) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  backdrop-filter: saturate(200%) blur(18px);
+  -webkit-backdrop-filter: saturate(200%) blur(18px);
+  background: rgba(255, 255, 255, 0.9) !important;
+  transition: box-shadow 0.2s ease;
 }
 
 .navbar-light .navbar-brand {
-  font-size: 0.95rem;
+  font-size: 0.93rem;
   font-weight: 900;
   letter-spacing: -0.03em;
   color: #0f172a !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  font-size: 0.74rem;
+  font-size: 0.72rem;
   font-weight: 700;
-  letter-spacing: 0.07em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  transition: color 0.18s ease, opacity 0.18s ease;
-}
-
-// Active nav link — colored underline
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.active {
-  position: relative;
-}
-
-.navbar-light .navbar-nav .active > .nav-link::after,
-.navbar-light .navbar-nav .nav-link.active::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0.5rem;
-  right: 0.5rem;
-  height: 2px;
-  background: #6366f1;
-  border-radius: 1px;
+  transition: color 0.18s ease;
 }
 
 
-// ── 2. GLOBAL ─────────────────────────────────────────────────
-a {
-  transition: color 0.15s ease, opacity 0.15s ease;
-}
+// ── 3. SECTION STRIPE COLORS ──────────────────────────────────
+// Named by ID so adding/removing sections doesn't break the stripe.
+// Stripe A = white. Stripe B = #f5f6ff (2% indigo tint, nearly imperceptible).
+// Cards are always #fff so they float above both stripe types.
+// Hero about is handled separately below.
 
-p {
-  line-height: 1.78;
-}
+body:not(.dark) #publications.home-section { background: #ffffff; }
+body:not(.dark) #experience.home-section   { background: #f5f6ff; }
+body:not(.dark) #projects.home-section     { background: #ffffff; }
+body:not(.dark) #awards.home-section       { background: #f5f6ff; }
+body:not(.dark) #lab-photos.home-section   { background: #ffffff; }
+body:not(.dark) #personal-photos.home-section { background: #f5f6ff; }
+body:not(.dark) #contact.home-section      { background: #f5f6ff; }
+
+// Remove the old nth-child tint — replaced by explicit IDs above
+.home-section:nth-child(even) { background: inherit; }
 
 
-// ── 3. HOME SECTION BACKGROUNDS ───────────────────────────────
-// The about section (first child) gets the dark hero treatment below.
-// All other even sections get a very subtle tint.
-.home-section:nth-child(n+2):nth-child(even) {
-  background: rgba(0, 0, 0, 0.018);
-}
-
-
-// ── 4. SECTION HEADINGS — gradient text ───────────────────────
-// Used in the 2-column layout (publications, experience, awards)
+// ── 4. SECTION HEADINGS — gradient text + accent bar ──────────
 .section-heading h1 {
   font-weight: 900;
   letter-spacing: -0.045em;
   line-height: 1.05;
-  padding-bottom: 0.9rem;
+  padding-bottom: 0.95rem;
   position: relative;
-  // Gradient text
   background: linear-gradient(135deg, #1e1b4b 0%, #6366f1 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-// Accent bar beneath heading
 .section-heading h1::after {
   content: '';
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 2.2rem;
+  width: 2rem;
   height: 4px;
   background: linear-gradient(90deg, #4338ca, #818cf8);
   border-radius: 2px;
 }
 
 .section-heading p {
-  font-size: 0.76rem;
+  font-size: 0.74rem;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-top: 1.2rem;
   opacity: 0.48;
-  // webkit-text-fill-color resets for subtitles under gradient headings
-  -webkit-text-fill-color: initial;
+  -webkit-text-fill-color: #1e1b4b;
   color: #1e1b4b;
 }
 
-// 1-column section heading (projects widget when columns="1")
+// 1-column layout heading (projects with columns="1")
 .center-text h1 {
   font-weight: 900;
   letter-spacing: -0.045em;
@@ -134,69 +168,67 @@ p {
 }
 
 .center-text p {
-  font-size: 0.76rem;
+  font-size: 0.74rem;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   opacity: 0.48;
-  -webkit-text-fill-color: initial;
+  -webkit-text-fill-color: #1e1b4b;
 }
 
 
 // ═══════════════════════════════════════════════════════════════
-// ── 5. ABOUT / HERO SECTION ─ DARK ────────────────────────────
-// The about section is the hero of the page. Dark indigo gradient
-// makes it dramatic and immediately memorable.
+// ── 5. ABOUT / HERO — DARK GRADIENT ───────────────────────────
+// Deep navy-to-indigo. Everything inside recolored for contrast.
 // ═══════════════════════════════════════════════════════════════
 
-// Only apply dark treatment in light (non-dark) mode
 body:not(.dark) #about.home-section {
-  background: linear-gradient(160deg, #0f172a 0%, #1e1b4b 55%, #2d2780 100%) !important;
+  background: linear-gradient(160deg, #080c1a 0%, #1e1b4b 55%, #312e81 100%) !important;
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 5.5rem;
 }
 
-// All direct text inside the about hero → light colored
 body:not(.dark) #about .portrait-title h2 {
   color: #f1f5f9;
   font-weight: 900;
   letter-spacing: -0.04em;
-  font-size: 1.55rem;
+  font-size: 1.6rem;
+  -webkit-text-fill-color: #f1f5f9;
 }
 
 body:not(.dark) #about .portrait-title h3 {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 0.88rem;
+  color: rgba(255,255,255,0.58);
+  font-size: 0.87rem;
   font-weight: 400;
-  letter-spacing: 0.01em;
+  -webkit-text-fill-color: rgba(255,255,255,0.58);
 }
 
 body:not(.dark) #about .portrait-title h3 a {
   color: #a5b4fc;
+  -webkit-text-fill-color: #a5b4fc;
 }
 
-// Avatar — glow in the dark
+// Avatar: double glow ring
 body:not(.dark) .avatar-circle {
   box-shadow:
-    0 0 0 4px rgba(99, 102, 241, 0.25),
-    0 0 0 8px rgba(99, 102, 241, 0.1),
-    0 12px 48px rgba(0, 0, 0, 0.5);
-  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1),
-              box-shadow 0.35s ease;
+    0 0 0 3px rgba(99,102,241,0.3),
+    0 0 0 7px rgba(99,102,241,0.1),
+    0 14px 50px rgba(0,0,0,0.55);
+  transition: transform 0.35s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.35s ease;
 }
 
 body:not(.dark) .avatar-circle:hover {
   transform: scale(1.06) translateY(-4px);
   box-shadow:
-    0 0 0 4px rgba(99, 102, 241, 0.4),
-    0 0 0 10px rgba(99, 102, 241, 0.15),
-    0 20px 60px rgba(0, 0, 0, 0.5);
+    0 0 0 3px rgba(99,102,241,0.5),
+    0 0 0 9px rgba(99,102,241,0.18),
+    0 22px 64px rgba(0,0,0,0.55);
 }
 
-// Light mode (non-dark mode) about: social icons
+// Social icons on dark hero
 body:not(.dark) #about #profile ul.network-icon li a {
-  color: rgba(255, 255, 255, 0.65);
-  transition: color 0.2s ease, transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  color: rgba(255,255,255,0.55);
+  transition: color 0.2s ease, transform 0.22s cubic-bezier(0.34,1.56,0.64,1);
 }
 
 body:not(.dark) #about #profile ul.network-icon li a:hover {
@@ -204,54 +236,58 @@ body:not(.dark) #about #profile ul.network-icon li a:hover {
   transform: translateY(-3px) scale(1.12);
 }
 
-// Bio text on dark background
+// Bio text on dark bg
 body:not(.dark) #about .col-12.col-lg-8 {
-  color: rgba(255, 255, 255, 0.82);
+  color: rgba(255,255,255,0.8);
+}
+
+body:not(.dark) #about .col-12.col-lg-8 p {
+  color: rgba(255,255,255,0.75);
+  -webkit-text-fill-color: rgba(255,255,255,0.75);
 }
 
 body:not(.dark) #about .col-12.col-lg-8 a {
   color: #a5b4fc;
-  border-bottom-color: rgba(165, 180, 252, 0.35);
+  -webkit-text-fill-color: #a5b4fc;
+  border-bottom: 1px solid rgba(165,180,252,0.3);
 }
 
 body:not(.dark) #about .col-12.col-lg-8 a:hover {
   color: #c7d2fe;
-  border-bottom-color: rgba(165, 180, 252, 0.7);
+  -webkit-text-fill-color: #c7d2fe;
+  border-bottom-color: rgba(165,180,252,0.65);
 }
 
-body:not(.dark) #about .col-12.col-lg-8 p {
-  color: rgba(255, 255, 255, 0.78);
-}
-
-// Section subheadings inside bio (Fellowships, Japanese, etc.)
+// Section subheadings inside bio (Fellowships, Japanese)
 body:not(.dark) #about .article-style h4 {
-  color: #818cf8;
-  font-size: 0.65rem;
+  font-size: 0.62rem;
   font-weight: 800;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  color: #818cf8;
+  -webkit-text-fill-color: #818cf8;
   margin-top: 1.8rem;
   margin-bottom: 0.6rem;
-  -webkit-text-fill-color: #818cf8;
 }
 
 body:not(.dark) #about .article-style hr {
-  border-top-color: rgba(255, 255, 255, 0.1);
+  border-top-color: rgba(255,255,255,0.1);
 }
 
-// Fellowship bullet list on dark background
+// Fellowship bullets on dark bg
 body:not(.dark) #about .article-style ul:not(.ul-interests):not(.ul-edu):not(.network-icon) {
   list-style: none;
   padding-left: 0;
-  margin: 0.5rem 0 1.2rem 0;
+  margin: 0.5rem 0 1.2rem;
 }
 
 body:not(.dark) #about .article-style ul:not(.ul-interests):not(.ul-edu):not(.network-icon) li {
   position: relative;
-  padding: 0.3rem 0 0.3rem 1.4rem;
+  padding: 0.28rem 0 0.28rem 1.4rem;
   line-height: 1.65;
   font-size: 0.93rem;
-  color: rgba(255, 255, 255, 0.78);
+  color: rgba(255,255,255,0.75);
+  -webkit-text-fill-color: rgba(255,255,255,0.75);
 }
 
 body:not(.dark) #about .article-style ul:not(.ul-interests):not(.ul-edu):not(.network-icon) li::before {
@@ -260,152 +296,158 @@ body:not(.dark) #about .article-style ul:not(.ul-interests):not(.ul-edu):not(.ne
   left: 0;
   color: #818cf8;
   font-size: 0.72rem;
-  top: 0.52rem;
+  top: 0.5rem;
 }
 
-// Interests heading on dark bg
+// Interests/Education headings on dark bg
 body:not(.dark) #about .col-12.col-lg-8 > .row h3 {
-  color: rgba(255, 255, 255, 0.55);
-  font-size: 0.68rem;
+  color: rgba(255,255,255,0.45);
+  -webkit-text-fill-color: rgba(255,255,255,0.45);
+  font-size: 0.65rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   margin-bottom: 0.9rem;
 }
 
-// Education heading on dark bg
 body:not(.dark) #about .ul-edu li .description p.course {
-  color: rgba(255, 255, 255, 0.88);
+  color: rgba(255,255,255,0.88);
+  -webkit-text-fill-color: rgba(255,255,255,0.88);
 }
 
-body:not(.dark) #about .ul-edu li .description p.institution {
-  color: rgba(255, 255, 255, 0.45);
-}
-
+body:not(.dark) #about .ul-edu li .description p.institution,
 body:not(.dark) #about .ul-edu li .description p.institution a {
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(255,255,255,0.42);
+  -webkit-text-fill-color: rgba(255,255,255,0.42);
 }
 
 body:not(.dark) #about .ul-edu .fa-graduation-cap {
   color: #818cf8;
 }
 
-// ── INTERESTS — Glowing pill tags on dark background ──────────
+
+// ── 6. INTERESTS — Glowing pill tags ─────────────────────────
 .ul-interests {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   padding-left: 0 !important;
   list-style: none !important;
-  margin-top: 0.6rem;
+  margin-top: 0.7rem;
 }
 
 .ul-interests li {
   display: inline-block !important;
-  padding: 0.22rem 0.9rem;
+  padding: 0.2rem 0.85rem;
   font-size: 0.76rem;
   font-weight: 600;
   border-radius: 100px;
   white-space: nowrap;
   transition: all 0.2s ease;
+  // Default (light sections)
+  background: rgba(99,102,241,0.08);
+  border: 1.5px solid rgba(99,102,241,0.22);
+  color: #4338ca;
 }
 
-// Light mode interest pills (sections below the hero)
-body:not(.dark) #about .ul-interests li {
-  background: rgba(99, 102, 241, 0.15);
-  border: 1.5px solid rgba(99, 102, 241, 0.35);
-  color: #a5b4fc;
-  box-shadow: 0 0 12px rgba(99, 102, 241, 0.15);
-}
-
-body:not(.dark) #about .ul-interests li:hover {
-  background: rgba(99, 102, 241, 0.25);
-  border-color: rgba(99, 102, 241, 0.6);
-  box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+.ul-interests li:hover {
+  background: rgba(99,102,241,0.15);
+  border-color: rgba(99,102,241,0.45);
   transform: translateY(-1px);
 }
 
-// Non-hero pill style (fallback / dark mode)
-body.dark .ul-interests li,
-.ul-interests li {
-  background: rgba(99, 102, 241, 0.08);
-  border: 1.5px solid rgba(99, 102, 241, 0.22);
-  color: #6366f1;
+// On dark hero background
+body:not(.dark) #about .ul-interests li {
+  background: rgba(99,102,241,0.18);
+  border: 1.5px solid rgba(99,102,241,0.42);
+  color: #a5b4fc;
+  box-shadow: 0 0 14px rgba(99,102,241,0.18);
 }
 
-body.dark .ul-interests li:hover,
-.ul-interests li:hover {
-  background: rgba(99, 102, 241, 0.16);
-  border-color: rgba(99, 102, 241, 0.5);
+body:not(.dark) #about .ul-interests li:hover {
+  background: rgba(99,102,241,0.3);
+  border-color: rgba(99,102,241,0.7);
+  box-shadow: 0 0 22px rgba(99,102,241,0.32);
 }
 
 
-// ── 6. EDUCATION LIST ─────────────────────────────────────────
-ul.ul-edu {
-  margin-top: 0.7rem;
-}
+// ── 7. EDUCATION LIST ─────────────────────────────────────────
+ul.ul-edu { margin-top: 0.7rem; }
 
 ul.ul-edu li {
   position: relative;
   padding: 0 15px 18px 3px;
 }
 
-ul.ul-edu li .description p {
-  margin: 0;
-}
+ul.ul-edu li .description p { margin: 0; }
 
 ul.ul-edu li .description p.course {
   font-size: 0.93rem;
   font-weight: 600;
+  color: #1e293b;
 }
 
 ul.ul-edu li .description p.institution {
   font-size: 0.78rem;
-  color: rgba(0, 0, 0, 0.52);
+  color: rgba(0,0,0,0.5);
   margin-top: 0.1rem;
 }
 
 ul.ul-edu li .description p.institution a {
-  color: rgba(0, 0, 0, 0.52);
+  color: rgba(0,0,0,0.5);
   border-bottom: 1px solid transparent;
   transition: border-color 0.15s ease;
 }
 
 ul.ul-edu li .description p.institution a:hover {
-  border-bottom-color: rgba(0, 0, 0, 0.3);
+  border-bottom-color: rgba(0,0,0,0.28);
 }
 
 
-// ── 7. PROJECT CARDS ──────────────────────────────────────────
-
-// Force max 2 columns at desktop widths
-// Theme default is calc(33.3% - 40px) — override to 50%
-.project-card {
-  width: calc(50% - 20px);
+// ── 8. BIO CONTENT (light mode, non-hero usage) ───────────────
+.article-style h4 {
+  margin-top: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #4338ca;
+  -webkit-text-fill-color: #4338ca;
 }
+
+.article-style hr {
+  margin: 1.8rem 0;
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.09);
+}
+
+
+// ── 9. PROJECT CARDS ──────────────────────────────────────────
+
+// Max 2 columns at desktop
+.project-card { width: calc(50% - 20px); }
 
 @media screen and (max-width: 768px) {
-  .project-card {
-    width: 100%;
-  }
+  .project-card { width: 100%; }
 }
 
-// Card base
+// Card base — white, always pops off both stripe types
 .card {
+  background: #ffffff;
   border-radius: 14px;
-  border: 1px solid rgba(0, 0, 0, 0.07);
-  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
-  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
-              box-shadow 0.3s ease;
+  border: 1px solid rgba(0,0,0,0.07);
+  box-shadow: 0 2px 14px rgba(0,0,0,0.055);
+  transition: transform 0.3s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.3s ease;
   overflow: hidden;
 }
 
 .card:hover {
   transform: translateY(-7px);
-  box-shadow: 0 20px 56px rgba(67, 56, 202, 0.14), 0 6px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 20px 56px rgba(67,56,202,0.13), 0 6px 20px rgba(0,0,0,0.07);
 }
 
-// Image: fixed height + zoom
+// Card image with dark vignette on hover
 .card-image {
   overflow: hidden;
   display: block;
@@ -416,50 +458,40 @@ ul.ul-edu li .description p.institution a:hover {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to bottom,
-    transparent 50%,
-    rgba(15, 23, 42, 0.45) 100%
-  );
+  background: linear-gradient(to bottom, transparent 45%, rgba(15,23,42,0.5) 100%);
   pointer-events: none;
   opacity: 0;
-  transition: opacity 0.35s ease;
+  transition: opacity 0.38s ease;
 }
 
-.card:hover .card-image::after {
-  opacity: 1;
-}
+.card:hover .card-image::after { opacity: 1; }
 
 .card-image img {
   height: 220px;
   width: 100%;
   object-fit: cover;
   object-position: top;
-  transition: transform 0.55s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 0.55s cubic-bezier(0.25,0.46,0.45,0.94);
 }
 
-.card:hover .card-image img {
-  transform: scale(1.09);
-}
+.card:hover .card-image img { transform: scale(1.09); }
 
-// Card body text area
-.card .card-text {
-  padding: 1.1rem 1.2rem 1.2rem;
-}
+.card .card-text { padding: 1.1rem 1.2rem 1.25rem; }
 
 .card .card-text h4,
 .card .card-title {
-  font-size: 1.0rem;
+  font-size: 1rem;
   font-weight: 800;
   letter-spacing: -0.025em;
   line-height: 1.3;
   margin-bottom: 0.4rem;
+  color: #0f172a;
 }
 
 .card .card-text .article-style p {
   font-size: 0.84rem;
   line-height: 1.62;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0,0,0,0.58);
   margin-bottom: 0;
 }
 
@@ -471,11 +503,11 @@ ul.ul-edu li .description p.institution a:hover {
   border-radius: 5px;
   padding: 3px 8px;
   text-transform: uppercase;
-  background: rgba(99, 102, 241, 0.1) !important;
+  background: rgba(99,102,241,0.09) !important;
   color: #4338ca !important;
 }
 
-// Project filter buttons
+// Filter buttons
 .project-filters .btn {
   font-size: 0.72rem;
   font-weight: 700;
@@ -494,20 +526,22 @@ ul.ul-edu li .description p.institution a:hover {
 }
 
 
-// ── 8. PUBLICATION LIST ───────────────────────────────────────
+// ── 10. PUBLICATION LIST ──────────────────────────────────────
 .pub-list-item,
 .article-item,
 .stream-item {
   padding: 0.9rem 1rem 0.9rem 1.1rem;
   border-radius: 8px;
   border-left: 3px solid transparent;
-  transition: background 0.2s ease, border-color 0.2s ease;
+  background: #ffffff;          // always white — readable on #f5f6ff stripe
+  margin-bottom: 0.25rem;
+  transition: background 0.18s ease, border-color 0.18s ease;
 }
 
 .pub-list-item:hover,
 .article-item:hover,
 .stream-item:hover {
-  background: rgba(99, 102, 241, 0.04);
+  background: rgba(99,102,241,0.04);
   border-left-color: #6366f1;
 }
 
@@ -515,16 +549,16 @@ ul.ul-edu li .description p.institution a:hover {
 .stream-item .article-title a {
   font-weight: 700;
   letter-spacing: -0.015em;
+  color: #0f172a;
 }
 
 .pub-list-item .article-metadata,
 .stream-item .article-metadata {
   font-size: 0.82rem;
-  opacity: 0.62;
+  color: rgba(0,0,0,0.55);
   margin-top: 0.2rem;
 }
 
-// Publication type badge (e.g. "Journal Article")
 .pub-list-item .badge-light {
   font-size: 0.65rem;
   font-weight: 800;
@@ -532,48 +566,44 @@ ul.ul-edu li .description p.institution a:hover {
   text-transform: uppercase;
   border-radius: 5px;
   padding: 3px 8px;
-  background: rgba(99, 102, 241, 0.09) !important;
+  background: rgba(99,102,241,0.09) !important;
   color: #4338ca !important;
 }
 
 
-// ── 9. EXPERIENCE TIMELINE ────────────────────────────────────
+// ── 11. EXPERIENCE TIMELINE ───────────────────────────────────
 
-// Timeline connector line color
+// Timeline connector
 .row.experience .border-right {
-  border-color: rgba(99, 102, 241, 0.25) !important;
+  border-color: rgba(99,102,241,0.2) !important;
 }
 
-// Timeline dot
+// Dot
 .exp-fill {
   background: #6366f1 !important;
   border-color: #6366f1 !important;
-  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1),
-              box-shadow 0.25s ease;
+  transition: transform 0.25s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.25s ease;
 }
 
 .row.experience:hover .exp-fill {
   transform: scale(1.6);
-  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.2);
+  box-shadow: 0 0 0 5px rgba(99,102,241,0.18);
 }
 
-// Experience card: slide + border reveal on hover
+// Experience card: always white, slides on hover
 .row.experience .card {
+  background: #ffffff;
   border-left: 3px solid transparent;
   border-radius: 0 14px 14px 0;
-  background: #fff;
-  transition: border-color 0.22s ease,
-              box-shadow 0.22s ease,
-              transform 0.22s ease;
+  transition: border-color 0.22s ease, box-shadow 0.22s ease, transform 0.22s ease;
 }
 
 .row.experience:hover .card {
   border-left-color: #6366f1;
   transform: translateX(5px);
-  box-shadow: 0 6px 28px rgba(99, 102, 241, 0.12);
+  box-shadow: 0 6px 28px rgba(99,102,241,0.11);
 }
 
-// Role title
 .exp-title {
   font-size: 0.88rem !important;
   font-weight: 800 !important;
@@ -581,7 +611,6 @@ ul.ul-edu li .description p.institution a:hover {
   color: #1e1b4b !important;
 }
 
-// Company name
 .exp-company {
   font-size: 0.84rem !important;
   font-weight: 600 !important;
@@ -589,40 +618,34 @@ ul.ul-edu li .description p.institution a:hover {
   margin-top: 0.1rem !important;
 }
 
-.exp-company a {
-  color: #6366f1 !important;
-}
+.exp-company a { color: #6366f1 !important; }
 
-// Date / location
 .exp-meta {
-  font-size: 0.76rem !important;
-  color: rgba(0, 0, 0, 0.42) !important;
+  font-size: 0.75rem !important;
+  color: rgba(0,0,0,0.4) !important;
   margin-top: 0.2rem;
 }
 
-// Description
 .row.experience .card-text {
   font-size: 0.875rem;
   line-height: 1.72;
   margin-top: 0.55rem;
-  color: rgba(0, 0, 0, 0.72);
+  color: rgba(0,0,0,0.7);
 }
 
-// → View project link inside experience description
-// Rendered from markdown [text](/project/slug/) so no class needed —
-// target by href prefix: only internal /project/ links inside experience cards
+// → View project link (markdown link targeting /project/ pages)
 .row.experience .card-text a[href^="/project/"] {
   display: inline-block;
   margin-top: 0.65rem;
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   font-weight: 800;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
   color: #6366f1 !important;
-  border: 1.5px solid rgba(99, 102, 241, 0.35) !important;
+  border: 1.5px solid rgba(99,102,241,0.32) !important;
   border-radius: 100px;
-  padding: 0.22rem 0.85rem;
-  background: rgba(99, 102, 241, 0.06);
+  padding: 0.2rem 0.85rem;
+  background: rgba(99,102,241,0.06);
   transition: background 0.18s ease, border-color 0.18s ease,
               transform 0.18s ease, color 0.18s ease;
   text-decoration: none !important;
@@ -636,16 +659,11 @@ ul.ul-edu li .description p.institution a:hover {
 }
 
 
-// ── 10. ACCOMPLISHMENTS — editorial strip ─────────────────────
-// Template HTML: div.card.experience.course > div.card-body
-//   h4.card-title.exp-title    ← FELLOWSHIPS / AWARDS / etc.
-//   div.card-subtitle          ← "As of · May 2025" (hidden)
-//   div.card-text              ← markdown ul > li items
-
+// ── 12. ACCOMPLISHMENTS — editorial strip ─────────────────────
 .card.experience.course {
   background: transparent !important;
   border: none !important;
-  border-top: 1px solid rgba(0, 0, 0, 0.08) !important;
+  border-top: 1px solid rgba(0,0,0,0.08) !important;
   border-radius: 0 !important;
   box-shadow: none !important;
   margin-bottom: 0 !important;
@@ -658,11 +676,9 @@ ul.ul-edu li .description p.institution a:hover {
   box-shadow: none !important;
 }
 
-.card.experience.course .card-body {
-  padding: 0 !important;
-}
+.card.experience.course .card-body { padding: 0 !important; }
 
-// Category header: ● FELLOWSHIPS ──────────────
+// Category header: ● FELLOWSHIPS ──────────────────────────────
 .card.experience.course .card-body > .exp-title {
   display: flex !important;
   align-items: center !important;
@@ -672,8 +688,8 @@ ul.ul-edu li .description p.institution a:hover {
   letter-spacing: 0.22em !important;
   text-transform: uppercase !important;
   color: #4338ca !important;
-  margin-bottom: 1.5rem !important;
   -webkit-text-fill-color: #4338ca !important;
+  margin-bottom: 1.5rem !important;
 }
 
 .card.experience.course .card-body > .exp-title::before {
@@ -684,23 +700,19 @@ ul.ul-edu li .description p.institution a:hover {
   background: #6366f1;
   border-radius: 50%;
   flex-shrink: 0;
-  box-shadow: 0 0 10px rgba(99, 102, 241, 0.5);
+  box-shadow: 0 0 10px rgba(99,102,241,0.5);
 }
 
 .card.experience.course .card-body > .exp-title::after {
   content: '';
   flex: 1;
   height: 1.5px;
-  background: linear-gradient(90deg, rgba(99, 102, 241, 0.3), transparent);
+  background: linear-gradient(90deg, rgba(99,102,241,0.28), transparent);
   border-radius: 1px;
 }
 
-// Hide "As of · May 2025"
-.card.experience.course .card-subtitle {
-  display: none !important;
-}
+.card.experience.course .card-subtitle { display: none !important; }
 
-// List of items
 .card.experience.course .card-text ul {
   list-style: none !important;
   padding-left: 0 !important;
@@ -709,9 +721,10 @@ ul.ul-edu li .description p.institution a:hover {
 
 .card.experience.course .card-text ul li {
   padding: 0.9rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-  font-size: 0.88rem;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  font-size: 0.875rem;
   line-height: 1.78;
+  color: #1e293b;
 }
 
 .card.experience.course .card-text ul li:last-child {
@@ -719,23 +732,21 @@ ul.ul-edu li .description p.institution a:hover {
   padding-bottom: 0.1rem;
 }
 
-// Bold dates / years → small muted
 .card.experience.course .card-text ul li strong {
   display: inline;
-  font-size: 0.75rem;
+  font-size: 0.74rem;
   font-weight: 700;
-  color: rgba(0, 0, 0, 0.38);
+  color: rgba(0,0,0,0.36);
   font-variant-numeric: tabular-nums;
   letter-spacing: 0.03em;
   margin-right: 0.2rem;
 }
 
-// Links inside accomplishments
 .card.experience.course .card-text a {
   font-weight: 600;
   text-decoration: none;
   color: #4338ca;
-  border-bottom: 1.5px solid rgba(99, 102, 241, 0.3);
+  border-bottom: 1.5px solid rgba(99,102,241,0.28);
   transition: border-color 0.15s ease, color 0.15s ease;
 }
 
@@ -745,18 +756,81 @@ ul.ul-edu li .description p.institution a:hover {
 }
 
 
-// ── 11. FOOTER ────────────────────────────────────────────────
+// ── 13. PHOTO SLIDERS ─────────────────────────────────────────
+// The slider widget renders a Bootstrap carousel.
+// Improvements: reduce height for breathing room, refine caption style,
+// smooth the default slide transition, better prev/next arrows.
+
+// Height: full-screen minus navbar is too tall for a gallery — use cinematic ratio
+.home-section .wg-hero {
+  height: 70vh !important;
+  min-height: 400px;
+}
+
+// Caption area
+.home-section .wg-hero .hero-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.6);
+}
+
+.home-section .wg-hero .hero-lead {
+  font-size: 0.82rem;
+  font-weight: 500;
+  opacity: 0.85;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.5);
+}
+
+// Carousel indicators (dots)
+.home-section .carousel-indicators li {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  opacity: 0.45;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  border-top: none;
+  border-bottom: none;
+}
+
+.home-section .carousel-indicators .active {
+  opacity: 1;
+  transform: scale(1.4);
+}
+
+// Prev/next arrows
+.home-section .carousel-control-prev,
+.home-section .carousel-control-next {
+  width: 4rem;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.home-section:hover .carousel-control-prev,
+.home-section:hover .carousel-control-next {
+  opacity: 0.7;
+}
+
+.home-section .carousel-control-prev:hover,
+.home-section .carousel-control-next:hover {
+  opacity: 1;
+}
+
+
+// ── 14. FOOTER ────────────────────────────────────────────────
 .site-footer {
   font-size: 0.77rem;
-  opacity: 0.55;
+  color: rgba(0,0,0,0.45);
   letter-spacing: 0.01em;
 }
 
-.site-footer a {
-  opacity: 0.75;
-  transition: opacity 0.15s ease;
+.site-footer .powered-by { color: rgba(0,0,0,0.42); }
+.site-footer a { color: rgba(0,0,0,0.5); transition: color 0.15s ease; }
+.site-footer a:hover { color: #6366f1; }
+
+.site-footer .back-to-top {
+  color: rgba(0,0,0,0.3);
+  transition: color 0.15s ease;
 }
 
-.site-footer a:hover {
-  opacity: 1;
-}
+.site-footer .back-to-top:hover { color: #6366f1; }
