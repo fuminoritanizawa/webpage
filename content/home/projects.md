@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 45  # Order that this section will appear.
 
 title = "Projects"
-subtitle = "Research projects and internships"
+# subtitle = "Research projects and internships"
 
 [content]
   # Page type to display. E.g. project.
@@ -78,4 +78,3 @@ subtitle = "Research projects and internships"
  # CSS class.
  css_class = ""
 +++
-
