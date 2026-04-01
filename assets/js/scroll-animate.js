@@ -11,7 +11,7 @@
     '.stream-item',
     '.project-card',
     '.row.experience',
-    '.card.experience.course',
+    '.accmp-block',
     '.section-heading',
     '.center-text'
   ].join(', ');
