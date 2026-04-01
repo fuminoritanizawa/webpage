@@ -16,7 +16,13 @@ webpage/
 │       └── languages.toml  # Language config (English only; multi-lang pre-stubbed)
 ├── content/
 │   ├── home/               # Homepage widget files (one .md per section)
-│   ├── project/            # Research project pages (one folder per project)
+│   ├── project/            # Research project pages; one folder per project (kebab-case names)
+│   │   ├── antigenic-variation/
+│   │   ├── hlh-11/
+│   │   ├── schulz-lab/
+│   │   ├── senior-thesis/
+│   │   ├── singapore/
+│   │   └── sleep-deprivation/
 │   ├── publication/        # Publication entries (one folder per paper)
 │   ├── authors/admin/      # Profile: bio, avatar, social links
 │   └── cv/                 # CV page content
@@ -33,6 +39,11 @@ webpage/
 │   └── admin/                   # Netlify CMS configuration
 ├── data/
 │   └── page_sharer.toml    # Social sharing button configuration
+├── scripts/                # Utility scripts (run from repo root, not from inside scripts/)
+│   ├── view.sh             # Start local dev server (hugo server)
+│   ├── compile_bibs.sh     # Generate all.bib from publication cite.bib files
+│   ├── update_academic.sh  # Update the Academic theme submodule
+│   └── init_kickstart.sh   # !! DESTRUCTIVE: resets site to template defaults — do not run
 ├── themes/academic/        # Hugo Academic theme (git submodule — do not edit)
 ├── netlify.toml            # Netlify build settings
 └── .gitignore
@@ -50,8 +61,8 @@ git submodule update --init --recursive
 
 # 2. Start the local dev server
 hugo server
-# or use the provided script:
-./view.sh
+# or use the provided script (run from repo root):
+./scripts/view.sh
 ```
 
 The site will be available at `http://localhost:1313`.
@@ -65,7 +76,7 @@ The site will be available at `http://localhost:1313`.
 | Bio, profile photo, social links | `content/authors/admin/_index.md` |
 | Homepage sections (show/hide/reorder) | `content/home/<widget>.md` — set `active = false` to hide |
 | Research experience entries | `content/home/experience.md` |
-| Awards / accomplishments | `content/home/talks.md` |
+| Awards / accomplishments | `content/home/awards.md` |
 | Projects | `content/project/<name>/index.md` |
 | Publications | `content/publication/<name>/index.md` |
 | CV page | `content/cv/index.md` |
@@ -83,20 +94,18 @@ The homepage is composed of widget sections defined in `content/home/`. Each fil
 | File | Status | Navbar label | What it renders |
 |---|---|---|---|
 | `about.md` | active (5) | — | Biography / profile |
-| `pages.md` | active (19) | Publications | List from `content/publication/` |
+| `publications.md` | active (19) | Publications | List from `content/publication/` |
 | `experience.md` | active (20) | Experience | Research positions |
 | `projects.md` | active (45) | Projects | Cards from `content/project/` |
-| `talks.md` | active (50) | Awards | Accomplishments / fellowships |
-| `slider2.md` | active (190) | — | Lab research photo slideshow |
-| `slider.md` | active (200) | — | Personal/hobby photo slideshow |
+| `awards.md` | active (50) | Awards | Accomplishments / fellowships |
+| `lab-photos.md` | active (190) | — | Lab research photo slideshow |
+| `personal-photos.md` | active (200) | — | Personal/hobby photo slideshow |
 | `contact.md` | active (500) | Contact | Contact form |
 | `accomplishments.md` | **inactive** | — | Spare draft (honors/awards) |
 | `education.md` | **inactive** | — | Education timeline |
 | `featured.md` | **inactive** | — | Featured publications |
 | `posts.md` | **inactive** | — | Blog posts |
 | `tags.md` | **inactive** | — | Tag cloud |
-
-> **Naming note:** `talks.md` is named after its navbar anchor `#talks`, but actually renders an `accomplishments` widget. Similarly, `pages.md` uses the `#pages` anchor but renders Publications. Do not rename these files without also updating `config/_default/menus.toml`.
 
 ---
 
@@ -114,11 +123,11 @@ The homepage is composed of widget sections defined in `content/home/`. Each fil
 
 ### Add a new project
 ```
-content/project/<project-name>/
+content/project/<kebab-case-name>/
     index.md        # Project metadata and description
-    featured.jpg    # Thumbnail image
+    featured.jpg    # Thumbnail image (required for portfolio card thumbnail)
 ```
-Copy an existing project folder as a starting point.
+Use kebab-case for the folder name (e.g., `new-project-name`). Copy an existing project folder as a starting point.
 
 ### Add a new publication
 ```
@@ -152,7 +161,7 @@ The site uses the [Hugo Academic](https://github.com/gcushen/hugo-academic) them
 - `layouts/` for template overrides (currently none)
 - `config/_default/params.toml` for feature toggles
 
-To update the theme, run `./update_academic.sh` (read it first; test locally before deploying).
+To update the theme, run `./scripts/update_academic.sh` from the repo root (read it first; test locally before deploying).
 
 ---
 

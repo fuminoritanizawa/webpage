@@ -5,7 +5,7 @@
 # CONTENT: Lab photos organized by research position (Hur, Srinivasan, Mugnier, Monteiro, Amgen)
 #          Images live in static/img/ with naming convention: <labname>_NN.png
 # IMAGE NAMING: <labname>_01.png, _02.png, … (zero-padded, consistent across all labs)
-# SEE ALSO: slider.md = personal/hobby photos (weight 200)
+# SEE ALSO: personal-photos.md = personal/hobby photos (weight 200)
 # TO ADD SLIDES: Duplicate an [[item]] block; set overlay_img to a filename in static/img/
 # UNUSED IMAGES: shizuoka_01.png, shizuoka_02.png exist in static/img/ but are not
 #                currently referenced — add [[item]] blocks here to use them.

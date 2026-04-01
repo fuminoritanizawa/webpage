@@ -2,9 +2,7 @@
 # ============================================================
 # SECTION: Accomplishments (Fellowships, Awards, Memberships)
 # STATUS: active — weight 50, appears after Projects
-# NAVBAR: Listed as "Awards" in menus.toml via url = "#talks"
-# CAUTION: File is named "talks.md" to match the "#talks" anchor in menus.toml.
-#          Do NOT rename this file without also changing menus.toml.
+# NAVBAR: Listed as "Awards" in menus.toml via url = "#awards"
 # TO EDIT: Add/remove [[item]] blocks below.
 # ============================================================
 # Accomplishments widget.

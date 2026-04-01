@@ -3,7 +3,7 @@
 # SECTION: Personal photo slider (Scuba diving / hobbies)
 # STATUS: active — weight 200, near the bottom of the page
 # CONTENT: Personal/hobby photos from static/img/ (pic1.jpg … pic14.jpg)
-# SEE ALSO: slider2.md = research lab photos (weight 190, appears just above this)
+# SEE ALSO: lab-photos.md = research lab photos (weight 190, appears just above this)
 # TO ADD SLIDES: Duplicate an [[item]] block; set overlay_img to a filename in static/img/
 # ============================================================
 # Slider widget.

@@ -25,7 +25,7 @@
 
 [[main]]
   name = "Publications"
-  url = "#pages"
+  url = "#publications"
   weight = 15
 
 [[main]]
@@ -40,17 +40,17 @@
 
 [[main]]
   name = "Awards"
-  url = "#talks"
-  weight = 40 
+  url = "#awards"
+  weight = 40
 
 # [[main]]
 #  name = "People"
-#  url = "#slider2"
+#  url = "#lab-photos"
 #  weight = 50
 
 #[[main]]
 #  name = "Fun"
-#  url = "#slider"
+#  url = "#personal-photos"
 #  weight = 70
 
 #[[main]]
