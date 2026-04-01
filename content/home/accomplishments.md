@@ -1,4 +1,11 @@
 +++
+# ============================================================
+# SECTION: Honors (disabled / reserved)
+# STATUS: inactive — set active = true to enable
+# NOTE: This is a second accomplishments widget, kept as a spare/draft section.
+#       The active accomplishments section is talks.md (title "Accomplishments", weight 50).
+#       If you enable this, adjust weight to control position relative to talks.md.
+# ============================================================
 # Accomplishments widget.
 widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.

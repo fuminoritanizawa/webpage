@@ -1,4 +1,13 @@
 +++
+# ============================================================
+# SECTION: Publications list
+# STATUS: active — weight 19, appears before Research Experience (weight 20)
+# NAVBAR: Linked as "Publications" in menus.toml via url = "#pages"
+# NOTE: File is named "pages.md" to match the "#pages" anchor in menus.toml.
+#       Do NOT rename without also updating menus.toml.
+#       Content is pulled from content/publication/*/index.md files.
+# TO ADD: Create a new subfolder in content/publication/ with an index.md.
+# ============================================================
 # A Recent Publications section created with the Pages widget.
 # This section displays recent blog posts from `content/publication/`.
 

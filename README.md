@@ -24,10 +24,13 @@ webpage/
 │   ├── images/             # Site icon and logo (icon.png = site favicon)
 │   └── scss/custom.scss    # All custom CSS overrides (safe to edit)
 ├── static/
-│   ├── files/cv.pdf        # CV download (linked from social icon in profile)
+│   ├── files/cv.pdf             # CV download (linked from social icon in profile)
 │   ├── fuminoritanizawa_cv.pdf  # CV download (linked from navbar + about section)
-│   ├── img/                # Project images, photos, figures
-│   └── admin/              # Netlify CMS configuration
+│   ├── img/                     # Slider images; served at /img/<filename>
+│   │   ├── <lab>_NN.png         # Lab research photos (naming: labname_01.png, _02.png …)
+│   │   ├── pic1.jpg … pic15.jpg # Personal/hobby photos (scuba diving)
+│   │   └── Photos/              # Miscellaneous personal photos
+│   └── admin/                   # Netlify CMS configuration
 ├── data/
 │   └── page_sharer.toml    # Social sharing button configuration
 ├── themes/academic/        # Hugo Academic theme (git submodule — do not edit)
@@ -73,7 +76,41 @@ The site will be available at `http://localhost:1313`.
 
 ---
 
+## Homepage Widget Map
+
+The homepage is composed of widget sections defined in `content/home/`. Each file maps to one section. Active sections render in ascending `weight` order.
+
+| File | Status | Navbar label | What it renders |
+|---|---|---|---|
+| `about.md` | active (5) | — | Biography / profile |
+| `pages.md` | active (19) | Publications | List from `content/publication/` |
+| `experience.md` | active (20) | Experience | Research positions |
+| `projects.md` | active (45) | Projects | Cards from `content/project/` |
+| `talks.md` | active (50) | Awards | Accomplishments / fellowships |
+| `slider2.md` | active (190) | — | Lab research photo slideshow |
+| `slider.md` | active (200) | — | Personal/hobby photo slideshow |
+| `contact.md` | active (500) | Contact | Contact form |
+| `accomplishments.md` | **inactive** | — | Spare draft (honors/awards) |
+| `education.md` | **inactive** | — | Education timeline |
+| `featured.md` | **inactive** | — | Featured publications |
+| `posts.md` | **inactive** | — | Blog posts |
+| `tags.md` | **inactive** | — | Tag cloud |
+
+> **Naming note:** `talks.md` is named after its navbar anchor `#talks`, but actually renders an `accomplishments` widget. Similarly, `pages.md` uses the `#pages` anchor but renders Publications. Do not rename these files without also updating `config/_default/menus.toml`.
+
+---
+
 ## Common Workflows
+
+### Add a slide to a photo slider
+
+1. Place the image in `static/img/` following the naming convention:
+   - Lab photos: `<labname>_NN.png` (e.g., `mugnier_07.png`) — zero-padded numbers
+   - Personal photos: `picNN.jpg` (e.g., `pic16.jpg`)
+2. Add an `[[item]]` block in `content/home/slider2.md` (lab photos) or `content/home/slider.md` (personal photos)
+3. Set `overlay_img = "your-filename.png"` — path is relative to `static/img/`
+
+> **Unused images:** `shizuoka_01.png` and `shizuoka_02.png` are in `static/img/` but not yet referenced by any slider. Add `[[item]]` blocks to include them.
 
 ### Add a new project
 ```

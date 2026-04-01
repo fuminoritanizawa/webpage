@@ -1,4 +1,15 @@
 +++
+# ============================================================
+# SECTION: Research lab photo slider
+# STATUS: active — weight 190, appears just above the personal photo slider (weight 200)
+# CONTENT: Lab photos organized by research position (Hur, Srinivasan, Mugnier, Monteiro, Amgen)
+#          Images live in static/img/ with naming convention: <labname>_NN.png
+# IMAGE NAMING: <labname>_01.png, _02.png, … (zero-padded, consistent across all labs)
+# SEE ALSO: slider.md = personal/hobby photos (weight 200)
+# TO ADD SLIDES: Duplicate an [[item]] block; set overlay_img to a filename in static/img/
+# UNUSED IMAGES: shizuoka_01.png, shizuoka_02.png exist in static/img/ but are not
+#                currently referenced — add [[item]] blocks here to use them.
+# ============================================================
 # Slider widget.
 widget = "slider"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
@@ -120,7 +131,7 @@ height = "calc(100vh - 70px)"
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
   overlay_color = "#666"  # An HTML color value.
-  overlay_img = "mugnier_1.png"  # Image path relative to your `static/img/` folder.
+  overlay_img = "mugnier_01.png"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 
 [[item]]
@@ -131,7 +142,7 @@ height = "calc(100vh - 70px)"
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
   overlay_color = "#666"  # An HTML color value.
-  overlay_img = "mugnier_2.png"  # Image path relative to your `static/img/` folder.
+  overlay_img = "mugnier_02.png"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 
 [[item]]
@@ -142,7 +153,7 @@ height = "calc(100vh - 70px)"
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
   overlay_color = "#666"  # An HTML color value.
-  overlay_img = "mugnier_3.png"  # Image path relative to your `static/img/` folder.
+  overlay_img = "mugnier_03.png"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 
 [[item]]
@@ -153,7 +164,7 @@ height = "calc(100vh - 70px)"
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
   overlay_color = "#666"  # An HTML color value.
-  overlay_img = "mugnier_4.png"  # Image path relative to your `static/img/` folder.
+  overlay_img = "mugnier_04.png"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 
 [[item]]
@@ -164,7 +175,7 @@ height = "calc(100vh - 70px)"
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
   overlay_color = "#666"  # An HTML color value.
-  overlay_img = "mugnier_5.png"  # Image path relative to your `static/img/` folder.
+  overlay_img = "mugnier_05.png"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 
 [[item]]
@@ -175,7 +186,7 @@ height = "calc(100vh - 70px)"
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
   overlay_color = "#666"  # An HTML color value.
-  overlay_img = "mugnier_6.png"  # Image path relative to your `static/img/` folder.
+  overlay_img = "mugnier_06.png"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 
 [[item]]

@@ -8,3 +8,6 @@ public/
 
 # macOS
 .DS_Store
+
+# Generated files
+all.bib
