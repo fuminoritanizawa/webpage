@@ -1,5 +1,7 @@
 # fuminoritanizawa.com — Personal Website
 
+> **Editing the site?** See [EDITING_GUIDE.md](EDITING_GUIDE.md) for step-by-step instructions on every common task (adding papers, projects, experience, CV, photos, etc.).
+
 Personal academic website for **Fuminori Tanizawa**, built with [Hugo](https://gohugo.io/) and the [Academic theme](https://github.com/gcushen/hugo-academic). Deployed via [Netlify](https://netlify.com) at [fuminoritanizawa.com](https://fuminoritanizawa.com).
 
 ---

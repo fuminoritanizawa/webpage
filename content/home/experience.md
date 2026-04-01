@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   date_start = "2024-08-01"
   date_end = "2025-05-18"
   description = """
-  Mitochondrial proteostasis abd Innate immunity of *Drosophila melanogaster* at [Hur Lab](https://www.hmc.edu/biology/faculty-staff/hur/).
+  Mitochondrial proteostasis and Innate immunity of *Drosophila melanogaster* at [Hur Lab](https://www.hmc.edu/biology/faculty-staff/hur/).
   """
 
 

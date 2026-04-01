@@ -12,7 +12,7 @@ active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
 title = "Accomplishments"
-subtitle = ""
+subtitle = "Fellowships, awards, and conference presentations"
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format

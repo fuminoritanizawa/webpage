@@ -1,44 +1,272 @@
 // ============================================================
 // assets/scss/custom.scss
-// PURPOSE: Site-specific CSS overrides
-// ROLE: Loaded by the Academic theme after its own styles; safely overrides defaults
-// CLASSIFICATION: Safe to edit — this is the correct place for all style customizations
-// NOTE: Do NOT edit theme SCSS files in themes/academic/. Put all custom
-//       styles here instead. Theme updates will not overwrite this file.
-// CURRENT CUSTOMIZATIONS:
-//   - .ul-edu: Education list layout in the About widget
+// PURPOSE: Site-specific CSS overrides for fuminoritanizawa.com
+// ROLE: Loaded by Academic theme AFTER its own styles; safely overrides defaults
+// CLASSIFICATION: Safe to edit — this is the ONLY place for custom styles.
+//                 Never edit files inside themes/academic/.
 // ============================================================
 
+
+// =====================================================================
+// 1. EDUCATION LIST (About widget — ul.ul-edu class)
+// =====================================================================
 ul.ul-edu li {
-    position: relative;
-    padding: 0px 15px 20px 3px;
+  position: relative;
+  padding: 0px 15px 20px 3px;
 }
 
 ul.ul-edu li .description p {
   margin: 0;
 }
-  
+
 ul.ul-edu li .description p.course {
-   font-size: 1.0rem;
+  font-size: 1.0rem;
 }
-  
+
 ul.ul-edu li .description p.institution {
   font-size: 0.8rem;
-  color: rgba(0,0,0,0.6);
+  color: rgba(0, 0, 0, 0.6);
 }
 
-ul.ul-edu li .description p.institution a{
-  color: rgba(0,0,0,0.6);
+ul.ul-edu li .description p.institution a {
+  color: rgba(0, 0, 0, 0.6);
   border-bottom: solid 1px transparent;
+  transition: border-color 0.15s ease;
 }
 
-ul.ul-edu li .description p.detail{
-  text-indent: 1em each-line;
+ul.ul-edu li .description p.institution a:hover {
+  border-bottom-color: rgba(0, 0, 0, 0.4);
+}
+
+ul.ul-edu li .description p.detail {
   font-size: 0.8rem;
 }
 
-ul.ul-edu li .description p.detail a{
+ul.ul-edu li .description p.detail a {
   font-size: 0.8rem;
   border-bottom: solid 1px transparent;
 }
 
+
+// =====================================================================
+// 2. PROFILE / ABOUT SECTION
+// =====================================================================
+
+// Avatar: subtle shadow + gentle scale on hover
+.avatar-circle {
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.avatar-circle:hover {
+  transform: scale(1.04);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.2);
+}
+
+// Organization label (Stanford Immunology etc.)
+#profile .portrait-title h3 {
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+}
+
+// Social icon row — slightly more spacing
+#profile ul.network-icon {
+  margin-top: 0.75rem;
+}
+
+#profile ul.network-icon li {
+  margin: 0 0.3rem;
+}
+
+// Bio section headings (h4 for Fellowships etc.)
+.article-style h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.6rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+// Horizontal rule in bio
+.article-style hr {
+  margin: 1.5rem 0;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+// =====================================================================
+// 3. GLOBAL LINK TRANSITIONS
+// =====================================================================
+a {
+  transition: color 0.15s ease, opacity 0.15s ease;
+}
+
+
+// =====================================================================
+// 4. SECTION HEADINGS
+// =====================================================================
+.section-heading h1 {
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.section-heading p {
+  font-size: 0.95rem;
+  margin-top: 0.3rem;
+}
+
+
+// =====================================================================
+// 5. PROJECT CARDS
+// Gives cards a lift + deeper shadow on hover — most visible improvement
+// =====================================================================
+.card {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+  overflow: hidden; // keeps image corners clipped to rounded border
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.14);
+}
+
+.card .card-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card .card-text {
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+// Card tag badges
+.card .badge {
+  font-size: 0.72rem;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 3px 7px;
+}
+
+
+// =====================================================================
+// 6. PUBLICATION LIST ITEMS
+// =====================================================================
+.pub-list-item,
+.article-item,
+.stream-item {
+  padding: 0.85rem 0.75rem;
+  border-radius: 6px;
+  transition: background 0.15s ease;
+}
+
+.pub-list-item:hover,
+.article-item:hover,
+.stream-item:hover {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+// Publication title link
+.pub-list-item .article-title a,
+.stream-item .article-title a {
+  font-weight: 600;
+}
+
+
+// =====================================================================
+// 7. EXPERIENCE TIMELINE
+// =====================================================================
+
+// Give the timeline connector dot a slight glow when hovered
+.exp-fill {
+  transition: transform 0.2s ease;
+}
+
+.experience-item:hover .exp-fill {
+  transform: scale(1.25);
+}
+
+// Company name row
+.experience-company {
+  font-size: 0.9rem;
+}
+
+// Description text in experience entries
+.experience-item .card-text {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+
+// =====================================================================
+// 8. AWARDS / ACCOMPLISHMENTS
+// Replaces the &nbsp; date-padding hack with a proper badge + layout
+// =====================================================================
+
+// Card left accent bar
+.accomplishments-item .card {
+  border-left: 3px solid var(--color-primary, #2962ff);
+  border-radius: 0 10px 10px 0;
+}
+
+.accomplishments-item .card-header {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+// Style the bold dates inside description lists as pill badges
+.accomplishments-item .card-body ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.accomplishments-item .card-body ul li {
+  padding: 0.25rem 0;
+  line-height: 1.55;
+}
+
+// Make bold text (dates) look like inline tags
+.accomplishments-item .card-body ul li > strong {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  margin-right: 0.4rem;
+  white-space: nowrap;
+}
+
+
+// =====================================================================
+// 9. HOME SECTION BACKGROUNDS (alternating light tint)
+// Gives the page a subtle rhythm between sections
+// =====================================================================
+.home-section:nth-child(even) {
+  background: rgba(0, 0, 0, 0.018);
+}
+
+
+// =====================================================================
+// 10. CONTACT SECTION
+// =====================================================================
+#contact {
+  text-align: left;
+}
+
+#contact .article-metadata {
+  font-size: 0.95rem;
+}
+
+
+// =====================================================================
+// 11. FOOTER
+// =====================================================================
+.site-footer {
+  font-size: 0.8rem;
+  opacity: 0.75;
+}

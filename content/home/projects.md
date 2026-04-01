@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 45  # Order that this section will appear.
 
 title = "Projects"
-subtitle = ""
+subtitle = "Research projects and internships"
 
 [content]
   # Page type to display. E.g. project.
@@ -44,9 +44,9 @@ subtitle = ""
   # Toggle between the various page layout types.
   #   1 = List
   #   2 = Compact
-  #   3 = Card
+  #   3 = Card  ← nicer: shows featured.jpg thumbnail for each project
   #   5 = Showcase
-  view = 2
+  view = 3
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows = true
