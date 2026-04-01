@@ -97,10 +97,10 @@ date_format = "Jan 2006"
   description = """
   * **2025-05-18** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Mindlin Prize for Best Senior Thesis Research, <a href="https://www.hmc.edu/">Harvey Mudd College</a> (USA)
   * **2025-05-18** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp High Distinction, <a href="https://www.hmc.edu/">Harvey Mudd College</a> (USA)
-  * **2025-05-18** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Dean's List (2021-2025, all semester), <a href="https://www.hmc.edu/">Harvey Mudd College</a> (USA)
   * **2025-05-18** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Departmental Honors in Biology, <a href="https://www.hmc.edu/">Harvey Mudd College</a> (USA)
   * **2025-05-18** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Departmental Honors in Computer Science, <a href="https://www.hmc.edu/">Harvey Mudd College</a> (USA)
   * **2025-05-18** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Departmental Honors in Humanities, Social Sciences, and the Arts, <a href="https://www.hmc.edu/">Harvey Mudd College</a> (USA)
+  * **2025-05-18** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Dean's List (2021-2025, all semester), <a href="https://www.hmc.edu/">Harvey Mudd College</a> (USA)
   * **2020-11-15** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Grand Prize Winner, Minister of Education, Science and Technology Award,
   <a href="https://www.jst.go.jp/EN/">Japan Science and Technology Agency National High School Student Research Conference</a> (Japan)
   * **2020-08-26** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Grand Prize Winner, Minister of Health, Labor and Welfare Award,

@@ -1,0 +1,22 @@
+# Custom theme for fuminoritanizawa.com
+# Based on minimal.toml with indigo-500 as primary accent.
+# Edit primary here; it propagates to buttons, links, and active nav.
+
+name = "Fumi"
+
+# Light theme base
+light = true
+
+# Primary accent — indigo-500
+primary = "#6366f1"
+
+# Navbar: white background, dark text (same as minimal)
+menu_primary = "#fff"
+menu_text = "#34495e"
+menu_text_active = "#6366f1"
+menu_title = "#2b2b2b"
+
+# Section backgrounds: handled by custom.scss per-ID rules
+# These values are the fallback if CSS IDs don't match.
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(248, 249, 252)"
