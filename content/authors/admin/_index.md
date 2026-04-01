@@ -109,7 +109,7 @@ email: "fuminori@stanford.edu"
 </p>
 
 <p>
-  I welcome collaboration and interdisciplinary engagement -- feel free to reach out:)
+  I welcome collaboration and interdisciplinary engagement -- feel free to reach out :)
 </p>
 </section>
 
