@@ -1,18 +1,199 @@
 // ============================================================
-// assets/scss/custom.scss
-// PURPOSE: Site-specific CSS overrides for fuminoritanizawa.com
-// ROLE: Loaded by Academic theme AFTER its own styles; safely overrides defaults
-// CLASSIFICATION: Safe to edit — this is the ONLY place for custom styles.
-//                 Never edit files inside themes/academic/.
+// assets/scss/custom.scss — fuminoritanizawa.com
+// ROLE: Loaded AFTER theme styles. This is the only file to edit for visuals.
+// THEME BASE: "minimal" (white navbar, clean base)
+// ACCENT: #2962ff (vivid indigo-blue from minimal theme primary)
 // ============================================================
 
+// ── 0. FONT — Inter (modern, screen-optimized) ──────────────────────
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
 
-// =====================================================================
-// 1. EDUCATION LIST (About widget — ul.ul-edu class)
-// =====================================================================
+body,
+.card,
+.btn,
+input,
+textarea,
+select {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+// Better body text
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.005em;
+}
+
+
+// ── 1. NAVBAR ────────────────────────────────────────────────────────
+// minimal theme = white navbar with colored text — refine it
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  backdrop-filter: saturate(180%) blur(12px);
+  background: rgba(255, 255, 255, 0.92) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: color 0.18s ease, opacity 0.18s ease;
+}
+
+.navbar-light .navbar-brand {
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+
+// ── 2. GLOBAL LINKS & TRANSITIONS ────────────────────────────────────
+a {
+  transition: color 0.15s ease, opacity 0.15s ease;
+}
+
+p {
+  line-height: 1.78;
+}
+
+
+// ── 3. SECTION HEADINGS ──────────────────────────────────────────────
+// Used in 2-column widget layouts (publications, experience, awards, about)
+.section-heading h1 {
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  padding-bottom: 0.75rem;
+  position: relative;
+}
+
+// Vivid accent bar under section title
+.section-heading h1::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 2rem;
+  height: 4px;
+  background: #2962ff;
+  border-radius: 2px;
+}
+
+.section-heading p {
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-top: 1.1rem;
+  opacity: 0.55;
+}
+
+// Also style centered heading in 1-column layout (projects)
+.center-text h1 {
+  font-weight: 900;
+  letter-spacing: -0.04em;
+}
+
+.center-text p {
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.55;
+}
+
+
+// ── 4. HOME SECTION BACKGROUNDS ──────────────────────────────────────
+.home-section:nth-child(even) {
+  background: rgba(0, 0, 0, 0.016);
+}
+
+
+// ── 5. PROFILE / ABOUT ───────────────────────────────────────────────
+
+// Avatar
+.avatar-circle {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.14);
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+}
+
+.avatar-circle:hover {
+  transform: scale(1.05) translateY(-3px);
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.2);
+}
+
+// Name
+#profile .portrait-title h2 {
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  font-size: 1.5rem;
+}
+
+// Role / organization
+#profile .portrait-title h3 {
+  font-size: 0.88rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  opacity: 0.72;
+}
+
+// Social icon row
+#profile ul.network-icon {
+  margin-top: 1rem;
+}
+
+#profile ul.network-icon li {
+  margin: 0 0.25rem;
+}
+
+#profile ul.network-icon li a {
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.2s ease;
+}
+
+#profile ul.network-icon li a:hover {
+  transform: translateY(-3px) scale(1.1);
+  opacity: 0.72;
+}
+
+
+// ── 6. INTERESTS — Pill tags (replaces plain bullet list) ─────────────
+.ul-interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  padding-left: 0 !important;
+  list-style: none !important;
+  margin-top: 0.7rem;
+}
+
+.ul-interests li {
+  display: inline-block !important;
+  background: rgba(41, 98, 255, 0.07);
+  border: 1.5px solid rgba(41, 98, 255, 0.22);
+  border-radius: 100px;
+  padding: 0.2rem 0.9rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #2962ff;
+  white-space: nowrap;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.ul-interests li:hover {
+  background: rgba(41, 98, 255, 0.14);
+  border-color: rgba(41, 98, 255, 0.5);
+}
+
+
+// ── 7. EDUCATION LIST ────────────────────────────────────────────────
+ul.ul-edu {
+  margin-top: 0.7rem;
+}
+
 ul.ul-edu li {
   position: relative;
-  padding: 0px 15px 20px 3px;
+  padding: 0 15px 18px 3px;
 }
 
 ul.ul-edu li .description p {
@@ -20,257 +201,387 @@ ul.ul-edu li .description p {
 }
 
 ul.ul-edu li .description p.course {
-  font-size: 1.0rem;
+  font-size: 0.95rem;
+  font-weight: 600;
 }
 
 ul.ul-edu li .description p.institution {
   font-size: 0.8rem;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.55);
+  margin-top: 0.1rem;
 }
 
 ul.ul-edu li .description p.institution a {
-  color: rgba(0, 0, 0, 0.6);
-  border-bottom: solid 1px transparent;
+  color: rgba(0, 0, 0, 0.55);
+  border-bottom: 1px solid transparent;
   transition: border-color 0.15s ease;
 }
 
 ul.ul-edu li .description p.institution a:hover {
-  border-bottom-color: rgba(0, 0, 0, 0.4);
-}
-
-ul.ul-edu li .description p.detail {
-  font-size: 0.8rem;
-}
-
-ul.ul-edu li .description p.detail a {
-  font-size: 0.8rem;
-  border-bottom: solid 1px transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.35);
 }
 
 
-// =====================================================================
-// 2. PROFILE / ABOUT SECTION
-// =====================================================================
+// ── 8. BIO CONTENT ────────────────────────────────────────────────────
 
-// Avatar: subtle shadow + gentle scale on hover
-.avatar-circle {
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.avatar-circle:hover {
-  transform: scale(1.04);
-  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.2);
-}
-
-// Organization label (Stanford Immunology etc.)
-#profile .portrait-title h3 {
-  font-size: 0.95rem;
-  letter-spacing: 0.01em;
-}
-
-// Social icon row — slightly more spacing
-#profile ul.network-icon {
-  margin-top: 0.75rem;
-}
-
-#profile ul.network-icon li {
-  margin: 0 0.3rem;
-}
-
-// Bio section headings (h4 for Fellowships etc.)
+// h4 headings (Fellowships, Japanese, etc.)
 .article-style h4 {
-  margin-top: 1.5rem;
-  margin-bottom: 0.6rem;
-  font-size: 1.05rem;
-  font-weight: 600;
-  letter-spacing: 0.01em;
+  margin-top: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #2962ff;
 }
 
-// Horizontal rule in bio
+// Horizontal rule
 .article-style hr {
-  margin: 1.5rem 0;
+  margin: 1.8rem 0;
   border: none;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+// Fellowship/bullet lists inside bio — custom arrow bullets
+#about .article-style ul:not(.ul-interests):not(.ul-edu):not(.network-icon) {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5rem 0 1.2rem 0;
+}
+
+#about .article-style ul:not(.ul-interests):not(.ul-edu):not(.network-icon) li {
+  position: relative;
+  padding: 0.3rem 0 0.3rem 1.4rem;
+  line-height: 1.65;
+  font-size: 0.93rem;
+}
+
+#about .article-style ul:not(.ul-interests):not(.ul-edu):not(.network-icon) li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: #2962ff;
+  font-size: 0.72rem;
+  top: 0.52rem;
 }
 
 
-// =====================================================================
-// 3. GLOBAL LINK TRANSITIONS
-// =====================================================================
-a {
-  transition: color 0.15s ease, opacity 0.15s ease;
+// ── 9. PROJECT CARDS ──────────────────────────────────────────────────
+
+// Force max 2 columns at all widths ≥ 769px
+// (overrides theme's calc(33.3% - 40px) at large screens)
+.project-card {
+  width: calc(50% - 20px);
 }
 
-
-// =====================================================================
-// 4. SECTION HEADINGS
-// =====================================================================
-.section-heading h1 {
-  font-weight: 700;
-  letter-spacing: -0.03em;
+@media screen and (max-width: 768px) {
+  .project-card {
+    width: 100%;
+  }
 }
 
-.section-heading p {
-  font-size: 0.95rem;
-  margin-top: 0.3rem;
-}
-
-
-// =====================================================================
-// 5. PROJECT CARDS
-// Gives cards a lift + deeper shadow on hover — most visible improvement
-// =====================================================================
+// Card base — rounded, subtle shadow
 .card {
-  border-radius: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.07);
-  transition: transform 0.22s ease, box-shadow 0.22s ease;
-  overflow: hidden; // keeps image corners clipped to rounded border
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.065);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.055);
+  transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.28s ease;
+  overflow: hidden;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.14);
+  transform: translateY(-6px);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.13);
 }
 
-.card .card-title {
-  font-size: 1rem;
-  font-weight: 600;
+// Card image: fixed height, covers, zooms on card hover
+.card-image {
+  overflow: hidden;
+  display: block;
 }
 
-.card .card-text {
-  font-size: 0.88rem;
-  line-height: 1.55;
-}
-
-// Card tag badges
-.card .badge {
-  font-size: 0.72rem;
-  font-weight: 500;
-  border-radius: 4px;
-  padding: 3px 7px;
-}
-
-// Project card image — constrain portrait images to a landscape ratio
-// Featured images from posters/slides are tall; this crops them consistently
 .card-image img {
-  height: 200px;
+  height: 220px;
   width: 100%;
   object-fit: cover;
   object-position: top;
+  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.card:hover .card-image img {
+  transform: scale(1.08);
+}
+
+// Card text area
+.card .card-text {
+  padding: 1rem 1.1rem 1.1rem;
+}
+
+.card .card-title,
+.card .card-text h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.35;
+  margin-bottom: 0.4rem;
+}
+
+.card .card-text .article-style p {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.65);
+  margin-bottom: 0;
+}
+
+// Tag badges
+.card .badge {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  border-radius: 5px;
+  padding: 3px 8px;
+  text-transform: uppercase;
+}
+
+// Project filter buttons
+.project-filters .btn {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: 100px;
+  padding: 0.35rem 1.1rem;
+  transition: all 0.18s ease;
 }
 
 
-// =====================================================================
-// 6. PUBLICATION LIST ITEMS
-// =====================================================================
+// ── 10. PUBLICATION LIST ──────────────────────────────────────────────
 .pub-list-item,
 .article-item,
 .stream-item {
-  padding: 0.85rem 0.75rem;
-  border-radius: 6px;
-  transition: background 0.15s ease;
+  padding: 0.9rem 1rem 0.9rem 1.1rem;
+  border-radius: 8px;
+  border-left: 3px solid transparent;
+  transition: background 0.18s ease, border-color 0.18s ease;
 }
 
 .pub-list-item:hover,
 .article-item:hover,
 .stream-item:hover {
-  background: rgba(0, 0, 0, 0.03);
+  background: rgba(41, 98, 255, 0.04);
+  border-left-color: #2962ff;
 }
 
-// Publication title link
 .pub-list-item .article-title a,
 .stream-item .article-title a {
-  font-weight: 600;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.pub-list-item .article-metadata,
+.stream-item .article-metadata {
+  font-size: 0.83rem;
+  opacity: 0.65;
+  margin-top: 0.2rem;
+}
+
+// Publication type badge
+.pub-list-item .badge-light {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 3px 7px;
+  background: rgba(41, 98, 255, 0.08);
+  color: #2962ff;
 }
 
 
-// =====================================================================
-// 7. EXPERIENCE TIMELINE
-// =====================================================================
+// ── 11. EXPERIENCE TIMELINE ───────────────────────────────────────────
 
-// Give the timeline connector dot a slight glow when hovered
+// Timeline dot
 .exp-fill {
-  transition: transform 0.2s ease;
+  transition: transform 0.22s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.22s ease;
 }
 
-.experience-item:hover .exp-fill {
-  transform: scale(1.25);
+.experience .experience-item:hover .exp-fill,
+.row.experience:hover .exp-fill {
+  transform: scale(1.5);
 }
 
-// Company name row
-.experience-company {
-  font-size: 0.9rem;
+// Experience card
+.row.experience .card {
+  border-left: 3px solid transparent;
+  border-radius: 0 12px 12px 0;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-// Description text in experience entries
-.experience-item .card-text {
-  font-size: 0.9rem;
-  line-height: 1.6;
+.row.experience:hover .card {
+  border-left-color: #2962ff;
+  transform: translateX(4px);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
 }
 
-
-// =====================================================================
-// 8. AWARDS / ACCOMPLISHMENTS
-// The accomplishments template generates div.card.experience.course
-// =====================================================================
-
-// Card left accent bar (targets the actual class used by the theme template)
-.card.experience.course {
-  border-left: 3px solid var(--color-primary, #2962ff);
-  border-radius: 0 10px 10px 0;
+// Role title
+.exp-title {
+  font-size: 0.92rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.01em;
 }
 
-// Style the bold dates inside description lists as pill badges
-.card.experience.course .card-text ul {
-  padding-left: 0;
-  list-style: none;
-}
-
-.card.experience.course .card-text ul li {
-  padding: 0.25rem 0;
-  line-height: 1.55;
-}
-
-// Make bold text (dates) look like inline tags
-.card.experience.course .card-text ul li > strong {
-  display: inline-block;
-  background: rgba(0, 0, 0, 0.06);
-  border-radius: 4px;
-  padding: 1px 6px;
-  font-size: 0.82rem;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-  margin-right: 0.4rem;
-  white-space: nowrap;
-}
-
-
-// =====================================================================
-// 9. HOME SECTION BACKGROUNDS (alternating light tint)
-// Gives the page a subtle rhythm between sections
-// =====================================================================
-.home-section:nth-child(even) {
-  background: rgba(0, 0, 0, 0.018);
-}
-
-
-// =====================================================================
-// 10. CONTACT SECTION
-// =====================================================================
-#contact {
-  text-align: left;
-}
-
-#contact .article-metadata {
-  font-size: 0.95rem;
-}
-
-
-// =====================================================================
-// 11. FOOTER
-// =====================================================================
-.site-footer {
-  font-size: 0.8rem;
+// Company name
+.exp-company {
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
   opacity: 0.75;
+}
+
+// Date / location metadata
+.exp-meta {
+  font-size: 0.78rem !important;
+  opacity: 0.55;
+  margin-top: 0.15rem;
+}
+
+// Description
+.experience-item .card-text,
+.row.experience .card-text {
+  font-size: 0.88rem;
+  line-height: 1.7;
+  margin-top: 0.5rem;
+}
+
+
+// ── 12. ACCOMPLISHMENTS — Editorial / magazine strip ──────────────────
+//
+// Template HTML structure:
+//   div.card.experience.course > div.card-body
+//     h4.card-title.exp-title.text-muted   ← category name
+//     div.card-subtitle.article-metadata   ← "As of · May 2025" (hidden)
+//     div.card-text                         ← markdown: ul > li items
+//
+// Design: strip the card entirely → pure editorial rows with bold headers
+
+.card.experience.course {
+  background: transparent !important;
+  border: none !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.09) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 0 !important;
+  padding: 2.4rem 0 1.6rem 0;
+  transition: none !important;
+}
+
+// Remove hover lift for accomplishment cards (they're not cards anymore)
+.card.experience.course:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+// Remove padding from card body
+.card.experience.course .card-body {
+  padding: 0 !important;
+}
+
+// Category header: FELLOWSHIPS / AWARDS / CONFERENCE PRESENTATIONS
+// Displayed as: ● FELLOWSHIPS ─────
+.card.experience.course .exp-title {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.65rem !important;
+  font-size: 0.62rem !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.2em !important;
+  text-transform: uppercase !important;
+  color: #2962ff !important;
+  margin-bottom: 1.4rem !important;
+}
+
+// Dot before the category name
+.card.experience.course .exp-title::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: #2962ff;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+// Rule extending after the category name
+.card.experience.course .exp-title::after {
+  content: '';
+  flex: 1;
+  height: 1.5px;
+  background: rgba(41, 98, 255, 0.2);
+  border-radius: 1px;
+}
+
+// Hide redundant "As of · May 2025" date subtitle
+.card.experience.course .card-subtitle {
+  display: none !important;
+}
+
+// List container
+.card.experience.course .card-text ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0 !important;
+}
+
+// Each fellowship / award item
+.card.experience.course .card-text ul li {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.055);
+  font-size: 0.875rem;
+  line-height: 1.75;
+  position: relative;
+}
+
+.card.experience.course .card-text ul li:last-child {
+  border-bottom: none;
+  padding-bottom: 0.2rem;
+}
+
+// Bold date/year text — muted and small
+.card.experience.course .card-text ul li strong {
+  display: inline;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.42);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+  margin-right: 0.2rem;
+}
+
+// Links inside accomplishment items
+.card.experience.course .card-text a {
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1.5px solid rgba(41, 98, 255, 0.3);
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.card.experience.course .card-text a:hover {
+  border-bottom-color: #2962ff;
+  color: #2962ff;
+}
+
+
+// ── 13. FOOTER ────────────────────────────────────────────────────────
+.site-footer {
+  font-size: 0.78rem;
+  opacity: 0.6;
+  letter-spacing: 0.01em;
+}
+
+.site-footer a {
+  opacity: 0.8;
+  transition: opacity 0.15s ease;
+}
+
+.site-footer a:hover {
+  opacity: 1;
 }
