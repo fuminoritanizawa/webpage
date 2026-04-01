@@ -1,23 +1,22 @@
 // ============================================================
 // assets/scss/custom.scss — fuminoritanizawa.com
-// ROLE: Loaded AFTER theme styles. This is the only file to edit for visuals.
-// THEME BASE: "minimal" (white navbar, clean base)
-// ACCENT: #2962ff (vivid indigo-blue from minimal theme primary)
+// ROLE: Loaded AFTER theme styles. Only file to edit for visuals.
+// PALETTE:
+//   $ink:    #0f172a  deep slate (body dark, hero bg)
+//   $indigo: #6366f1  indigo-500 (primary accent)
+//   $indigo-deep: #4338ca  indigo-700
+//   $indigo-soft: #a5b4fc  indigo-300 (on dark bg)
+//   $muted:  rgba(255,255,255,0.55)  (secondary text on dark)
 // ============================================================
 
-// ── 0. FONT — Inter (modern, screen-optimized) ──────────────────────
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+// ── 0. FONT — Inter ──────────────────────────────────────────
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800;0,14..32,900;1,14..32,400&display=swap');
 
 body,
-.card,
-.btn,
-input,
-textarea,
-select {
+.card, .btn, input, textarea, select {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-// Better body text
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -25,30 +24,49 @@ body {
 }
 
 
-// ── 1. NAVBAR ────────────────────────────────────────────────────────
-// minimal theme = white navbar with colored text — refine it
+// ── 1. NAVBAR ─────────────────────────────────────────────────
 .navbar {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
-  backdrop-filter: saturate(180%) blur(12px);
-  background: rgba(255, 255, 255, 0.92) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  backdrop-filter: saturate(200%) blur(16px);
+  -webkit-backdrop-filter: saturate(200%) blur(16px);
+  background: rgba(255, 255, 255, 0.88) !important;
+}
+
+.navbar-light .navbar-brand {
+  font-size: 0.95rem;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  color: #0f172a !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  font-size: 0.82rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
   transition: color 0.18s ease, opacity 0.18s ease;
 }
 
-.navbar-light .navbar-brand {
-  font-size: 1rem;
-  font-weight: 800;
-  letter-spacing: -0.02em;
+// Active nav link — colored underline
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+  position: relative;
+}
+
+.navbar-light .navbar-nav .active > .nav-link::after,
+.navbar-light .navbar-nav .nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0.5rem;
+  right: 0.5rem;
+  height: 2px;
+  background: #6366f1;
+  border-radius: 1px;
 }
 
 
-// ── 2. GLOBAL LINKS & TRANSITIONS ────────────────────────────────────
+// ── 2. GLOBAL ─────────────────────────────────────────────────
 a {
   transition: color 0.15s ease, opacity 0.15s ease;
 }
@@ -58,135 +76,271 @@ p {
 }
 
 
-// ── 3. SECTION HEADINGS ──────────────────────────────────────────────
-// Used in 2-column widget layouts (publications, experience, awards, about)
-.section-heading h1 {
-  font-weight: 900;
-  letter-spacing: -0.04em;
-  line-height: 1.1;
-  padding-bottom: 0.75rem;
-  position: relative;
+// ── 3. HOME SECTION BACKGROUNDS ───────────────────────────────
+// The about section (first child) gets the dark hero treatment below.
+// All other even sections get a very subtle tint.
+.home-section:nth-child(n+2):nth-child(even) {
+  background: rgba(0, 0, 0, 0.018);
 }
 
-// Vivid accent bar under section title
+
+// ── 4. SECTION HEADINGS — gradient text ───────────────────────
+// Used in the 2-column layout (publications, experience, awards)
+.section-heading h1 {
+  font-weight: 900;
+  letter-spacing: -0.045em;
+  line-height: 1.05;
+  padding-bottom: 0.9rem;
+  position: relative;
+  // Gradient text
+  background: linear-gradient(135deg, #1e1b4b 0%, #6366f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+// Accent bar beneath heading
 .section-heading h1::after {
   content: '';
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 2rem;
+  width: 2.2rem;
   height: 4px;
-  background: #2962ff;
+  background: linear-gradient(90deg, #4338ca, #818cf8);
   border-radius: 2px;
 }
 
 .section-heading p {
-  font-size: 0.82rem;
-  font-weight: 500;
-  letter-spacing: 0.06em;
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  margin-top: 1.1rem;
-  opacity: 0.55;
+  margin-top: 1.2rem;
+  opacity: 0.48;
+  // webkit-text-fill-color resets for subtitles under gradient headings
+  -webkit-text-fill-color: initial;
+  color: #1e1b4b;
 }
 
-// Also style centered heading in 1-column layout (projects)
+// 1-column section heading (projects widget when columns="1")
 .center-text h1 {
   font-weight: 900;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.045em;
+  background: linear-gradient(135deg, #1e1b4b 0%, #6366f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .center-text p {
-  font-size: 0.82rem;
-  font-weight: 500;
-  letter-spacing: 0.06em;
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  opacity: 0.55;
+  opacity: 0.48;
+  -webkit-text-fill-color: initial;
 }
 
 
-// ── 4. HOME SECTION BACKGROUNDS ──────────────────────────────────────
-.home-section:nth-child(even) {
-  background: rgba(0, 0, 0, 0.016);
+// ═══════════════════════════════════════════════════════════════
+// ── 5. ABOUT / HERO SECTION ─ DARK ────────────────────────────
+// The about section is the hero of the page. Dark indigo gradient
+// makes it dramatic and immediately memorable.
+// ═══════════════════════════════════════════════════════════════
+
+// Only apply dark treatment in light (non-dark) mode
+body:not(.dark) #about.home-section {
+  background: linear-gradient(160deg, #0f172a 0%, #1e1b4b 55%, #2d2780 100%) !important;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
-
-// ── 5. PROFILE / ABOUT ───────────────────────────────────────────────
-
-// Avatar
-.avatar-circle {
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.14);
-  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
-}
-
-.avatar-circle:hover {
-  transform: scale(1.05) translateY(-3px);
-  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.2);
-}
-
-// Name
-#profile .portrait-title h2 {
+// All direct text inside the about hero → light colored
+body:not(.dark) #about .portrait-title h2 {
+  color: #f1f5f9;
   font-weight: 900;
   letter-spacing: -0.04em;
-  font-size: 1.5rem;
+  font-size: 1.55rem;
 }
 
-// Role / organization
-#profile .portrait-title h3 {
+body:not(.dark) #about .portrait-title h3 {
+  color: rgba(255, 255, 255, 0.6);
   font-size: 0.88rem;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.01em;
-  opacity: 0.72;
 }
 
-// Social icon row
-#profile ul.network-icon {
-  margin-top: 1rem;
+body:not(.dark) #about .portrait-title h3 a {
+  color: #a5b4fc;
 }
 
-#profile ul.network-icon li {
-  margin: 0 0.25rem;
+// Avatar — glow in the dark
+body:not(.dark) .avatar-circle {
+  box-shadow:
+    0 0 0 4px rgba(99, 102, 241, 0.25),
+    0 0 0 8px rgba(99, 102, 241, 0.1),
+    0 12px 48px rgba(0, 0, 0, 0.5);
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1),
+              box-shadow 0.35s ease;
 }
 
-#profile ul.network-icon li a {
-  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.2s ease;
+body:not(.dark) .avatar-circle:hover {
+  transform: scale(1.06) translateY(-4px);
+  box-shadow:
+    0 0 0 4px rgba(99, 102, 241, 0.4),
+    0 0 0 10px rgba(99, 102, 241, 0.15),
+    0 20px 60px rgba(0, 0, 0, 0.5);
 }
 
-#profile ul.network-icon li a:hover {
-  transform: translateY(-3px) scale(1.1);
-  opacity: 0.72;
+// Light mode (non-dark mode) about: social icons
+body:not(.dark) #about #profile ul.network-icon li a {
+  color: rgba(255, 255, 255, 0.65);
+  transition: color 0.2s ease, transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
+body:not(.dark) #about #profile ul.network-icon li a:hover {
+  color: #a5b4fc;
+  transform: translateY(-3px) scale(1.12);
+}
 
-// ── 6. INTERESTS — Pill tags (replaces plain bullet list) ─────────────
+// Bio text on dark background
+body:not(.dark) #about .col-12.col-lg-8 {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+body:not(.dark) #about .col-12.col-lg-8 a {
+  color: #a5b4fc;
+  border-bottom-color: rgba(165, 180, 252, 0.35);
+}
+
+body:not(.dark) #about .col-12.col-lg-8 a:hover {
+  color: #c7d2fe;
+  border-bottom-color: rgba(165, 180, 252, 0.7);
+}
+
+body:not(.dark) #about .col-12.col-lg-8 p {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+// Section subheadings inside bio (Fellowships, Japanese, etc.)
+body:not(.dark) #about .article-style h4 {
+  color: #818cf8;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  -webkit-text-fill-color: #818cf8;
+}
+
+body:not(.dark) #about .article-style hr {
+  border-top-color: rgba(255, 255, 255, 0.1);
+}
+
+// Fellowship bullet list on dark background
+body:not(.dark) #about .article-style ul:not(.ul-interests):not(.ul-edu):not(.network-icon) {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5rem 0 1.2rem 0;
+}
+
+body:not(.dark) #about .article-style ul:not(.ul-interests):not(.ul-edu):not(.network-icon) li {
+  position: relative;
+  padding: 0.3rem 0 0.3rem 1.4rem;
+  line-height: 1.65;
+  font-size: 0.93rem;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+body:not(.dark) #about .article-style ul:not(.ul-interests):not(.ul-edu):not(.network-icon) li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: #818cf8;
+  font-size: 0.72rem;
+  top: 0.52rem;
+}
+
+// Interests heading on dark bg
+body:not(.dark) #about .col-12.col-lg-8 > .row h3 {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.9rem;
+}
+
+// Education heading on dark bg
+body:not(.dark) #about .ul-edu li .description p.course {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+body:not(.dark) #about .ul-edu li .description p.institution {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+body:not(.dark) #about .ul-edu li .description p.institution a {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+body:not(.dark) #about .ul-edu .fa-graduation-cap {
+  color: #818cf8;
+}
+
+// ── INTERESTS — Glowing pill tags on dark background ──────────
 .ul-interests {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.45rem;
+  gap: 0.5rem;
   padding-left: 0 !important;
   list-style: none !important;
-  margin-top: 0.7rem;
+  margin-top: 0.6rem;
 }
 
 .ul-interests li {
   display: inline-block !important;
-  background: rgba(41, 98, 255, 0.07);
-  border: 1.5px solid rgba(41, 98, 255, 0.22);
-  border-radius: 100px;
-  padding: 0.2rem 0.9rem;
-  font-size: 0.8rem;
+  padding: 0.22rem 0.9rem;
+  font-size: 0.76rem;
   font-weight: 600;
-  color: #2962ff;
+  border-radius: 100px;
   white-space: nowrap;
-  transition: background 0.15s ease, border-color 0.15s ease;
+  transition: all 0.2s ease;
 }
 
+// Light mode interest pills (sections below the hero)
+body:not(.dark) #about .ul-interests li {
+  background: rgba(99, 102, 241, 0.15);
+  border: 1.5px solid rgba(99, 102, 241, 0.35);
+  color: #a5b4fc;
+  box-shadow: 0 0 12px rgba(99, 102, 241, 0.15);
+}
+
+body:not(.dark) #about .ul-interests li:hover {
+  background: rgba(99, 102, 241, 0.25);
+  border-color: rgba(99, 102, 241, 0.6);
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+  transform: translateY(-1px);
+}
+
+// Non-hero pill style (fallback / dark mode)
+body.dark .ul-interests li,
+.ul-interests li {
+  background: rgba(99, 102, 241, 0.08);
+  border: 1.5px solid rgba(99, 102, 241, 0.22);
+  color: #6366f1;
+}
+
+body.dark .ul-interests li:hover,
 .ul-interests li:hover {
-  background: rgba(41, 98, 255, 0.14);
-  border-color: rgba(41, 98, 255, 0.5);
+  background: rgba(99, 102, 241, 0.16);
+  border-color: rgba(99, 102, 241, 0.5);
 }
 
 
-// ── 7. EDUCATION LIST ────────────────────────────────────────────────
+// ── 6. EDUCATION LIST ─────────────────────────────────────────
 ul.ul-edu {
   margin-top: 0.7rem;
 }
@@ -201,75 +355,31 @@ ul.ul-edu li .description p {
 }
 
 ul.ul-edu li .description p.course {
-  font-size: 0.95rem;
+  font-size: 0.93rem;
   font-weight: 600;
 }
 
 ul.ul-edu li .description p.institution {
-  font-size: 0.8rem;
-  color: rgba(0, 0, 0, 0.55);
+  font-size: 0.78rem;
+  color: rgba(0, 0, 0, 0.52);
   margin-top: 0.1rem;
 }
 
 ul.ul-edu li .description p.institution a {
-  color: rgba(0, 0, 0, 0.55);
+  color: rgba(0, 0, 0, 0.52);
   border-bottom: 1px solid transparent;
   transition: border-color 0.15s ease;
 }
 
 ul.ul-edu li .description p.institution a:hover {
-  border-bottom-color: rgba(0, 0, 0, 0.35);
+  border-bottom-color: rgba(0, 0, 0, 0.3);
 }
 
 
-// ── 8. BIO CONTENT ────────────────────────────────────────────────────
+// ── 7. PROJECT CARDS ──────────────────────────────────────────
 
-// h4 headings (Fellowships, Japanese, etc.)
-.article-style h4 {
-  margin-top: 1.8rem;
-  margin-bottom: 0.5rem;
-  font-size: 0.68rem;
-  font-weight: 800;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: #2962ff;
-}
-
-// Horizontal rule
-.article-style hr {
-  margin: 1.8rem 0;
-  border: none;
-  border-top: 1px solid rgba(0, 0, 0, 0.09);
-}
-
-// Fellowship/bullet lists inside bio — custom arrow bullets
-#about .article-style ul:not(.ul-interests):not(.ul-edu):not(.network-icon) {
-  list-style: none;
-  padding-left: 0;
-  margin: 0.5rem 0 1.2rem 0;
-}
-
-#about .article-style ul:not(.ul-interests):not(.ul-edu):not(.network-icon) li {
-  position: relative;
-  padding: 0.3rem 0 0.3rem 1.4rem;
-  line-height: 1.65;
-  font-size: 0.93rem;
-}
-
-#about .article-style ul:not(.ul-interests):not(.ul-edu):not(.network-icon) li::before {
-  content: '▸';
-  position: absolute;
-  left: 0;
-  color: #2962ff;
-  font-size: 0.72rem;
-  top: 0.52rem;
-}
-
-
-// ── 9. PROJECT CARDS ──────────────────────────────────────────────────
-
-// Force max 2 columns at all widths ≥ 769px
-// (overrides theme's calc(33.3% - 40px) at large screens)
+// Force max 2 columns at desktop widths
+// Theme default is calc(33.3% - 40px) — override to 50%
 .project-card {
   width: calc(50% - 20px);
 }
@@ -280,24 +390,44 @@ ul.ul-edu li .description p.institution a:hover {
   }
 }
 
-// Card base — rounded, subtle shadow
+// Card base
 .card {
-  border-radius: 12px;
-  border: 1px solid rgba(0, 0, 0, 0.065);
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.055);
-  transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.28s ease;
+  border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+              box-shadow 0.3s ease;
   overflow: hidden;
 }
 
 .card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.13);
+  transform: translateY(-7px);
+  box-shadow: 0 20px 56px rgba(67, 56, 202, 0.14), 0 6px 20px rgba(0,0,0,0.08);
 }
 
-// Card image: fixed height, covers, zooms on card hover
+// Image: fixed height + zoom
 .card-image {
   overflow: hidden;
   display: block;
+  position: relative;
+}
+
+.card-image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    rgba(15, 23, 42, 0.45) 100%
+  );
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.card:hover .card-image::after {
+  opacity: 1;
 }
 
 .card-image img {
@@ -305,280 +435,325 @@ ul.ul-edu li .description p.institution a:hover {
   width: 100%;
   object-fit: cover;
   object-position: top;
-  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 0.55s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .card:hover .card-image img {
-  transform: scale(1.08);
+  transform: scale(1.09);
 }
 
-// Card text area
+// Card body text area
 .card .card-text {
-  padding: 1rem 1.1rem 1.1rem;
+  padding: 1.1rem 1.2rem 1.2rem;
 }
 
-.card .card-title,
-.card .card-text h4 {
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  line-height: 1.35;
+.card .card-text h4,
+.card .card-title {
+  font-size: 1.0rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.3;
   margin-bottom: 0.4rem;
 }
 
 .card .card-text .article-style p {
-  font-size: 0.85rem;
-  line-height: 1.6;
-  color: rgba(0, 0, 0, 0.65);
+  font-size: 0.84rem;
+  line-height: 1.62;
+  color: rgba(0, 0, 0, 0.6);
   margin-bottom: 0;
 }
 
 // Tag badges
 .card .badge {
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
+  font-size: 0.66rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
   border-radius: 5px;
   padding: 3px 8px;
   text-transform: uppercase;
+  background: rgba(99, 102, 241, 0.1) !important;
+  color: #4338ca !important;
 }
 
 // Project filter buttons
 .project-filters .btn {
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
   border-radius: 100px;
   padding: 0.35rem 1.1rem;
-  transition: all 0.18s ease;
+  transition: all 0.2s ease;
+}
+
+.project-filters .btn.active,
+.project-filters .btn:hover {
+  background: #6366f1 !important;
+  border-color: #6366f1 !important;
+  color: #fff !important;
 }
 
 
-// ── 10. PUBLICATION LIST ──────────────────────────────────────────────
+// ── 8. PUBLICATION LIST ───────────────────────────────────────
 .pub-list-item,
 .article-item,
 .stream-item {
   padding: 0.9rem 1rem 0.9rem 1.1rem;
   border-radius: 8px;
   border-left: 3px solid transparent;
-  transition: background 0.18s ease, border-color 0.18s ease;
+  transition: background 0.2s ease, border-color 0.2s ease;
 }
 
 .pub-list-item:hover,
 .article-item:hover,
 .stream-item:hover {
-  background: rgba(41, 98, 255, 0.04);
-  border-left-color: #2962ff;
+  background: rgba(99, 102, 241, 0.04);
+  border-left-color: #6366f1;
 }
 
 .pub-list-item .article-title a,
 .stream-item .article-title a {
   font-weight: 700;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
 }
 
 .pub-list-item .article-metadata,
 .stream-item .article-metadata {
-  font-size: 0.83rem;
-  opacity: 0.65;
+  font-size: 0.82rem;
+  opacity: 0.62;
   margin-top: 0.2rem;
 }
 
-// Publication type badge
+// Publication type badge (e.g. "Journal Article")
 .pub-list-item .badge-light {
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.05em;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   border-radius: 5px;
-  padding: 3px 7px;
-  background: rgba(41, 98, 255, 0.08);
-  color: #2962ff;
+  padding: 3px 8px;
+  background: rgba(99, 102, 241, 0.09) !important;
+  color: #4338ca !important;
 }
 
 
-// ── 11. EXPERIENCE TIMELINE ───────────────────────────────────────────
+// ── 9. EXPERIENCE TIMELINE ────────────────────────────────────
+
+// Timeline connector line color
+.row.experience .border-right {
+  border-color: rgba(99, 102, 241, 0.25) !important;
+}
 
 // Timeline dot
 .exp-fill {
-  transition: transform 0.22s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.22s ease;
+  background: #6366f1 !important;
+  border-color: #6366f1 !important;
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1),
+              box-shadow 0.25s ease;
 }
 
-.experience .experience-item:hover .exp-fill,
 .row.experience:hover .exp-fill {
-  transform: scale(1.5);
+  transform: scale(1.6);
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.2);
 }
 
-// Experience card
+// Experience card: slide + border reveal on hover
 .row.experience .card {
   border-left: 3px solid transparent;
-  border-radius: 0 12px 12px 0;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  border-radius: 0 14px 14px 0;
+  background: #fff;
+  transition: border-color 0.22s ease,
+              box-shadow 0.22s ease,
+              transform 0.22s ease;
 }
 
 .row.experience:hover .card {
-  border-left-color: #2962ff;
-  transform: translateX(4px);
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+  border-left-color: #6366f1;
+  transform: translateX(5px);
+  box-shadow: 0 6px 28px rgba(99, 102, 241, 0.12);
 }
 
 // Role title
 .exp-title {
-  font-size: 0.92rem !important;
-  font-weight: 700 !important;
+  font-size: 0.88rem !important;
+  font-weight: 800 !important;
   letter-spacing: -0.01em;
+  color: #1e1b4b !important;
 }
 
 // Company name
 .exp-company {
-  font-size: 0.85rem !important;
+  font-size: 0.84rem !important;
   font-weight: 600 !important;
-  opacity: 0.75;
+  color: #6366f1 !important;
+  margin-top: 0.1rem !important;
 }
 
-// Date / location metadata
+.exp-company a {
+  color: #6366f1 !important;
+}
+
+// Date / location
 .exp-meta {
-  font-size: 0.78rem !important;
-  opacity: 0.55;
-  margin-top: 0.15rem;
+  font-size: 0.76rem !important;
+  color: rgba(0, 0, 0, 0.42) !important;
+  margin-top: 0.2rem;
 }
 
 // Description
-.experience-item .card-text,
 .row.experience .card-text {
-  font-size: 0.88rem;
-  line-height: 1.7;
-  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.72;
+  margin-top: 0.55rem;
+  color: rgba(0, 0, 0, 0.72);
+}
+
+// → View project link inside experience description
+// Rendered from markdown [text](/project/slug/) so no class needed —
+// target by href prefix: only internal /project/ links inside experience cards
+.row.experience .card-text a[href^="/project/"] {
+  display: inline-block;
+  margin-top: 0.65rem;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6366f1 !important;
+  border: 1.5px solid rgba(99, 102, 241, 0.35) !important;
+  border-radius: 100px;
+  padding: 0.22rem 0.85rem;
+  background: rgba(99, 102, 241, 0.06);
+  transition: background 0.18s ease, border-color 0.18s ease,
+              transform 0.18s ease, color 0.18s ease;
+  text-decoration: none !important;
+}
+
+.row.experience .card-text a[href^="/project/"]:hover {
+  background: #6366f1;
+  border-color: #6366f1 !important;
+  color: #fff !important;
+  transform: translateY(-1px);
 }
 
 
-// ── 12. ACCOMPLISHMENTS — Editorial / magazine strip ──────────────────
-//
-// Template HTML structure:
-//   div.card.experience.course > div.card-body
-//     h4.card-title.exp-title.text-muted   ← category name
-//     div.card-subtitle.article-metadata   ← "As of · May 2025" (hidden)
-//     div.card-text                         ← markdown: ul > li items
-//
-// Design: strip the card entirely → pure editorial rows with bold headers
+// ── 10. ACCOMPLISHMENTS — editorial strip ─────────────────────
+// Template HTML: div.card.experience.course > div.card-body
+//   h4.card-title.exp-title    ← FELLOWSHIPS / AWARDS / etc.
+//   div.card-subtitle          ← "As of · May 2025" (hidden)
+//   div.card-text              ← markdown ul > li items
 
 .card.experience.course {
   background: transparent !important;
   border: none !important;
-  border-top: 1px solid rgba(0, 0, 0, 0.09) !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.08) !important;
   border-radius: 0 !important;
   box-shadow: none !important;
   margin-bottom: 0 !important;
-  padding: 2.4rem 0 1.6rem 0;
+  padding: 2.6rem 0 1.8rem;
   transition: none !important;
 }
 
-// Remove hover lift for accomplishment cards (they're not cards anymore)
 .card.experience.course:hover {
   transform: none !important;
   box-shadow: none !important;
 }
 
-// Remove padding from card body
 .card.experience.course .card-body {
   padding: 0 !important;
 }
 
-// Category header: FELLOWSHIPS / AWARDS / CONFERENCE PRESENTATIONS
-// Displayed as: ● FELLOWSHIPS ─────
-.card.experience.course .exp-title {
+// Category header: ● FELLOWSHIPS ──────────────
+.card.experience.course .card-body > .exp-title {
   display: flex !important;
   align-items: center !important;
-  gap: 0.65rem !important;
-  font-size: 0.62rem !important;
+  gap: 0.7rem !important;
+  font-size: 0.6rem !important;
   font-weight: 900 !important;
-  letter-spacing: 0.2em !important;
+  letter-spacing: 0.22em !important;
   text-transform: uppercase !important;
-  color: #2962ff !important;
-  margin-bottom: 1.4rem !important;
+  color: #4338ca !important;
+  margin-bottom: 1.5rem !important;
+  -webkit-text-fill-color: #4338ca !important;
 }
 
-// Dot before the category name
-.card.experience.course .exp-title::before {
+.card.experience.course .card-body > .exp-title::before {
   content: '';
   display: inline-block;
-  width: 6px;
-  height: 6px;
-  background: #2962ff;
+  width: 7px;
+  height: 7px;
+  background: #6366f1;
   border-radius: 50%;
   flex-shrink: 0;
+  box-shadow: 0 0 10px rgba(99, 102, 241, 0.5);
 }
 
-// Rule extending after the category name
-.card.experience.course .exp-title::after {
+.card.experience.course .card-body > .exp-title::after {
   content: '';
   flex: 1;
   height: 1.5px;
-  background: rgba(41, 98, 255, 0.2);
+  background: linear-gradient(90deg, rgba(99, 102, 241, 0.3), transparent);
   border-radius: 1px;
 }
 
-// Hide redundant "As of · May 2025" date subtitle
+// Hide "As of · May 2025"
 .card.experience.course .card-subtitle {
   display: none !important;
 }
 
-// List container
+// List of items
 .card.experience.course .card-text ul {
   list-style: none !important;
   padding-left: 0 !important;
   margin: 0 !important;
 }
 
-// Each fellowship / award item
 .card.experience.course .card-text ul li {
-  padding: 0.85rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.055);
-  font-size: 0.875rem;
-  line-height: 1.75;
-  position: relative;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  font-size: 0.88rem;
+  line-height: 1.78;
 }
 
 .card.experience.course .card-text ul li:last-child {
   border-bottom: none;
-  padding-bottom: 0.2rem;
+  padding-bottom: 0.1rem;
 }
 
-// Bold date/year text — muted and small
+// Bold dates / years → small muted
 .card.experience.course .card-text ul li strong {
   display: inline;
-  font-size: 0.78rem;
+  font-size: 0.75rem;
   font-weight: 700;
-  color: rgba(0, 0, 0, 0.42);
+  color: rgba(0, 0, 0, 0.38);
   font-variant-numeric: tabular-nums;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   margin-right: 0.2rem;
 }
 
-// Links inside accomplishment items
+// Links inside accomplishments
 .card.experience.course .card-text a {
   font-weight: 600;
   text-decoration: none;
-  border-bottom: 1.5px solid rgba(41, 98, 255, 0.3);
+  color: #4338ca;
+  border-bottom: 1.5px solid rgba(99, 102, 241, 0.3);
   transition: border-color 0.15s ease, color 0.15s ease;
 }
 
 .card.experience.course .card-text a:hover {
-  border-bottom-color: #2962ff;
-  color: #2962ff;
+  color: #6366f1;
+  border-bottom-color: #6366f1;
 }
 
 
-// ── 13. FOOTER ────────────────────────────────────────────────────────
+// ── 11. FOOTER ────────────────────────────────────────────────
 .site-footer {
-  font-size: 0.78rem;
-  opacity: 0.6;
+  font-size: 0.77rem;
+  opacity: 0.55;
   letter-spacing: 0.01em;
 }
 
 .site-footer a {
-  opacity: 0.8;
+  opacity: 0.75;
   transition: opacity 0.15s ease;
 }
 
