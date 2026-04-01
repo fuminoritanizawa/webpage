@@ -815,15 +815,10 @@ body.dark .row.experience .card-text a[href^="/project/"]:hover {
 // Uses .accmp-* classes from layouts/partials/widgets/accomplishments.html
 
 .accmp-block {
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
   padding: 2.4rem 0 1.6rem;
 }
 
-body.dark .accmp-block {
-  border-top-color: rgba(255, 255, 255, 0.08);
-}
-
-.accmp-block:first-child { border-top: none; padding-top: 0; }
+.accmp-block:first-child { padding-top: 0; }
 
 // Category header: ● FELLOWSHIPS ─────────────────────────────
 .accmp-header {
@@ -897,45 +892,40 @@ body.dark .accmp-body ul li {
 
 .accmp-body ul li:last-child { border-bottom: none; padding-bottom: 0.1rem; }
 
-// Bold dates/years inside items — muted but readable
+// List item base — this is the description/subordinate text
+.accmp-body ul li {
+  font-size: 0.82rem;
+}
+
+body:not(.dark) .accmp-body ul li { color: #475569; } // slate-600 — muted description
+body.dark .accmp-body ul li       { color: #94a3b8; } // slate-400 — readable on dark
+
+// Bold title text (date + name) — more prominent than the description below it
 .accmp-body ul li strong {
   display: inline;
-  font-size: 0.74rem;
-  font-weight: 700;
-  font-variant-numeric: tabular-nums;
-  letter-spacing: 0.03em;
-  margin-right: 0.2rem;
-}
-
-body:not(.dark) .accmp-body ul li strong { color: #94a3b8; } // slate-400 on white: 2.8:1 — decorative
-body.dark .accmp-body ul li strong       { color: #64748b; } // visible but subordinate
-
-// Links inside accomplishments
-.accmp-body a {
+  font-size: 0.92rem;
   font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+body:not(.dark) .accmp-body ul li strong { color: #0f172a; } // near-black — prominent
+body.dark .accmp-body ul li strong       { color: #e2e8f0; } // near-white — prominent on dark
+
+// Links inside accomplishments — plain text appearance, remain clickable
+.accmp-body a {
+  font-weight: inherit;
   text-decoration: none;
+  border-bottom: none !important;
+  transition: opacity 0.15s ease;
 }
 
-body:not(.dark) .accmp-body a {
-  color: #4338ca;
-  border-bottom: 1.5px solid rgba(99, 102, 241, 0.28);
-  transition: border-color 0.15s ease, color 0.15s ease;
-}
+// Inherit surrounding text color — no blue, no bold
+body:not(.dark) .accmp-body a         { color: inherit !important; }
+body:not(.dark) .accmp-body a:hover   { opacity: 0.65; }
 
-body:not(.dark) .accmp-body a:hover {
-  color: #6366f1;
-  border-bottom-color: #6366f1;
-}
-
-body.dark .accmp-body a {
-  color: #818cf8;
-  border-bottom: 1.5px solid rgba(129, 140, 248, 0.28);
-}
-
-body.dark .accmp-body a:hover {
-  color: #a5b4fc;
-  border-bottom-color: #a5b4fc;
-}
+body.dark .accmp-body a               { color: inherit !important; }
+body.dark .accmp-body a:hover         { opacity: 0.65; }
 
 // Certificate link
 .accmp-cert-link {

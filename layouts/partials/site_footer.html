@@ -13,14 +13,6 @@
 
   <p class="powered-by">
     {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}}{{ end }}
-  </p>
-
-  {{/* Display copyright license. */}}
-  {{ partial "site_footer_license" . }}
-
-  <p class="powered-by">
-    Built with <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>
-    &amp; adapted from the <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a>.
 
     {{ if not (in (slice "docs" "updates") .Type) }}
     <span class="float-right" aria-hidden="true">
@@ -32,4 +24,7 @@
     </span>
     {{ end }}
   </p>
+
+  {{/* Display copyright license. */}}
+  {{ partial "site_footer_license" . }}
 </footer>
