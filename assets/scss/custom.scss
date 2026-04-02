@@ -824,17 +824,39 @@ body.dark .row.experience .card-text a[href^="/project/"]:hover {
 // Uses .accmp-* classes from layouts/partials/widgets/accomplishments.html
 
 .accmp-block {
-  padding: 2.4rem 0 1.6rem;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  padding: 1.7rem 1.25rem 1.4rem;
+  border-radius: 14px;
+  border: 1px solid rgba(15, 23, 42, 0.07);
+  background: rgba(99, 102, 241, 0.03);
+  margin-bottom: 1.15rem;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease,
+    background 0.18s ease;
 }
 
-.accmp-block:first-child { padding-top: 0; }
+body.dark .accmp-block {
+  background: rgba(129, 140, 248, 0.06);
+  border-color: rgba(255, 255, 255, 0.10);
+}
+
+.accmp-block:last-child { margin-bottom: 0; }
+
+// Keep cards visually balanced within the right grid column.
+.wg-accomplishments .accmp-block {
+  width: 100%;
+  max-width: 46rem;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @media (hover: hover) and (pointer: fine) {
   .accmp-block:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 16px 44px rgba(67, 56, 202, 0.09);
-    border-radius: 12px;
+    transform: translateY(-3px);
+    box-shadow: 0 18px 44px rgba(67, 56, 202, 0.14);
+    border-color: rgba(99, 102, 241, 0.26);
+    background: rgba(99, 102, 241, 0.045);
   }
 }
 
@@ -893,7 +915,7 @@ body.dark .accmp-header::after {
 }
 
 .accmp-body ul li {
-  padding: 0.85rem 0;
+  padding: 0.85rem 0.25rem;
   font-size: 0.875rem;
   line-height: 1.78;
 }
@@ -1652,6 +1674,7 @@ body.dark .see-all a       { color: #818cf8; }
     padding-top: 0.25rem;
     padding-bottom: 0.1rem;
     border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+    text-align: center;
   }
 
   body.dark .pages-widget__heading,
@@ -1662,14 +1685,17 @@ body.dark .see-all a       { color: #818cf8; }
 
   .pages-widget__heading h1,
   .experience-widget__heading h1 {
-    font-size: 1.05rem;
+    font-size: 1.12rem;
     padding-bottom: 0.45rem;
+    text-align: center;
   }
 
   .pages-widget__heading h1::after,
   .experience-widget__heading h1::after {
     width: 1.3rem;
     height: 3px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .pages-widget__heading p,
@@ -1691,6 +1717,7 @@ body.dark .see-all a       { color: #818cf8; }
     padding-top: 0.25rem;
     padding-bottom: 0.1rem;
     border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+    text-align: center;
   }
 
   body.dark #projects.home-section .center-text {
@@ -1700,7 +1727,7 @@ body.dark .see-all a       { color: #818cf8; }
 
   #projects.home-section .center-text p { display: none; }
   #projects.home-section .center-text h1 {
-    font-size: 1.05rem;
+    font-size: 1.12rem;
     margin: 0;
   }
 }
@@ -1717,6 +1744,7 @@ body.dark .see-all a       { color: #818cf8; }
     padding-top: 0.25rem;
     padding-bottom: 0.1rem;
     border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+    text-align: center;
   }
 
   body.dark #about.home-section #profile .portrait-title {
@@ -1741,9 +1769,26 @@ body.dark .see-all a       { color: #818cf8; }
 
   #about.home-section #profile .portrait-title h3 { display: none; }
   #about.home-section #profile .portrait-title h2 {
-    font-size: 1.05rem;
+    font-size: 1.12rem;
     letter-spacing: -0.03em;
     margin: 0;
+  }
+}
+
+// Accomplishments mobile balance: add horizontal padding so cards/list content
+// aren't visually “stuck” to the left edge.
+@media (max-width: 991px) {
+  .wg-accomplishments .pages-widget__items {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .wg-accomplishments .accmp-block {
+    border-radius: 12px;
+    padding-left: 1.05rem;
+    padding-right: 1.05rem;
+    margin-bottom: 1rem;
+    max-width: none;
   }
 }
 
