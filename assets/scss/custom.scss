@@ -918,7 +918,7 @@ body.dark .accmp-body ul li strong       { color: #e2e8f0; } // near-white — p
   font-weight: inherit;
   text-decoration: none;
   border-bottom: none !important;
-  transition: opacity 0.15s ease;
+  transition: opacity 0.15s ease, box-shadow 0.15s ease;
 }
 
 // Inherit surrounding text color — no blue, no bold
@@ -928,12 +928,55 @@ body:not(.dark) .accmp-body a:hover   { opacity: 0.65; }
 body.dark .accmp-body a               { color: inherit !important; }
 body.dark .accmp-body a:hover         { opacity: 0.65; }
 
+// Keyboard focus: keep the restrained indigo ring (instead of default browser styles).
+.accmp-body a:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.28);
+  border-radius: 6px;
+  opacity: 1;
+}
+
+body.dark .accmp-body a:focus-visible {
+  box-shadow: 0 0 0 3px rgba(129, 140, 248, 0.28);
+}
+
 // Certificate link
 .accmp-cert-link {
   display: inline-block;
   margin-top: 0.5rem;
   font-size: 0.75rem;
   font-weight: 700;
+  text-decoration: none;
+  color: #4338ca; // indigo-700
+  border-bottom: 1px solid rgba(99, 102, 241, 0.45);
+  transition: color 0.15s ease, border-color 0.15s ease, opacity 0.15s ease, box-shadow 0.15s ease;
+}
+
+body.dark .accmp-cert-link {
+  color: #a5b4fc;
+  border-bottom-color: rgba(129, 140, 248, 0.55);
+}
+
+.accmp-cert-link:hover {
+  opacity: 0.85;
+  color: #6366f1;
+  border-bottom-color: #6366f1;
+}
+
+body.dark .accmp-cert-link:hover {
+  opacity: 0.9;
+  color: #818cf8;
+  border-bottom-color: #818cf8;
+}
+
+.accmp-cert-link:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.28);
+  border-radius: 6px;
+}
+
+body.dark .accmp-cert-link:focus-visible {
+  box-shadow: 0 0 0 3px rgba(129, 140, 248, 0.28);
 }
 
 
@@ -1465,8 +1508,7 @@ body.dark .talk-year-heading       { color: #64748b; }  // slate-500
     gap: 0;
   }
 
-  // Disable sticky when layout is stacked — heading sits above items, not beside them
-  .pages-widget__heading { position: static; }
+  // Keep sticky heading on mobile; style it compact below to avoid clutter.
 }
 
 // "See all" link — extends theme's .see-all { margin-top: 2rem; text-transform: uppercase }
@@ -1522,7 +1564,45 @@ body.dark .see-all a       { color: #818cf8; }
     gap: 0;
   }
 
-  .experience-widget__heading { position: static; }
+  // Keep sticky heading on mobile; style it compact below to avoid clutter.
+}
+
+// Compact sticky headings on mobile — keep section context visible
+// without turning the heading into a persistent "card" that consumes space.
+@media (max-width: 991px) {
+  .pages-widget__heading,
+  .experience-widget__heading {
+    z-index: 25;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: saturate(160%) blur(12px);
+    -webkit-backdrop-filter: saturate(160%) blur(12px);
+    padding-top: 0.25rem;
+    padding-bottom: 0.1rem;
+    border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+  }
+
+  body.dark .pages-widget__heading,
+  body.dark .experience-widget__heading {
+    background: rgba(30, 32, 44, 0.92);
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+  }
+
+  .pages-widget__heading h1,
+  .experience-widget__heading h1 {
+    font-size: 1.05rem;
+    padding-bottom: 0.45rem;
+  }
+
+  .pages-widget__heading h1::after,
+  .experience-widget__heading h1::after {
+    width: 1.3rem;
+    height: 3px;
+  }
+
+  .pages-widget__heading p,
+  .experience-widget__heading p {
+    display: none;
+  }
 }
 
 
