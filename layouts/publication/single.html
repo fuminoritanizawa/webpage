@@ -1,0 +1,69 @@
+{{- define "main" -}}
+{{/*
+  publication/single.html — owned override of themes/academic/layouts/publication/single.html
+
+  Structural improvements over theme original:
+    - Replaced Bootstrap 1/10/1 + 3/9 grid (with .pub-row-heading labels and
+      .space-below / .d-md-none.space-below spacer divs) with a <dl class="pub-meta">
+      CSS-grid definition list. Label width is controlled purely in CSS.
+    - Removed all .space-below and .d-md-none.space-below spacer divs.
+    - Abstract promoted from bare h3 + p.pub-abstract to a semantic
+      <section class="pub-abstract-section"> with <h2 class="pub-abstract-heading">.
+
+  Preserved from theme:
+    - Outer <div class="pub"> — theme JS and CSS may reference this class.
+    - <div class="article-container"> — targeted by custom.scss §15–17.
+    - partial "functions/get_pub_types" call with $ context (global page).
+    - All i18n keys: "abstract", "publication_type", "publication".
+    - publication_types logic: skips type "0" (uncategorized).
+    - publication_types link to section archive with anchor by urlized type.
+    - partial "page_footer" (owned).
+
+  CSS contract (custom.scss — do not rename these classes):
+    .pub-abstract-section, .pub-abstract-heading
+    .pub-meta, .pub-meta dt, .pub-meta dd
+*/}}
+
+{{ $pub_types := partial "functions/get_pub_types" $ }}
+
+<div class="pub">
+
+  {{ partial "page_header.html" . }}
+
+  <div class="article-container">
+
+    {{ if .Params.abstract }}
+    <section class="pub-abstract-section">
+      <h2 class="pub-abstract-heading">{{ i18n "abstract" }}</h2>
+      <p>{{ .Params.abstract | markdownify }}</p>
+    </section>
+    {{ end }}
+
+    <dl class="pub-meta">
+
+      {{ if and .Params.publication_types (ne (index .Params.publication_types 0) "0") }}
+      <dt>{{ i18n "publication_type" }}</dt>
+      <dd>
+        {{ range .Params.publication_types }}
+        <a href="{{ (site.GetPage "section" "publication").RelPermalink }}#{{ . | urlize }}">
+          {{ index $pub_types (int .) }}
+        </a>
+        {{ end }}
+      </dd>
+      {{ end }}
+
+      {{ if .Params.publication }}
+      <dt>{{ i18n "publication" }}</dt>
+      <dd>{{ .Params.publication | markdownify }}</dd>
+      {{ end }}
+
+    </dl>
+
+    <div class="article-style">{{ .Content }}</div>
+
+    {{ partial "page_footer" . }}
+
+  </div>
+</div>
+
+{{- end -}}

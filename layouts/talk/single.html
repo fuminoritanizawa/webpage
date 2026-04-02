@@ -1,0 +1,79 @@
+{{- define "main" -}}
+{{/*
+  talk/single.html — owned override of themes/academic/layouts/talk/single.html
+
+  Structural improvements over theme original:
+    - Replaced Bootstrap 1/10/1 + 3/9 grid (with .pub-row-heading labels and
+      .space-below / .d-md-none.space-below spacer divs) with a <dl class="talk-meta">
+      CSS-grid definition list. Label width is now controlled purely in CSS.
+    - Removed all .space-below divs (theme: margin-bottom 50px) — spacing is
+      handled by .talk-meta margin and .talk-abstract margin in custom.scss.
+    - Abstract promoted from bare h3 + p.pub-abstract to a semantic
+      <section class="talk-abstract"> with <h2 class="talk-abstract-heading">,
+      making it distinctly styleable without class-collision with body h3s.
+    - Address (if set) is rendered inline under the location dd, not in a
+      separate Bootstrap row.
+
+  Preserved from theme:
+    - Outer <div class="pub"> — theme JS and CSS may reference this class.
+    - <div class="article-container"> — targeted by custom.scss §15 (h1) and
+      §16 (article body links/headings) and §17 (metadata bar).
+    - All i18n keys: "abstract", "date", "event", "location".
+    - All logic branches: abstract, event, event_url, location, address.
+    - Partial calls: functions/get_event_dates, functions/get_address,
+      page_footer (owned).
+
+  CSS contract (custom.scss — do not rename these classes):
+    .talk-abstract, .talk-abstract-heading
+    .talk-meta, .talk-meta dt, .talk-meta dd
+*/}}
+
+<div class="pub">
+
+  {{ partial "page_header.html" . }}
+
+  <div class="article-container">
+
+    {{ if .Params.abstract }}
+    <section class="talk-abstract">
+      <h2 class="talk-abstract-heading">{{ i18n "abstract" }}</h2>
+      <p>{{ .Params.abstract | markdownify | emojify }}</p>
+    </section>
+    {{ end }}
+
+    <dl class="talk-meta">
+
+      <dt>{{ i18n "date" }}</dt>
+      <dd>{{ partial "functions/get_event_dates" . }}</dd>
+
+      {{ if .Params.event }}
+      <dt>{{ i18n "event" }}</dt>
+      <dd>
+        {{ with .Params.event_url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
+        {{ .Params.event | markdownify }}
+        {{ if .Params.event_url }}</a>{{ end }}
+      </dd>
+      {{ end }}
+
+      {{ if .Params.location }}
+      <dt>{{ i18n "location" }}</dt>
+      <dd>
+        {{ .Params.location | markdownify }}
+        {{ with .Params.address }}
+          <br>{{ partial "functions/get_address" (dict "root" $ "address" .) }}
+        {{ end }}
+      </dd>
+      {{ end }}
+
+    </dl>
+
+    <div class="article-style">
+      {{ .Content }}
+    </div>
+
+    {{ partial "page_footer" . }}
+
+  </div>
+</div>
+
+{{- end -}}
