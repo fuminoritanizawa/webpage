@@ -525,12 +525,12 @@ body.dark .card {
 }
 
 .card:hover {
-  transform: translateY(-7px);
-  box-shadow: 0 20px 56px rgba(67, 56, 202, 0.13), 0 6px 20px rgba(0, 0, 0, 0.08);
+  transform: translateY(-5px);
+  box-shadow: 0 16px 44px rgba(67, 56, 202, 0.11), 0 5px 18px rgba(0, 0, 0, 0.08);
 }
 
 body.dark .card:hover {
-  box-shadow: 0 20px 56px rgba(0, 0, 0, 0.4), 0 6px 20px rgba(129, 140, 248, 0.15);
+  box-shadow: 0 16px 44px rgba(0, 0, 0, 0.42), 0 5px 18px rgba(129, 140, 248, 0.14);
 }
 
 // Card image
@@ -617,6 +617,12 @@ body.dark .card .badge {
   color: #fff !important;
 }
 
+// Subtle press feedback for filter buttons.
+.project-filters .btn:active,
+.project-filters .btn.active:active {
+  transform: scale(0.98);
+}
+
 
 // ── 9. PUBLICATION LIST ───────────────────────────────────────
 .pub-list-item, .article-item, .stream-item {
@@ -624,7 +630,8 @@ body.dark .card .badge {
   border-radius: 8px;
   border-left: 3px solid transparent;
   margin-bottom: 0.25rem;
-  transition: background 0.18s ease, border-color 0.18s ease;
+  transform: translateY(0);
+  transition: background 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
 }
 
 body:not(.dark) .pub-list-item,
@@ -637,6 +644,7 @@ body.dark .stream-item { background: transparent; }
 
 .pub-list-item:hover, .article-item:hover, .stream-item:hover {
   border-left-color: #6366f1;
+  transform: translateY(-2px);
 }
 
 body:not(.dark) .pub-list-item:hover,
@@ -817,9 +825,18 @@ body.dark .row.experience .card-text a[href^="/project/"]:hover {
 
 .accmp-block {
   padding: 2.4rem 0 1.6rem;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
 .accmp-block:first-child { padding-top: 0; }
+
+@media (hover: hover) and (pointer: fine) {
+  .accmp-block:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 16px 44px rgba(67, 56, 202, 0.09);
+    border-radius: 12px;
+  }
+}
 
 // Category header: ● FELLOWSHIPS ─────────────────────────────
 .accmp-header {
@@ -1043,6 +1060,55 @@ body.dark .site-footer a       { color: #64748b; }
 body:not(.dark) .site-footer .back-to-top i { color: #94a3b8; }
 body.dark .site-footer .back-to-top i       { color: #64748b; }
 
+// ── Floating back-to-top button ───────────────────────────────
+.back-to-top {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 16px 44px rgba(2, 6, 23, 0.10);
+
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: opacity 0.25s ease, transform 0.25s ease, background 0.2s ease, border-color 0.2s ease;
+
+  z-index: 1020; // below navbar (1030+)
+}
+
+.back-to-top.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(99, 102, 241, 0.22);
+}
+
+body.dark .back-to-top {
+  background: rgba(30, 32, 44, 0.88);
+  border-color: rgba(255, 255, 255, 0.10);
+  box-shadow: 0 16px 44px rgba(0, 0, 0, 0.40);
+}
+
+body.dark .back-to-top:hover {
+  background: rgba(30, 32, 44, 0.95);
+  border-color: rgba(129, 140, 248, 0.25);
+}
+
+.back-to-top:active {
+  transform: translateY(0) scale(0.98);
+}
+
 
 // ── 14. ACTION BUTTONS ────────────────────────────────────────
 // .btn-outline-primary used by page_links.html for PDF, DOI, Poster, custom links.
@@ -1069,6 +1135,12 @@ body.dark .site-footer .back-to-top i       { color: #64748b; }
 .btn-outline-primary:hover,
 .btn-outline-primary:focus {
   box-shadow: 0 3px 12px rgba(99, 102, 241, 0.28);
+}
+
+// Consistent press feedback (subtle, academic).
+.btn-outline-primary:active,
+.btn-outline-primary.active {
+  transform: scale(0.98);
 }
 
 // Dark mode: outline is too faint on dark bg — lighten border and text
@@ -1494,7 +1566,7 @@ body.dark .talk-year-heading       { color: #64748b; }  // slate-500
 // the heading never visually overlaps the items as they scroll past.
 .pages-widget__heading {
   position: sticky;
-  top: 4.5rem;
+  top: 70px; // match theme navbar height (70px desktop)
 }
 
 // Items column: min-width prevents grid blowout on long unbreakable strings
@@ -1551,7 +1623,7 @@ body.dark .see-all a       { color: #818cf8; }
 // Same top value as pages-widget__heading — clears the fixed navbar.
 .experience-widget__heading {
   position: sticky;
-  top: 4.5rem;
+  top: 70px; // match theme navbar height (70px desktop)
 }
 
 // Items column: min-width prevents grid blowout on long card content
@@ -1573,6 +1645,7 @@ body.dark .see-all a       { color: #818cf8; }
   .pages-widget__heading,
   .experience-widget__heading {
     z-index: 25;
+    top: 70px; // match theme navbar height (70px at >=md)
     background: rgba(255, 255, 255, 0.92);
     backdrop-filter: saturate(160%) blur(12px);
     -webkit-backdrop-filter: saturate(160%) blur(12px);
@@ -1602,6 +1675,91 @@ body.dark .see-all a       { color: #818cf8; }
   .pages-widget__heading p,
   .experience-widget__heading p {
     display: none;
+  }
+}
+
+// Mobile sticky headings for sections that do not use pages-widget/experience-widget grids.
+@media (max-width: 991px) {
+  // Projects (Portfolio widget, single-column uses .center-text for the heading).
+  #projects.home-section .center-text {
+    position: sticky;
+    top: 70px;
+    z-index: 25;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: saturate(160%) blur(12px);
+    -webkit-backdrop-filter: saturate(160%) blur(12px);
+    padding-top: 0.25rem;
+    padding-bottom: 0.1rem;
+    border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+  }
+
+  body.dark #projects.home-section .center-text {
+    background: rgba(30, 32, 44, 0.92);
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+  }
+
+  #projects.home-section .center-text p { display: none; }
+  #projects.home-section .center-text h1 {
+    font-size: 1.05rem;
+    margin: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  // About widget (no explicit h1 for the section title; keep the profile label as compact context).
+  #about.home-section #profile .portrait-title {
+    position: sticky;
+    top: 70px;
+    z-index: 25;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: saturate(160%) blur(12px);
+    -webkit-backdrop-filter: saturate(160%) blur(12px);
+    padding-top: 0.25rem;
+    padding-bottom: 0.1rem;
+    border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+  }
+
+  body.dark #about.home-section #profile .portrait-title {
+    background: rgba(30, 32, 44, 0.92);
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+  }
+
+  #about.home-section #profile .portrait-title::before {
+    content: 'About';
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 900;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+    color: #6366f1;
+  }
+
+  body.dark #about.home-section #profile .portrait-title::before {
+    color: #818cf8;
+  }
+
+  #about.home-section #profile .portrait-title h3 { display: none; }
+  #about.home-section #profile .portrait-title h2 {
+    font-size: 1.05rem;
+    letter-spacing: -0.03em;
+    margin: 0;
+  }
+}
+
+// Navbar height switches to 50px at the theme's `md` breakpoint (<768px).
+@media (max-width: 767px) {
+  .pages-widget__heading,
+  .experience-widget__heading {
+    top: 50px;
+  }
+
+  #projects.home-section .center-text {
+    top: 50px;
+  }
+
+  #about.home-section #profile .portrait-title {
+    top: 50px;
   }
 }
 
