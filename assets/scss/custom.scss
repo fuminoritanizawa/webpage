@@ -1489,3 +1489,58 @@ body.dark .see-all a       { color: #818cf8; }
   margin-left: 0.3em;
   vertical-align: middle;
 }
+
+
+// ── 26. EXPERIENCE WIDGET LAYOUT (homepage Research Experience section) ──
+// Owned by layouts/partials/widgets/experience.html.
+// Replaces Bootstrap div.row > col-12.col-lg-4.section-heading + col-12.col-lg-8.
+// Inner per-entry structure (.row.experience, col-auto, d-none d-sm-flex,
+// border-right timeline connectors) is UNCHANGED — CSS §10 continues to apply.
+// Grid proportion matches pages-widget (1fr 2fr) for visual consistency.
+
+.experience-widget {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 0 2rem;
+  align-items: start;
+}
+
+// Sticky heading: "Research Experience" stays visible while scrolling entries.
+// Same top value as pages-widget__heading — clears the fixed navbar.
+.experience-widget__heading {
+  position: sticky;
+  top: 4.5rem;
+}
+
+// Items column: min-width prevents grid blowout on long card content
+.experience-widget__items { min-width: 0; }
+
+// Collapse to single column at lg breakpoint — matches pages-widget behavior
+@media (max-width: 991px) {
+  .experience-widget {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .experience-widget__heading { position: static; }
+}
+
+
+// ── 27. PUBLICATION CITATION TITLE EMPHASIS ──────────────────
+// In li_citation.html, the title is a direct <a> child of .pub-list-item
+// with no intermediate class. CSS §9's .pub-list-item .article-title a rules
+// never matched it. This rule applies the same bold treatment.
+// Selector specificity: .pub-list-item > a targets only the title link —
+// button <a> tags are inside <p>, not direct children, so they are unaffected.
+
+.pub-list-item > a {
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  text-decoration: none;
+}
+
+body:not(.dark) .pub-list-item > a { color: #0f172a; }
+body.dark .pub-list-item > a       { color: #e2e8f0; }
+
+body:not(.dark) .pub-list-item > a:hover { color: #4338ca; }
+body.dark .pub-list-item > a:hover       { color: #818cf8; }
