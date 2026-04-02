@@ -3,10 +3,11 @@
 # PURPOSE: Netlify deployment and build configuration
 # ROLE: Specifies the Hugo build command, output directory, and HTTP headers
 # CLASSIFICATION: Safe to edit with caution
-# WARNING: HUGO_VERSION is pinned to 0.72.0 (2020). Updating it requires
-#          testing that the Academic theme at the pinned submodule commit
-#          is compatible with the newer Hugo version before deploying.
-# COMMON EDITS: Update HUGO_VERSION only after local testing
+# NOTE: HUGO_VERSION must match the version used for local builds.
+#       Local: 0.109.0 (verified clean). Updated from 0.72.0 on 2026-04-01
+#       after confirming the Academic submodule (commit 0db000a8) builds
+#       without errors at this version.
+# COMMON EDITS: Keep HUGO_VERSION in sync with local `hugo version` output.
 # ============================================================
 
 [build]
@@ -14,7 +15,7 @@
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.72.0"
+  HUGO_VERSION = "0.109.0"
   HUGO_ENABLEGITINFO = "true"
 
 [context.production.environment]
