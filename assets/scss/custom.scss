@@ -999,3 +999,263 @@ body.dark .site-footer a       { color: #64748b; }
 
 body:not(.dark) .site-footer .back-to-top i { color: #94a3b8; }
 body.dark .site-footer .back-to-top i       { color: #64748b; }
+
+
+// ── 14. ACTION BUTTONS ────────────────────────────────────────
+// .btn-outline-primary used by page_links.html for PDF, DOI, Poster, custom links.
+// Theme's $primary = #6366f1 sets base outline color via Bootstrap.
+// Override typography and shape for intentional, refined look.
+
+.btn-outline-primary {
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  border-radius: 6px;
+  padding: 0.3rem 0.9rem;
+  transition: background 0.18s ease, border-color 0.18s ease,
+              color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.btn-outline-primary.btn-sm {
+  font-size: 0.68rem;
+  padding: 0.2rem 0.7rem;
+  border-radius: 5px;
+}
+
+// Hover: slight depth shadow to reinforce the fill
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  box-shadow: 0 3px 12px rgba(99, 102, 241, 0.28);
+}
+
+// Dark mode: outline is too faint on dark bg — lighten border and text
+body.dark .btn-outline-primary {
+  border-color: rgba(129, 140, 248, 0.65);
+  color: #a5b4fc;
+}
+
+body.dark .btn-outline-primary:hover,
+body.dark .btn-outline-primary:focus {
+  background: #6366f1;
+  border-color: #6366f1;
+  color: #fff;
+  box-shadow: 0 3px 14px rgba(99, 102, 241, 0.4);
+}
+
+
+// ── 15. DETAIL PAGE TITLE ─────────────────────────────────────
+// h1 inside .article-container — talk, publication, project single pages.
+// Branch A (featured image) and Branch B (no image) both use this container.
+// No custom styling existed; theme defaults leave weight and tracking untuned.
+
+.article-container h1 {
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 1.12;
+}
+
+body:not(.dark) .article-container h1 { color: #0f172a; }
+body.dark .article-container h1       { color: #e2e8f0; }
+
+
+// ── 16. ARTICLE BODY TYPOGRAPHY ──────────────────────────────
+// Scoped to .article-container to avoid affecting about/project-card .article-style.
+// Adds controlled link underline treatment and within-article heading hierarchy.
+
+.article-container .article-style a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+body:not(.dark) .article-container .article-style a {
+  color: #4338ca;
+  border-bottom-color: rgba(67, 56, 202, 0.28);
+}
+
+body:not(.dark) .article-container .article-style a:hover {
+  color: #3730a3;
+  border-bottom-color: #4338ca;
+}
+
+body.dark .article-container .article-style a {
+  color: #818cf8;
+  border-bottom-color: rgba(129, 140, 248, 0.3);
+}
+
+body.dark .article-container .article-style a:hover {
+  color: #a5b4fc;
+  border-bottom-color: #818cf8;
+}
+
+// Within-article headings (h2, h3 used in talk/pub descriptions)
+.article-container .article-style h2 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+.article-container .article-style h3 {
+  font-size: 0.97rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+
+body:not(.dark) .article-container .article-style h2,
+body:not(.dark) .article-container .article-style h3 { color: #1e293b; }
+
+body.dark .article-container .article-style h2,
+body.dark .article-container .article-style h3 { color: #e2e8f0; }
+
+
+// ── 17. DETAIL PAGE METADATA BAR ──────────────────────────────
+// .article-metadata in article-container context (rendered by page_metadata.html).
+// The list-view variant (.pub-list-item .article-metadata) is handled in §9.
+
+.article-container .article-metadata {
+  font-size: 0.82rem;
+  margin: 0.65rem 0 1.1rem;
+}
+
+body:not(.dark) .article-container .article-metadata { color: #64748b; }
+body.dark .article-container .article-metadata       { color: #94a3b8; }
+
+.article-container .article-metadata a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+body:not(.dark) .article-container .article-metadata a { color: #475569; }
+body.dark .article-container .article-metadata a       { color: #94a3b8; }
+
+
+// ── 18. AUTHOR CARD ───────────────────────────────────────────
+// .media.author-card rendered by page_author_card.html at bottom of detail pages.
+// .content-widget-hr is a class the theme uses to add a rule before the card.
+
+.content-widget-hr {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid transparent;
+}
+
+body:not(.dark) .content-widget-hr { border-top-color: #e2e8f0; }
+body.dark .content-widget-hr       { border-top-color: rgba(255, 255, 255, 0.07); }
+
+.author-card .card-title {
+  font-size: 0.97rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  margin-bottom: 0.1rem;
+}
+
+.author-card .card-title a { text-decoration: none; }
+
+body:not(.dark) .author-card .card-title a { color: #0f172a; }
+body.dark .author-card .card-title a       { color: #e2e8f0; }
+
+.author-card .card-subtitle {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 0.45rem;
+}
+
+body:not(.dark) .author-card .card-subtitle { color: #64748b; }
+body.dark .author-card .card-subtitle       { color: #94a3b8 !important; }
+
+.author-card .card-text {
+  font-size: 0.845rem;
+  line-height: 1.65;
+}
+
+body:not(.dark) .author-card .card-text { color: #475569; }
+body.dark .author-card .card-text       { color: #94a3b8; }
+
+// Avatar in author card — shadow consistent with hero, proportionally lighter
+body:not(.dark) .author-card .avatar-circle {
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.14), 0 4px 18px rgba(0, 0, 0, 0.1);
+}
+
+body.dark .author-card .avatar-circle {
+  box-shadow: 0 0 0 2px rgba(129, 140, 248, 0.28), 0 4px 18px rgba(0, 0, 0, 0.45);
+}
+
+
+// ── 19. TAGS IN ARTICLE FOOTER ────────────────────────────────
+// .article-tags rendered by tags.html at bottom of detail pages.
+// Extends the same badge visual language as §9 (.pub-list-item .badge-light).
+
+.article-tags {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.article-tags .badge-light {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  border-radius: 5px;
+  padding: 3px 9px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+
+body:not(.dark) .article-tags .badge-light {
+  background: rgba(99, 102, 241, 0.09) !important;
+  color: #4338ca !important;
+}
+
+body:not(.dark) .article-tags .badge-light:hover {
+  background: rgba(99, 102, 241, 0.18) !important;
+}
+
+body.dark .article-tags .badge-light {
+  background: rgba(129, 140, 248, 0.14) !important;
+  color: #a5b4fc !important;
+}
+
+body.dark .article-tags .badge-light:hover {
+  background: rgba(129, 140, 248, 0.26) !important;
+}
+
+
+// ── 20. PUBLICATION ICON ──────────────────────────────────────
+// <i class="far fa-file-alt pub-icon"> in li_citation.html.
+// Muted to reduce noise — acts as a subtle list anchor, not a focal point.
+
+.pub-icon {
+  font-size: 0.8rem;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+
+body:not(.dark) .pub-icon { color: rgba(99, 102, 241, 0.45); }
+body.dark .pub-icon       { color: rgba(129, 140, 248, 0.4); }
+
+
+// ── 21. BUTTON LINKS WRAPPER + PAGE SUBTITLE ──────────────────
+// .btn-links: wrapper div around action buttons in li_compact.html (talks list).
+// Provides vertical breathing room between metadata and the button row.
+
+.btn-links { margin-top: 0.6rem; }
+
+// .page-subtitle: rendered by page_header.html when subtitle front matter is set.
+// Used on project detail pages. No styling existed.
+
+.page-subtitle {
+  font-size: 1.05rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 1.5;
+  margin-top: 0.3rem;
+}
+
+body:not(.dark) .page-subtitle { color: #475569; }
+body.dark .page-subtitle       { color: #94a3b8; }
