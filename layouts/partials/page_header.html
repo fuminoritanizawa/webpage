@@ -1,0 +1,115 @@
+{{/*
+  page_header.html — owned override of themes/academic/layouts/partials/page_header.html
+  Renders the header block for all single-page content types.
+
+  Context received: a Hugo Page (.) — passed directly, not as a dict.
+
+  Callers (all pass . directly):
+    layouts/talk/single.html           → talk detail pages (no featured images; uses Branch B)
+    layouts/publication/single.html    → publication detail pages (no featured images; uses Branch B)
+    layouts/project/single.html        → project detail pages (all have featured.jpg; uses Branch A)
+    layouts/_default/single.html       → generic single pages
+
+  Branch A — featured image present:
+    Triggered when a *featured* image resource exists in the page bundle AND preview_only != true.
+    Image width is capped based on front matter `image.placement`:
+      1 (default) → article-container, max 720px
+      2           → container, max 1200px
+      3           → container-fluid, Fit 2560x2560
+
+  Branch B — no featured image:
+    Renders title, optional subtitle, metadata, and action buttons.
+    Section/node pages (e.g. /talk/, /publication/) use universal-wrapper for wider layout.
+    Single content pages use article-container.
+
+  Dropped from theme original:
+    - `header.image` branch: renders a banner from front matter `header: image: <path>`.
+      No content in this site uses this field (all are empty string or unset).
+      To restore: add a check for `.Params.header.image` before Branch A.
+
+  Dependencies:
+    - partial "page_metadata"       — date, reading time, share button
+    - partial "page_links_div.html" — action buttons (PDF, code, slides, DOI, etc.)
+*/}}
+{{ $page := . }}
+{{ $featured := ($page.Resources.ByType "image").GetMatch "*featured*" }}
+
+{{/* Default title for section/node pages (e.g. /talk/, /publication/ list views) */}}
+{{ $title := $page.Title }}
+{{ if and (not $title) $page.IsNode }}
+  {{ if eq $page.Type "post" }}
+    {{ $title = i18n "posts" }}
+  {{ else if eq $page.Type "talk" }}
+    {{ $title = i18n "talks" }}
+  {{ else if eq $page.Type "publication" }}
+    {{ $title = i18n "publications" }}
+  {{ end }}
+{{ end }}
+
+{{ if and $featured (not $page.Params.image.preview_only) }}
+
+  {{/* Branch A: page bundle contains a *featured* image resource
+       Placement options set via front matter `image: placement: <n>`:
+         1 (default) → article-container (~720px max)
+         2           → container (~1200px max)
+         3           → container-fluid (full bleed, Fit 2560x2560)
+  */}}
+  {{ $placement := $page.Params.image.placement | default 1 }}
+  {{ $image := $featured }}
+  {{ $image_container := "article-container" }}
+
+  {{ if eq $placement 2 }}
+    {{ $image_container = "container" }}
+    {{ if gt $featured.Width 1200 }}
+      {{ $image = $featured.Resize "1200x" }}
+    {{ end }}
+  {{ else if eq $placement 3 }}
+    {{ $image_container = "container-fluid" }}
+    {{ $image = $featured.Fit "2560x2560" }}
+  {{ else }}
+    {{ if gt $featured.Width 720 }}
+      {{ $image = $featured.Resize "720x" }}
+    {{ end }}
+  {{ end }}
+
+  <div class="article-container pt-3">
+    <h1>{{ $title }}</h1>
+    {{ with $page.Params.subtitle }}
+      <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
+    {{ end }}
+    {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+    {{ partial "page_links_div.html" $page }}
+  </div>
+
+  <div class="article-header {{ $image_container }} featured-image-wrapper mt-4 mb-4"
+       style="max-width: {{ $image.Width }}px; max-height: {{ $image.Height }}px;">
+    <div style="position: relative">
+      <img src="{{ $image.RelPermalink }}"
+           alt="{{ with $page.Params.image.alt_text }}{{ . }}{{ end }}"
+           class="featured-image">
+      {{ with $page.Params.image.caption }}
+        <span class="article-header-caption">{{ . | markdownify | emojify }}</span>
+      {{ end }}
+    </div>
+  </div>
+
+{{ else }}
+
+  {{/* Branch B: no featured image
+       Node/section pages get universal-wrapper (wider layout for list context).
+       Single content pages get article-container.
+  */}}
+  {{ $ctnr := cond $page.IsNode "universal-wrapper" "article-container" }}
+
+  <div class="{{ $ctnr }} pt-3">
+    <h1>{{ $title }}</h1>
+    {{ with $page.Params.subtitle }}
+      <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
+    {{ end }}
+    {{ if not $page.IsNode }}
+      {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+      {{ partial "page_links_div.html" $page }}
+    {{ end }}
+  </div>
+
+{{ end }}

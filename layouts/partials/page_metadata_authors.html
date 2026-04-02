@@ -1,0 +1,44 @@
+{{/*
+  page_metadata_authors.html — owned override of themes/academic/layouts/partials/page_metadata_authors.html
+  Renders a comma-separated author list.
+
+  Context received: a Hugo Page (.) — passed directly, not as a dict.
+  Authors come from front matter `authors:` array (raw name strings).
+
+  Rendering rules:
+    1. If an author has a page at /authors/<name>, use that page's title.
+       Otherwise, render the raw name string from front matter.
+    2. If site.Params.highlight_superuser = true AND the author's page has superuser: true
+       → wrap in font-weight-bold. In practice: only applies to the admin profile (Fuminori Tanizawa).
+    3. If site.Params.link_authors = true AND a profile page exists → wrap name in <a>.
+       Current setting: link_authors = false (params.toml) → names are never linked.
+    4. author_notes: optional per-author footnote markers. Not used in current content.
+
+  Current behavior for this site:
+    - Publication authors are raw name strings ("Fuminori Tanizawa", "Evan J. Kim", etc.)
+    - No /authors/<name> pages exist for these strings → $profile_page is nil for all
+    - link_authors = false → no links rendered regardless
+    - Output: plain comma-separated names in <span> elements
+*/}}
+
+{{- $taxonomy := "authors" }}
+{{- with .Param $taxonomy }}
+  {{- $link_authors := site.Params.link_authors | default true }}
+  {{- range $index, $name_raw := . }}
+    {{- $profile_page := site.GetPage (printf "/%s/%s" $taxonomy .) }}
+    {{- $name := $profile_page.Title | default $name_raw }}
+    {{- if gt $index 0 }}, {{ end -}}
+    <span {{ if and site.Params.highlight_superuser (eq $profile_page.Params.superuser true) }}class="font-weight-bold"{{ end }}>
+      {{- if and $profile_page $link_authors -}}
+        <a href="{{ $profile_page.RelPermalink }}">{{ $name }}</a>
+      {{- else -}}
+        {{- $name -}}
+      {{- end -}}
+    </span>
+    {{- if isset $.Params "author_notes" }}
+      {{- with (index $.Params.author_notes $index) }}
+        <span title="{{ . }}" class="author-notes">(?)</span>
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end -}}

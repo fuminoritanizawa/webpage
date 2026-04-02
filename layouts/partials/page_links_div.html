@@ -1,0 +1,62 @@
+{{/*
+  page_links_div.html — owned override of themes/academic/layouts/partials/page_links_div.html
+  Wraps page_links in a <div> block for detail page headers.
+
+  Context received: a Hugo Page (.) — passed directly from page_header.html.
+
+  Called from: layouts/partials/page_header.html (Branch A and Branch B, non-node pages)
+  Delegates to: layouts/partials/page_links.html (owned) with is_list = 0 (full-size buttons)
+
+  Why the pre-check exists:
+    page_links renders buttons conditionally based on params. If none apply,
+    it outputs nothing. The pre-check here prevents an empty
+    <div class="btn-links mb-3"> from being rendered in that case.
+    PDF and cite.bib are checked as page bundle resources (not just params)
+    because page_links does the same resource lookup internally.
+
+  external_link: handled separately here — rendered as an "Open Project Site" button
+  before the standard page_links output. Currently inactive: all project pages
+  set external_link: "" (empty string → falsy).
+*/}}
+{{ $page := . }}
+
+{{/* Pre-check: does this page have any PDF or cite.bib bundle resources? */}}
+{{ $pdf_link := false }}
+{{ $cite_link := false }}
+{{ with $page.Resources.GetMatch (printf "%s.pdf" $page.File.ContentBaseName) }}
+  {{ $pdf_link = true }}
+{{ end }}
+{{ with $page.Resources.GetMatch "cite.bib" }}
+  {{ $cite_link = true }}
+{{ end }}
+
+{{/* Render the button block only if at least one link source is present */}}
+{{ if or
+  $pdf_link
+  $cite_link
+  $page.Params.external_link
+  $page.Params.url_preprint
+  $page.Params.url_pdf
+  $page.Params.url_slides
+  $page.Params.url_video
+  $page.Params.url_source
+  $page.Params.url_code
+  $page.Params.url_dataset
+  $page.Params.url_poster
+  $page.Params.url_project
+  $page.Params.doi
+  $page.Params.links
+  $page.Params.projects
+  $page.Params.slides
+}}
+  <div class="btn-links mb-3">
+    {{/* external_link: project-specific "Open Project Site" button.
+         Rendered before standard links. Inactive: all projects set external_link: "" */}}
+    {{ with $page.Params.external_link }}
+      <a class="btn btn-outline-primary my-1" href="{{ . }}" target="_blank" rel="noopener">
+        {{ i18n "open_project_site" }}
+      </a>
+    {{ end }}
+    {{ partial "page_links" (dict "page" $page "is_list" 0) }}
+  </div>
+{{ end }}

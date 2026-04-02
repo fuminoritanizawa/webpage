@@ -1,0 +1,227 @@
+{{/*
+  page_links.html — owned override of themes/academic/layouts/partials/page_links.html
+  Renders action buttons for a page: PDF, cite, code, slides, video, DOI, custom links, etc.
+
+  Context received: dict { "page": Page, "is_list": 0|1 }
+    is_list = 1 → compact (btn-sm) size, used in list views (li_compact, li_citation)
+    is_list = 0 → full size, used in detail pages (via page_links_div.html → page_header)
+
+  Resource resolution: each url_* param is first checked against page bundle resources
+  (e.g. a PDF file inside the content folder). If not found as a resource, treated as
+  a URL and passed through relURL. External http(s) URLs are used as-is.
+
+  JS coupling:
+    - cite.bib button uses class "js-cite-modal" and data-filename.
+      academic.js binds a click handler to this class to open the BibTeX modal.
+      Keep this class and attribute intact if cite.bib support is needed.
+
+  Active buttons in current content (as of site state):
+    - url_pdf    → all 4 talks, both publications          [ACTIVE]
+    - url_poster → FlySleep publication                    [ACTIVE]
+    - doi        → kim-2026-bdf3 publication               [ACTIVE]
+    - links      → both publications (custom link to DOI)  [ACTIVE]
+    - cite.bib   → none (no cite.bib page resources exist) [INACTIVE]
+    - url_preprint, url_code, url_dataset, url_project,
+      url_slides, url_video, url_source → all empty        [INACTIVE]
+    - external_link → all projects set to ""               [INACTIVE]
+    - slides (page ref) → all set to ""                    [INACTIVE]
+    - projects (associated project links) → all []         [INACTIVE]
+*/}}
+{{ $is_list := .is_list }}
+{{ $page := .page }}
+{{ $link := "" }}
+
+{{/* Preprint — url_preprint (inactive: not set in any content) */}}
+{{ with $page.Params.url_preprint }}
+  {{ $resource := $page.Resources.GetMatch . }}
+  {{ if $resource }}
+    {{ $link = $resource.RelPermalink }}
+  {{ else }}
+    {{ $link = . | relURL }}
+  {{ end }}
+  <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{ end }}"
+     href="{{ $link }}" target="_blank" rel="noopener">
+    {{ i18n "btn_preprint" }}
+  </a>
+{{ end }}
+
+{{/* PDF — url_pdf or matching <slug>.pdf bundle resource (active: all talks + publications) */}}
+{{ $pdf := "" }}
+{{ $resource := $page.Resources.GetMatch (printf "%s.pdf" $page.File.ContentBaseName) }}
+{{ with $resource }}
+  {{ $pdf = .RelPermalink }}
+{{ else }}
+  {{ with $page.Params.url_pdf }}
+    {{ $pdf = . | relURL }}
+  {{ end }}
+{{ end }}
+{{ with $pdf }}
+  <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{ end }}"
+     href="{{ . }}" target="_blank" rel="noopener">
+    {{ i18n "btn_pdf" }}
+  </a>
+{{ end }}
+
+{{/* Cite (BibTeX modal) — cite.bib bundle resource + js-cite-modal JS hook
+     JS coupling: academic.js binds click on .js-cite-modal to open modal.
+     Inactive: no content has a cite.bib page resource. */}}
+{{ $resource := $page.Resources.GetMatch "cite.bib" }}
+{{ with $resource }}
+  <button type="button"
+          class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{ end }} js-cite-modal"
+          data-filename="{{ .RelPermalink }}">
+    {{ i18n "btn_cite" }}
+  </button>
+{{ end }}
+
+{{/* Code — url_code (inactive: set to "" in all publications, unset in talks) */}}
+{{ with $page.Params.url_code }}
+  {{ $resource := $page.Resources.GetMatch . }}
+  {{ if $resource }}
+    {{ $link = $resource.RelPermalink }}
+  {{ else }}
+    {{ $link = . | relURL }}
+  {{ end }}
+  <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{ end }}"
+     href="{{ $link }}" target="_blank" rel="noopener">
+    {{ i18n "btn_code" }}
+  </a>
+{{ end }}
+
+{{/* Dataset — url_dataset (inactive: set to "" in all publications) */}}
+{{ with $page.Params.url_dataset }}
+  {{ $resource := $page.Resources.GetMatch . }}
+  {{ if $resource }}
+    {{ $link = $resource.RelPermalink }}
+  {{ else }}
+    {{ $link = . | relURL }}
+  {{ end }}
+  <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{ end }}"
+     href="{{ $link }}" target="_blank" rel="noopener">
+    {{ i18n "btn_dataset" }}
+  </a>
+{{ end }}
+
+{{/* Project links — associated project pages via `projects:` front matter array
+     Inactive: all publications have projects: [] */}}
+{{ if $page.Params.projects }}
+  {{ range $page.Params.projects }}
+    {{ with site.GetPage (printf "project/%s" .) }}
+      <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{ end }}"
+         href="{{ .RelPermalink }}">
+        {{ i18n "btn_project" }}
+      </a>
+    {{ end }}
+  {{ end }}
+{{ else }}
+  {{/* Fallback: url_project as a direct URL (inactive: set to "" in all publications) */}}
+  {{ with $page.Params.url_project }}
+    <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{ end }}"
+       href="{{ . }}" target="_blank" rel="noopener">
+      {{ i18n "btn_project" }}
+    </a>
+  {{ end }}
+{{ end }}
+
+{{/* Poster — url_poster (active: FlySleep has a Google Drive poster link) */}}
+{{ with $page.Params.url_poster }}
+  {{ $resource := $page.Resources.GetMatch . }}
+  {{ if $resource }}
+    {{ $link = $resource.RelPermalink }}
+  {{ else }}
+    {{ $link = . | relURL }}
+  {{ end }}
+  <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{ end }}"
+     href="{{ $link }}" target="_blank" rel="noopener">
+    {{ i18n "btn_poster" }}
+  </a>
+{{ end }}
+
+{{/* Slides — via `slides:` front matter (page ref) or url_slides URL
+     Inactive: all content has slides: "" and url_slides: "" */}}
+{{ if $page.Params.slides }}
+  {{ with site.GetPage (printf "slides/%s" $page.Params.slides) }}
+    <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{ end }}"
+       href="{{ .RelPermalink }}" target="_blank">
+      {{ i18n "btn_slides" }}
+    </a>
+  {{ end }}
+{{ else }}
+  {{ with $page.Params.url_slides }}
+    {{ $resource := $page.Resources.GetMatch . }}
+    {{ if $resource }}
+      {{ $link = $resource.RelPermalink }}
+    {{ else }}
+      {{ $link = . | relURL }}
+    {{ end }}
+    <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{ end }}"
+       href="{{ $link }}" target="_blank" rel="noopener">
+      {{ i18n "btn_slides" }}
+    </a>
+  {{ end }}
+{{ end }}
+
+{{/* Video — url_video (inactive: set to "" in all publications, unset in talks) */}}
+{{ with $page.Params.url_video }}
+  {{ $resource := $page.Resources.GetMatch . }}
+  {{ if $resource }}
+    {{ $link = $resource.RelPermalink }}
+  {{ else }}
+    {{ $link = . | relURL }}
+  {{ end }}
+  <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{ end }}"
+     href="{{ $link }}" target="_blank" rel="noopener">
+    {{ i18n "btn_video" }}
+  </a>
+{{ end }}
+
+{{/* Source — url_source (inactive: set to "" in all publications) */}}
+{{ with $page.Params.url_source }}
+  {{ $resource := $page.Resources.GetMatch . }}
+  {{ if $resource }}
+    {{ $link = $resource.RelPermalink }}
+  {{ else }}
+    {{ $link = . | relURL }}
+  {{ end }}
+  <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{ end }}"
+     href="{{ $link }}" target="_blank" rel="noopener">
+    {{ i18n "btn_source" }}
+  </a>
+{{ end }}
+
+{{/* DOI — doi front matter string, renders as https://doi.org/<doi>
+     Active: kim-2026-bdf3 (doi: "10.64898/..."), FlySleep (doi: "" → inactive) */}}
+{{ with $page.Params.doi }}
+  <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{ end }}"
+     href="https://doi.org/{{ . }}" target="_blank" rel="noopener">
+    DOI
+  </a>
+{{ end }}
+
+{{/* Custom links — `links:` front matter array, each with url, name, optional icon
+     Active: both publications have a custom link pointing to the DOI landing page */}}
+{{ range $page.Params.links }}
+  {{ $pack := or .icon_pack "fas" }}
+  {{ $pack_prefix := $pack }}
+  {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+    {{ $pack_prefix = "fa" }}
+  {{ end }}
+  {{ $link := .url | default "" }}
+  {{ $scheme := (urls.Parse $link).Scheme }}
+  {{ $target := "" }}
+  {{ if not $scheme }}
+    {{ $resource := $page.Resources.GetMatch $link }}
+    {{ if $resource }}
+      {{ $link = $resource.RelPermalink }}
+    {{ else }}
+      {{ $link = $link | relURL }}
+    {{ end }}
+  {{ else if in (slice "http" "https") $scheme }}
+    {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+  {{ end }}
+  <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{ end }}"
+     href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
+    {{ if .icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }}{{ if .name }} mr-1{{ end }}"></i>{{ end }}
+    {{ with .name }}{{ . | safeHTML }}{{ end }}
+  </a>
+{{ end }}
