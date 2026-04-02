@@ -1354,12 +1354,38 @@ body.dark .pub-abstract-heading       { color: #818cf8; }  // indigo-400
 .pub-abstract-section p {
   font-size: 0.95rem;
   line-height: 1.84;
+  padding-left: 1rem;
+  border-left: 3px solid;
 }
 
 body:not(.dark) .talk-abstract p,
-body:not(.dark) .pub-abstract-section p { color: #334155; }  // slate-700
+body:not(.dark) .pub-abstract-section p {
+  color: #334155;                             // slate-700
+  border-left-color: rgba(99, 102, 241, 0.22);
+}
+
 body.dark .talk-abstract p,
-body.dark .pub-abstract-section p       { color: #cbd5e1; }  // slate-300
+body.dark .pub-abstract-section p {
+  color: #cbd5e1;                             // slate-300
+  border-left-color: rgba(129, 140, 248, 0.18);
+}
+
+// Abstract → metadata separator.
+// CSS adjacent sibling — only fires when both sections are present.
+// Requires owned talk/single.html and publication/single.html template structure.
+// Overrides the table's own margin-top; spacing comes from abstract's margin-bottom
+// (2rem) + this padding-top (1.5rem), with the border rule between them.
+.talk-abstract + .talk-meta,
+.pub-abstract-section + .pub-meta {
+  margin-top: 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid transparent;
+}
+
+body:not(.dark) .talk-abstract + .talk-meta,
+body:not(.dark) .pub-abstract-section + .pub-meta { border-top-color: #e2e8f0; }
+body.dark .talk-abstract + .talk-meta,
+body.dark .pub-abstract-section + .pub-meta       { border-top-color: rgba(255, 255, 255, 0.07); }
 
 
 // ── 24. TALK SECTION LIST (/talk/ page) ───────────────────────
@@ -1380,7 +1406,8 @@ body.dark .pub-abstract-section p       { color: #cbd5e1; }  // slate-300
   font-size: 0.72rem;
   font-weight: 800;
   letter-spacing: 0.02em;
-  padding-top: 1rem; // Align with li_compact h3 title top edge
+  margin: 0;          // Reset browser default h2 margin — padding-top governs alignment
+  padding-top: 1rem;  // Optically align with li_compact h3 title top edge
   white-space: nowrap;
 }
 
@@ -1417,6 +1444,16 @@ body.dark .talk-year-heading       { color: #64748b; }  // slate-500
   align-items: start;
 }
 
+// Heading column: sticky within the section so "Publications" / "Presentations"
+// remains visible while scrolling through a long list.
+// top: 4.5rem clears the fixed navbar (approx. 60px) with breathing room.
+// Works because the heading and items are in separate grid columns —
+// the heading never visually overlaps the items as they scroll past.
+.pages-widget__heading {
+  position: sticky;
+  top: 4.5rem;
+}
+
 // Items column: min-width prevents grid blowout on long unbreakable strings
 .pages-widget__items { min-width: 0; }
 
@@ -1427,6 +1464,9 @@ body.dark .talk-year-heading       { color: #64748b; }  // slate-500
     grid-template-columns: 1fr;
     gap: 0;
   }
+
+  // Disable sticky when layout is stacked — heading sits above items, not beside them
+  .pages-widget__heading { position: static; }
 }
 
 // "See all" link — extends theme's .see-all { margin-top: 2rem; text-transform: uppercase }
