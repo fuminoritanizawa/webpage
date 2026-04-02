@@ -1544,3 +1544,20 @@ body.dark .pub-list-item > a       { color: #e2e8f0; }
 
 body:not(.dark) .pub-list-item > a:hover { color: #4338ca; }
 body.dark .pub-list-item > a:hover       { color: #818cf8; }
+
+
+// ── 28. STREAM-ITEM SUMMARY TEXT ──────────────────────────────
+// .article-style inside a stream-item is summary text, not article body.
+// The theme leaves it at full article-body size. Shrinking it creates a
+// clear 3-tier hierarchy: bold title → small muted summary → tiny metadata.
+// Scoped to .stream-item so article body pages are unaffected.
+
+.stream-item .article-style {
+  font-size: 0.875rem;
+  line-height: 1.65;
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+}
+
+body:not(.dark) .stream-item .article-style { color: #475569; } // slate-600
+body.dark .stream-item .article-style       { color: #94a3b8; } // slate-400
