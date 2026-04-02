@@ -1,0 +1,65 @@
+{{/*
+  page_author_card.html — owned override of themes/academic/layouts/partials/page_author_card.html
+  Renders a compact author profile card (avatar, name, role, bio, social icons).
+
+  Context received: dict { "username": string }
+    username — urlized author slug (e.g. "admin")
+    Note: the theme also passes "page" in this dict but never uses it here;
+          we omit it entirely.
+
+  Used by: page_author.html
+  Active for: talk detail pages (all talks render the admin card)
+              project detail pages (admin card via Scratch fallback)
+  Inactive for: publications (raw author names have no /authors/<slug> pages)
+
+  Stripped from theme original:
+    - Gravatar branch (avatar.gravatar = false in params.toml)
+    - Avatar shape variable (avatar.shape = "circle" always in params.toml)
+    - Unused $page assignment (.page is never passed from page_author.html)
+
+  For personal sites (site_type = "Person"), the superuser's card links to
+  the homepage (site.BaseURL) rather than their /authors/admin/ profile page.
+
+  Dependencies: partial "social_links" (owned)
+*/}}
+{{ $author_urlized := .username }}
+{{ $site_type := site.Params.site_type | default "Person" }}
+{{ $profile_page := site.GetPage (printf "/authors/%s" $author_urlized) }}
+
+{{ with $profile_page }}
+  {{ if isset .Params "superuser" }}
+
+    {{/* On personal sites, link the superuser card to the homepage */}}
+    {{ $profile_url := .RelPermalink }}
+    {{ if and (eq $site_type "Person") (eq .Params.superuser true) }}
+      {{ $profile_url = site.BaseURL }}
+    {{ end }}
+
+    {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+
+    <div class="media author-card content-widget-hr">
+
+      {{ if $avatar }}
+        {{ $avatar_img := $avatar.Fill "270x270 Center" }}
+        <img class="avatar mr-3 avatar-circle"
+             src="{{ $avatar_img.RelPermalink }}"
+             alt="{{ .Title }}">
+      {{ end }}
+
+      <div class="media-body">
+        <h5 class="card-title">
+          <a href="{{ $profile_url }}">{{ .Title }}</a>
+        </h5>
+        {{ with .Params.role }}
+          <h6 class="card-subtitle">{{ . | markdownify | emojify }}</h6>
+        {{ end }}
+        {{ with .Params.bio }}
+          <p class="card-text">{{ . | markdownify | emojify }}</p>
+        {{ end }}
+        {{ partial "social_links" . }}
+      </div>
+
+    </div>
+
+  {{ end }}
+{{ end }}

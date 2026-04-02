@@ -1,0 +1,43 @@
+{{/*
+  page_author.html — owned override of themes/academic/layouts/partials/page_author.html
+  Renders an author profile card at the bottom of single-page content.
+
+  Context received: a Hugo Page (.)
+  Called from: page_footer.html (owned)
+
+  Author resolution:
+    A. If page has no explicit `authors:` AND the Scratch has "superuser_username":
+       Show the superuser's card. This covers talks without authors set and projects.
+       The "superuser_username" value ("admin") is written to the page's Scratch by
+       site_head.html (theme-owned), which runs in baseof.html before any content renders.
+
+    B. If page has explicit `authors:` (e.g. talks with authors: [admin]):
+       Urlize each author name and attempt to find a matching /authors/<slug> page.
+       If found, render a card. If not (raw name strings like "Fuminori Tanizawa"),
+       page_author_card silently renders nothing.
+
+  Not shown on generic `page` type content (privacy, terms).
+  Controlled by site.Params.profile — not set in params.toml, defaults to truthy.
+  To suppress the author card on a specific page, set `profile: false` in front matter.
+
+  Dependencies: partial "page_author_card" (owned)
+*/}}
+{{ if ne .Type "page" | and (not (or (eq site.Params.profile false) (eq .Params.profile false))) }}
+
+  {{ $author_urlized := "" }}
+
+  {{ if and (not .Params.authors) (.Scratch.Get "superuser_username") }}
+    {{/* No explicit authors — fall back to the superuser written by site_head.html */}}
+    {{ $author_urlized = .Scratch.Get "superuser_username" }}
+    {{ partial "page_author_card" (dict "username" $author_urlized) }}
+
+  {{ else if .Params.authors }}
+    {{/* Explicit authors list — attempt a card for each */}}
+    {{ range .Params.authors }}
+      {{ $author_urlized = urlize . }}
+      {{ partial "page_author_card" (dict "username" $author_urlized) }}
+    {{ end }}
+
+  {{ end }}
+
+{{ end }}
