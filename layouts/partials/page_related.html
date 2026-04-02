@@ -1,0 +1,28 @@
+{{/*
+  page_related.html — owned override of themes/academic/layouts/partials/page_related.html
+  Renders a "Related" content widget at the bottom of detail pages.
+
+  Context received: a Hugo Page (.)
+  Controlled by: site.Params.show_related (dict keyed by content type).
+  Active for:   talks       (show_related.talk = true)
+                projects    (show_related.project = true)
+  Inactive for: publications (show_related.publication = false)
+
+  Uses Hugo's built-in Related pages algorithm, capped at 5 results.
+  Related content config lives in config/_default/config.toml under [related].
+*/}}
+{{ if site.Params.show_related }}
+  {{ if (index site.Params.show_related .Type) | and (ne .Params.show_related false) | or .Params.show_related }}
+    {{ $related := site.RegularPages.Related . | first 5 }}
+    {{ with $related }}
+      <div class="article-widget content-widget-hr">
+        <h3>{{ i18n "related" }}</h3>
+        <ul>
+          {{ range . }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
+  {{ end }}
+{{ end }}

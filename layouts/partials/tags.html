@@ -1,0 +1,15 @@
+{{/*
+  tags.html — owned override of themes/academic/layouts/partials/tags.html
+  Renders tag badge links for a page.
+
+  Context received: a Hugo Page (.)
+  Active: projects (e.g. Immunology, Genetics) and talks (Immunology).
+  Tags are defined in front matter `tags:` arrays.
+*/}}
+{{ if .Param "tags" }}
+  <div class="article-tags">
+    {{ range .GetTerms "tags" }}
+      <a class="badge badge-light" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    {{ end }}
+  </div>
+{{ end }}

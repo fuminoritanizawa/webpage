@@ -1,0 +1,84 @@
+{{/*
+  page_metadata.html — owned override of themes/academic/layouts/partials/page_metadata.html
+  Renders the metadata bar below a page title.
+
+  Context received: dict { "page": Page, "is_list": 0|1 }
+    is_list = 0 → detail pages (called from page_header.html)
+    is_list = 1 → list views (called from li_compact for non-talk/non-pub types — currently inactive)
+  A "share" key may also be passed by callers but is unused in this template.
+
+  Active branches in this site:
+    Authors   — talks (authors: [admin]) and publications (raw name list)
+    Date      — publications (formatted "January 2006") and projects (Lastmod)
+    Journal   — publications in list view (is_list=1); inactive since page_header uses is_list=0
+
+  Inactive branches (kept for correctness if params change):
+    Reading time  — reading_time = false in params.toml
+    Disqus count  — comments.engine = 0 in params.toml
+    Categories    — no content uses the `categories` taxonomy (content uses `tags`)
+
+  Dependencies: partial "page_metadata_authors" (owned)
+*/}}
+{{ $is_list := .is_list }}
+{{ $page := .page }}
+
+<div class="article-metadata">
+
+  {{/* Authors — delegates to owned page_metadata_authors partial */}}
+  {{ if $page.Params.authors }}
+    <div>{{ partial "page_metadata_authors" $page }}</div>
+  {{ end }}
+
+  {{/* Date — skipped for talks and generic pages */}}
+  {{ if not (in (slice "talk" "page") $page.Type) }}
+    <span class="article-date">
+      {{ if eq $page.Type "publication" }}
+        {{ $page.Date.Format (site.Params.publications.date_format | default "January, 2006") }}
+      {{ else }}
+        {{ if ne $page.Params.Lastmod $page.Params.Date }}
+          {{ i18n "last_updated" }}
+        {{ end }}
+        {{ $page.Lastmod.Format site.Params.date_format }}
+      {{ end }}
+    </span>
+  {{ end }}
+
+  {{/* Publication journal name — list view only; inactive (page_header uses is_list=0) */}}
+  {{ if and (eq $is_list 1) (eq $page.Type "publication") }}
+    <span class="middot-divider"></span>
+    <span class="pub-publication">
+      {{ with ($page.Params.publication_short | default $page.Params.publication) }}
+        {{ . | markdownify }}
+      {{ end }}
+    </span>
+  {{ end }}
+
+  {{/* Reading time — inactive: reading_time = false in params.toml */}}
+  {{ if and (eq $page.Type "post") (not (or (eq site.Params.reading_time false) (eq $page.Params.reading_time false))) }}
+    <span class="middot-divider"></span>
+    <span class="article-reading-time">
+      {{ $page.ReadingTime }} {{ i18n "minute_read" }}
+    </span>
+  {{ end }}
+
+  {{/* Disqus comment count — inactive: comments.engine = 0 in params.toml */}}
+  {{ $disqus_on := eq site.Params.comments.engine 1 | and (index site.Params.comments.commentable $page.Type) | and (ne $page.Params.commentable false) | or $page.Params.commentable }}
+  {{ if and $disqus_on (site.Params.comments.disqus.show_count | default true) }}
+    <span class="middot-divider"></span>
+    <a href="{{ $page.RelPermalink }}#disqus_thread"><!-- Disqus count --></a>
+  {{ end }}
+
+  {{/* Categories — inactive: no content uses the `categories` taxonomy */}}
+  {{ $taxonomy := "categories" }}
+  {{ if $page.Param $taxonomy }}
+    <span class="middot-divider"></span>
+    <span class="article-categories">
+      <i class="fas fa-folder mr-1"></i>
+      {{- range $i, $v := ($page.GetTerms $taxonomy) -}}
+        {{- if gt $i 0 }}, {{ end -}}
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      {{- end -}}
+    </span>
+  {{ end }}
+
+</div>

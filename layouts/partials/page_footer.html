@@ -1,0 +1,33 @@
+{{/*
+  page_footer.html — owned override of themes/academic/layouts/partials/page_footer.html
+  Dispatcher for the footer block rendered at the bottom of all single-page content types.
+
+  Context received: a Hugo Page (.)
+  Called from (theme-owned single templates, not overridden yet):
+    layouts/talk/single.html
+    layouts/publication/single.html
+    layouts/project/single.html
+    layouts/_default/single.html
+
+  Sub-partial ownership status:
+    page_edit    → theme (always inactive: edit_page = {} in params.toml)
+    tags         → OWNED (active: projects + talks have tags)
+    share        → OWNED (active: sharing = true in params.toml)
+    page_author  → theme (active for talks with authors: [admin]; deferred — calls page_author_card → social_links)
+    comments     → theme (always inactive: comments.engine = 0)
+    section_pager→ theme (always inactive: section_pager = false)
+    page_related → OWNED (active for talks + projects; inactive for publications)
+*/}}
+{{ partial "page_edit" . }}
+{{ partial "tags" . }}
+{{ partial "share" . }}
+{{ partial "page_author" . }}
+{{ partial "comments" . }}
+
+{{ if site.Params.section_pager }}
+  <div class="article-widget">
+    {{ partial "section_pager" . }}
+  </div>
+{{ end }}
+
+{{ partial "page_related" . }}
