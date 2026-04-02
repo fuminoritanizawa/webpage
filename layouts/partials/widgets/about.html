@@ -1,0 +1,119 @@
+{{/*
+  about.html — owned override of themes/academic/layouts/partials/widgets/about.html
+  Renders the bio hero section from content/authors/<author>/_index.md.
+
+  Context received: { root: Page, page: Page }
+  Data source: content/authors/admin/_index.md
+    - Avatar image resource named *avatar*
+    - Front matter: role, organizations, social, interests, education.courses
+    - Body: rendered as $person_page.Content (raw HTML/Markdown mix)
+
+  Stripped from theme original:
+    - Gravatar path (gravatar = false in params.toml)
+    - Avatar shape variable (shape is always "circle" in params.toml)
+    - Widget title block ($page.Title is empty in content/home/about.md)
+*/}}
+{{ $ := .root }}
+{{ $page := .page }}
+
+{{ $author := $page.Params.author | default "admin" }}
+{{ $person_page := site.GetPage (printf "/authors/%s" $author) }}
+{{ if not $person_page }}
+  {{ errorf "about.html: no author page at /authors/%s — check `author` param in content/home/about.md" $author }}
+{{ end }}
+{{ $person := $person_page.Params }}
+{{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
+
+<div class="row">
+
+  {{/* Left column: avatar, name/role, org, social icons */}}
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      {{ if $avatar }}
+        {{ $avatar_img := $avatar.Fill "270x270 Center" }}
+        <img class="avatar avatar-circle"
+             src="{{ $avatar_img.RelPermalink }}"
+             alt="{{ $person_page.Title }}">
+      {{ end }}
+
+      <div class="portrait-title">
+        <h2>{{ $person_page.Title }}</h2>
+        {{ with $person.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
+        {{ range $person.organizations }}
+          <h3>
+            {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
+            <span>{{ .name }}</span>
+            {{ if .url }}</a>{{ end }}
+          </h3>
+        {{ end }}
+      </div>
+
+      {{/* Social icons — defined in content/authors/admin/_index.md under `social:` */}}
+      {{/* icon_pack "ai" (Academicons) is intentionally excluded from the fa-prefix slice */}}
+      <ul class="network-icon" aria-hidden="true">
+        {{ range $person.social }}
+          {{ $pack := or .icon_pack "fas" }}
+          {{ $pack_prefix := $pack }}
+          {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+            {{ $pack_prefix = "fa" }}
+          {{ end }}
+          {{ $link := .link }}
+          {{ $scheme := (urls.Parse $link).Scheme }}
+          {{ $target := "" }}
+          {{ if not $scheme }}
+            {{ $link = .link | relLangURL }}
+          {{ else if in (slice "http" "https") $scheme }}
+            {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+          {{ end }}
+          <li>
+            <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
+              <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} big-icon"></i>
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+
+    </div>
+  </div>
+
+  {{/* Right column: bio content, interests, education */}}
+  <div class="col-12 col-lg-8">
+
+    {{/* Bio text: body of content/authors/admin/_index.md */}}
+    {{ $person_page.Content }}
+
+    <div class="row">
+
+      {{ with $person.interests }}
+        <div class="col-md-5">
+          <h3>{{ i18n "interests" | markdownify }}</h3>
+          <ul class="ul-interests">
+            {{ range . }}
+              <li>{{ . | markdownify | emojify }}</li>
+            {{ end }}
+          </ul>
+        </div>
+      {{ end }}
+
+      {{ with $person.education }}
+        <div class="col-md-7">
+          <h3>{{ i18n "education" | markdownify }}</h3>
+          <ul class="ul-edu fa-ul">
+            {{ range .courses }}
+              <li>
+                <i class="fa-li fas fa-graduation-cap"></i>
+                <div class="description">
+                  <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
+                  <p class="institution">{{ .institution }}</p>
+                </div>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+      {{ end }}
+
+    </div>
+  </div>
+
+</div>

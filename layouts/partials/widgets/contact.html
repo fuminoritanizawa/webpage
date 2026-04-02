@@ -1,0 +1,179 @@
+{{/*
+  contact.html — owned override of themes/academic/layouts/partials/widgets/contact.html
+  Renders the contact section: form and/or contact detail links.
+
+  Context received: { root: Page, page: Page }
+  Settings source: config/_default/params.toml
+
+  Currently active (as of params.toml):
+    - email_form = 1 → Netlify form (no email address required)
+    - All other fields (email, phone, address, coordinates) are unset
+
+  Conditionals for phone, address, directions, office_hours, appointment_url,
+  contact_links, and map are preserved so they activate automatically if those
+  params are added to params.toml in the future.
+
+  Map requires both `map.engine` AND `coordinates.latitude` to render.
+  The `d-none` hidden inputs feed the theme's JS map initializer (academic.js).
+*/}}
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $data := site.Params }}
+{{ $autolink := $page.Params.autolink | default true }}
+
+<div class="row contact-widget">
+
+  {{/* Section heading — left column */}}
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
+    {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+  </div>
+
+  {{/* Contact content — right column */}}
+  <div class="col-12 col-lg-8">
+
+    {{ with $page.Content }}{{ . }}{{ end }}
+
+    {{/* Contact form
+         email_form = 1 → Netlify (netlify attribute on <form>)
+         email_form = 2 → Formspree (requires email in params.toml)
+    */}}
+    {{ if $page.Params.email_form }}
+      {{ $post_action := "" }}
+      {{ if eq $page.Params.email_form 1 }}
+        {{ $post_action = "netlify" }}
+      {{ else }}
+        {{ if not $data.email }}
+          {{ errorf "contact.html: email_form = 2 requires `email` to be set in params.toml, or set email_form = 0 to disable" }}
+        {{ end }}
+        {{ $post_action = printf "action=\"https://formspree.io/%s\"" $data.email }}
+      {{ end }}
+      <div class="mb-3">
+        <form name="contact" method="POST" {{ $post_action | safeHTMLAttr }}>
+          <div class="form-group form-inline">
+            <label class="sr-only" for="inputName">{{ i18n "contact_name" | default "Name" }}</label>
+            <input type="text" name="name" class="form-control w-100" id="inputName"
+                   placeholder="{{ i18n "contact_name" | default "Name" }}" required>
+          </div>
+          <div class="form-group form-inline">
+            <label class="sr-only" for="inputEmail">{{ i18n "contact_email" | default "Email" }}</label>
+            <input type="email" name="email" class="form-control w-100" id="inputEmail"
+                   placeholder="{{ i18n "contact_email" | default "Email" }}" required>
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="inputMessage">{{ i18n "contact_message" | default "Message" }}</label>
+            <textarea name="message" class="form-control" id="inputMessage" rows="5"
+                      placeholder="{{ i18n "contact_message" | default "Message" }}" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-outline-primary px-3 py-2">
+            {{ i18n "contact_send" | default "Send" }}
+          </button>
+        </form>
+      </div>
+    {{ end }}
+
+    {{/* Contact detail links */}}
+    <ul class="fa-ul">
+
+      {{/* Email — only shown when email_form is disabled and email is set */}}
+      {{ if and $data.email (not $page.Params.email_form) }}
+        <li>
+          <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+          <span id="person-email">
+            {{ if $autolink }}
+              <a href="mailto:{{ $data.email }}">{{ $data.email }}</a>
+            {{ else }}
+              {{ $data.email }}
+            {{ end }}
+          </span>
+        </li>
+      {{ end }}
+
+      {{ with $data.phone }}
+        <li>
+          <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
+          <span id="person-telephone">
+            {{ if $autolink }}<a href="tel:{{ . }}">{{ . }}</a>{{ else }}{{ . }}{{ end }}
+          </span>
+        </li>
+      {{ end }}
+
+      {{ $addr_formatted := "" }}
+      {{ if or $data.address.street $data.address.city $data.address.region $data.address.postcode $data.address.country }}
+        {{ $addr_formatted = partial "functions/get_address" (dict "root" . "address" $data.address) }}
+        <li>
+          <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+          <span id="person-address">{{ $addr_formatted }}</span>
+        </li>
+      {{ end }}
+
+      {{ with $data.directions }}
+        <li>
+          <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
+          <span>{{ . | markdownify | emojify }}</span>
+        </li>
+      {{ end }}
+
+      {{ with $data.office_hours }}
+        <li>
+          <i class="fa-li fas fa-clock fa-2x" aria-hidden="true"></i>
+          <span>
+            {{ if reflect.IsSlice . }}
+              {{ delimit . "<br>" | markdownify | emojify }}
+            {{ else }}
+              {{ . | markdownify | emojify }}
+            {{ end }}
+          </span>
+        </li>
+      {{ end }}
+
+      {{ with $data.appointment_url }}
+        <li>
+          <i class="fa-li fas fa-calendar-check fa-2x" aria-hidden="true"></i>
+          <a href="{{ . }}" target="_blank" rel="noopener">
+            {{ i18n "book_appointment" | default "Book an appointment" }}
+          </a>
+        </li>
+      {{ end }}
+
+      {{/* Additional contact links from params.toml [contact_links] array */}}
+      {{ range $data.contact_links }}
+        {{ $pack := or .icon_pack "fas" }}
+        {{ $pack_prefix := $pack }}
+        {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+          {{ $pack_prefix = "fa" }}
+        {{ end }}
+        {{ $link := .link }}
+        {{ $scheme := (urls.Parse $link).Scheme }}
+        {{ $target := "" }}
+        {{ if not $scheme }}
+          {{ $link = .link | relLangURL }}
+        {{ else if in (slice "http" "https") $scheme }}
+          {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+        {{ end }}
+        <li>
+          <i class="fa-li {{ $pack }} {{ $pack_prefix }}-{{ .icon }} fa-2x" aria-hidden="true"></i>
+          <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
+            {{ .name | markdownify | emojify | safeHTML }}
+          </a>
+        </li>
+      {{ end }}
+
+    </ul>
+
+    {{/* Map — only renders when BOTH map.engine and coordinates.latitude are set in params.toml.
+         Hidden inputs feed academic.js map initializer. Currently inactive (no coordinates set). */}}
+    {{ if and site.Params.map.engine $data.coordinates.latitude }}
+      <div class="d-none">
+        <input id="map-provider" value="{{ site.Params.map.engine }}">
+        <input id="map-lat" value="{{ $data.coordinates.latitude }}">
+        <input id="map-lng" value="{{ $data.coordinates.longitude }}">
+        <input id="map-dir" value="{{ $addr_formatted }}">
+        <input id="map-zoom" value="{{ site.Params.map.zoom | default 15 }}">
+        <input id="map-api-key" value="{{ site.Params.map.api_key }}">
+      </div>
+      <div id="map"></div>
+    {{ end }}
+
+  </div>
+</div>
