@@ -1399,3 +1399,53 @@ body.dark .talk-year-heading       { color: #64748b; }  // slate-500
 
   .talk-year-heading { padding-top: 0; }
 }
+
+
+// ── 25. PAGES WIDGET LAYOUT (homepage publications + talks sections) ──
+// Owned by layouts/partials/widgets/pages.html.
+// Replaces Bootstrap div.row > col-12.col-lg-4.section-heading + col-12.col-lg-8.
+// section-heading class is kept on .pages-widget__heading for CSS §4 compatibility
+// (gradient h1, accent bar, subtitle). Only the layout mechanism changes.
+//
+// To adjust heading/items proportion: edit grid-template-columns here.
+// Current ratio: 1fr 2fr = 33% / 67% — matches original Bootstrap 4/8 split.
+
+.pages-widget {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 0 2rem;
+  align-items: start;
+}
+
+// Items column: min-width prevents grid blowout on long unbreakable strings
+.pages-widget__items { min-width: 0; }
+
+// Collapse to single column below Bootstrap's lg breakpoint (992px),
+// matching the Bootstrap col-12 / col-lg-* stacking behavior exactly.
+@media (max-width: 991px) {
+  .pages-widget {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
+// "See all" link — extends theme's .see-all { margin-top: 2rem; text-transform: uppercase }
+// Theme sets text-transform; we add typography and color for both modes.
+.see-all a {
+  font-size: 0.73rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+}
+
+body:not(.dark) .see-all a { color: #6366f1; }
+body.dark .see-all a       { color: #818cf8; }
+
+.see-all a:hover { opacity: 0.7; }
+
+.see-all .fa-angle-right {
+  font-size: 0.85em;
+  margin-left: 0.3em;
+  vertical-align: middle;
+}
