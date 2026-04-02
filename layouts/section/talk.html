@@ -1,0 +1,60 @@
+{{- define "main" -}}
+{{/*
+  section/talk.html — owned override of themes/academic/layouts/section/talk.html
+  Renders the /talk/ section list page (visited via "See all talks").
+
+  Structural improvements over theme original:
+    - Removed the outer div.row > div.col-lg-12 wrapper (was a full-width
+      single column: two Bootstrap divs doing nothing).
+    - Replaced per-year div.row#talk_list > div.col-lg-2 + div.col-lg-10
+      Bootstrap grid with owned .talk-year-group > .talk-year-heading + .talk-year-items.
+      Year column width is now max-content (CSS), not a fixed Bootstrap fraction.
+    - Fixed DOM bug: the theme assigned id="talk_list" to every year group
+      (duplicate IDs on the same page). The owned structure uses class only.
+    - Year heading changed from h3 (no class) to h2.talk-year-heading,
+      matching the page's heading hierarchy (page title = h1).
+
+  Preserved from theme:
+    - page_header.html (owned) — renders the section title and metadata bar.
+    - div.universal-wrapper outer container — keeps layout consistent with
+      other section pages.
+    - .Data.Pages.GroupByDate "2006" — year-group logic is identical.
+    - All view dispatch branches: li_list (view=1), li_card (view=3),
+      li_compact (owned, view=2, current default).
+    - $.Params.view — reads view setting from the section's _index.md.
+
+  CSS contract (custom.scss §24 — do not rename):
+    .talk-year-group, .talk-year-heading, .talk-year-items
+*/}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+
+  {{ with .Content }}
+  <div class="article-style">{{ . }}</div>
+  {{ end }}
+
+  {{ range .Data.Pages.GroupByDate "2006" }}
+  <div class="talk-year-group">
+
+    <h2 class="talk-year-heading">{{ .Key }}</h2>
+
+    <div class="talk-year-items">
+      {{ range .Pages }}
+        {{ if eq $.Params.view 1 }}
+          {{ partial "li_list" . }}
+        {{ else if eq $.Params.view 3 }}
+          {{ partial "li_card" . }}
+        {{ else }}
+          {{ partial "li_compact" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+  </div>
+  {{ end }}
+
+</div>
+
+{{- end -}}

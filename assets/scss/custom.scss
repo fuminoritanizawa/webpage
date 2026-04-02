@@ -1360,3 +1360,42 @@ body:not(.dark) .talk-abstract p,
 body:not(.dark) .pub-abstract-section p { color: #334155; }  // slate-700
 body.dark .talk-abstract p,
 body.dark .pub-abstract-section p       { color: #cbd5e1; }  // slate-300
+
+
+// ── 24. TALK SECTION LIST (/talk/ page) ───────────────────────
+// Owned by layouts/section/talk.html.
+// Replaces Bootstrap col-lg-2/col-lg-10 year/items split.
+// Fixes the theme's duplicate id="talk_list" DOM bug (was applied to every group).
+
+.talk-year-group {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0 2.5rem;
+  margin-bottom: 2.25rem;
+  align-items: start;
+}
+
+// Year label — muted, compact, optically aligned with first stream-item title
+.talk-year-heading {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  padding-top: 1rem; // Align with li_compact h3 title top edge
+  white-space: nowrap;
+}
+
+body:not(.dark) .talk-year-heading { color: #94a3b8; }  // slate-400 — quiet, not competing
+body.dark .talk-year-heading       { color: #64748b; }  // slate-500
+
+// Items column — block stacking (stream-items already handle their own spacing)
+.talk-year-items { min-width: 0; }  // Prevent grid blowout on long titles
+
+// Collapse to single column on small screens
+@media (max-width: 576px) {
+  .talk-year-group {
+    grid-template-columns: 1fr;
+    gap: 0.3rem 0;
+  }
+
+  .talk-year-heading { padding-top: 0; }
+}
