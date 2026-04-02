@@ -143,7 +143,7 @@ email: "fuminori@stanford.edu"
   <a href="https://www.hmc.edu/" target="_blank">ハービーマッド大学</a>計算生物学専攻（2025年）。開成会・学習院洋桜会所属。
   スタンフォード大学ベイカー・フェロー、<a href="https://masason-foundation.org/" target="_blank">孫正義育英財団</a>（2期）、<a href="https://www.yanaitadashi-foundation.or.jp/" target="_blank">柳井正財団</a>（5期）、<a href="https://www.recruit-foundation.org/about/" target="_blank">江副記念リクルート財団</a>（54期）奨学生。
   履歴書は<a href="fuminoritanizawa_cv.pdf">こちら</a>。
-  phase 4 checker
+  phase 5 checker
 </p>
 
 <!-- ### Updates
