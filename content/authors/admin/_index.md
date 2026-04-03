@@ -102,7 +102,7 @@ email: "fuminori@stanford.edu"
   </p>
 
   <p>
-    My research experience includes:
+    My past research topics include:
   </p>
 
   <ul>
@@ -118,7 +118,7 @@ email: "fuminori@stanford.edu"
   </p>
 </section>
 
-<h3>Fellowships</h3>
+Fellowships
 <ul>
   <li>Baker Fellow, Stanford University</li>
   <li>
@@ -146,7 +146,7 @@ email: "fuminori@stanford.edu"
 -->
 
 <p>
-  こんにちは、<a href="https://med.stanford.edu/immunol.html" target="_blank">
+  こんにちは！<a href="https://med.stanford.edu/immunol.html" target="_blank">
     スタンフォード大学医学部 免疫学博士課程
   </a>の谷澤文礼です。
 </p>
