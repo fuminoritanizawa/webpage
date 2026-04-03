@@ -107,7 +107,7 @@ email: "fuminori@stanford.edu"
 
   <ul>
     <li>Immune evasion in parasitic infections, including <i>Trypanosoma brucei</i> and <i>Plasmodium</i></li>
-    <li>Host–pathogen interactions in infectious disease systems</li>
+    <li>Host–pathogen interactions in respiratory infectious disease systems</li>
     <li>Immunometabolic regulation of host defense in <i>Drosophila</i></li>
   </ul>
 
