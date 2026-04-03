@@ -93,46 +93,62 @@ email: "fuminori@stanford.edu"
 # - Biologist
 ---
 <section>
-<p>
-  Hi, I’m <strong>Fumi</strong>, a PhD student in 
-  <a href="https://med.stanford.edu/immunol.html" target="_blank">Immunology at Stanford Medicine</a>.  
-  I am passionate about applying molecular genomics to advance global health, particularly in understanding immune responses to infectious diseases that disproportionately impact underserved populations.
-</p>
+  <p>
+    Hi, I’m <strong>Fumi</strong>, a PhD student in 
+    <a href="https://med.stanford.edu/immunol.html" target="_blank">
+      Computational and Systems Immunology at Stanford Medicine
+    </a>.  
+    I am interested in studying infectious diseases, particularly those that disproportionately affect underserved populations, with the goal of improving global health outcomes.
+  </p>
 
-<p>
-  My work focuses on host–pathogen interactions and immune evasion in parasitic infections, integrating experimental immunology with computational analysis to uncover mechanistic insights with translational relevance.
-</p>
+  <p>
+    My research experience includes:
+  </p>
 
-<p>
-  Originally from Japan, I earned my B.S. in Computational Biology from 
-  <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a> and have conducted research at Scripps Research, Johns Hopkins University, and the National University of Singapore.
-</p>
+  <ul>
+    <li>Immune evasion in parasitic infections, including <i>Trypanosoma brucei</i> and <i>Plasmodium</i></li>
+    <li>Host–pathogen interactions in infectious disease systems</li>
+    <li>Immunometabolic regulation of host defense in <i>Drosophila</i></li>
+  </ul>
+
+  <p>
+    Originally from Japan, I earned my B.S. in Computational Biology from 
+    <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a> 
+    and developed hybrid experimental and computational skills at Scripps Research, Johns Hopkins University, and the National University of Singapore.
+  </p>
 </section>
 
-Fellowships
+<h3>Fellowships</h3>
 <ul>
+  <li>Baker Fellow, Stanford University</li>
   <li>
-    Baker Fellow, Stanford University
+    <a href="https://masason-foundation.org/en/" target="_blank">
+      SoftBank Group Masason Scholar
+    </a>
   </li>
   <li>
-    <a href="https://masason-foundation.org/en/" target="_blank">SoftBank Group Masason Scholar</a>
+    <a href="https://www.yanaitadashi-foundation.or.jp/en/" target="_blank">
+      UNIQLO Tadashi Yanai Scholar
+    </a>
   </li>
   <li>
-    <a href="https://www.yanaitadashi-foundation.or.jp/en/" target="_blank">UNIQLO Tadashi Yanai Scholar</a>
-  </li>
-  <li>
-    <a href="https://www.recruit-foundation.org/en/" target="_blank">Recruit Holdings Ezoe Memorial Scholar</a>
+    <a href="https://www.recruit-foundation.org/en/" target="_blank">
+      Recruit Holdings Ezoe Memorial Scholar
+    </a>
   </li>
 </ul>
 
+<!--
 <p>
   <i class="fas fa-download pr-1 fa-fw"></i>
   <a href="fuminoritanizawa_cv.pdf">Download my CV</a>
 </p>
+-->
 
 <p>
-  こんにちは、<a href="https://med.stanford.edu/immunol.html" target="_blank">スタンフォード大学医学部 免疫学博士課程</a>の谷澤文礼です！
-  phase 28 checker
+  こんにちは、<a href="https://med.stanford.edu/immunol.html" target="_blank">
+    スタンフォード大学医学部 免疫学博士課程
+  </a>の谷澤文礼です。
 </p>
 
 <!-- ### Updates
