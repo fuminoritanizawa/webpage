@@ -107,13 +107,9 @@ email: "fuminori@stanford.edu"
   Originally from Japan, I earned my B.S. in Computational Biology from 
   <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a> and have conducted research at Scripps Research, Johns Hopkins University, and the National University of Singapore.
 </p>
-
-<p>
-  I welcome collaboration and interdisciplinary engagement -- feel free to reach out :)
-</p>
 </section>
 
-<h4>Fellowships</h4>
+Fellowships
 <ul>
   <li>
     Baker Fellow, Stanford University
@@ -134,9 +130,6 @@ email: "fuminori@stanford.edu"
   <a href="fuminoritanizawa_cv.pdf">Download my CV</a>
 </p>
 
-  <hr>
-
-<h4>Japanese</h4>
 <p>
   こんにちは、<a href="https://med.stanford.edu/immunol.html" target="_blank">スタンフォード大学医学部 免疫学博士課程</a>の谷澤文礼です！
   phase 28 checker
