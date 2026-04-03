@@ -22,8 +22,8 @@ bio: PhD Student in Immunology
 
 Interests:
   - Infectious diseases
-	- Immune evasion
-	- Global health
+  - Immune Evasion
+  - Global health
 
 education:
   courses:
