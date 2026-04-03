@@ -121,7 +121,10 @@ email: "fuminori@stanford.edu"
 Fellowships:
 <ul>
   <li>Baker Fellow, Stanford University</li>
-  <li>
+  <li>SoftBank Group Masason Scholar</li>
+  <li>UNIQLO Tadashi Yanai Scholar</li>
+  <li>Recruit Holdings Ezoe Memorial Scholar</li>
+  <!-- <li>
     <a href="https://masason-foundation.org/en/" target="_blank">
       SoftBank Group Masason Scholar
     </a>
@@ -135,7 +138,7 @@ Fellowships:
     <a href="https://www.recruit-foundation.org/en/" target="_blank">
       Recruit Holdings Ezoe Memorial Scholar
     </a>
-  </li>
+  </li> -->
 </ul>
 
 <!--
