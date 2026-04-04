@@ -599,46 +599,77 @@ body.dark .card .badge {
   color: #a5b4fc !important;
 }
 
-// Filter buttons
-.project-filters {
+// ── Project filter toolbar ─────────────────────────────────────
+// Center the entire filter row (desktop + mobile).
+.project-toolbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+// Bootstrap .btn-toolbar is flex; keep it centered.
+.project-filters .btn-toolbar {
+  justify-content: center;
+}
+
+// Break Bootstrap's .btn-group joined-border behavior so each pill is separate.
+.project-filters .btn-group {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
+// Individual pill buttons — reset Bootstrap btn-primary + btn-lg defaults,
+// then apply the outlined-pill style.
 .project-filters .btn {
-  font-size: 0.72rem;
+  // Layout & shape
+  border-radius: 100px !important; // override Bootstrap btn-group radius stripping
+  padding: 0.5rem 1.5rem;
+  line-height: 1;
+  // Typography
+  font-size: 0.74rem;
   font-weight: 700;
-  letter-spacing: 0.07em;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
-  border-radius: 100px;
-  padding: 0.35rem 1.1rem;
-  transition: all 0.2s ease;
+  // Default state: outlined pill
+  border: 1.5px solid rgba(99, 102, 241, 0.32) !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  transition: background 0.18s ease, border-color 0.18s ease,
+              color 0.18s ease, box-shadow 0.18s ease, transform 0.15s ease;
 }
 
+body:not(.dark) .project-filters .btn { color: #4338ca !important; }
+body.dark .project-filters .btn {
+  color: #a5b4fc !important;
+  border-color: rgba(129, 140, 248, 0.32) !important;
+}
+
+// Active / hover: filled indigo pill
 .project-filters .btn.active,
 .project-filters .btn:hover {
   background: #6366f1 !important;
   border-color: #6366f1 !important;
   color: #fff !important;
+  box-shadow: 0 3px 14px rgba(99, 102, 241, 0.28) !important;
 }
 
-// Subtle press feedback for filter buttons.
+body.dark .project-filters .btn.active,
+body.dark .project-filters .btn:hover {
+  box-shadow: 0 3px 14px rgba(99, 102, 241, 0.38) !important;
+}
+
+// Press feedback
 .project-filters .btn:active,
 .project-filters .btn.active:active {
-  transform: scale(0.98);
+  transform: scale(0.97);
 }
 
-// Mobile: larger tap targets + clean wrapping
+// Mobile: slightly larger tap area
 @media (max-width: 768px) {
-  .project-filters {
-    justify-content: center;
-    gap: 0.5rem;
-  }
-
   .project-filters .btn {
-    padding: 0.55rem 1.3rem;
-    font-size: 0.74rem;
+    padding: 0.6rem 1.5rem;
   }
 }
 
