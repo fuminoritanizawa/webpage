@@ -1751,6 +1751,21 @@ body.dark .see-all a       { color: #818cf8; }
   #projects.home-section .center-text h1 {
     font-size: 1.2rem;
     margin: 0;
+    padding-bottom: 0.5rem;
+    position: relative;
+  }
+
+  // Accent bar — matches .pages-widget__heading h1::after style, centered
+  #projects.home-section .center-text h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1.3rem;
+    height: 3px;
+    background: linear-gradient(90deg, #4338ca, #818cf8);
+    border-radius: 2px;
   }
 }
 
