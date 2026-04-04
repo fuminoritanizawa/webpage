@@ -15,13 +15,15 @@ subtitle = "Fellowships and awards"
 date_format = "Jan 2006"
 
 [[item]]
-  organization = "As of"
+  organization = ""
   organization_url = ""
   title = "Major Fellowships"
   url = ""
   date_start = "2025-05-20"
   date_end = ""
   description = """
+  * **2025–Present.** Baker Fellowship<br>
+  Merit-based scholarship from Stanford University
   * **2025–Present.** <a href="https://www.recruit-foundation.org/en/">Ezoe Memorial Recruit Foundation</a><br>
   Merit-based full scholarship from a foundation supported by <a href="https://recruit-holdings.com/en/">Recruit Holdings Co., Ltd.</a> ($95K/year)
   * **2021–2025.** <a href="https://www.yanaitadashi-foundation.or.jp/en/">Tadashi Yanai Foundation</a><br>
@@ -33,7 +35,7 @@ date_format = "Jan 2006"
   """
 
 [[item]]
-  organization = "As of"
+  organization = ""
   organization_url = ""
   title = "Research Fellowships"
   url = ""
@@ -49,7 +51,7 @@ date_format = "Jan 2006"
   """
 
 [[item]]
-  organization = "As of"
+  organization = ""
   organization_url = ""
   title = "Awards"
   url = ""
