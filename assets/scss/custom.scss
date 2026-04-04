@@ -600,6 +600,12 @@ body.dark .card .badge {
 }
 
 // Filter buttons
+.project-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
 .project-filters .btn {
   font-size: 0.72rem;
   font-weight: 700;
@@ -621,6 +627,19 @@ body.dark .card .badge {
 .project-filters .btn:active,
 .project-filters .btn.active:active {
   transform: scale(0.98);
+}
+
+// Mobile: larger tap targets + clean wrapping
+@media (max-width: 768px) {
+  .project-filters {
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .project-filters .btn {
+    padding: 0.55rem 1.3rem;
+    font-size: 0.74rem;
+  }
 }
 
 
@@ -1671,8 +1690,8 @@ body.dark .see-all a       { color: #818cf8; }
     background: rgba(255, 255, 255, 0.92);
     backdrop-filter: saturate(160%) blur(12px);
     -webkit-backdrop-filter: saturate(160%) blur(12px);
-    padding-top: 0.25rem;
-    padding-bottom: 0.1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.35rem;
     border-bottom: 1px solid rgba(15, 23, 42, 0.08);
     text-align: center;
   }
@@ -1685,8 +1704,8 @@ body.dark .see-all a       { color: #818cf8; }
 
   .pages-widget__heading h1,
   .experience-widget__heading h1 {
-    font-size: 1.12rem;
-    padding-bottom: 0.45rem;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
     text-align: center;
   }
 
@@ -1714,8 +1733,8 @@ body.dark .see-all a       { color: #818cf8; }
     background: rgba(255, 255, 255, 0.92);
     backdrop-filter: saturate(160%) blur(12px);
     -webkit-backdrop-filter: saturate(160%) blur(12px);
-    padding-top: 0.25rem;
-    padding-bottom: 0.1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.35rem;
     border-bottom: 1px solid rgba(15, 23, 42, 0.08);
     text-align: center;
   }
@@ -1727,13 +1746,14 @@ body.dark .see-all a       { color: #818cf8; }
 
   #projects.home-section .center-text p { display: none; }
   #projects.home-section .center-text h1 {
-    font-size: 1.12rem;
+    font-size: 1.2rem;
     margin: 0;
   }
 }
 
 @media (max-width: 991px) {
-  // About widget (no explicit h1 for the section title; keep the profile label as compact context).
+  // About widget — portrait-title becomes a compact sticky identity bar.
+  // No section label ("About") is shown — the name + role + org are enough context.
   #about.home-section #profile .portrait-title {
     position: sticky;
     top: 70px;
@@ -1741,8 +1761,8 @@ body.dark .see-all a       { color: #818cf8; }
     background: rgba(255, 255, 255, 0.92);
     backdrop-filter: saturate(160%) blur(12px);
     -webkit-backdrop-filter: saturate(160%) blur(12px);
-    padding-top: 0.25rem;
-    padding-bottom: 0.1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.35rem;
     border-bottom: 1px solid rgba(15, 23, 42, 0.08);
     text-align: center;
   }
@@ -1752,26 +1772,16 @@ body.dark .see-all a       { color: #818cf8; }
     border-bottom-color: rgba(255, 255, 255, 0.08);
   }
 
-  #about.home-section #profile .portrait-title::before {
-    content: 'About';
-    display: block;
-    font-size: 0.65rem;
-    font-weight: 900;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    margin-bottom: 0.25rem;
-    color: #6366f1;
-  }
-
-  body.dark #about.home-section #profile .portrait-title::before {
-    color: #818cf8;
-  }
-
-  #about.home-section #profile .portrait-title h3 { display: none; }
   #about.home-section #profile .portrait-title h2 {
-    font-size: 1.12rem;
+    font-size: 1.18rem;
     letter-spacing: -0.03em;
+    margin: 0 0 0.15rem;
+  }
+
+  #about.home-section #profile .portrait-title h3 {
+    font-size: 0.78rem;
     margin: 0;
+    line-height: 1.5;
   }
 }
 
