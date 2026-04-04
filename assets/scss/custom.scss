@@ -666,10 +666,14 @@ body.dark .project-filters .btn:hover {
   transform: scale(0.97);
 }
 
-// Mobile: slightly larger tap area
+// Mobile: slightly larger tap area + space between sticky heading and tags
 @media (max-width: 768px) {
   .project-filters .btn {
     padding: 0.6rem 1.5rem;
+  }
+
+  .project-toolbar {
+    margin-top: 1rem;
   }
 }
 
