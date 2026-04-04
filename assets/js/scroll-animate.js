@@ -16,7 +16,7 @@
     '.center-text'
   ].join(', ');
 
-  function init() {
+  function initScrollAnimate() {
     // Mark the hero immediately — it's above the fold
     var hero = document.getElementById('about');
     if (hero) hero.classList.add('is-visible');
@@ -44,6 +44,38 @@
     });
 
     elements.forEach(function (el) { observer.observe(el); });
+  }
+
+  // Sticky heading tap → scroll to top of that section.
+  // Targets: pages-widget headings, experience-widget headings, projects center-text.
+  // Only active on mobile (≤991px) where the sticky is visible; harmless on desktop.
+  function initStickyHeadingTap() {
+    var STICKY_SELECTOR = [
+      '.pages-widget__heading',
+      '.experience-widget__heading',
+      '.home-section .center-text'
+    ].join(', ');
+
+    var headings = document.querySelectorAll(STICKY_SELECTOR);
+    if (!headings.length) return;
+
+    headings.forEach(function (heading) {
+      heading.addEventListener('click', function () {
+        var section = heading.closest('.home-section');
+        if (!section) return;
+
+        var navbar = document.querySelector('.navbar');
+        var offset = navbar ? navbar.offsetHeight : 70;
+
+        var y = section.getBoundingClientRect().top + window.scrollY - offset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      });
+    });
+  }
+
+  function init() {
+    initScrollAnimate();
+    initStickyHeadingTap();
   }
 
   if (document.readyState === 'loading') {
