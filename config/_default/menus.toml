@@ -4,6 +4,16 @@
 [[main]]
   name = "Publications"
   url = "#publications"
+  weight = 100
+
+[[main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 200
+
+[[main]]
+  name = "Presentations"
+  url = "#talks"
   weight = 300
 
 [[main]]
@@ -12,26 +22,16 @@
   weight = 400
 
 [[main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 500
-
-[[main]]
-  name = "Presentations"
-  url = "#talks"
-  weight = 550
-
-[[main]]
   name = "Awards"
   url = "#awards"
-  weight = 600
+  weight = 500
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 1000
+  weight = 600
 
 [[main]]
   name = "CV"
   url = "fuminoritanizawa_cv.pdf"
-  weight = 1100
+  weight = 700
