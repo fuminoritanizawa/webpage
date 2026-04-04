@@ -2,7 +2,7 @@
 date: "2021-04-01"
 external_link: ""
 image:
-  caption: <a href="sleepdeprivation_poster.pdf">Poster</a> of My Project
+  caption: <a href="sleepdeprivation_poster.pdf">Poster</a>
   focal_point: Smart
 links:
 - name: Poster
@@ -11,22 +11,19 @@ links:
   url: https://www.nature.com/articles/s41598-021-88967-1
 - name: Dr. Takemoto
   url: https://researchmap.jp/htkmt-sce?lang=en
-summary: Published Two-Year Project at Shizuoka University, Japan (August 2018 - April 2021).
+summary: Published two-year project at Shizuoka University, Japan (August 2018–April 2021).
 tags:
 - Behavior
 title: Sleep contributes to preference for novel food odours in Drosophila melanogaster
 ---
 
-### Two-Year Project at Shizuoka University, Japan with Dr. Hiroyuki Takemoto
+**Two-Year Project — Shizuoka University, Japan, with Dr. Hiroyuki Takemoto**
 
-- Published a first-authored paper ([link](https://www.nature.com/articles/s41598-021-88967-1))
-- Presented at two domestic conferences with a poster and one international conference (the International Animal Behavior Society) orally
-- Won two national high school biology competitions with this project
-- Conducted the research as a visiting student while in high school
-- Funded by the Japan Science and Technology Agency
+- First-authored publication in *Scientific Reports* ([link](https://www.nature.com/articles/s41598-021-88967-1))
+- Presented orally at the International Animal Behavior Society and by poster at two domestic conferences
+- Won two national high school biology competitions
+- Conducted as a visiting researcher while in high school, funded by the Japan Science and Technology Agency
 
-### Abstract
+**Abstract**
 
-The importance of sleep in maintaining cognitive functions such as learning and memory has been reported in both vertebrates and invertebrates. Previous studies demonstrated that sleep deprivation impaired the olfactory memory retention of fruit flies as described in the classical conditioning paradigm. Here, we show that sleep deprivation leads to a preference for the odours of the rearing environment in Drosophila melanogaster. Flies whose sleep had been disturbed with periodic rotation stimuli during night-time preferred apple cider vinegar (ACV) to broth, while this preference was lower in flies without sleep deprivation and those rotated during daytime. Experiments using single odours showed an increase in responses to ACV due to sleep deprivation. These results suggest that sleep functions in food odour preference. Flies grown on medium supplemented with ACV showed greater preference for ACV, and those grown with broth supplementation showed a greater preference for broth under sleep-deprived conditions. These results suggest that flies with night-time sleep deprivation become attached to the environment on which they have developed, and that sleep contributes to preference for novel food odours. This study offers an approach to investigating the interaction between sleep and neural disorders concerning cognitive deficits towards novel stimuli.
-
-(August 2018 - April 2021)
+The importance of sleep for cognitive functions such as learning and memory is well established across vertebrates and invertebrates. Prior work showed that sleep deprivation impairs olfactory memory retention in *Drosophila melanogaster* in classical conditioning paradigms. Here, we demonstrate that sleep deprivation also alters food odor preference. Flies disturbed with periodic rotation stimuli during nighttime preferentially chose apple cider vinegar (ACV) over broth — an effect absent in undisturbed controls and in flies rotated during the daytime. Single-odor experiments confirmed that sleep deprivation specifically increased attraction to ACV. Furthermore, flies reared on ACV-supplemented medium showed stronger ACV preference under sleep-deprived conditions, and the reverse was true for broth-reared flies. Collectively, these results suggest that sleep deprivation reduces preference for novel odors and increases attachment to familiar rearing-environment cues. This study provides a new framework for investigating the interaction between sleep and neural processes underlying novelty detection and cognitive flexibility.

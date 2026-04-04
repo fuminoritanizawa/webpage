@@ -2,7 +2,7 @@
 date: "2024-08-03"
 external_link: ""
 image:
-  caption: <a href="antigenicvariation_poster.pdf">Poster</a> of My Project
+  caption: <a href="antigenicvariation_poster.pdf">Poster</a>
   focal_point: Smart
 links:
 - name: Poster
@@ -11,19 +11,19 @@ links:
   url: antigenicvariation_abstract.pdf
 - name: Mugnier Lab
   url: https://www.mugnierlab.org/
-summary: Summer Project at Johns Hopkins University (May 2024 - August 2024).
+summary: Summer research project at Johns Hopkins University (May–August 2024).
 tags:
 - Immunology
 - Genetics
 title: Characterizing the Effect of the Extravascular Environment on Trypanosoma brucei Antigenic Diversity
 ---
 
-**Summer 2024 Research Project at Johns Hopkins University**
+**Summer 2024 — Mugnier Lab, Johns Hopkins Bloomberg School of Public Health**
 
-- Conducted research at the Mugnier Lab, part of the Bloomberg School of Public Health.  
-- Funded by the Basic Science Institute Summer Internship Program (BSI-SIP) from the School of Medicine.
+Funded by the Basic Science Institute Summer Internship Program (BSI-SIP), Johns Hopkins School of Medicine.
 
 **Abstract**
-The protozoan parasite *Trypanosoma brucei* poses significant public health and economic burden on sub-Saharan Africa. This single-celled parasite relies on antigenic variation to cause chronic infections, periodically “switching” its dense variant surface glycoprotein (VSG) coat to escape recognition by host antibodies. While researchers have predominantly focused on parasites in the bloodstream, recent studies suggest that the primary reservoirs of antigenic diversity of parasites are in the extravascular spaces—areas between cells within tissues. Understanding these potential triggers for VSG switching is crucial for insights into the parasite’s immune evasion and persistence. In this study, we sought to optimize a protocol for extracting extracellular fluid (EF) from infected mice for downstream analyses such as TMT proteomics and ELISA. We dissected mice and collected tissues, including adipose tissue, heart, and lung. The tissues were centrifuged on a filter at various speeds to extract EF while minimizing contamination from cytoplasmic proteins released by tissue damage. Additionally, we tested different techniques, such as washing and perfusion, to identify the optimal method for obtaining EF without blood. SDS-PAGE confirmed that the EF contained distinct protein components compared to cell lysate and serum. Our results showed that specific centrifugation speeds and dissection techniques effectively minimized contamination, providing a reliable EF extraction method. This optimized protocol enables accurate and standardized characterization of EF, contributing to advancing our understanding of the role of the extravascular environment in *Trypanosoma brucei* infection and potentially other diseases.
 
-(May 2024 - August 2024)
+*Trypanosoma brucei* poses a significant public health and economic burden across sub-Saharan Africa. This single-celled parasite relies on antigenic variation — periodically switching its dense variant surface glycoprotein (VSG) coat — to evade host antibodies and establish chronic infection. While most research has focused on bloodstream-stage parasites, recent evidence suggests that the primary reservoirs of antigenic diversity reside in extravascular spaces, the fluid-filled gaps between tissue cells. Understanding what triggers VSG switching in these microenvironments is critical for elucidating the parasite's immune evasion strategy.
+
+In this project, I optimized a protocol for extracting extracellular fluid (EF) from infected mouse tissues for downstream analyses including TMT proteomics and ELISA. I dissected adipose tissue, heart, and lung, then tested centrifugation speeds, washing, and perfusion techniques to maximize EF yield while minimizing cytoplasmic contamination from tissue damage. SDS-PAGE confirmed that the resulting EF contained a protein profile distinct from both cell lysate and serum. These findings provide a reproducible and standardized method for characterizing the extravascular environment, laying the groundwork for future studies of *T. brucei* immune evasion and persistence in host tissues.

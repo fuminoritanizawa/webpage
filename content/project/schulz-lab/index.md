@@ -2,26 +2,26 @@
 date: "2024-05-01"
 external_link: ""
 image:
-  caption: <a href="schulz_slide.pdf">Slide</a> of My Project
+  caption: <a href="schulz_slide.pdf">Slide</a>
   focal_point: Smart
 links:
 - name: Slide
   url: schulz_slide.pdf
 - name: Schulz Lab
-  url: https://sites.google.com/a/g.hmc.edu/schulzlab/home?authuser=0
-summary: Project at Harvey Mudd College (September 2023 - May 2024).
+  url: https://sites.google.com/a/g.hmc.edu/schulzlab/home
+summary: Research project at Harvey Mudd College (September 2023–May 2024).
 tags:
 - Immunology
 - Genetics
-title: HAT Complex Protein EAF6 - Role in Lifecycle Differentiation of Trypanosoma brucei
+title: "HAT Complex Protein EAF6: Role in Lifecycle Differentiation of Trypanosoma brucei"
 ---
 
-### Abstract
+**Academic Year 2023–2024 — Schulz Lab, Harvey Mudd College**
 
-During my project at the [Schulz Lab](https://sites.google.com/a/g.hmc.edu/schulzlab/home?authuser=0), Harvey Mudd College, I investigated the role of the HAT complex protein EAF6 in the lifecycle differentiation of *Trypanosoma brucei*, the parasite responsible for African trypanosomiasis ("sleeping sickness"). This parasitic disease is known for its ability to evade the immune system through the expression of variant surface glycoproteins (VSG) in its bloodstream form, while the procyclic form expresses procyclin.
+**Abstract**
 
-Our study focused on determining whether knocking down EAF6, a non-catalytic component of the histone acetyltransferase (HAT) complex, affects the parasite's differentiation process. Using RNAi techniques, we designed and cloned vectors to knock down EAF6 expression in *T. brucei*. We then conducted differentiation experiments in both bloodstream and insect environments, monitored through EP1-GFP expression levels over three days using flow cytometry.
+At the [Schulz Lab](https://sites.google.com/a/g.hmc.edu/schulzlab/home), I investigated the role of EAF6 — a non-catalytic subunit of the histone acetyltransferase (HAT) complex — in the lifecycle differentiation of *Trypanosoma brucei*, the causative agent of African trypanosomiasis (sleeping sickness). *T. brucei* evades the host immune system in its bloodstream form by expressing variant surface glycoproteins (VSG), while the insect-stage procyclic form expresses procyclin. The transcriptional mechanisms governing this developmental switch remain incompletely understood.
 
-Results indicated no significant difference in differentiation between EAF6 knockdown (+Dox) and control (-Dox) conditions, although both showed slower differentiation compared to wild-type parasites. These findings suggest that while EAF6 plays a role in *T. brucei* lifecycle differentiation, our current RNAi clone may have had regulatory issues, necessitating further experimentation.
+To determine whether EAF6 is required for differentiation, I designed and cloned RNAi vectors to knock down EAF6 expression, then monitored differentiation in both bloodstream and insect-stage environments by tracking EP1-GFP expression over three days via flow cytometry. EAF6 knockdown cells (+Dox) showed no significant difference in differentiation rate compared to controls (−Dox), though both differentiated more slowly than wild-type parasites. These results suggest that our RNAi clone may have had regulatory issues rather than reflecting a true null phenotype.
 
-Future directions include repeating the experiments with independently transformed clones, performing Western blot analysis with EAF6 protein markers, and investigating the role of other HAT complex components like BDF6. This research contributes to our understanding of chromatin-interacting proteins in *T. brucei* and their potential as targets for therapeutic interventions against African trypanosomiasis.
+Future directions include repeating experiments with independently transformed clones, Western blot validation of EAF6 knockdown, and investigating other HAT complex components such as BDF6. This work contributes to our understanding of chromatin-regulatory proteins as potential therapeutic targets in African trypanosomiasis.

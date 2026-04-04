@@ -11,7 +11,7 @@ tags: [Behavior]
 featured: false
 url_pdf: "https://drive.google.com/file/d/1JZ_QaI9jZCDhGZsxKOzLGnDE6LbY-ED8/view?usp=sharing"
 url_slides: ""
-summary: "Poster presentation on sleep and feeding behavior in Drosophila melanogaster. Biophysical Society of Japan Annual Meeting."
-abstract: "Poster presentation on the relationship between sleep and novel food odor preference in Drosophila melanogaster. Presented at the Biophysical Society of Japan Annual Meeting."
+summary: "Poster presentation at the Biophysical Society of Japan Annual Meeting."
+abstract: "Poster presentation on the relationship between sleep and novel food odor preference in Drosophila melanogaster. Biophysical Society of Japan Annual Meeting."
 publication_types: ["1"]
 ---

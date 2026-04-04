@@ -1,20 +1,12 @@
 +++
-# Contact widget.
-widget = "contact"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 500  # Order that this section will appear.
+widget = "contact"
+headless = true
+active = true
+weight = 500
 
 title = "Contact"
-subtitle = "My social media is [here](#about)."
+subtitle = "Social profiles are available in the [About](#about) section."
 
-# Automatically link email and phone?
 autolink = true
-
-# Email form provider
-#   0: Disable email form
-#   1: Netlify (requires that the site is hosted by Netlify)
-#   2: formspree.io
 email_form = 1
 +++
-

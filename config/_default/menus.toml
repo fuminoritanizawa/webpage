@@ -1,27 +1,5 @@
-# ============================================================
-# config/_default/menus.toml
-# PURPOSE: Top navigation bar links for the site
-# ROLE: Defines which sections appear in the navbar and their order
-# CLASSIFICATION: Safe to edit
-# COMMON EDITS: Add/remove [[main]] entries; adjust weight (lower = further left)
-# NOTE: URL "#section" anchors to a widget in content/home/<section>.md
-#       URL "filename.pdf" serves a file from static/
-# ============================================================
-#
-# Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-#     desired widget in your `content/home/` folder.
-#   The weight parameter defines the order that the links will appear in.
-
-# [[main]]
-#  name = "Home"
-#  url = "#about"
-#  weight = 100
-
-# [[main]]
-#  name = "Education"
-#  url = "#education"
-#  weight = 200
+# Navigation links — weight controls order (lower = further left).
+# Use "#section" to anchor to a widget in content/home/<section>.md.
 
 [[main]]
   name = "Publications"
@@ -31,8 +9,7 @@
 [[main]]
   name = "Experience"
   url = "#experience"
-  weight = 575
-# weight = 400
+  weight = 400
 
 [[main]]
   name = "Projects"
@@ -49,28 +26,11 @@
   url = "#awards"
   weight = 600
 
-# [[main]]
-#  name = "People"
-#  url = "#lab-photos"
-#  weight = 700
-
-#[[main]]
-#  name = "Fun"
-#  url = "#personal-photos"
-#  weight = 800
-
-#[[main]]
-#  name = "Others"
-#  url = "#tags"
-#  weight = 900 
-
-[[main]] 
+[[main]]
   name = "Contact"
   url = "#contact"
   weight = 1000
 
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 [[main]]
   name = "CV"
   url = "fuminoritanizawa_cv.pdf"
