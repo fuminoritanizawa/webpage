@@ -39,7 +39,7 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Summer Research Internship"
-  company = "Johns Hopkins University"
+  company = "Johns Hopkins Bloomberg School of Public Health"
   company_url = "https://publichealth.jhu.edu/"
   location="Baltimore, Maryland"
   date_start = "2024-05-01"
