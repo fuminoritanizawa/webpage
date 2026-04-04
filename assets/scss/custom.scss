@@ -679,6 +679,11 @@ body.dark .project-filters .btn:hover {
 
 
 // ── 9. PUBLICATION LIST ───────────────────────────────────────
+// Presentations (#talks): hide redundant summary text; compact padding
+// The talk title already captures the subject — the summary just repeats it.
+#talks .stream-item .article-style { display: none; }
+#talks .stream-item { padding-top: 0.65rem !important; padding-bottom: 0.65rem !important; }
+
 .pub-list-item, .article-item, .stream-item {
   padding: 0.9rem 1rem 0.9rem 1.1rem;
   border-radius: 8px;
@@ -796,6 +801,10 @@ body.dark .row.experience:hover .card {
   box-shadow: 0 6px 28px rgba(0, 0, 0, 0.35);
 }
 
+// Compact layout: tighter cards so 8 entries don't create excessive scroll
+.row.experience .card .card-body { padding: 0.8rem 1rem; }
+.row.experience .col.py-2 { padding-top: 0.3rem !important; padding-bottom: 0.3rem !important; }
+
 // Role title — text-muted removed from HTML; no !important needed
 .exp-title {
   font-size: 0.88rem;
@@ -825,8 +834,8 @@ body.dark .exp-meta       { color: #94a3b8; } // slate-400: 4.5:1 on dark ✓
 // Description body
 .row.experience .card-text {
   font-size: 0.875rem;
-  line-height: 1.72;
-  margin-top: 0.55rem;
+  line-height: 1.65;
+  margin-top: 0.25rem;
 }
 
 body:not(.dark) .row.experience .card-text { color: #334155; }

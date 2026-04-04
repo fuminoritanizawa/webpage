@@ -17,9 +17,9 @@ date_format = "Jan 2006"
 [[item]]
   organization = "As of"
   organization_url = ""
-  title = "Fellowships"
+  title = "Major Fellowships"
   url = ""
-  date_start = "2025-05-18"
+  date_start = "2025-05-20"
   date_end = ""
   description = """
   * **2025–Present.** <a href="https://www.recruit-foundation.org/en/">Ezoe Memorial Recruit Foundation</a><br>
@@ -28,14 +28,24 @@ date_format = "Jan 2006"
   Merit-based full scholarship from a foundation established by Tadashi Yanai, CEO of <a href="https://www.uniqlo.com/us/en/">Uniqlo</a> ($115K/year)
   * **2018–2025.** <a href="https://masason-foundation.org/en/cpt_testimonial/%E8%B0%B7%E6%BE%A4%E6%96%87%E7%A4%BC/">Masason Foundation</a><br>
   Selected as one of 51 scholars under age 25 in Japan for an unlimited, merit-based scholarship from the Masason Foundation, established by Masayoshi Son, CEO of <a href="https://www.softbank.jp/en/">SoftBank</a>
-  * **2024.** <a href="https://www.hopkinsmedicine.org/som/pathway/sip">Johns Hopkins University BSI-SIP Fellowship</a><br>
-  Merit-based summer research fellowship for work at Johns Hopkins University School of Medicine
-  * **2023.** <a href="https://www.hmc.edu/engagement/community-opportunities/students/summer-internships/huppe-memorial-internship/">Ben Huppe '14 Memorial Internship for a Sustainable World</a><br>
-  Merit-based summer research fellowship for work at Scripps Research
-  * **2022.** <a href="https://www.dbs.nus.edu.sg/amgen-scholars-program/">National University of Singapore Amgen Scholars Fellowship</a><br>
-  Merit-based summer research fellowship for work at the National University of Singapore
   * **2021–2023.** <a href="https://www.jmdavey.foundation/">John and Miyoko Davey Foundation</a><br>
   Merit-based scholarship for outstanding Japanese undergraduates studying abroad, from a foundation established by art collector Miyoko Davey of New York City
+  """
+
+[[item]]
+  organization = "As of"
+  organization_url = ""
+  title = "Research Fellowships"
+  url = ""
+  date_start = "2025-05-19"
+  date_end = ""
+  description = """
+  * **2024.** <a href="https://www.hopkinsmedicine.org/som/pathway/sip">Johns Hopkins University BSI-SIP Fellowship</a><br>
+  Summer research fellowship for work at Johns Hopkins University School of Medicine
+  * **2023.** <a href="https://www.hmc.edu/engagement/community-opportunities/students/summer-internships/huppe-memorial-internship/">Ben Huppe '14 Memorial Internship for a Sustainable World</a><br>
+  Summer research fellowship for work at Scripps Research
+  * **2022.** <a href="https://www.dbs.nus.edu.sg/amgen-scholars-program/">National University of Singapore Amgen Scholars Fellowship</a><br>
+  Summer research fellowship for work at the National University of Singapore
   """
 
 [[item]]
