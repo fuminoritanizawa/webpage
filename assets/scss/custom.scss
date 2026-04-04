@@ -640,8 +640,8 @@ body.dark .card .badge {
               color 0.18s ease, box-shadow 0.18s ease, transform 0.15s ease;
 }
 
-body:not(.dark) .project-filters .btn { color: #4338ca !important; }
-body.dark .project-filters .btn {
+body:not(.dark) .project-filters .btn:not(.active) { color: #4338ca !important; }
+body.dark .project-filters .btn:not(.active) {
   color: #a5b4fc !important;
   border-color: rgba(129, 140, 248, 0.32) !important;
 }
