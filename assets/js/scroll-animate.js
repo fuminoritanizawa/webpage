@@ -73,9 +73,29 @@
     });
   }
 
+  // Preload carousel background images.
+  // Bootstrap hides non-active slides with display:none, so browsers skip loading
+  // their background-images until the slide becomes active. With 2s intervals this
+  // causes a gray flash (or apparent freeze) while the image loads on demand.
+  // Solution: extract the URL from each slide's inline style and force-load it via
+  // an Image object so the browser caches it before the slide transition fires.
+  function preloadCarouselImages() {
+    var items = document.querySelectorAll('.carousel-item');
+    items.forEach(function (item) {
+      var bg = item.style.backgroundImage;
+      if (!bg) return;
+      var match = bg.match(/url\(['"]?([^'")\s]+)['"]?\)/);
+      if (match && match[1]) {
+        var img = new window.Image();
+        img.src = match[1];
+      }
+    });
+  }
+
   function init() {
     initScrollAnimate();
     initStickyHeadingTap();
+    preloadCarouselImages();
   }
 
   if (document.readyState === 'loading') {

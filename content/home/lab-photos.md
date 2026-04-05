@@ -12,7 +12,7 @@ height = "70vh"
   content = "Harvey Mudd College — Claremont, CA (2021–2025)"
   align = "left"
   overlay_color = "#666"
-  overlay_img = "thesis_01.png"
+  overlay_img = "thesis_01.jpg"
   overlay_filter = 0
 
 [[item]]
@@ -20,7 +20,7 @@ height = "70vh"
   content = "Harvey Mudd College — Claremont, CA (2021–2025)"
   align = "left"
   overlay_color = "#666"
-  overlay_img = "thesis_02.png"
+  overlay_img = "thesis_02.jpg"
   overlay_filter = 0
 
 [[item]]
@@ -28,7 +28,7 @@ height = "70vh"
   content = "Harvey Mudd College — Claremont, CA (2021–2025)"
   align = "left"
   overlay_color = "#666"
-  overlay_img = "thesis_03.png"
+  overlay_img = "thesis_03.jpg"
   overlay_filter = 0
 
 [[item]]
@@ -36,7 +36,7 @@ height = "70vh"
   content = "Harvey Mudd College — Claremont, CA (2021–2025)"
   align = "left"
   overlay_color = "#666"
-  overlay_img = "thesis_04.png"
+  overlay_img = "thesis_04.jpg"
   overlay_filter = 0
 
 [[item]]
@@ -44,7 +44,7 @@ height = "70vh"
   content = "The Scripps Research Institute — La Jolla, CA (Summer 2023)"
   align = "left"
   overlay_color = "#666"
-  overlay_img = "srinivasan_01.png"
+  overlay_img = "srinivasan_01.jpg"
   overlay_filter = 0
 
 [[item]]
@@ -52,7 +52,7 @@ height = "70vh"
   content = "The Scripps Research Institute — La Jolla, CA (Summer 2023)"
   align = "left"
   overlay_color = "#666"
-  overlay_img = "srinivasan_02.png"
+  overlay_img = "srinivasan_02.jpg"
   overlay_filter = 0
 
 [[item]]
@@ -68,7 +68,7 @@ height = "70vh"
   content = "Johns Hopkins University — Baltimore, MD (Summer 2024)"
   align = "left"
   overlay_color = "#666"
-  overlay_img = "mugnier_01.png"
+  overlay_img = "mugnier_01.jpg"
   overlay_filter = 0
 
 [[item]]
@@ -76,7 +76,7 @@ height = "70vh"
   content = "Johns Hopkins University — Baltimore, MD (Summer 2024)"
   align = "left"
   overlay_color = "#666"
-  overlay_img = "mugnier_02.png"
+  overlay_img = "mugnier_02.jpg"
   overlay_filter = 0
 
 [[item]]
@@ -84,7 +84,7 @@ height = "70vh"
   content = "Johns Hopkins University — Baltimore, MD (Summer 2024)"
   align = "left"
   overlay_color = "#666"
-  overlay_img = "mugnier_03.png"
+  overlay_img = "mugnier_03.jpg"
   overlay_filter = 0
 
 [[item]]
@@ -92,7 +92,7 @@ height = "70vh"
   content = "Johns Hopkins University — Baltimore, MD (Summer 2024)"
   align = "left"
   overlay_color = "#666"
-  overlay_img = "mugnier_04.png"
+  overlay_img = "mugnier_04.jpg"
   overlay_filter = 0
 
 [[item]]
@@ -100,7 +100,7 @@ height = "70vh"
   content = "Johns Hopkins University — Baltimore, MD (Summer 2024)"
   align = "left"
   overlay_color = "#666"
-  overlay_img = "mugnier_05.png"
+  overlay_img = "mugnier_05.jpg"
   overlay_filter = 0
 
 [[item]]
@@ -108,7 +108,7 @@ height = "70vh"
   content = "Johns Hopkins University — Baltimore, MD (Summer 2024)"
   align = "left"
   overlay_color = "#666"
-  overlay_img = "mugnier_06.png"
+  overlay_img = "mugnier_06.jpg"
   overlay_filter = 0
 
 [[item]]
@@ -116,7 +116,7 @@ height = "70vh"
   content = "National University of Singapore (Summer 2022)"
   align = "left"
   overlay_color = "#666"
-  overlay_img = "monteiro_01.png"
+  overlay_img = "monteiro_01.jpg"
   overlay_filter = 0
 
 [[item]]
@@ -124,7 +124,7 @@ height = "70vh"
   content = "National University of Singapore (Summer 2022)"
   align = "left"
   overlay_color = "#666"
-  overlay_img = "monteiro_03.png"
+  overlay_img = "monteiro_03.jpg"
   overlay_filter = 0
 
 [[item]]
@@ -132,7 +132,7 @@ height = "70vh"
   content = "Harvey Mudd College — Claremont, CA"
   align = "left"
   overlay_color = "#666"
-  overlay_img = "hur_01.png"
+  overlay_img = "hur_01.jpg"
   overlay_filter = 0
 
 [[item]]
@@ -140,7 +140,7 @@ height = "70vh"
   content = "Harvey Mudd College — Claremont, CA"
   align = "left"
   overlay_color = "#666"
-  overlay_img = "hur_02.png"
+  overlay_img = "hur_02.jpg"
   overlay_filter = 0
 
 [[item]]
@@ -156,7 +156,7 @@ height = "70vh"
   content = "National University of Singapore (Summer 2022)"
   align = "left"
   overlay_color = "#666"
-  overlay_img = "amgen_02.png"
+  overlay_img = "amgen_02.jpg"
   overlay_filter = 0
 
 [[item]]
@@ -164,6 +164,6 @@ height = "70vh"
   content = "National University of Singapore (Summer 2022)"
   align = "left"
   overlay_color = "#666"
-  overlay_img = "amgen_03.png"
+  overlay_img = "amgen_03.jpg"
   overlay_filter = 0
 +++
