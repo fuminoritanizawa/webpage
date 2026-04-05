@@ -50,9 +50,9 @@ body.dark p { color: #cbd5e1; }
 // ── 1. SCROLL ANIMATIONS ──────────────────────────────────────
 // JS (scroll-animate.js) adds .is-visible as elements enter viewport.
 // All targeted elements start invisible + shifted; transition in once.
+// Slide-up entrance animation for non-Isotope elements
 .pub-list-item,
 .stream-item,
-.project-card,
 .row.experience,
 .accmp-block,
 .section-heading,
@@ -61,6 +61,14 @@ body.dark p { color: #cbd5e1; }
   transform: translateY(20px);
   transition: opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1),
               transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+// Project cards: opacity-fade only — Isotope controls transform/positioning.
+// MUST NOT set transform here; any !important transform would override
+// Isotope's inline translate3d(x,y,0) and break the masonry filter layout.
+.project-card {
+  opacity: 0;
+  transition: opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 // Stagger siblings
@@ -76,9 +84,20 @@ body.dark p { color: #cbd5e1; }
 .row.experience:nth-child(n+4), .accmp-block:nth-child(n+4),
 .project-card:nth-child(n+4) { transition-delay: 0.2s; }
 
-.is-visible {
+// Slide-up reveal: higher specificity beats initial rule — no !important needed on transform
+.pub-list-item.is-visible,
+.stream-item.is-visible,
+.row.experience.is-visible,
+.accmp-block.is-visible,
+.section-heading.is-visible,
+.center-text.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+// Project cards reveal: opacity only — no transform so Isotope retains full positioning control
+.project-card.is-visible {
   opacity: 1 !important;
-  transform: translateY(0) !important;
 }
 
 
