@@ -14,7 +14,6 @@ links:
 summary: Summer research project at Johns Hopkins University (May–August 2024).
 tags:
 - Immunology
-- Genetics
 title: Characterizing the Effect of the Extravascular Environment on Trypanosoma brucei Antigenic Diversity
 ---
 

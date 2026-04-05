@@ -15,12 +15,12 @@ title = "Projects"
     tag = "*"
 
   [[content.filter_button]]
-    name = "Genetics"
-    tag = "Genetics"
-
-  [[content.filter_button]]
     name = "Immunology"
     tag = "Immunology"
+
+  [[content.filter_button]]
+    name = "Genetics"
+    tag = "Genetics"
 
   [[content.filter_button]]
     name = "Behavior"

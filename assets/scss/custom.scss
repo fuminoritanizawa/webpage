@@ -49,8 +49,10 @@ body.dark p { color: #cbd5e1; }
 
 // ── 1. SCROLL ANIMATIONS ──────────────────────────────────────
 // JS (scroll-animate.js) adds .is-visible as elements enter viewport.
-// All targeted elements start invisible + shifted; transition in once.
-// Slide-up entrance animation for non-Isotope elements
+// NOTE: .project-card is intentionally excluded — Isotope (jQuery plugin)
+// manages all project card visibility, opacity, and positioning via inline
+// styles. Any CSS opacity/transform on .project-card would conflict with
+// Isotope's filter and masonry layout, causing cards to be hidden or misplaced.
 .pub-list-item,
 .stream-item,
 .row.experience,
@@ -63,28 +65,17 @@ body.dark p { color: #cbd5e1; }
               transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-// Project cards: opacity-fade only — Isotope controls transform/positioning.
-// MUST NOT set transform here; any !important transform would override
-// Isotope's inline translate3d(x,y,0) and break the masonry filter layout.
-.project-card {
-  opacity: 0;
-  transition: opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-// Stagger siblings
+// Stagger siblings (project-card excluded — no scroll animation)
 .pub-list-item:nth-child(2), .stream-item:nth-child(2),
-.row.experience:nth-child(2), .accmp-block:nth-child(2),
-.project-card:nth-child(2) { transition-delay: 0.07s; }
+.row.experience:nth-child(2), .accmp-block:nth-child(2) { transition-delay: 0.07s; }
 
 .pub-list-item:nth-child(3), .stream-item:nth-child(3),
-.row.experience:nth-child(3), .accmp-block:nth-child(3),
-.project-card:nth-child(3) { transition-delay: 0.14s; }
+.row.experience:nth-child(3), .accmp-block:nth-child(3) { transition-delay: 0.14s; }
 
 .pub-list-item:nth-child(n+4), .stream-item:nth-child(n+4),
-.row.experience:nth-child(n+4), .accmp-block:nth-child(n+4),
-.project-card:nth-child(n+4) { transition-delay: 0.2s; }
+.row.experience:nth-child(n+4), .accmp-block:nth-child(n+4) { transition-delay: 0.2s; }
 
-// Slide-up reveal: higher specificity beats initial rule — no !important needed on transform
+// Reveal: higher specificity beats initial rule — no !important needed on transform
 .pub-list-item.is-visible,
 .stream-item.is-visible,
 .row.experience.is-visible,
@@ -93,11 +84,6 @@ body.dark p { color: #cbd5e1; }
 .center-text.is-visible {
   opacity: 1;
   transform: translateY(0);
-}
-
-// Project cards reveal: opacity only — no transform so Isotope retains full positioning control
-.project-card.is-visible {
-  opacity: 1 !important;
 }
 
 

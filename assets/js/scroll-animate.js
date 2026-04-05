@@ -9,7 +9,7 @@
   var TARGETS = [
     '.pub-list-item',
     '.stream-item',
-    '.project-card',
+    // .project-card excluded — Isotope manages all project card visibility/positioning
     '.row.experience',
     '.accmp-block',
     '.section-heading',
