@@ -59,18 +59,12 @@ social:
 email: "fuminori@stanford.edu"
 ---
 <section>
-  <p>Hi, I'm <strong>Fumi</strong>, a PhD student in <a href="https://med.stanford.edu/immunol.html" target="_blank">Computational and Systems Immunology at Stanford Medicine</a>, advised by <a href="https://med.stanford.edu/profiles/prasanna-jagannathan" target="_blank">Dr. Prasanna Jagannathan</a>.</p>
+  <p>Hi, I'm <strong>Fumi</strong>, a PhD student in <a href="https://med.stanford.edu/immunol.html" target="_blank">Computational and Systems Immunology at Stanford Medicine</a>, advised by <a href="https://med.stanford.edu/profiles/prasanna-jagannathan" target="_blank">Dr. Prasanna Jagannathan</a>. Broadly, my research focuses on infectious diseases that disproportionately affect underserved populations — and in the <a href="https://med.stanford.edu/jagannathan-lab.html" target="_blank">Jagannathan Lab</a>, I study the mechanisms driving naturally acquired immunity to malaria.</p>
 
-  <p>Broadly, my research interest focuses on infectious diseases that disproportionately affect underserved populations.</p>
-
-  <p>Currently, in the <a href="https://med.stanford.edu/jagannathan-lab.html" target="_blank">Jagannathan Lab</a>, we study the mechanisms driving naturally acquired immunity to malaria.</p>
-
-  <p>I grew up in Japan and came to the U.S. for my B.S. in Computational Biology at <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a>.</p>
-
-  <p>I also developed hybrid experimental and computational skills through research at Scripps Research, Johns Hopkins University, and the National University of Singapore.</p>
+  <p>I grew up in Japan and came to the U.S. for my B.S. in Computational Biology at <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a>, where I developed hybrid experimental and computational skills through research at Scripps Research, Johns Hopkins University, and the National University of Singapore.</p>
 </section>
 
-<p><strong>Fellowships</strong></p>
+<p>Fellowships</p>
 <ul>
   <li>Baker Fellow, Stanford University</li>
   <li>SoftBank Group Masason Scholar</li>
