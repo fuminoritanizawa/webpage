@@ -1879,39 +1879,53 @@ body.dark .pub-list-item > a:hover       { color: #818cf8; }
 
 .hi-shake {
   display: inline-block;
-  animation: shake-hi 0.8s ease-in-out 1;
+  animation: shake-hi 1.8s ease-in-out 1;
 }
 
 @keyframes shake-hi {
   0%, 100% { transform: translateX(0); }
-  10%      { transform: translateX(-6px); }
+  5%       { transform: translateX(-6px); }
+  10%      { transform: translateX(6px); }
+  15%      { transform: translateX(-6px); }
   20%      { transform: translateX(6px); }
-  30%      { transform: translateX(-6px); }
-  40%      { transform: translateX(6px); }
-  50%      { transform: translateX(-4px); }
-  60%      { transform: translateX(4px); }
-  70%      { transform: translateX(-2px); }
-  80%      { transform: translateX(2px); }
-  90%      { transform: translateX(-1px); }
+  25%      { transform: translateX(-5px); }
+  30%      { transform: translateX(5px); }
+  35%      { transform: translateX(-5px); }
+  40%      { transform: translateX(5px); }
+  45%      { transform: translateX(-4px); }
+  50%      { transform: translateX(4px); }
+  55%      { transform: translateX(-3px); }
+  60%      { transform: translateX(3px); }
+  65%      { transform: translateX(-2px); }
+  70%      { transform: translateX(2px); }
+  75%      { transform: translateX(-1px); }
+  80%      { transform: translateX(1px); }
 }
 
 // Avatar shakes in sync — scoped to the hero avatar only
 // (author-card avatars elsewhere on the site are unaffected).
 #profile .avatar-circle {
-  animation: avatar-greet 0.8s ease-in-out 1;
+  animation: avatar-greet 1.8s ease-in-out 1;
 }
 
 @keyframes avatar-greet {
   0%, 100% { transform: translateX(0) rotate(0deg); }
-  10%      { transform: translateX(-4px) rotate(-3deg); }
+  5%       { transform: translateX(-4px) rotate(-3deg); }
+  10%      { transform: translateX(4px) rotate(3deg); }
+  15%      { transform: translateX(-4px) rotate(-3deg); }
   20%      { transform: translateX(4px) rotate(3deg); }
-  30%      { transform: translateX(-4px) rotate(-3deg); }
-  40%      { transform: translateX(4px) rotate(3deg); }
-  50%      { transform: translateX(-3px) rotate(-2deg); }
-  60%      { transform: translateX(3px) rotate(2deg); }
-  70%      { transform: translateX(-1px) rotate(-1deg); }
-  80%      { transform: translateX(1px) rotate(1deg); }
-  90%      { transform: translateX(0) rotate(0deg); }
+  25%      { transform: translateX(-3px) rotate(-2deg); }
+  30%      { transform: translateX(3px) rotate(2deg); }
+  35%      { transform: translateX(-3px) rotate(-2deg); }
+  40%      { transform: translateX(3px) rotate(2deg); }
+  45%      { transform: translateX(-2px) rotate(-1deg); }
+  50%      { transform: translateX(2px) rotate(1deg); }
+  55%      { transform: translateX(-2px) rotate(-1deg); }
+  60%      { transform: translateX(2px) rotate(1deg); }
+  65%      { transform: translateX(-1px) rotate(0deg); }
+  70%      { transform: translateX(1px) rotate(0deg); }
+  75%      { transform: translateX(0) rotate(0deg); }
+  80%      { transform: translateX(0) rotate(0deg); }
 }
 
 // Name emphasis — "Fumi" is the name they go by; make it pop visually.
