@@ -59,7 +59,7 @@ social:
 email: "fuminori@stanford.edu"
 ---
 <section>
-  <p>Hi, I'm <strong>Fumi</strong>, a PhD student in <a href="https://med.stanford.edu/immunol.html" target="_blank">Computational and Systems Immunology at Stanford Medicine</a>, advised by <a href="https://med.stanford.edu/profiles/prasanna-jagannathan" target="_blank">Dr. Prasanna Jagannathan</a>. Broadly, I'm interested in studying infectious diseases that disproportionately affect underserved populations — and in the <a href="https://med.stanford.edu/jagannathan-lab.html" target="_blank">Jagannathan Lab</a>, I study the mechanisms driving naturally acquired immunity to malaria.</p>
+  <p>Hi! I'm <strong>Fumi</strong>, a PhD student in <a href="https://med.stanford.edu/immunol.html" target="_blank">Computational and Systems Immunology at Stanford Medicine</a>, advised by <a href="https://med.stanford.edu/profiles/prasanna-jagannathan" target="_blank">Dr. Prasanna Jagannathan</a>. Broadly, I'm interested in studying infectious diseases that disproportionately affect underserved populations — and in the <a href="https://med.stanford.edu/jagannathan-lab.html" target="_blank">Jagannathan Lab</a>, I study the mechanisms driving naturally acquired immunity to malaria.</p>
 
   <p>I grew up in Japan and came to the U.S. for my B.S. in Computational Biology at <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a>, where I developed hybrid experimental and computational skills through research at Scripps Research, Johns Hopkins University, and the National University of Singapore.</p>
 </section>
