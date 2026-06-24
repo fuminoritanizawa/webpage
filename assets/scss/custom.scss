@@ -1902,6 +1902,21 @@ body.dark .pub-list-item > a:hover       { color: #818cf8; }
   80%      { transform: translateX(1px); }
 }
 
+// Playful periodic spin — a full 360° turn every so often, purely for fun.
+// Lives on a wrapper div (not .avatar-circle itself) so it never fights with
+// the hover-lift transition or the page-load shake, which both also animate
+// `transform` on the img — CSS animations always win over transitions on the
+// same property, so combining them on one element would silently kill hover.
+.avatar-spin-wrap {
+  display: inline-block;
+  animation: avatar-periodic-spin 16s ease-in-out infinite;
+}
+
+@keyframes avatar-periodic-spin {
+  0%, 93%  { transform: rotate(0deg); }
+  100%     { transform: rotate(360deg); }
+}
+
 // Avatar shakes in sync — scoped to the hero avatar only
 // (author-card avatars elsewhere on the site are unaffected).
 #profile .avatar-circle {

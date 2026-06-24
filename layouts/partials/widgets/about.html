@@ -32,9 +32,11 @@
 
       {{ if $avatar }}
         {{ $avatar_img := $avatar.Fill "270x270 Center" }}
-        <img class="avatar avatar-circle"
-             src="{{ $avatar_img.RelPermalink }}"
-             alt="{{ $person_page.Title }}">
+        <div class="avatar-spin-wrap">
+          <img class="avatar avatar-circle"
+               src="{{ $avatar_img.RelPermalink }}"
+               alt="{{ $person_page.Title }}">
+        </div>
       {{ end }}
 
       <div class="portrait-title">
