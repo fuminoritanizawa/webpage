@@ -10,6 +10,31 @@ subtitle = "For more details, please refer to my [CV](fuminoritanizawa_cv.pdf)."
 date_format = "Jan 2006"
 
 [[experience]]
+  title = "PhD Student"
+  company = "Jagannathan Lab, Stanford Medicine"
+  company_url = "https://med.stanford.edu/jagannathan-lab.html"
+  location = "Stanford, California"
+  date_start = "2026-06-01"
+  date_end = ""
+  description = """
+  Studying mechanisms driving naturally acquired immunity to malaria under [Dr. Prasanna Jagannathan](https://med.stanford.edu/jagannathan-lab.html).
+  """
+
+[[experience]]
+  title = "PhD Rotation Student"
+  company = "Stanford Immunology"
+  company_url = "https://med.stanford.edu/immunol.html"
+  location = "Stanford, California"
+  date_start = "2025-09-01"
+  date_end = "2026-06-01"
+  description = """
+  Completed three lab rotations:
+  - Autumn: [Jagannathan Lab](https://med.stanford.edu/jagannathan-lab.html)
+  - Winter: [Egan Lab](https://med.stanford.edu/eganlab/members.html)
+  - Spring: [Blish Lab](https://med.stanford.edu/blishlab.html)
+  """
+
+[[experience]]
   title = "Senior Thesis Researcher"
   company = "Harvey Mudd College"
   company_url = "https://www.hmc.edu/biology/"

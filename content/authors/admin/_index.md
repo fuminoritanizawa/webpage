@@ -63,8 +63,13 @@ email: "fuminori@stanford.edu"
     Hi, I'm <strong>Fumi</strong>, a PhD student in
     <a href="https://med.stanford.edu/immunol.html" target="_blank">
       Computational and Systems Immunology at Stanford Medicine
+    </a>,
+    advised by
+    <a href="https://med.stanford.edu/jagannathan-lab.html" target="_blank">
+      Dr. Prasanna Jagannathan
     </a>.
-    My research focuses on infectious diseases — particularly those that disproportionately affect underserved populations — with the goal of advancing global health outcomes.
+    Broadly, my research focuses on infectious diseases that disproportionately affect underserved populations.
+    Currently, in the <a href="https://med.stanford.edu/jagannathan-lab.html" target="_blank">Jagannathan Lab</a>, we study the mechanisms driving naturally acquired immunity to malaria.
   </p>
 
   <p>My past research topics include:</p>
