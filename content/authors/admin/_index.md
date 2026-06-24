@@ -12,18 +12,18 @@ organizations:
 - name: Stanford Immunology
   url: https://med.stanford.edu/immunol.html
 
-bio: PhD Student in Immunology at Stanford Medicine
+bio: PhD Student in Computational and Systems Immunology at Stanford Medicine, studying malaria immunity
 
 interests:
   - Infectious diseases
-  - Immune evasion
-  - Global health
+  - Global health equity
+  - Naturally acquired immunity
 
 education:
   courses:
   - course: PhD in Immunology
     institution: Stanford Medicine (4.11/4.00)
-    year: On-going
+    year: Present
   - course: BSc in Computational Biology
     institution: Harvey Mudd College (3.93/4.00)
     year: 2025
@@ -59,35 +59,18 @@ social:
 email: "fuminori@stanford.edu"
 ---
 <section>
-  <p>
-    Hi, I'm <strong>Fumi</strong>, a PhD student in
-    <a href="https://med.stanford.edu/immunol.html" target="_blank">
-      Computational and Systems Immunology at Stanford Medicine
-    </a>,
-    advised by
-    <a href="https://med.stanford.edu/profiles/prasanna-jagannathan" target="_blank">
-      Dr. Prasanna Jagannathan
-    </a>.
-    Broadly, my research focuses on infectious diseases that disproportionately affect underserved populations.
-    Currently, in the <a href="https://med.stanford.edu/jagannathan-lab.html" target="_blank">Jagannathan Lab</a>, we study the mechanisms driving naturally acquired immunity to malaria.
-  </p>
+  <p>Hi, I'm <strong>Fumi</strong>, a PhD student in <a href="https://med.stanford.edu/immunol.html" target="_blank">Computational and Systems Immunology at Stanford Medicine</a>, advised by <a href="https://med.stanford.edu/profiles/prasanna-jagannathan" target="_blank">Dr. Prasanna Jagannathan</a>.</p>
 
-  <p>My past research topics include:</p>
+  <p>Broadly, my research interest focuses on infectious diseases that disproportionately affect underserved populations.</p>
 
-  <ul>
-    <li>Immune evasion in parasitic infections, <i>Trypanosoma brucei</i> and <i>Plasmodium</i></li>
-    <li>Host–pathogen interactions in respiratory infectious disease systems</li>
-    <li>Immunometabolic regulation of host defense in <i>Drosophila</i></li>
-  </ul>
+  <p>Currently, in the <a href="https://med.stanford.edu/jagannathan-lab.html" target="_blank">Jagannathan Lab</a>, we study the mechanisms driving naturally acquired immunity to malaria.</p>
 
-  <p>
-    Originally from Japan, I earned my B.S. in Computational Biology from
-    <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a>
-    and developed hybrid experimental and computational skills at Scripps Research, Johns Hopkins University, and the National University of Singapore.
-  </p>
+  <p>I grew up in Japan and came to the U.S. for my B.S. in Computational Biology at <a href="https://www.hmc.edu/" target="_blank">Harvey Mudd College</a>.</p>
+
+  <p>I also developed hybrid experimental and computational skills through research at Scripps Research, Johns Hopkins University, and the National University of Singapore.</p>
 </section>
 
-Fellowships:
+<p><strong>Fellowships</strong></p>
 <ul>
   <li>Baker Fellow, Stanford University</li>
   <li>SoftBank Group Masason Scholar</li>
@@ -99,4 +82,5 @@ Fellowships:
   こんにちは！<a href="https://med.stanford.edu/immunol.html" target="_blank">
     スタンフォード大学医学部 免疫学博士課程
   </a>の谷澤文礼です。
+  <a href="https://med.stanford.edu/jagannathan-lab.html" target="_blank">ジャガナサン研究室</a>でマラリアと免疫の研究をしています。
 </p>
