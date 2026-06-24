@@ -1909,7 +1909,7 @@ body.dark .pub-list-item > a:hover       { color: #818cf8; }
 // same property, so combining them on one element would silently kill hover.
 .avatar-spin-wrap {
   display: inline-block;
-  animation: avatar-periodic-spin 16s ease-in-out infinite;
+  animation: avatar-periodic-spin 10s ease-in-out infinite;
 }
 
 @keyframes avatar-periodic-spin {
