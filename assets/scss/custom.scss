@@ -1872,6 +1872,55 @@ body:not(.dark) .pub-list-item > a:hover { color: #4338ca; }
 body.dark .pub-list-item > a:hover       { color: #818cf8; }
 
 
+// ── 29. HI WAVE — GREETING ANIMATION ──────────────────────────
+// Plays once on every page load (not gated to "first ever visit" — that
+// would need cookies/localStorage, overkill for a wave gesture).
+// The emoji and avatar share duration/timing so they read as one synced greeting.
+
+.hi-wave {
+  display: inline-block;
+  transform-origin: 70% 70%;
+  animation: wave-hi 1.8s ease-in-out 1;
+}
+
+@keyframes wave-hi {
+  0%   { transform: rotate(0deg); }
+  10%  { transform: rotate(14deg); }
+  20%  { transform: rotate(-8deg); }
+  30%  { transform: rotate(14deg); }
+  40%  { transform: rotate(-4deg); }
+  50%  { transform: rotate(10deg); }
+  60%  { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+// Avatar nods along with the wave — scoped to the hero avatar only
+// (author-card avatars elsewhere on the site are unaffected).
+#profile .avatar-circle {
+  animation: avatar-greet 1.8s ease-in-out 1;
+}
+
+@keyframes avatar-greet {
+  0%   { transform: rotate(0deg) scale(1); }
+  10%  { transform: rotate(-4deg) scale(1.02); }
+  20%  { transform: rotate(3deg) scale(1.02); }
+  30%  { transform: rotate(-4deg) scale(1.02); }
+  40%  { transform: rotate(2deg) scale(1.01); }
+  50%  { transform: rotate(-3deg) scale(1.01); }
+  60%  { transform: rotate(0deg) scale(1); }
+  100% { transform: rotate(0deg) scale(1); }
+}
+
+// Name emphasis — "Fumi" is the name they go by; make it pop visually.
+.name-fumi {
+  font-size: 1.15em;
+  letter-spacing: -0.01em;
+}
+
+body:not(.dark) .name-fumi { color: #4338ca; }
+body.dark .name-fumi       { color: #818cf8; }
+
+
 // ── 28. STREAM-ITEM SUMMARY TEXT ──────────────────────────────
 // .article-style inside a stream-item is summary text, not article body.
 // The theme leaves it at full article-body size. Shrinking it creates a
