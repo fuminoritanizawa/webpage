@@ -17,7 +17,7 @@ date_format = "Jan 2006"
   date_start = "2026-06-01"
   date_end = ""
   description = """
-  Studying mechanisms driving naturally acquired immunity to malaria under [Dr. Prasanna Jagannathan](https://med.stanford.edu/jagannathan-lab.html).
+  Studying mechanisms driving naturally acquired immunity to malaria under [Dr. Prasanna Jagannathan](https://med.stanford.edu/profiles/prasanna-jagannathan).
   """
 
 [[experience]]

@@ -65,7 +65,7 @@ email: "fuminori@stanford.edu"
       Computational and Systems Immunology at Stanford Medicine
     </a>,
     advised by
-    <a href="https://med.stanford.edu/jagannathan-lab.html" target="_blank">
+    <a href="https://med.stanford.edu/profiles/prasanna-jagannathan" target="_blank">
       Dr. Prasanna Jagannathan
     </a>.
     Broadly, my research focuses on infectious diseases that disproportionately affect underserved populations.
